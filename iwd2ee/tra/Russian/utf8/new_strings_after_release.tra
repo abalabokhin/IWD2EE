@@ -1515,204 +1515,202 @@
 Вес: 0 фунтов
 Необходимая черта: Простое оружие, Атака касанием
 Тип: одноручное~
-@4819   = ~Xhaan prefers to fight with his claws, as he has had no need for weapons in the countless lifetimes he has lived in the Nine Hells. He may still use a shield or a weapon in his off hand, but he uses his claws as his primary attack. As an extraplanar being, Xhaan's claws strike as a +2 weapon for the purposes of overcoming damage reduction.
+@4819 = ~Ксаан предпочитает сражаться когтями, поскольку за бесчисленное количество жизней, прожитых в Девяти Адах, оружие ему так и не понадобилось. Он может использовать щит или оружие в не основной руке, но в качестве основной атаки использует когти. Так как Ксаан - экстрапланарное существо, его когти бьют как оружие +2 для расчёта снижения урона.
 
-STATISTICS:
+ПАРАМЕТРЫ:
 
-Damage: 1d6 +2
-Attack Bonus: +2
-Enchantment: +2
-Damage Type: Slashing
-Special:
- Counts as evil-aligned and lawful-aligned for purposes of overcoming damage reduction
- Frost: +1d6 cold damage
-Weight: 0 lb.
-Feat Requirement: Simple Weapon, Touch Attack
-Type: One-handed~
-@4821   = ~Xhaan prefers to fight with his claws, as he has had no need for weapons in the countless lifetimes he has lived in the Nine Hells. He may still use a shield or a weapon in his off hand, but he uses his claws as his primary attack. As an extraplanar being, Xhaan's claws strike as a +5 weapon for the purposes of overcoming damage reduction.
- 
-STATISTICS:
+Урон: 1d6+2
+Атака: +2
+Зачарование: +2
+Тип урона: рубящий
+Особенности:
+ Считается злым и законопослушным оружием для расчёта снижения урона
+ Стужа: +1d6 урона холодом
+Вес: 0 фунтов
+Необходимая черта: Простое оружие, Атака касанием
+Тип: одноручное~
+@4821 = ~Ксаан предпочитает сражаться когтями, поскольку за бесчисленное количество жизней, прожитых в Девяти Адах, оружие ему так и не понадобилось. Он может использовать щит или оружие в не основной руке, но в качестве основной атаки использует когти. Так как Ксаан - экстрапланарное существо, его когти бьют как оружие +5 для расчёта снижения урона.
 
-Damage: 1d6 +5
-Attack Bonus: +5
-Enchantment: +5
-Damage Type: Slashing
-Special:
- Counts as evil-aligned and lawful-aligned for purposes of overcoming damage reduction
- Frost: +1d6 cold damage
-Weight: 0 lb.
-Feat Requirement: Simple Weapon, Touch Attack
-Type: One-handed~
-@4833   = ~Xhaan prefers to fight with his claws, as he has had no need for weapons in the countless lifetimes he has lived in the Nine Hells. He may still use a shield or a weapon in his off hand, but he uses his claws as his primary attack. Now that Xhaan has been promoted to a cornugon, his claw attacks are more powerful.
+ПАРАМЕТРЫ:
 
-STATISTICS:
+Урон: 1d6+5
+Атака: +5
+Зачарование: +5
+Тип урона: рубящий
+Особенности:
+ Считается злым и законопослушным оружием для расчёта снижения урона
+ Стужа: +1d6 урона холодом
+Вес: 0 фунтов
+Необходимая черта: Простое оружие, Атака касанием
+Тип: одноручное~
+@4833 = ~Ксаан предпочитает сражаться когтями, поскольку за бесчисленное количество жизней, прожитых в Девяти Адах, оружие ему так и не понадобилось. Он может использовать щит или оружие в не основной руке, но в качестве основной атаки использует когти. Теперь, когда Ксаан стал корнугоном, его когти стали ещё мощнее.
 
-Damage: 5d6 +5
-Attack Bonus: +5
-Enchantment: +5
-Damage Type: Slashing
-Special:
- Counts as evil-aligned and lawful-aligned for purposes of overcoming damage reduction
- Infernal Wound: Inflicts 4 additional point of damge per round for 10 rounds (no save)
-Weight: 0 lb.
-Feat Requirement: Simple Weapon, Touch Attack
-Type: One-handed~
-@4849   = ~Xhaan prefers to fight with his claws, as he has had no need for weapons in the countless lifetimes he has lived in the Nine Hells. He may still use a shield or a weapon in his off hand, but he uses his claws as his primary attack. As an extraplanar being, Xhaan's claws strike as a +3 weapon for the purposes of overcoming damage reduction.
+ПАРАМЕТРЫ:
 
-STATISTICS:
+Урон: 5d6+5
+Атака: +5
+Зачарование: +5
+Тип урона: рубящий
+Особенности:
+ Считается злым и законопослушным оружием для расчёта снижения урона
+ Адская рана: Наносит 4 дополнительных урона в раунд в течение 10 раундов (без спасброска)
+Вес: 0 фунтов
+Необходимая черта: Простое оружие, Атака касанием
+Тип: одноручное~
+@4849 = ~Ксаан предпочитает сражаться когтями, поскольку за бесчисленное количество жизней, прожитых в Девяти Адах, оружие ему так и не понадобилось. Он может использовать щит или оружие в не основной руке, но в качестве основной атаки использует когти. Так как Ксаан - экстрапланарное существо, его когти бьют как оружие +3 для расчёта снижения урона.
 
-Damage: 1d6 +3
-Attack Bonus: +3
-Enchantment: +3
-Damage Type: Slashing
-Special:
- Counts as evil-aligned and lawful-aligned for purposes of overcoming damage reduction
- Frost: +1d6 cold damage
-Weight: 0 lb.
-Feat Requirement: Simple Weapon, Touch Attack
-Type: One-handed~
-@4850   = ~Xhaan prefers to fight with his claws, as he has had no need for weapons in the countless lifetimes he has lived in the Nine Hells. He may still use a shield or a weapon in his off hand, but he uses his claws as his primary attack. As an extraplanar being, Xhaan's claws strike as a +4 weapon for the purposes of overcoming damage reduction.
+ПАРАМЕТРЫ:
 
-STATISTICS:
+Урон: 1d6+3
+Атака: +3
+Зачарование: +3
+Тип урона: рубящий
+Особенности:
+ Считается злым и законопослушным оружием для расчёта снижения урона
+ Стужа: +1d6 урона холодом
+Вес: 0 фунтов
+Необходимая черта: Простое оружие, Атака касанием
+Тип: одноручное~
+@4850 = ~Ксаан предпочитает сражаться когтями, поскольку за бесчисленное количество жизней, прожитых в Девяти Адах, оружие ему так и не понадобилось. Он может использовать щит или оружие в не основной руке, но в качестве основной атаки использует когти. Так как Ксаан - экстрапланарное существо, его когти бьют как оружие +4 для расчёта снижения урона.
 
-Damage: 1d6 +4
-Attack Bonus: +4
-Enchantment: +4
-Damage Type: Slashing
-Special:
- Counts as evil-aligned and lawful-aligned for purposes of overcoming damage reduction
- Frost: +1d6 cold damage
-Weight: 0 lb.
-Feat Requirement: Simple Weapon, Touch Attack
-Type: One-handed
-Feat Requirement: Simple Weapon, Touch Attack
-Type: One-handed~
-@4852   = ~Xhaan prefers to fight with his claws, as he has had no need for weapons in the countless lifetimes he has lived in the Nine Hells. He may still use a shield or a weapon in his off hand, but he uses his claws as his primary attack. As an extraplanar being, Xhaan's claws strike as a +5 weapon for the purposes of overcoming damage reduction.
+ПАРАМЕТРЫ:
 
-STATISTICS:
+Урон: 1d6+4
+Атака: +4
+Зачарование: +4
+Тип урона: рубящий
+Особенности:
+ Считается злым и законопослушным оружием для расчёта снижения урона
+ Стужа: +1d6 урона холодом
+Вес: 0 фунтов
+Необходимая черта: Простое оружие, Атака касанием
+Тип: одноручное~
+@4852 = ~Ксаан предпочитает сражаться когтями, поскольку за бесчисленное количество жизней, прожитых в Девяти Адах, оружие ему так и не понадобилось. Он может использовать щит или оружие в не основной руке, но в качестве основной атаки использует когти. Так как Ксаан - экстрапланарное существо, его когти бьют как оружие +5 для расчёта снижения урона.
 
-Damage: 1d6 +5
-Attack Bonus: +5
-Enchantment: +5
-Damage Type: Slashing
-Special:
- Counts as evil-aligned and lawful-aligned for purposes of overcoming damage reduction
- Frost: +2d6 cold damage
-Weight: 0 lb.
-Feat Requirement: Simple Weapon, Touch Attack
-Type: One-handed~
-@4853   = ~Xhaan prefers to fight with his claws, as he has had no need for weapons in the countless lifetimes he has lived in the Nine Hells. He may still use a shield or a weapon in his off hand, but he uses his claws as his primary attack. As an extraplanar being, Xhaan's claws strike as a +5 weapon for the purposes of overcoming damage reduction.
+ПАРАМЕТРЫ:
 
-STATISTICS:
+Урон: 1d6+5
+Атака: +5
+Зачарование: +5
+Тип урона: рубящий
+Особенности:
+ Считается злым и законопослушным оружием для расчёта снижения урона
+ Стужа: +2d6 урона холодом
+Вес: 0 фунтов
+Необходимая черта: Простое оружие, Атака касанием
+Тип: одноручное~
+@4853 = ~Ксаан предпочитает сражаться когтями, поскольку за бесчисленное количество жизней, прожитых в Девяти Адах, оружие ему так и не понадобилось. Он может использовать щит или оружие в не основной руке, но в качестве основной атаки использует когти. Так как Ксаан - экстрапланарное существо, его когти бьют как оружие +5 для расчёта снижения урона.
 
-Damage: 1d6 +5
-Attack Bonus: +5
-Enchantment: +5
-Damage Type: Slashing
-Special:
- Counts as evil-aligned and lawful-aligned for purposes of overcoming damage reduction
- Frost: +3d6 cold damage
-Weight: 0 lb.
-Feat Requirement: Simple Weapon, Touch Attack
-Type: One-handed~
-@4856   = ~Xhaan prefers to fight with his claws, as he has had no need for weapons in the countless lifetimes he has lived in the Nine Hells. He may still use a shield or a weapon in his off hand, but he uses his claws as his primary attack. As an extraplanar being, Xhaan's claws strike as a +5 weapon for the purposes of overcoming damage reduction.
+ПАРАМЕТРЫ:
 
-STATISTICS:
+Урон: 1d6+5
+Атака: +5
+Зачарование: +5
+Тип урона: рубящий
+Особенности:
+ Считается злым и законопослушным оружием для расчёта снижения урона
+ Стужа: +3d6 урона холодом
+Вес: 0 фунтов
+Необходимая черта: Простое оружие, Атака касанием
+Тип: одноручное~
+@4856 = ~Ксаан предпочитает сражаться когтями, поскольку за бесчисленное количество жизней, прожитых в Девяти Адах, оружие ему так и не понадобилось. Он может использовать щит или оружие в не основной руке, но в качестве основной атаки использует когти. Так как Ксаан - экстрапланарное существо, его когти бьют как оружие +5 для расчёта снижения урона.
 
-Damage: 1d6 +5
-Attack Bonus: +5
-Enchantment: +5
-Damage Type: Slashing
-Special:
- Counts as evil-aligned and lawful-aligned for purposes of overcoming damage reduction
- Frost: +4d6 cold damage
-Weight: 0 lb.
-Feat Requirement: Simple Weapon, Touch Attack
-Type: One-handed~
-@4857   = ~Xhaan prefers to fight with his claws, as he has had no need for weapons in the countless lifetimes he has lived in the Nine Hells. He may still use a shield or a weapon in his off hand, but he uses his claws as his primary attack. As an extraplanar being, Xhaan's claws strike as a +5 weapon for the purposes of overcoming damage reduction.
+ПАРАМЕТРЫ:
 
-STATISTICS:
+Урон: 1d6+5
+Атака: +5
+Зачарование: +5
+Тип урона: рубящий
+Особенности:
+ Считается злым и законопослушным оружием для расчёта снижения урона
+ Стужа: +4d6 урона холодом
+Вес: 0 фунтов
+Необходимая черта: Простое оружие, Атака касанием
+Тип: одноручное~
+@4857 = ~Ксаан предпочитает сражаться когтями, поскольку за бесчисленное количество жизней, прожитых в Девяти Адах, оружие ему так и не понадобилось. Он может использовать щит или оружие в не основной руке, но в качестве основной атаки использует когти. Так как Ксаан - экстрапланарное существо, его когти бьют как оружие +5 для расчёта снижения урона.
 
-Damage: 1d6 +5
-Attack Bonus: +5
-Enchantment: +5
-Damage Type: Slashing
-Special:
- Counts as evil-aligned and lawful-aligned for purposes of overcoming damage reduction
- Frost: +5d6 cold damage
-Weight: 0 lb.
-Feat Requirement: Simple Weapon, Touch Attack
-Type: One-handed~
-@4858   = ~Xhaan prefers to fight with his claws, as he has had no need for weapons in the countless lifetimes he has lived in the Nine Hells. He may still use a shield or a weapon in his off hand, but he uses his claws as his primary attack. As an extraplanar being, Xhaan's claws strike as a +5 weapon for the purposes of overcoming damage reduction.
+ПАРАМЕТРЫ:
 
-STATISTICS:
+Урон: 1d6+5
+Атака: +5
+Зачарование: +5
+Тип урона: рубящий
+Особенности:
+ Считается злым и законопослушным оружием для расчёта снижения урона
+ Стужа: +5d6 урона холодом
+Вес: 0 фунтов
+Необходимая черта: Простое оружие, Атака касанием
+Тип: одноручное~
+@4858 = ~Ксаан предпочитает сражаться когтями, поскольку за бесчисленное количество жизней, прожитых в Девяти Адах, оружие ему так и не понадобилось. Он может использовать щит или оружие в не основной руке, но в качестве основной атаки использует когти. Так как Ксаан - экстрапланарное существо, его когти бьют как оружие +5 для расчёта снижения урона.
 
-Damage: 1d6 +5
-Attack Bonus: +5
-Enchantment: +5
-Damage Type: Slashing
-Special:
- Counts as evil-aligned and lawful-aligned for purposes of overcoming damage reduction
- Frost: +6d6 cold damage
-Weight: 0 lb.
-Feat Requirement: Simple Weapon, Touch Attack
-Type: One-handed~
-@4866   = ~Xhaan prefers to fight with his claws, as he has had no need for weapons in the countless lifetimes he has lived in the Nine Hells. He may still use a shield or a weapon in his off hand, but he uses his claws as his primary attack. Now that Xhaan has been promoted to a cornugon, his claw attacks are more powerful.
+ПАРАМЕТРЫ:
 
-STATISTICS:
+Урон: 1d6+5
+Атака: +5
+Зачарование: +5
+Тип урона: рубящий
+Особенности:
+ Считается злым и законопослушным оружием для расчёта снижения урона
+ Стужа: +6d6 урона холодом
+Вес: 0 фунтов
+Необходимая черта: Простое оружие, Атака касанием
+Тип: одноручное~
+@4866 = ~Ксаан предпочитает сражаться когтями, поскольку за бесчисленное количество жизней, прожитых в Девяти Адах, оружие ему так и не понадобилось. Он может использовать щит или оружие в не основной руке, но в качестве основной атаки использует когти. Теперь, когда Ксаан стал корнугоном, его когти стали ещё мощнее.
 
-Damage: 3d6 +5
-Attack Bonus: +5
-Enchantment: +5
-Damage Type: Slashing
-Special:
- Counts as evil-aligned and lawful-aligned for purposes of overcoming damage reduction
- Infernal Wound: Inflicts 2 additional point of damge per round for 10 rounds (no save)
-Weight: 0 lb.
-Feat Requirement: Simple Weapon, Touch Attack
-Type: One-handed~
-@4867   = ~Xhaan prefers to fight with his claws, as he has had no need for weapons in the countless lifetimes he has lived in the Nine Hells. He may still use a shield or a weapon in his off hand, but he uses his claws as his primary attack. Now that Xhaan has been promoted to a cornugon, his claw attacks are more powerful.
+ПАРАМЕТРЫ:
 
-STATISTICS:
+Урон: 3d6+5
+Атака: +5
+Зачарование: +5
+Тип урона: рубящий
+Особенности:
+ Считается злым и законопослушным оружием для расчёта снижения урона
+ Адская рана: Наносит 2 дополнительных урона в раунд в течение 10 раундов (без спасброска)
+Вес: 0 фунтов
+Необходимая черта: Простое оружие, Атака касанием
+Тип: одноручное~
+@4867 = ~Ксаан предпочитает сражаться когтями, поскольку за бесчисленное количество жизней, прожитых в Девяти Адах, оружие ему так и не понадобилось. Он может использовать щит или оружие в не основной руке, но в качестве основной атаки использует когти. Теперь, когда Ксаан стал корнугоном, его когти стали ещё мощнее.
 
-Damage: 4d6 +5
-Attack Bonus: +5
-Enchantment: +5
-Damage Type: Slashing
-Special:
- Counts as evil-aligned and lawful-aligned for purposes of overcoming damage reduction
- Infernal Wound: Inflicts 2 additional point of damge per round for 10 rounds (no save)
-Weight: 0 lb.
-Feat Requirement: Simple Weapon, Touch Attack
-Type: One-handed~
-@4868   = ~Xhaan prefers to fight with his claws, as he has had no need for weapons in the countless lifetimes he has lived in the Nine Hells. He may still use a shield or a weapon in his off hand, but he uses his claws as his primary attack. Now that Xhaan has been promoted to a cornugon, his claw attacks are more powerful.
+ПАРАМЕТРЫ:
 
-STATISTICS:
+Урон: 4d6+5
+Атака: +5
+Зачарование: +5
+Тип урона: рубящий
+Особенности:
+ Считается злым и законопослушным оружием для расчёта снижения урона
+ Адская рана: Наносит 2 дополнительных урона в раунд в течение 10 раундов (без спасброска)
+Вес: 0 фунтов
+Необходимая черта: Простое оружие, Атака касанием
+Тип: одноручное~
+@4868 = ~Ксаан предпочитает сражаться когтями, поскольку за бесчисленное количество жизней, прожитых в Девяти Адах, оружие ему так и не понадобилось. Он может использовать щит или оружие в не основной руке, но в качестве основной атаки использует когти. Теперь, когда Ксаан стал корнугоном, его когти стали ещё мощнее.
 
-Damage: 6d6 +5
-Attack Bonus: +5
-Enchantment: +5
-Damage Type: Slashing
-Special:
- Counts as evil-aligned and lawful-aligned for purposes of overcoming damage reduction
- Infernal Wound: Inflicts 4 additional point of damge per round for 10 rounds (no save)
-Weight: 0 lb.
-Feat Requirement: Simple Weapon, Touch Attack
-Type: One-handed~
-@4869   = ~Xhaan prefers to fight with his claws, as he has had no need for weapons in the countless lifetimes he has lived in the Nine Hells. He may still use a shield or a weapon in his off hand, but he uses his claws as his primary attack. Now that Xhaan has been promoted to a cornugon, his claw attacks are more powerful.
+ПАРАМЕТРЫ:
 
-STATISTICS:
+Урон: 6d6+5
+Атака: +5
+Зачарование: +5
+Тип урона: рубящий
+Особенности:
+ Считается злым и законопослушным оружием для расчёта снижения урона
+ Адская рана: Наносит 4 дополнительных урона в раунд в течение 10 раундов (без спасброска)
+Вес: 0 фунтов
+Необходимая черта: Простое оружие, Атака касанием
+Тип: одноручное~
+@4869 = ~Ксаан предпочитает сражаться когтями, поскольку за бесчисленное количество жизней, прожитых в Девяти Адах, оружие ему так и не понадобилось. Он может использовать щит или оружие в не основной руке, но в качестве основной атаки использует когти. Теперь, когда Ксаан стал корнугоном, его когти стали ещё мощнее.
 
-Damage: 7d6 +5
-Attack Bonus: +5
-Enchantment: +5
-Damage Type: Slashing
-Special:
- Counts as evil-aligned and lawful-aligned for purposes of overcoming damage reduction
- Infernal Wound: Inflicts 4 additional point of damge per round for 10 rounds (no save)
-Weight: 0 lb.
-Feat Requirement: Simple Weapon, Touch Attack
-Type: One-handed~
+ПАРАМЕТРЫ:
+
+Урон: 7d6+5
+Атака: +5
+Зачарование: +5
+Тип урона: рубящий
+Особенности:
+ Считается злым и законопослушным оружием для расчёта снижения урона
+ Адская рана: Наносит 4 дополнительных урона в раунд в течение 10 раундов (без спасброска)
+Вес: 0 фунтов
+Необходимая черта: Простое оружие, Атака касанием
+Тип: одноручное~
 @12483    = ~Hide Armor of Recklessness +3~
 @12484    = ~Hide armor is made from multiple layers of leather armor. Though stiff and hard to move in, it is relatively simple to make and provides a good barrier against cold weather. It is most commonly seen on the warriors and huntsmen of northern barbarian tribes.
 
