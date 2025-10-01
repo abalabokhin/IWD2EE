@@ -1403,119 +1403,118 @@
 
 Недостатки:
 * Не умеет носить доспехи и плохо сражается в ближнем бою.~
+@222    = ~Блокирование
 
-@222    = ~Expertise
+Используя эту способность, вы получаете бонус до +5 к классу защиты, но также и аналогичный штраф к атаке оружием ближнего боя. Полученный бонус не может превышать ваш базовый бонус атаки и применяется только при атаке оружием ближнего боя.~
+@525    = ~ВАРВАР:
 
-When you use this ability, you may choose to gain an AC bonus of up to +5, and an attack penalty of the same amount. The bonus you choose may not exceed your base attack bonus, and only applies while you are attacking with a melee weapon.~
-@525    = ~BARBARIAN:
+Из ледяных пустошей севера и адских джунглей юга приходят отважные, и даже в какой-то степени, безрассудные воины. Хотя варвар не так дисциплинирован и не так искусен, как обычный боец, он может при необходимости впасть в ярость берсерка, став более жёстким и сильным противником.
 
-From the frozen wastes of the north and the hellish jungles of the south come brave, even reckless, warriors. While not as disciplined or as skilled as a normal fighter, the barbarian can willingly throw himself into a berserker rage, becoming a tougher and stronger opponent.
+Пунктов здоровья на уровень: 1-12
 
-Hit points per level: 1-12
+Преимущества:
+* Владеет всеми видами простого и воинского оружия, умеет носить лёгкую и среднюю броню, а также пользоваться щитами.
+* Ярость варвара: может впадать в ярость раз в день за каждые 4 уровня (начинает с 1-го уровня с одним использованием). Ярость даёт +4 к силе и телосложению (эти бонусы суммируются с другими бонусами к силе и телосложению), а также штраф -2 к классу защиты, бонус +2 к спасброскам воли и иммунитет к страху, ошеломлению, сну, зачарованию, доминированию, замешательству, потере сознания, параличу, слабоумию и чувству безнадёжности. Ярость длится 3 раунда + количество раундов, равное текущему модификатору телосложения (с учётом всех бонусов). После ярости варвар на три раунда испытывает усталость, дающую ему штраф -2 к силе и ловкости.
+* Быстрое передвижение: варвары могут передвигаться на 10 футов быстрее, чем обычные персонажи, если они не обременены грузом и не носят тяжёлую броню.
+* 2-й уровень: уменьшение урона. Варвар получает 1/- сопротивления колющему, режущему и дробящему урону. Он получает 1/- дополнительного сопротивления на 5, 8, 11 уровнях и каждые 3 уровня после этого. Если варвар носит среднюю броню, снижение урона, получаемое этой способностью, удваивается.
+* 2-й уровень: инстинктивное уклонение. Варвары сохраняют бонус ловкости к классу брони, если их атакуют невидимые враги.
+* 5-й уровень: улучшенное инстинктивное уклонение. Варвары не могут быть атакованы скрытой атакой плута, если атакующий не выше варвара как минимум на четыре уровня.
+* 15-й уровень: исключительная ярость. С этого момента варвар всегда входит только в исключительную ярость, которая увеличивает бонус к силе и телосложению до +6 и бонус к спасброскам воли до +3. Варвар, как и раньше, получает штраф -2 к классу защиты.
+* 20-й уровень: неутомимая ярость. Варвар больше не испытывает усталость после ярости.
+* 21-й уровень: могучая ярость. Способность варвара "Ярость" теперь даёт +8 к силе и телосложению и +4 к спасброскам воли.
+* 25-й уровень: ярость варвара теперь даёт +10 к силе и телосложению и +5 к спасброскам воли.
+* 29-й уровень: ярость варвара теперь даёт +12 к силе и телосложению и +6 к спасброскам воли.
 
-Advantages:
-* Proficient with all simple and martial weapons, light armor, medium armor, and shields.
-* Barbarian Rage: Can rage once per day per every 4 levels (starts at 1st level with one use). Rage gives them +4 to Strength and Constitution (which stack with other bonuses to Strength and Constitution), as well as a -2 AC penalty, +2 to Will saves, and immunity to fear, stun, sleep, charm, domination, confusion, unconsciousness, paralysis, feeblemind, and hopelessness. The rage lasts a number of rounds equal to 3 plus the barbarian's (newly improved) Constitution bonus. After raging the barbarian will be fatigued for three rounds, giving them a -2 penalty to Strength and Dexterity.
-* Fast Movement: Barbarians can move 10 feet faster than a standard character, provided they are not encumbered or wearing heavy armor.
-* 2nd level: Damage Reduction. The barbarian gains 1/- point of resistance to slashing, piercing, and bludgeoning damage. He or she gains 1/- additional point of resistance at levels 5, 8, 11, and every 3 levels thereafter. If the barbarian wears medium armor, the damage reduction granted by this feature is doubled.
-* 2nd level: Uncanny Dodge. Barbarians retain their Dexterity bonus to Armor Class if they are attacked by invisible foes.
-* 5th level: Improved Uncanny Dodge. Barbarians cannot be Sneak Attacked by rogues unless the attacker is at least four levels higher than the barbarian.
-* 15th level: Greater Rage. All of the barbarian's rages become greater rages, which increase the strength and constitution bonuses to +6 and the saving throw bonus to +3. He or she still receives the -2 AC penalty.
-* 20th level: Tireless Rage. The barbarian is no longer fatigued after a rage.
-* 21st level: Mighty Rage. The barbarian's rage ability now grants +8 to Strength and Constitution and +4 to Will saves.
-* 25th level: Barbarian rage now grants +10 to Strength and Constitution and +5 to Will saves.
-* 29th level: Barbarian rage now grants +12 to Strength and Constitution and +6 to Will saves.
+Недостатки:
+* Варвары получают черты медленнее, чем бойцы.
+* Варвары не умеют носить тяжёлую броню.~
+@977    = ~Ярость варвара
 
-Disadvantages:
-* Barbarians gain feats at a slower rate than fighters.
-* Barbarians do not start with proficiency in heavy armor.~
-@977    = ~Barbarian Rage
+Ярость даёт +4 к силе и телосложению (эти бонусы суммируются с другими бонусами к силе и телосложению), а также штраф -2 к классу защиты, бонус +2 к спасброскам воли и иммунитет к страху, ошеломлению, сну, зачарованию, доминированию, замешательству, потере сознания, параличу, слабоумию и чувству безнадёжности. Ярость длится 3 раунда + количество раундов, равное текущему бонусу телосложения (с учётом всех бонусов). После ярости варвар на три раунда испытывает усталость, дающую ему штраф -2 к силе и ловкости.~
+@978    = ~Исключительная ярость
 
-By entering a rage, the barbarian gains +4 to Strength and Constitution (which stack with other bonuses to Strength and Constitution), as well as a -2 AC penalty, +2 to Will saves, and immunity to fear, stun, sleep, charm, domination, confusion, unconsciousness, paralysis, feeblemind, and hopelessness. The rage lasts for 3 rounds + a number of rounds equal to the barbarian's (newly improved) Constitution bonus. After raging the barbarian will be fatigued for three rounds, giving them a -2 penalty to Strength and Dexterity.~
-@978    = ~Greater Barbarian Rage
+Ярость даёт +6 к силе и телосложению (эти бонусы суммируются с другими бонусами к силе и телосложению), а также штраф -2 к классу защиты, бонус +3 к спасброскам воли и иммунитет к страху, ошеломлению, сну, зачарованию, доминированию, замешательству, потере сознания, параличу, слабоумию и чувству безнадёжности. Ярость длится 3 раунда + количество раундов, равное текущему бонусу телосложения (с учётом всех бонусов). После ярости варвар на три раунда испытывает усталость, дающую ему штраф -2 к силе и ловкости.
 
-By entering a rage, the barbarian gains +6 to Strength and Constitution (which stack with other bonuses to Strength and Constitution), as well as a -2 AC penalty, +3 to Will saves, and immunity to fear, stun, sleep, charm, domination, confusion, unconsciousness, paralysis, feeblemind, and hopelessness. The rage lasts for 3 rounds + a number of rounds equal to the barbarian's (newly improved) Constitution bonus. After raging the barbarian will be fatigued for three rounds, giving them a -2 penalty to Strength and Dexterity.
+На более высоких уровнях бонусы возрастают:
 
-The bonuses increase at higher levels:
+21-й уровень: +8 к силе и телосложению и +4 к спасброскам воли.
+25-й уровень: +10 к силе и телосложению и +5 к спасброскам воли.
+29-й уровень: +12 к силе и телосложению и +6 к спасброскам воли.~
+@4008 = ~Этот высокий камень можно повалить либо грубой силой, либо заклинанием "Стук".~
+@55350=~Сопротивление урону, полученного от оружия с зачарованием менее чем +<EXDRENLV>~
+@565    = ~МОНАХ ТЁМНОЙ ЛУНЫ:
 
-21st level: +8 to Strength and Constitution and +4 to Will saves.
-25th level: +10 to Strength and Constitution and +5 to Will saves.
-29th level: +12 to Strength and Constitution and +6 to Will saves.~
-@4008 = ~This tall rock could potentially be knocked down, either with brute force or a Knock spell.~
-@55350=~Damage resisted from weapon of less than +<EXDRENLV> enchantment~
-@565    = ~MONK OF THE DARK MOON:
+Члены ордена Тёмной Луны поклоняются Шар, богине тьмы и потерь. Они рассматривают путь монаха, как путь к личной и духовной силе.
 
-Members of the Order of the Dark Moon worship Shar, goddess of darkness and loss. They use their monastic training as a route to personal and spiritual power.
+Преимущества:
+* 2-й уровень: монах получает одно использование заклинания "Тьма" в день. Каждый раз, когда с повышение уровня, монах должен был бы получить способность "Цельность тела", вместо этого он получает возможность еще один раз в день использовать заклинание "Тьма". УС заклинания равен 15 + модификатор мудрости + половина уровня монаха. Монах также добавляет половину своего уровня монаха к УС любого другого заклинания или способности "Тьма", которые он использует. Монах может отлично видеть даже в магической тьме.
+* 10-й уровень: монах получает +1 к урону против любого врага, который ослеплен или имеет ухудшенное зрение из-за эффекта "Тьма". За каждые 8 уровней монаха после 10-го уровня монах получает дополнительно +1 к урону против врагов в таких ситуациях.~
+@984     = ~Тьма
 
-Advantages:
-* 2nd level: The monk gains one use of Darkness per day. Any level that would give the monk a use of Wholeness of Body instead gives them another use of Darkness. The DC is equal to 15 + Wisdom bonus + half the character's monk level. The monk also adds half their monk level to the DC of any other Darkness spell or ability they cast. The monk can see perfectly even in magical darkness.
-* 10th level: The monk gains +1 damage against any enemy that is blinded or has their vision impaired by a Darkness effect. For every 8 monk levels after level 10, the monk gains another +1 damage against enemies in these situations.~
-@984    = ~Darkness
+Эта способность создаёт магическую тьму в области своего действия. Существа, не обладающие инфравидением, должны сделать спасбросок стойкости или быть ослеплёнными. Существа с инфравидением не ослепляются, но даже они имеют лишь ограниченную способность видеть сквозь магическую тьму, получая -4 к атаке при неудачном спасброске. Существа с превосходным 120-футовым инфравидением (например, дроу, серые дварфы или глубинные гномы) получают лишь -2 к атаке. Дьяволы и существа, невосприимчивые к слепоте, не подвержены этому эффекту.~
 
-This ability creates magical darkness in the area of effect. Creatures without darkvision must make a Fortitude saving throw or be effectively blinded. Creatures with darkvision aren't blinded, but even they have only a limited ability to see through magical darkness, getting a -4 attack penalty on a failed save. Creatures with superior 120 foot darkvision (e.g. drow, gray dwarves or deep gnomes) only get a -2 attack penalty. Devils and creatures immune to blindness are unaffected.
-
-When used by a Monk of the Dark Moon, Darkness has a DC of 15 + Wisdom bonus + half the character's monk level. Any other Darkness spell or ability used by a Monk of the Dark Moon also gains a bonus to DC equal to half the character's monk level.~
+При использовании этой способности монахом Темной Луны, ее УС равен 15 + модификатор мудрости + половина уровня монаха. Любое другое заклинание или способность "Тьма", используемое монахом Темной Луны, также получает бонус к УС, равный половине уровня монаха персонажа.~
 @585    = ~
 
-Domain Spells:
-1: Identify, Identify Creature
-2: Arcane Sight, Clairvoyance
-3: Legend Lore, Moment of Prescience
-4: True Seeing, Shout
-5: Power Word: Heal, Power Word: Silence
-6: Power Word: Stun, Omnipresence
-7: Great Shout, Symbol of Hopelessness
-8: Power Word: Kill, Symbol of Death
-9: Executioner's Eyes, Mass Omnivision~
-@55494=~Spell failed: This spell cannot be cast while time is stopped.~
-@38959     = ~Time Stop
-(Transmutation)
-Level: Sor/Wiz 9
-Range: Caster
-Duration: 3 rounds
-Casting Time: 9
-Area of Effect: Entire area
-Saving Throw: None
+Заклинания домена:
+1: Опознание, Опознание существа
+2: Магическое зрение, Ясновидение
+3: Легендарные знания, Момент предвидения
+4: Истинное видение, Крик
+5: Слово силы: Исцелить, Слово силы: Тишина
+6: Слово силы: Ошеломить, Вездесущность
+7: Великий крик, Символ безнадёжности
+8: Слово силы: Убить, Символ смерти
+9: Глаза палача, Массовое всевидение~
+@55494=~Заклинание не сработало: это заклинание нельзя произнести, во время остановки времени.~
+@38959     = ~Остановка времени
+(Преобразование)
+Уровень: колдун/волшебник 9
+Дальность: колдующий
+Длительность: 3 раунда
+Время чтения:  9
+Зона действия: вся область
+Спасбросок: нет
 
-This spell stops time for everyone and everything except the caster. All other creatures cannot move or act, while the caster can act for three rounds of apparent time. Time Stop cannot be cast while time is already stopped, and its duration is unaffected by items or abilities.~
-@729    = ~STUNNING ATTACK:
+Это заклинание останавливает время для всех и вся, кроме заклинателя. Все остальные существа не могут двигаться или действовать, в то время как заклинатель может действовать в течение трёх раундов собственного времени. Это заклинание не может быть прочитано, если время уже остановлено и его продолжительность не может быть изменена никакими предметами или способностями.~
+@729    = ~ОШЕЛОМЛЯЮЩАЯ АТАКА:
 
-You know how to strike opponents in vulnerable areas.
+Вы знаете, куда лучше всего наносить удары.
 
-Prerequisites: Dex 13+, Wis 13+, base attack bonus +8 or higher
+Требования: ловкость 13+, мудрость 13+, базовый бонус атаки +8 или выше
 
-Benefit:  When attacking with Stunning Attack, it forces a foe damaged by your unarmed attack to make a Fortitude saving throw (DC 10 + one-half your monk level if any + Wis modifier), in addition to dealing damage normally.  If the defender fails his saving throw, he is stunned for 1 round.  A stunned character can't act and can be hit automatically.  You may attempt a stunning attack once per day for every four levels you have attained.~
-@20011=~Rended~
-@41651=~Vrek's natural weapon has become stronger.~
-@41652=~Xhaan's natural weapon has become stronger.~
-@4807   = ~Vrek prefers to use his jagged claws in combat, finding conventional weapons designed for humanoid hands to be clumsy in his grip. Vrek's claws strike as +1 weapons for the purposes of overcoming damage reduction.
+Действие: Во время выполнения "Ошеломляющей атаки" поражённый вашими кулаками противник получает обычный урон и вдобавок должен кинуть спасбросок стойкости (УС = 10 + половина уровня монаха + модификатор мудрости). Если бросок будет неудачным, противник будет ошеломлён на 1 раунд. Ошеломлённый персонаж не может действовать, а атаки по нему проходят автоматически. Вы можете провести ошеломляющую атаку один раз в день за каждые четыре достигнутых вами уровня.~
+@20011=~Разорвано~
+@41651=~Природное оружие Врека стало сильнее.~
+@41652=~Природное оружие Ксаана стало сильнее.~
+@4807 = ~Врек предпочитает использовать в бою свои зазубренные когти, считая обычное оружие, рассчитанное на руки гуманоидов, неуклюжим в его захвате. Когти Врека действуют как оружие +1 для расчёта снижения урона.
 
-STATISTICS: 
+ПАРАМЕТРЫ:
 
-Damage: 1d6 + 1
-Attack Bonus: +1
-Enchantment: +1
-Damage Type: Slashing
-Special:
- Vrek is treated as having Ambidexterity and Two-Weapon Fighting while wielding these claws
- Rend: If Vrek hits an enemy with both claws in a single round, he rends that enemy, dealing an additional 2d6 + 1.5x Strength bonus damage
-Weight: 0 lb.
-Required Feat: Simple Weapon, Touch Attack
-Type: One-handed~
-@4809   = ~Vrek prefers to use his jagged claws in combat, finding conventional weapons designed for humanoid hands to be clumsy in his grip. Vrek's claws strike as +5 weapons for the purposes of overcoming damage reduction.
+Урон: 1d6+1
+Атака: +1
+Зачарование: +1
+Тип урона: рубящий
+Особенности:
+ Когда Врек использует свои когти, он считается обладающим чертами "Амбидекстрия" и "Бой двумя оружиями".
+ Разрыв: если Врек поразит врага обоими когтями за один раунд, он разрывает этого врага, нанося ему дополнительный урон, равный 2d6 + полтора модификатора силы.
+Вес: 0 фунтов
+Необходимая черта: Простое оружие, Атака касанием
+Тип: одноручное~
+@4809 = ~Врек предпочитает использовать в бою свои зазубренные когти, считая обычное оружие, рассчитанное на руки гуманоидов, неуклюжим в его захвате. Когти Врека действуют как оружие +5 для расчёта снижения урона.
 
-STATISTICS:
+ПАРАМЕТРЫ:
 
-Damage: 1d6 + 5
-Attack Bonus: +5
-Enchantment: +5
-Damage Type: Slashing
-Special:
- Vrek is treated as having Ambidexterity and Two-Weapon Fighting while wielding these claws
- Rend: If Vrek hits an enemy with both claws in a single round, he rends that enemy, dealing an additional 2d6 + 1.5x Strength bonus damage
-Weight: 0 lb.
-Required Feat: Simple Weapon, Touch Attack
-Type: One-handed~
+Урон: 1d6+5
+Атака: +5
+Зачарование: +5
+Тип урона: рубящий
+Особенности:
+ Когда Врек использует свои когти, он считается обладающим чертами "Амбидекстрия" и "Бой двумя оружиями".
+ Разрыв: если Врек поразит врага обоими когтями за один раунд, он разрывает этого врага, нанося ему дополнительный урон, равный 2d6 + полтора модификатора силы.
+Вес: 0 фунтов
+Необходимая черта: Простое оружие, Атака касанием
+Тип: одноручное~
 @4819   = ~Xhaan prefers to fight with his claws, as he has had no need for weapons in the countless lifetimes he has lived in the Nine Hells. He may still use a shield or a weapon in his off hand, but he uses his claws as his primary attack. As an extraplanar being, Xhaan's claws strike as a +2 weapon for the purposes of overcoming damage reduction.
 
 STATISTICS:
