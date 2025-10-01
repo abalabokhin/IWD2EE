@@ -1725,26 +1725,26 @@
  Урон: +4
  Класс защиты: -4 (общий)
 Вес: 10 фунтов~
-@35156     = ~Lesser Entropy Shield~
-@36156     = ~Lesser Entropy Shield
-(Abjuration)
-Level: Clr 1
-Range: Caster
-Duration: 10 rounds/level
-Casting Time: 1
-Area of Effect: Caster
-Saving Throw: None
+@35156     = ~Малый щит энтропии~
+@36156     = ~Малый щит энтропии
+(Отречение)
+Уровень: священник 1
+Дальность: колдующий
+Длительность: 10 раундов/уровень
+Время чтения: 1
+Зона действия: колдующий
+Спасбросок: нет
 
-A weaker version of the 6th-level spell Divine Shell, this spell creates a magicial field around the caster that has a 20% chance to deflect missile attacks aimed at the caster. This includes not just ranged weapon attacks, but also certain spells, including Chromatic Orb, Magic Missile, Melf's Acid Arrow, Flame Arrow, Alicorn Lance, Icelance, Lance of Disruption, Mordenkainen's Force Missiles, Vitriolic Sphere, Otiluke's Freezing Sphere, and Sol's Searing Orb.~
-@37867     = ~Prismatic Wall~
-@38867     = ~Prismatic Wall
-(Abjuration)
-Level: Sor/Wiz 8
-Range: 5 feet
-Duration: 10 rounds
-Casting Time: 12
-Area of Effect: 40-foot long, 28-foot thick wall
-Saving Throw: None
+Более слабая версия заклинания шестого уровня "Божественный панцирь", это заклинание создаёт магический щит вокруг заклинателя, который с шансом в 20% отражает метательные атаки, направленные на заклинателя. Это включает в себя не только обычные атаки метательным оружием, но также и некоторые заклинания: "Цветная сфера", "Волшебная стрела", "Кислотная стрела Мелфа", "Огненная стрела", "Копьё аликорна", "Ледяное копьё", "Копьё разрушения", "Силовые снаряды Морденкайнена", "Кислотный шар", "Замораживающая сфера Отилука" и "Обжигающий шар Сола"~
+@37867     = ~Радужная стена~
+@38867     = ~Радужная стена
+(Отречение)
+Уровень: колдун/волшебник 8
+Дальность: 5 футов
+Длительность: 10 раундов
+Время чтения: 12
+Зона действия: стена 40 футов длиной и 28 футов шириной
+Спасбросок: нет
 
 One of the few abjuration spells that is capable of harm, this spell creates a thick, shimmering wall composed of seven layers of different colors. The wall can be passed through, but any creature other than the caster that walks through the wall will suffer a harmful effect for each layer they pass through.
 
