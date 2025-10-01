@@ -1711,20 +1711,20 @@
 Вес: 0 фунтов
 Необходимая черта: Простое оружие, Атака касанием
 Тип: одноручное~
-@12483    = ~Hide Armor of Recklessness +3~
-@12484    = ~Hide armor is made from multiple layers of leather armor. Though stiff and hard to move in, it is relatively simple to make and provides a good barrier against cold weather. It is most commonly seen on the warriors and huntsmen of northern barbarian tribes.
+@12483    = ~Доспех из шкур безрассудства +3~
+@12484    = ~Доспех из шкур делается из нескольких слоёв шкур животных. Хотя он жёсток и в нём не очень удобно двигаться, доспех прост в изготовлении и хорошо защищает от холода. Чаще всего его можно увидеть на воинах и охотниках северных варварских племён.
 
-STATISTICS:
+ПАРАМЕТРЫ:
 
-Medium Armor
-Armor Bonus: +7
-Max Dex Bonus:  +4
-Armor Check Penalty:  -3
-Arcane Spell Failure:  20%
-Special:
-  Damage Bonus: +4
-  Generic Armor Penalty: -4
-Weight: 10 lb.~
+Средняя броня
+Класс защиты: +7 (доспех)
+Максимальный бонус ловкости: +4
+Штраф к проверкам за броню: -3
+Шанс провала заклинания: 20%
+Особенности:
+ Урон: +4
+ Класс защиты: -4 (общий)
+Вес: 10 фунтов~
 @35156     = ~Lesser Entropy Shield~
 @36156     = ~Lesser Entropy Shield
 (Abjuration)
