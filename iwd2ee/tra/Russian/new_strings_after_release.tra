@@ -285,6 +285,340 @@
  Иммунитет к болезням, яду, очарованию, и страху
  Может превосходно видеть даже в магической темноте
 Вес: 0 фунтов~
+@4838   = ~Vrek prefers to use his jagged claws in combat, finding conventional weapons designed for humanoid hands to be clumsy in his grip. Vrek's claws strike as +2 weapons for the purposes of overcoming damage reduction.
+
+STATISTICS: 
+
+Damage: 1d6 + 2
+Attack Bonus: +2
+Enchantment: +2
+Damage Type: Slashing
+Special:
+ Vrek is treated as having Ambidexterity and Two-Weapon Fighting while wielding these claws
+ Rend: If Vrek hits an enemy with both claws in a single round, he rends that enemy, dealing an additional 2d6 + 1.5x Strength bonus damage
+Weight: 0 lb.
+Required Feat: Simple Weapon, Touch Attack
+Type: One-handed~
+@4839   = ~Vrek prefers to use his jagged claws in combat, finding conventional weapons designed for humanoid hands to be clumsy in his grip. Vrek's claws strike as +3 weapons for the purposes of overcoming damage reduction.
+
+STATISTICS:
+
+Damage: 1d6 + 3
+Attack Bonus: +3
+Enchantment: +3
+Damage Type: Slashing
+Special:
+ Vrek is treated as having Ambidexterity and Two-Weapon Fighting while wielding these claws
+ Rend: If Vrek hits an enemy with both claws in a single round, he rends that enemy, dealing an additional 2d6 + 1.5x Strength bonus damage
+Weight: 0 lb.
+Required Feat: Simple Weapon, Touch Attack
+Type: One-handed~
+@4840   = ~Vrek prefers to use his jagged claws in combat, finding conventional weapons designed for humanoid hands to be clumsy in his grip. Vrek's claws strike as +4 weapons for the purposes of overcoming damage reduction.
+
+STATISTICS:
+
+Damage: 1d6 + 4
+Attack Bonus: +4
+Enchantment: +4
+Damage Type: Slashing
+Special:
+ Vrek is treated as having Ambidexterity and Two-Weapon Fighting while wielding these claws
+ Rend: If Vrek hits an enemy with both claws in a single round, he rends that enemy, dealing an additional 2d6 + 1.5x Strength bonus damage
+Weight: 0 lb.
+Required Feat: Simple Weapon, Touch Attack
+Type: One-handed~
+/*
+@4841   = ~Vrek prefers to use his jagged claws in combat, finding conventional weapons designed for humanoid hands to be clumsy in his grip. Vrek's claws strike as +5 weapons for the purposes of overcoming damage reduction.
+
+STATISTICS:
+
+Damage: 1d6 + 5
+Attack Bonus: +5
+Enchantment: +5
+Damage Type: Slashing
+Special:
+ Vrek is treated as having Ambidexterity and Two-Weapon Fighting while wielding these claws
+ Rend: If Vrek hits an enemy with both claws in a single round, he rends that enemy, dealing an additional 2d6 + 1.5x Strength bonus damage
+Weight: 0 lb.
+Required Feat: Simple Weapon, Touch Attack
+Type: One-handed~
+*/
+@4842   = ~Vrek prefers to use his jagged claws in combat, finding conventional weapons designed for humanoid hands to be clumsy in his grip. Vrek's claws strike as +5 weapons for the purposes of overcoming damage reduction.
+
+STATISTICS:
+
+Damage: 2d6 + 5
+Attack Bonus: +5
+Enchantment: +5
+Damage Type: Slashing
+Special:
+ Vrek is treated as having Ambidexterity and Two-Weapon Fighting while wielding these claws
+ Rend: If Vrek hits an enemy with both claws in a single round, he rends that enemy, dealing an additional 4d6 + 1.5x Strength bonus damage
+Weight: 0 lb.
+Required Feat: Simple Weapon, Touch Attack
+Type: One-handed~
+@4843   = ~Vrek prefers to use his jagged claws in combat, finding conventional weapons designed for humanoid hands to be clumsy in his grip. Vrek's claws strike as +5 weapons for the purposes of overcoming damage reduction.
+
+STATISTICS:
+
+Damage: 3d6 + 5
+Attack Bonus: +5
+Enchantment: +5
+Damage Type: Slashing
+Special:
+ Vrek is treated as having Ambidexterity and Two-Weapon Fighting while wielding these claws
+ Rend: If Vrek hits an enemy with both claws in a single round, he rends that enemy, dealing an additional 6d6 + 1.5x Strength bonus damage
+Weight: 0 lb.
+Required Feat: Simple Weapon, Touch Attack
+Type: One-handed~
+/*
+@4844   = ~Vrek prefers to use his jagged claws in combat, finding conventional weapons designed for humanoid hands to be clumsy in his grip. Vrek's claws strike as +5 weapons for the purposes of overcoming damage reduction.
+
+STATISTICS:
+
+Damage: 2d6 + 5
+Attack Bonus: +5
+Enchantment: +5
+Damage Type: Slashing
+Special:
+ Vrek is treated as having Ambidexterity and Two-Weapon Fighting while wielding these claws
+ Rend: If Vrek hits an enemy with both claws in a single round, he rends that enemy, dealing an additional 4d6 + 1.5x Strength bonus damage
+Weight: 0 lb.
+Required Feat: Simple Weapon, Touch Attack
+Type: One-handed~
+
+@4845   = ~Vrek prefers to use his jagged claws in combat, finding conventional weapons designed for humanoid hands to be clumsy in his grip. Vrek's claws strike as +5 weapons for the purposes of overcoming damage reduction.
+
+STATISTICS:
+
+Damage: 3d6 + 5
+Attack Bonus: +5
+Enchantment: +5
+Damage Type: Slashing
+Special:
+ Vrek is treated as having Ambidexterity and Two-Weapon Fighting while wielding these claws
+ Rend: If Vrek hits an enemy with both claws in a single round, he rends that enemy, dealing an additional 6d6 + 1.5x Strength bonus damage
+Weight: 0 lb.
+Required Feat: Simple Weapon, Touch Attack
+Type: One-handed~
+*/
+@4846   = ~Vrek prefers to use his jagged claws in combat, finding conventional weapons designed for humanoid hands to be clumsy in his grip. Vrek's claws strike as +5 weapons for the purposes of overcoming damage reduction.
+
+STATISTICS:
+
+Damage: 4d6 + 5
+Attack Bonus: +5
+Enchantment: +5
+Damage Type: Slashing
+Special:
+ Vrek is treated as having Ambidexterity and Two-Weapon Fighting while wielding these claws
+ Rend: If Vrek hits an enemy with both claws in a single round, he rends that enemy, dealing an additional 8d6 + 1.5x Strength bonus damage
+Weight: 0 lb.
+Required Feat: Simple Weapon, Touch Attack
+Type: One-handed~
+@4846   = ~Vrek prefers to use his jagged claws in combat, finding conventional weapons designed for humanoid hands to be clumsy in his grip. Vrek's claws strike as +5 weapons for the purposes of overcoming damage reduction.
+
+STATISTICS:
+
+Damage: 5d6 + 5
+Attack Bonus: +5
+Enchantment: +5
+Damage Type: Slashing
+Special:
+ Vrek is treated as having Ambidexterity and Two-Weapon Fighting while wielding these claws
+ Rend: If Vrek hits an enemy with both claws in a single round, he rends that enemy, dealing an additional 10d6 + 1.5x Strength bonus damage
+Weight: 0 lb.
+Required Feat: Simple Weapon, Touch Attack
+Type: One-handed~
+@4847   = ~Vrek prefers to use his jagged claws in combat, finding conventional weapons designed for humanoid hands to be clumsy in his grip. Vrek's claws strike as +5 weapons for the purposes of overcoming damage reduction.
+
+STATISTICS:
+
+Damage: 6d6 + 5
+Attack Bonus: +5
+Enchantment: +5
+Damage Type: Slashing
+Special:
+ Vrek is treated as having Ambidexterity and Two-Weapon Fighting while wielding these claws
+ Rend: If Vrek hits an enemy with both claws in a single round, he rends that enemy, dealing an additional 12d6 + 1.5x Strength bonus damage
+Weight: 0 lb.
+Required Feat: Simple Weapon, Touch Attack
+Type: One-handed~
+@4848   = ~Vrek prefers to use his jagged claws in combat, finding conventional weapons designed for humanoid hands to be clumsy in his grip. Vrek's claws strike as +5 weapons for the purposes of overcoming damage reduction.
+
+STATISTICS:
+
+Damage: 7d6 + 5
+Attack Bonus: +5
+Enchantment: +5
+Damage Type: Slashing
+Special:
+ Vrek is treated as having Ambidexterity and Two-Weapon Fighting while wielding these claws
+ Rend: If Vrek hits an enemy with both claws in a single round, he rends that enemy, dealing an additional 14d6 + 1.5x Strength bonus damage
+Weight: 0 lb.
+Required Feat: Simple Weapon, Touch Attack
+Type: One-handed~
+@4849   = ~Xhaan prefers to fight with his claws, as he has had no need for weapons in the countless lifetimes he has lived in the Nine Hells. He may still use a shield or a weapon in his off hand, but he uses his claws as his primary attack. As an extraplanar being, Xhaan's claws strike as a +3 weapon for the purposes of overcoming damage reduction.
+
+STATISTICS:
+
+Damage: 1d6 +3
+Attack Bonus: +3
+Enchantment: +3
+Damage Type: Slashing
+Special:
+ Counts as evil-aligned and lawful-aligned for purposes of overcoming damage reduction
+ Frost: +1d6 cold damage
+Weight: 0 lb.
+Feat Requirement: Simple Weapon, Touch Attack
+Type: One-handed~
+@4850   = ~Xhaan prefers to fight with his claws, as he has had no need for weapons in the countless lifetimes he has lived in the Nine Hells. He may still use a shield or a weapon in his off hand, but he uses his claws as his primary attack. As an extraplanar being, Xhaan's claws strike as a +4 weapon for the purposes of overcoming damage reduction.
+
+STATISTICS:
+
+Damage: 1d6 +4
+Attack Bonus: +4
+Enchantment: +4
+Damage Type: Slashing
+Special:
+ Counts as evil-aligned and lawful-aligned for purposes of overcoming damage reduction
+ Frost: +1d6 cold damage
+Weight: 0 lb.
+Feat Requirement: Simple Weapon, Touch Attack
+Type: One-handed
+Feat Requirement: Simple Weapon, Touch Attack
+Type: One-handed~
+/*
+@4851   = ~Xhaan prefers to fight with his claws, as he has had no need for weapons in the countless lifetimes he has lived in the Nine Hells. He may still use a shield or a weapon in his off hand, but he uses his claws as his primary attack. As an extraplanar being, Xhaan's claws strike as a +5 weapon for the purposes of overcoming damage reduction.
+
+STATISTICS:
+
+Damage: 1d6 +5
+Attack Bonus: +5
+Enchantment: +5
+Damage Type: Slashing
+Special:
+ Counts as evil-aligned and lawful-aligned for purposes of overcoming damage reduction
+ Frost: +1d6 cold damage
+Weight: 0 lb.
+Feat Requirement: Simple Weapon, Touch Attack
+Type: One-handed~
+*/
+@4852   = ~Xhaan prefers to fight with his claws, as he has had no need for weapons in the countless lifetimes he has lived in the Nine Hells. He may still use a shield or a weapon in his off hand, but he uses his claws as his primary attack. As an extraplanar being, Xhaan's claws strike as a +5 weapon for the purposes of overcoming damage reduction.
+
+STATISTICS:
+
+Damage: 1d6 +5
+Attack Bonus: +5
+Enchantment: +5
+Damage Type: Slashing
+Special:
+ Counts as evil-aligned and lawful-aligned for purposes of overcoming damage reduction
+ Frost: +2d6 cold damage
+Weight: 0 lb.
+Feat Requirement: Simple Weapon, Touch Attack
+Type: One-handed~
+@4853   = ~Xhaan prefers to fight with his claws, as he has had no need for weapons in the countless lifetimes he has lived in the Nine Hells. He may still use a shield or a weapon in his off hand, but he uses his claws as his primary attack. As an extraplanar being, Xhaan's claws strike as a +5 weapon for the purposes of overcoming damage reduction.
+
+STATISTICS:
+
+Damage: 1d6 +5
+Attack Bonus: +5
+Enchantment: +5
+Damage Type: Slashing
+Special:
+ Counts as evil-aligned and lawful-aligned for purposes of overcoming damage reduction
+ Frost: +3d6 cold damage
+Weight: 0 lb.
+Feat Requirement: Simple Weapon, Touch Attack
+Type: One-handed~
+/*
+@4854   = ~Xhaan prefers to fight with his claws, as he has had no need for weapons in the countless lifetimes he has lived in the Nine Hells. He may still use a shield or a weapon in his off hand, but he uses his claws as his primary attack. As an extraplanar being, Xhaan's claws strike as a +5 weapon for the purposes of overcoming damage reduction.
+
+STATISTICS:
+
+Damage: 1d6 +5
+Attack Bonus: +5
+Enchantment: +5
+Damage Type: Slashing
+Special:
+ Counts as evil-aligned and lawful-aligned for purposes of overcoming damage reduction
+ Frost: +2d6 cold damage
+Weight: 0 lb.
+Feat Requirement: Simple Weapon, Touch Attack
+Type: One-handed~
+@4855   = ~Xhaan prefers to fight with his claws, as he has had no need for weapons in the countless lifetimes he has lived in the Nine Hells. He may still use a shield or a weapon in his off hand, but he uses his claws as his primary attack. As an extraplanar being, Xhaan's claws strike as a +5 weapon for the purposes of overcoming damage reduction.
+
+STATISTICS:
+
+Damage: 1d6 +5
+Attack Bonus: +5
+Enchantment: +5
+Damage Type: Slashing
+Special:
+ Counts as evil-aligned and lawful-aligned for purposes of overcoming damage reduction
+ Frost: +3d6 cold damage
+Weight: 0 lb.
+Feat Requirement: Simple Weapon, Touch Attack
+Type: One-handed~
+*/
+@4856   = ~Xhaan prefers to fight with his claws, as he has had no need for weapons in the countless lifetimes he has lived in the Nine Hells. He may still use a shield or a weapon in his off hand, but he uses his claws as his primary attack. As an extraplanar being, Xhaan's claws strike as a +5 weapon for the purposes of overcoming damage reduction.
+
+STATISTICS:
+
+Damage: 1d6 +5
+Attack Bonus: +5
+Enchantment: +5
+Damage Type: Slashing
+Special:
+ Counts as evil-aligned and lawful-aligned for purposes of overcoming damage reduction
+ Frost: +4d6 cold damage
+Weight: 0 lb.
+Feat Requirement: Simple Weapon, Touch Attack
+Type: One-handed~
+@4857   = ~Xhaan prefers to fight with his claws, as he has had no need for weapons in the countless lifetimes he has lived in the Nine Hells. He may still use a shield or a weapon in his off hand, but he uses his claws as his primary attack. As an extraplanar being, Xhaan's claws strike as a +5 weapon for the purposes of overcoming damage reduction.
+
+STATISTICS:
+
+Damage: 1d6 +5
+Attack Bonus: +5
+Enchantment: +5
+Damage Type: Slashing
+Special:
+ Counts as evil-aligned and lawful-aligned for purposes of overcoming damage reduction
+ Frost: +5d6 cold damage
+Weight: 0 lb.
+Feat Requirement: Simple Weapon, Touch Attack
+Type: One-handed~
+@4858   = ~Xhaan prefers to fight with his claws, as he has had no need for weapons in the countless lifetimes he has lived in the Nine Hells. He may still use a shield or a weapon in his off hand, but he uses his claws as his primary attack. As an extraplanar being, Xhaan's claws strike as a +5 weapon for the purposes of overcoming damage reduction.
+
+STATISTICS:
+
+Damage: 1d6 +5
+Attack Bonus: +5
+Enchantment: +5
+Damage Type: Slashing
+Special:
+ Counts as evil-aligned and lawful-aligned for purposes of overcoming damage reduction
+ Frost: +6d6 cold damage
+Weight: 0 lb.
+Feat Requirement: Simple Weapon, Touch Attack
+Type: One-handed~
+@4859   = ~Xhaan prefers to fight with his claws, as he has had no need for weapons in the countless lifetimes he has lived in the Nine Hells. He may still use a shield or a weapon in his off hand, but he uses his claws as his primary attack. As an extraplanar being, Xhaan's claws strike as a +5 weapon for the purposes of overcoming damage reduction.
+
+STATISTICS:
+
+Damage: 1d6 +5
+Attack Bonus: +5
+Enchantment: +5
+Damage Type: Slashing
+Special:
+ Counts as evil-aligned and lawful-aligned for purposes of overcoming damage reduction
+ Frost: +7d6 cold damage
+Weight: 0 lb.
+Feat Requirement: Simple Weapon, Touch Attack
+Type: One-handed~
+
 @523    = ~ВОЛШЕБНИК:
 
 Волшебник стремится стать мастером магических энергий, формируя их и превращая в заклинания. Для этого он изучает странные языки и малопонятные факты и посвящает большую часть своего времени магическим исследованиям. Чтобы выжить, волшебник должен полагаться на знания и смекалку. Волшебников редко можно встретить в приключениях без свиты бойцов и вооружённых людей. Поскольку существуют различные виды (или школы) магии, то и волшебники бывают разные. Однако, в большинстве своём волшебники изучают все виды магии и владеют широким спектром заклинаний. Благодаря своей разносторонним способностям волшебник прекрасно справляется с трудностями в приключениях.
