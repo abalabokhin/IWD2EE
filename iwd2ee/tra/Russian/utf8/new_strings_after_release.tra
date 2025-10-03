@@ -1777,8 +1777,6 @@
 @56032=~Класс защиты (доспех):~
 @56033=~Класс защиты (щит):~
 @56034=~Класс защиты (общий):~
-
-@55495=~Расширенные слоты: ~
 @12917    = ~Wizard Robe of Force Resistance~
 @12918    = ~Of all the robes of resistance, Wizard Robes of Force Resistance are among the rarest. They are rare not because they are not useful, but because they are much harder to create than other robes of resistance.
 
@@ -1865,7 +1863,7 @@ Regeneration: User regenerates 3 hit points per second
 Special: Can only be removed by a Remove Curse spell~
 @4838   = ~Vrek prefers to use his jagged claws in combat, finding conventional weapons designed for humanoid hands to be clumsy in his grip. Vrek's claws strike as +2 weapons for the purposes of overcoming damage reduction.
 
-STATISTICS: 
+STATISTICS:
 
 Damage: 1d6 + 2
 Attack Bonus: +2
@@ -1947,20 +1945,6 @@ Special:
 Weight: 0 lb.
 Required Feat: Simple Weapon, Touch Attack
 Type: One-handed~
-@4846   = ~Vrek prefers to use his jagged claws in combat, finding conventional weapons designed for humanoid hands to be clumsy in his grip. Vrek's claws strike as +5 weapons for the purposes of overcoming damage reduction.
-
-STATISTICS:
-
-Damage: 5d6 + 5
-Attack Bonus: +5
-Enchantment: +5
-Damage Type: Slashing
-Special:
- Vrek is treated as having Ambidexterity and Two-Weapon Fighting while wielding these claws
- Rend: If Vrek hits an enemy with both claws in a single round, he rends that enemy, dealing an additional 10d6 + 1.5x Strength bonus damage
-Weight: 0 lb.
-Required Feat: Simple Weapon, Touch Attack
-Type: One-handed~
 @4847   = ~Vrek prefers to use his jagged claws in combat, finding conventional weapons designed for humanoid hands to be clumsy in his grip. Vrek's claws strike as +5 weapons for the purposes of overcoming damage reduction.
 
 STATISTICS:
@@ -1989,18 +1973,32 @@ Special:
 Weight: 0 lb.
 Required Feat: Simple Weapon, Touch Attack
 Type: One-handed~
-@4859   = ~Xhaan prefers to fight with his claws, as he has had no need for weapons in the countless lifetimes he has lived in the Nine Hells. He may still use a shield or a weapon in his off hand, but he uses his claws as his primary attack. As an extraplanar being, Xhaan's claws strike as a +5 weapon for the purposes of overcoming damage reduction.
+@4849   = ~Xhaan prefers to fight with his claws, as he has had no need for weapons in the countless lifetimes he has lived in the Nine Hells. He may still use a shield or a weapon in his off hand, but he uses his claws as his primary attack. As an extraplanar being, Xhaan's claws strike as a +3 weapon for the purposes of overcoming damage reduction.
 
 STATISTICS:
 
-Damage: 1d6 +5
+Damage: 1d6 +3
+Attack Bonus: +3
+Enchantment: +3
+Damage Type: Slashing
+Special:
+ Counts as evil-aligned and lawful-aligned for purposes of overcoming damage reduction
+ Frost: +1d6 cold damage
+Weight: 0 lb.
+Feat Requirement: Simple Weapon, Touch Attack
+Type: One-handed~
+@4870   = ~Vrek prefers to use his jagged claws in combat, finding conventional weapons designed for humanoid hands to be clumsy in his grip. Vrek's claws strike as +5 weapons for the purposes of overcoming damage reduction.
+
+STATISTICS:
+
+Damage: 5d6 + 5
 Attack Bonus: +5
 Enchantment: +5
 Damage Type: Slashing
 Special:
- Counts as evil-aligned and lawful-aligned for purposes of overcoming damage reduction
- Frost: +7d6 cold damage
+ Vrek is treated as having Ambidexterity and Two-Weapon Fighting while wielding these claws
+ Rend: If Vrek hits an enemy with both claws in a single round, he rends that enemy, dealing an additional 10d6 + 1.5x Strength bonus damage
 Weight: 0 lb.
-Feat Requirement: Simple Weapon, Touch Attack
+Required Feat: Simple Weapon, Touch Attack
 Type: One-handed~
-
+@55495=~Расширенные слоты: ~
