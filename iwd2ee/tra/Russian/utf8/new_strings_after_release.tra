@@ -2477,78 +2477,78 @@
 
 Действие: любая песня барда, исполняемая вами, которая влияет на союзников, дает дополнительный бонус +1 к классу защиты, атаке, урону, спасброскам и проверкам навыков. Любая песня барда, исполняемая вами, которая влияет на врагов, получает +2 к УС.~
 @890    = ~Атаку удалось избежать~
-@55928=~Toggle Buff Recording~
-@55929=~Erase Recording~
-@55930=~Cast Recorded Buffs~
-@21020=~Mummy Dust~
-@23090=~Mummy Rot~
-@21021=~Lightning Convergeance~
-@21022=~True Living Lightning~
-@21023=~Verdigris~
-@21024=~Crown of Vermin~
-@21025=~Rain of Fire~
-@22868=~Limha's Mink Drain~
-@30366=~... Mummy Dust.~
-@30367=~... Lightning Convergeance.~
-@30368=~... True Living Lightning.~
-@30369=~... Verdigris.~
-@30370=~... Clone.~
-@30371=~... Crown of Vermin.~
-@30372=~... Rain of Fire.~
-@32106     = ~Magic Stone
-(Enchantment)
-Level: Clr 1, Drd 1, Rgr 1
-Range: Caster
-Duration: 30 rounds or until used up
-Casting Time: 1
-Area of Effect: Caster
-Saving Throw: None
+@55928=~Переключить запись заклинаний~
+@55929=~Стереть запись~
+@55930=~Применить записанные заклинания~
+@21020=~Пыль мумии~
+@23090=~Гниение мумии~
+@21021=~Слияние молний~
+@21022=~Истинная живая молния~
+@21023=~Патина~
+@21024=~Корона паразитов~
+@21025=~Огненный дождь~
+@22868=~Иссушение ласки Лимы~
+@30366=~... Пыль мумии.~
+@30367=~... Слияние молний.~
+@30368=~... Истинная живая молния.~
+@30369=~... Патина.~
+@30370=~... Клон.~
+@30371=~... Корона паразитов.~
+@30372=~... Огненный дождь.~
+@32106     = ~Магический камень
+(Преобразование)
+Уровень: священник 1, друид 1, следопыт 1
+Дальность: колдующий
+Длительность: 30 раундов или пока не будет использовано
+Время чтения: 1
+Зона действия: колдующий
+Спасбросок: нет
 
-This spell enhances the caster's sling bullets. Any bullet the caster throws will deal an additional 1d4+1 damage, and nonmagical bullets will be treated as +1 weapons. The spell ends once the caster has thrown a certain number of bullets: five plus one per caster level (maximum of 15 at level 10).
+Это заклинание усиливает снаряды для пращи заклинателя. Любой снаряд выпущенный заклинателем наносит дополнительно 1d4+1 урона и обычные снаряды получают уровень зачарования +1. Действие заклинания заканчивается, когда заклинатель метнёт определённое количество снарядов: пять + 1/уровень заклинателя (до максимума в 15 снарядов на 10-м уровне).
 
-Although rangers normally cast spells at half their caster level, Magic Stone will be cast at a ranger's full caster level.~
-@32107     = ~Protection from Evil
-(Abjuration) [Good]
-Level: Clr 1, Pal 1, Sor/Wiz 1
-Range: Touch
-Duration: 10 rounds / level
-Casting Time: 1
-Area of Effect: 1 creature
-Saving Throw: None
+Хотя обычно уровень заклинателя для следопытов считается как половина уровня следопыта, для определения уровня заклинателя для этого заклинания считается полный уровень следопыта.~
+@32107     = ~Защита от зла
+(Отречение) [Добро]
+Уровень: священник 1, паладин 1, колдун/волшебник 1
+Дальность: прикосновение
+Длительность: 10 раундов/уровень
+Время чтения: 1
+Зона действия: 1 существо
+Спасбросок: нет
 
-This spell forms a magic barrier around the target creature, giving evil creatures a -2 penalty to hit them, and reducing the save DC of spells and abilities from evil creatures that would hit them by 2. In additions, the creature is immune to charm and domination effects. Summoned fiends will not attack their summoner or their summoner's allies if their summoner has Protection from Evil.~
-@32408     = ~Magic Circle Against Evil
-(Abjuration) [Good]
-Level: Clr 4, Pal 4, Sor/Wiz 4, Ilmater 3
-Range: Caster
-Duration: 10 rounds / level
-Casting Time: 7
-Area of Effect: 10-foot radius
-Saving Throw: None
+При наложении заклинания вокруг цели создаётся магический барьер, дающий -2 к броскам атаки, и уменьшающий на 2 УС от заклинаний и способностей злых существ. В дополнение, цель заклинания также становиться невосприимчивой к эффектам очарования и подчинения. Вызванные изверги не будут атаковать своего призывателя или его союзников, если на призывателя наложена "Защита от зла".~
+@32408     = ~Круг защиты от зла
+(Отречение) [Добро]
+Уровень: священник 4, паладин 4, колдун/волшебник 4, жрец Ильматера 3
+Дальность: колдующий
+Длительность: 10 раундов / уровень
+Время чтения: 7
+Зона действия: радиус 10 футов
+Спасбросок: нет
 
-When this spell is cast, all creatures within a 10' radius are affected individually by Protection from Evil, giving evil creatures a -2 penalty to hit them, and reducing the save DC of spells and abilities from evil creatures that would hit them by 2, as well as immunity to charm and domination effects.~
-@36454     = ~Pebbles to Boulders
-(Transmutation)
-Level: Clr 5, Drd 4, Rgr 4
-Range: Caster
-Duration: 5 rounds/level or until used up
-Casting Time: 4
-Area of Effect: Caster
-Saving Throw: None
+Каждое существо в круге с радиусом 10 футов получает преимущества заклинания "Защита от зла": -2 к броскам атаки, и уменьшения на 2 УС от заклинаний и способностей злых существ, а также иммунитет к заклинаниям очарования и подчинения.~
+@36454     = ~Гальку в валуны
+(Преобразование)
+Уровень: священник 5, друид 4, следопыт 4
+Дальность: колдующий
+Длительность: 5 раундов на уровень или пока не будет использовано
+Время чтения: 4
+Зона действия: колдующий
+Спасбросок: нет
 
-This spell turns the caster's sling bullets into boulders. While the spell is active, if the caster launches a bullet, it instantly turns into a large boulder that retains the speed of the original bullet. The boulder inflicts an additional 7d4 damage if it hits (on top of the former damage of the bullet). Only a limited number of bullets can be turned into boulders before the spell ends: up to one per 3 levels.
+Это заклинание превращает снаряды для пращи в валуны. Пока заклинание активно, если заклинатель выпускает снаряд, он мгновенно превращается в большой валун, сохраняющий скорость первоначальной пули. При попадании валун наносит дополнительные 7d4 урона (помимо исходного урона снаряда). В валуны можно превратить лишь ограниченное количество снарядов: один за три уровня заклинателя.
 
-Although rangers normally cast spells at half their caster level, Pebbles to Boulders will be cast at a ranger's full caster level.~
-@1685    = ~Beast Claw
-(Transmutation)
-Level: Drd 2, Rgr 2
-Range: Sight of Caster
-Duration: 3 rounds + 1 round / level
-Casting Time: 5
-Area of Effect: 20-foot radius
-Saving Throw: None
+Хотя обычно уровень заклинателя для следопытов считается как половина уровня следопыта, для определения уровня заклинателя для этого заклинания считается полный уровень следопыта.~
+@1685    = ~Коготь зверя
+(Преобразование)
+Уровень: друид 2, следопыт 2
+Дальность: обзор колдующего
+Длительность: 3 раунда + 1 раунд/уровень
+Время чтения: 5
+Зона действия: радиус в 20 футов
+Спасбросок: нет
 
-This spell empowers the attacks of any allied animal in the area of effect, granting it +3 to hit and damage until the duration runs out. At level 8, this spell also grants the animals a +1 enhancement bonus, causing their natural attacks to strike as a +1 weapon (1d12 base slashing damage). At levels 12 and 16, this bonus increases to +2 and +3.~
+Это заклинание усиливает атаки любого животного в области действия заклинания, давая им +3 к атаке и урону на всё время действия заклинания. На восьмом уровне заклинателя, атаки зачарованного животного считаются атаками зачарованным оружием +1 (базовый урон: 1d12 (колющий)), +2 на двенадцатом и +3 на шестнадцатом.~
 @10586    = ~Aasimars are direct offspring from a union between mortal and celestial minion. While normally carrying innate powers, it is not unusual for an Aasimar to don blessed armor. Such is the case for this unique armor known as Aasimar's Aura. The armor shimmers with a silvery glow and is adorned with exquisite blue etchings across the breast. One look at the armor and it is simple to see that it possesses powerful protections.
 
 Long ago, the Blood War between the Baazetu and the Tanar'ri spilled over to the material plane. Luckily for most of the world, the battle was far away from any major towns or cities. However, this was still no comfort for the Celestial beings that watched over the material plane. So, it was quickly decided to amass as many Celestial and Aasimar beings as possible and drive the Blood War back into its own abyssal planes. However, because of the great numbers of Tanar'ri and Baatezu, the Celestial beings permanently blessed all the Aasimars' armor with Protection from Evil. This spell allowed the Aasimars to get in close to the evil creatures without getting attacked. Once all the Aasimars were in position, the Celestials gave the order to attack, which completely surprised the hordes of Baazetu and Tanar'ri. The ensuing battle raged for days, with high casualties on both sides, but eventually the evil hordes were pushed back into their abyssal planes.
