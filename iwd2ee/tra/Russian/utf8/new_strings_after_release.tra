@@ -2516,7 +2516,7 @@
 Зона действия: 1 существо
 Спасбросок: нет
 
-При наложении заклинания вокруг цели создаётся магический барьер, дающий -2 к броскам атаки, и уменьшающий на 2 УС от заклинаний и способностей злых существ. В дополнение, цель заклинания также становиться невосприимчивой к эффектам очарования и подчинения. Вызванные изверги не будут атаковать своего призывателя или его союзников, если на призывателя наложена "Защита от зла".~
+При наложении заклинания вокруг цели создаётся магический барьер, дающий -2 к броскам атаки, и уменьшающий на 2 УС заклинаний и способностей злых существ. В дополнение, цель заклинания также становиться невосприимчивой к эффектам очарования и подчинения. Вызванные изверги не будут атаковать своего призывателя или его союзников, если на призывателя наложена "Защита от зла".~
 @32408     = ~Круг защиты от зла
 (Отречение) [Добро]
 Уровень: священник 4, паладин 4, колдун/волшебник 4, жрец Ильматера 3
@@ -2526,7 +2526,7 @@
 Зона действия: радиус 10 футов
 Спасбросок: нет
 
-Каждое существо в круге с радиусом 10 футов получает преимущества заклинания "Защита от зла": -2 к броскам атаки, и уменьшения на 2 УС от заклинаний и способностей злых существ, а также иммунитет к заклинаниям очарования и подчинения.~
+Каждое существо в круге с радиусом 10 футов получает преимущества заклинания "Защита от зла": -2 к броскам атаки, и уменьшение на 2 УС заклинаний и способностей злых существ, а также иммунитет к заклинаниям очарования и подчинения.~
 @36454     = ~Гальку в валуны
 (Преобразование)
 Уровень: священник 5, друид 4, следопыт 4
@@ -2549,196 +2549,199 @@
 Спасбросок: нет
 
 Это заклинание усиливает атаки любого животного в области действия заклинания, давая им +3 к атаке и урону на всё время действия заклинания. На восьмом уровне заклинателя, атаки зачарованного животного считаются атаками зачарованным оружием +1 (базовый урон: 1d12 (колющий)), +2 на двенадцатом и +3 на шестнадцатом.~
-@10586    = ~Aasimars are direct offspring from a union between mortal and celestial minion. While normally carrying innate powers, it is not unusual for an Aasimar to don blessed armor. Such is the case for this unique armor known as Aasimar's Aura. The armor shimmers with a silvery glow and is adorned with exquisite blue etchings across the breast. One look at the armor and it is simple to see that it possesses powerful protections.
+@10586    = ~Аасимары - прямые потомки от союза между смертными и небесными созданиями. Хотя обычно аасимары полагаются на свои врождённые способности, нередко они носят и благословлённую броню. Пример такой брони - этот уникальный доспех, именуемый Аурой аасимара. Он мерцает серебристым блеском и украшен изящной синей гравировкой по всей груди. При первом же взгляде на доспех становится ясно, что он обладает мощной защитой.
 
-Long ago, the Blood War between the Baazetu and the Tanar'ri spilled over to the material plane. Luckily for most of the world, the battle was far away from any major towns or cities. However, this was still no comfort for the Celestial beings that watched over the material plane. So, it was quickly decided to amass as many Celestial and Aasimar beings as possible and drive the Blood War back into its own abyssal planes. However, because of the great numbers of Tanar'ri and Baatezu, the Celestial beings permanently blessed all the Aasimars' armor with Protection from Evil. This spell allowed the Aasimars to get in close to the evil creatures without getting attacked. Once all the Aasimars were in position, the Celestials gave the order to attack, which completely surprised the hordes of Baazetu and Tanar'ri. The ensuing battle raged for days, with high casualties on both sides, but eventually the evil hordes were pushed back into their abyssal planes.
+Много лет назад на материальный план прорвалась Кровавая Война между баатезу и танар'ри. К счастью для большей части мира, битва эта произошла вдалеке от крупных городов и поселений. Тем не менее, небесным созданиям, присматривавшим за материальным планом, она доставила немало хлопот. Было решено собрать как можно больше небесных созданий и аасимаров и загнать Кровавую Войну обратно в планы бездны, откуда она и пришла. Однако, поскольку танар'ри и баатезу было слишком много, небесным созданиям пришлось наделить все доспехи аасимаров постоянной защитой от зла. Благодаря этому заклинанию аасимары смогли подобраться вплотную к злым созданиям. Как только все аасимары заняли свои позиции, небесные создания дали сигнал к атаке, которая стала настоящим сюрпризом для орд баатезу и танар'ри. Последовавшая за этим битва бушевала несколько дней, все стороны понесли большие потери, но в конце концов злые орды были изгнаны обратно в свои планы бездны.
 
-As a result of the high Aasimar casualties, it was not uncommon for looters to take the armor off the dead. So, from time to time, a set of Aasimar's Aura will pop up in a shop, or on an adventurer who could afford the high purchase price.
+Поскольку множество аасимаров полегло на поле боя, часть из их доспехов была добыта мародёрами. Так что время от времени доспех "Аура аасимара" всплывает в магазине или у искателя приключений, которые может позволить себе такую дорогую покупку.
 
-STATISTICS:
+ПАРАМЕТРЫ:
 
-Heavy Armor
-Armor Bonus: +12
-Max Dex Bonus:  +1
-Armor Check Penalty:  -5
-Arcane Spell Failure:  35%
-Special:
-  Evil creatures have a -2 penalty to hit the wearer, and the save DC of their spells and abilities used against the wearer is reduced by 2 (stacks with Protection from Evil)
-  Spellward: Immunity to Unholy Blight and Blasphemy
-Weight: 50 lb.~
-@10588    = ~Aasimars are direct offspring from a union between mortal and celestial minion. While normally carrying innate powers, it is not unusual for an Aasimar to don blessed armor. Such is the case for this unique armor known as Celestial Aura. The armor shimmers with a silvery glow and is adorned with exquisite blue etchings across the breast. One look at the armor and it is simple to see that it possesses powerful protections.
+Тяжёлая броня
+Класс защиты (доспех): +12 
+Максимальный бонус ловкости: +1
+Штраф к проверкам за броню: -5
+Шанс провала заклинания: 35%
+Особенности:
+ Постоянный эффект: -2 к броскам атаки, и уменьшение на 2 УС заклинаний и способностей злых существ (складывается со эффектами "Защиты от зла")
+ Оберёг: дарует иммунитет к заклинаниям "Дьявольская порча" и "Богохульство"
+Вес: 50 фунтов~
+@10588    = ~Аасимары - прямые потомки от союза между смертными и небесными созданиями. Хотя обычно аасимары полагаются на свои врождённые способности, нередко они носят и благословлённую броню. Пример такой брони - этот уникальный доспех, именуемый Аурой аасимара. Он мерцает серебристым блеском и украшен изящной синей гравировкой по всей груди. При первом же взгляде на доспех становится ясно, что он обладает мощной защитой.
 
-Long ago, the Blood War between the Baatezu and the Tanar'ri spilled over to the material plane. Luckily for most of the world, the battle was far away from any major towns or cities. However, this was still no comfort for the Celestial beings that watched over the material plane. So, it was quickly decided to amass as many Celestial and Aasimar beings as possible and drive the Blood War back into its own abyssal planes. However, because of the great numbers of Tanar'ri and Baatezu, the Celestial beings permanently blessed all the Aasimars' armor with Protection from Evil. In addition, the Celestials made the armor immune to fire damage, as well as improving its resistances to paralyze and death magics, and poison. These spells allowed the Aasimar's to get in close to the evil creatures without getting attacked, and provided enough protection to effectively fight the evil hordes. Once all the Aasimars were in position, the Celestials gave the order to attack, which completely surprised the hordes of Baatezu and Tanar'ri. The ensuing battle raged for days, with high casualties on both sides, but eventually the evil hordes were pushed back into their abyssal planes.
+Много лет назад на материальный план прорвалась Кровавая Война между баатезу и танар'ри. К счастью для большей части мира, битва эта произошла вдалеке от крупных городов и поселений. Тем не менее, небесным созданиям, присматривавшим за материальным планом, она доставила немало хлопот. Было решено собрать как можно больше небесных созданий и аасимаров и загнать Кровавую Войну обратно в планы бездны, откуда она и пришла. Однако, поскольку танар'ри и баатезу было слишком много, небесным созданиям пришлось наделить все доспехи аасимаров постоянной защитой от зла. Благодаря этому заклинанию аасимары смогли подобраться вплотную к злым созданиям. Как только все аасимары заняли свои позиции, небесные создания дали сигнал к атаке, которая стала настоящим сюрпризом для орд баатезу и танар'ри. Последовавшая за этим битва бушевала несколько дней, все стороны понесли большие потери, но в конце концов злые орды были изгнаны обратно в свои планы бездны.
 
-As a result of the high Aasimar casualties, it was not uncommon for looters to take the armor off the dead. So, from time to time, a set of Celestial Aura will pop up in a shop, or on an adventurer who could afford the high purchase price.
+Поскольку множество аасимаров полегло на поле боя, часть из их доспехов была добыта мародёрами. Так что время от времени доспех "Небесная аура" всплывает в магазине или у искателя приключений, которые может позволить себе такую дорогую покупку.
 
-STATISTICS:
+ПАРАМЕТРЫ:
 
-Heavy Armor
-Armor Bonus: +14
-Max Dex Bonus:  +1
-Armor Check Penalty:  -5
-Arcane Spell Failure:  35%
-Special:
-  Evil creatures have a -4 penalty to hit the wearer, and the save DC of their spells and abilities used against the wearer is reduced by 4 (stacks with Protection from Evil)
-  Wearer is under the effect of Holy Aura
-  Resistance: 20/- Fire Resistance
-  Saving Throw Bonus: +3 to Fortitude saves
-  Spellward: Immunity to Unholy Blight and Blasphemy
-Weight: 50 lb.~
-@12537    = ~Shield of Speed +5~
-@12538    = ~A small shield is usually round and is carried on the forearm, gripped with the shield hand. Its light weight as compared to a large shield allows for greater maneuverability without sacrificing too much in the way of protection. This shield has runes scribed onto it that glow eerily in dim light.
+Тяжёлая броня
+Класс защиты (доспех): +14
+Максимальный бонус ловкости: +1
+Штраф к проверкам за броню: -5
+Шанс провала заклинания: 35%
+Особенности:
+ Постоянный эффект: -4 к броскам атаки, и уменьшение на 4 УС заклинаний и способностей злых существ (складывается со эффектами "Защиты от зла")
+ Постоянный эффект: носитель находится под постоянным эффектом заклинания "Аура святости"
+ Сопротивление: 20/- сопротивления к огню
+ Спасброски: +3 к спасброскам стойкости
+ Оберёг: дарует иммунитет к заклинаниям "Дьявольская порча" и "Богохульство"
+Вес: 50 фунтов~
+@12537    = ~Щит скорости +5~
+@12538    = ~Малый щит обычно имеет круглую форму; носят его на предплечье, удерживая за ручку. Его вес, небольшой по сравнению со средним щитом, позволяет владельцу относительно свободно передвигаться, оставаясь под защитой щита. На этот щит нанесены руны, слабо сияющие потусторонним светом.
 
-STATISTICS:
+ПАРАМЕТРЫ:
 
-Shield Bonus: +6
-Armor Bonus:  +1 vs. missile weapons
-Special:
-  Speed: 1 additional attack per combat round
-Armor Check Penalty:  -1
-Arcane Spell Failure:  5%
-Weight: 3 lb.~
-@10972    = ~The arch-druid Caernach was known to carry a good many enchanted items, most of which he crafted with his own hands. Most famous were his boots, "Breath-of-Life," which left flowers and tiny saplings sprouting from the earth where Caernach strode. Still, the arch-druid's "lesser possessions" were nothing to scoff at - take, for instance, his silver sickle, fashioned to gather sacred mistletoe and the heads of enemies alike. This unusual weapon is actually a cross between a sickle and a proper sword, resembling a scimitar more than anything else. Both the oaken haft and silver blade are engraved with decorative swirls and patterns.
+Класс защиты (щит): +6 
+Класс защиты: +1 против дальнобойного оружия
+Штраф к проверкам за броню: -1
+Шанс провала заклинания: 5%
+Особенности:
+ Скорость: одна дополнительная атака в раунд
+Вес: 3 фунта~
+@10972    = ~Архидруид Каэрнах прославился своей коллекцией зачарованных вещей, большую часть из которых он изготовил своими руками. Самыми известными были его сапоги "Дыхание жизни" - там где ступали ноги Каэрнаха (одетые в эти сапоги), на земле начинали прорастать цветы и крошечные саженцы. Другие предметы друида, хоть и не были так известны, тоже внушали уважение. Взять, к примеру, этот серебряный серп, созданный для сбора священной омелы и отсекания голов врагов. Это необычное оружие представляет собой нечто среднее между традиционным серпом и мечом, по форме напоминая скимитар. Дубовая рукоять и сам серебряный клинок украшены декоративными узорами и завитками.
 
-STATISTICS:
+ПАРАМЕТРЫ:
 
-Damage:  1d6 + 1
-Attack Bonus: +1
-Enchantment:  +1
-Damage Type:  Slashing
-Special: 
-  Counts as a silver weapon
-  Each hit has a 10% chance to create a Goodberry in one of the wielder's quick item slots, or in a regular inventory slot if there are no empty quick item slots
-Weight:  4 lb.
-Feat Requirement:  Martial Weapon, Large Sword
-Type:  One-handed~
-@10974    = ~The arch-druid Caernach was known to carry a good many enchanted items, most of which he crafted with his own hands. Most famous were his boots, "Breath-of-Life," which left flowers and tiny saplings sprouting from the earth where Caernach strode. Still, the arch-druid's "lesser possessions" were nothing to scoff at - take, for instance, his silver sickle, fashioned to gather sacred mistletoe and the heads of enemies alike. This unusual weapon is actually a cross between a sickle and a proper sword, resembling a scimitar more than anything else. Both the oaken haft and silver blade are engraved with decorative swirls and patterns.
+Урон: 1d6+1
+Атака: +1
+Зачарование: +1
+Тип урона: рубящий
+Особенности:
+ Считается серебряным оружием
+ При попадании есть 10% шанс создать ягоду (как с помощью одноимённого заклинания) в одной из ячеек быстрого предмета или в ячейках снаряжения, если все ячейки быстрого доступа заняты
+Вес: 4 фунта
+Необходимая черта: Военное оружие, Большие мечи
+Тип: одноручное~
+@10974    = ~Архидруид Каэрнах прославился своей коллекцией зачарованных вещей, большую часть из которых он изготовил своими руками. Самыми известными были его сапоги "Дыхание жизни" - там где ступали ноги Каэрнаха (одетые в эти сапоги), на земле начинали прорастать цветы и крошечные саженцы. Другие предметы друида, хоть и не были так известны, тоже внушали уважение. Взять, к примеру, этот серебряный серп, созданный для сбора священной омелы и отсекания голов врагов. Это необычное оружие представляет собой нечто среднее между традиционным серпом и мечом, по форме напоминая скимитар. Дубовая рукоять и сам серебряный клинок украшены декоративными узорами и завитками.
 
-STATISTICS:
+ПАРАМЕТРЫ:
 
-Damage:  1d6 + 3
-Attack Bonus: +3 
-Enchantment:  +3
-Damage Type:  Slashing
-Special: 
-  Counts as a silver weapon
-  Each hit has a 20% chance to create a Goodberry in one of the wielder's quick item slots, or in a regular inventory slot if there are no empty quick item slots
-Weight:  4 lb.
-Feat Requirement:  Martial Weapon, Large Sword
-Type:  One-handed~
-@11080    = ~Delnar was a timid mage who never was one for adventure. He spent most of his life in quiet study, living with his mother, trying to learn the art of crafting magical items. Unfortunately, his mother had a habit of interrupting him at crucial points during the enchantment process, often with disastrous results. Delnar's Delight is so named because of the lack of interruptions during its construction (and may well be the only item made by Delnar that functions as intended).
+Урон: 1d6+3
+Атака: +3
+Зачарование: +3
+Тип урона: рубящий
+Особенности:
+ Считается серебряным оружием
+ При попадании есть 20% шанс создать ягоду (как с помощью одноимённого заклинания) в одной из ячеек быстрого предмета или в ячейках снаряжения, если все ячейки быстрого доступа заняты
+Вес: 4 фунта
+Необходимая черта: Военное оружие, Большие мечи
+Тип: одноручное~
 
-STATISTICS:
+@11080    = ~Делнар был робким магом, который никогда не любил приключения. Большую часть своей жизни он провёл в спокойной учёбе, живя со своей матерью и пытаясь постичь искусство создания зачарованных предметов. К сожалению, у матери Делнара была привычка отвлекать его в момент зачарования предметов, что частенько приводило к катастрофическим результатам. Посох "Отрада Делнара" назван так из-за того, что он был единственным не испорченным настырной мамашей творением волшебника (и единственным предметом, который работал именно так, как и задумывал мастер).
 
-Damage:  1d8 + 2
-Attack Bonus:  +2 
-Enchantment:  +2
-Damage Type:  Bludgeoning
-Special:
-  Electrical damage dealt by the wearer's spells and abilities is increased by 20%
-Weight: 4 lb.
-Feat Requirement:  Simple Weapon, Quarterstaff
-Type:  Two-handed~
-@11081    = ~Delnar's Lightning Staff~
-@11082    = ~Delnar was a timid mage who never was one for adventure. He spent most of his life in quiet study, living with his mother, trying to learn the art of crafting magical items. Unfortunately, his mother had a habit of interrupting him at crucial points during the enchantment process, often with disastrous results. Delnar's Magic Staff is notable for the lack of interruptions during its construction (and may well be the only item made by Delnar that functions as intended).
+ПАРАМЕТРЫ:
 
-STATISTICS:
+Урон: 1d8+2
+Атака: +2
+Зачарование: +2
+Тип урона: дробящий
+Особенности:
+ Урон магией, наносимый заклинаниями и способностями владельцем посоха увеличивается на 20%
+Вес: 4 фунта
+Необходимая черта: Простое оружие, Посохи
+Тип: двуручное~
+@11081    = ~Посох молнии Делнара~
+@11082    = ~Делнар был робким магом, который никогда не любил приключения. Большую часть своей жизни он провёл в спокойной учёбе, живя со своей матерью и пытаясь постичь искусство создания зачарованных предметов. К сожалению, у матери Делнара была привычка отвлекать его в момент зачарования предметов, что частенько приводило к катастрофическим результатам. "Посох молнии Делнара" возможно, единственное не испорченное настырной мамашей творение волшебника (и единственный предмет, который работал именно так, как и задумывал мастер).
 
-Damage:  1d8 + 5
-Attack Bonus:  +5
-Enchantment:  +5
-Damage Type:  Bludgeoning
-Special:
-  Electrical damage dealt by the wearer's spells and abilities is increased by 40%
-Weight: 4 lb.
-Feat Requirement:  Simple Weapon, Quarterstaff
-Type:  Two-handed~
-@10237    = ~It is said that these magnificent bracers were constructed in the Spine of the World Mountains, and not so long ago. On the coastline of the Sea of Moving Ice, there dwelled Prashnak, an abjurer -- and a stubborn one at that. Apparently Prashnak was having a great deal of difficulty fending off a relentless scourge of trolls, who no doubt were interested in nothing more than his dug out, well stationed bower. Prashnak used storms of acid to keep the trolls at bay. However the young mage was tiring of the constant attacks, and the trolls were becoming bolder.
+Урон: 1d8+5
+Атака: +5
+Зачарование: +5
+Тип урона: дробящий
+Особенности:
+ Урон электричеством, наносимый заклинаниями и способностями владельцем посоха увеличивается на 40%
+Вес: 4 фунта
+Необходимая черта: Простое оружие, Посохи
+Тип: двуручное~
+@10237    = ~Говорят, эти замечательные наручи были созданы в горах Хребта Мира, притом совсем недавно. На берегу моря Движущихся Льдов жил Прашнак, маг-отрицатель и довольно упрямый. Серьёзной проблемой для него были постоянные нашествия троллей, которых, без сомнения, привлекало исключительно удобное убежище волшебника. Прашнак отгонял троллей кислотным дождём. Однако нападения начали его утомлять, а тролли всё больше наглели.
 
-After several months of studying the various effects of wilting magic, elemental summoning, and magical methods of frosting, Prashnak was finally ready to try his experiment. After summoning a water elemental, Prashnak evaporated choice bodily components and then froze the hapless creature. This lead to the creation of truly horrific sculptures of ice. The trolls, as simple as they are, took extreme offense to these totems and reportedly fled the area. The experiment a gleaming success, the exultant Prashnak continues his woeful studies to this day. What manner of thief took hold of the bracers is unknown, but they have been missing for several years.
+Потратив несколько месяцев на изучение действия иссушающей магии, призывания элементалей и волшебных методов заморозки, Прашнак осуществил свой эксперимент. Призвав водного элементаля, он испарил из тела несчастного существа часть жидкости и заморозил его. Таким образом он возвёл в окрестностях своего жилища множество ужасных ледяных скульптур. Глуповатые тролли ужасно испугались этих тотемов и, по слухам, вообще сбежали из тех краёв. Увидев, что эксперимент увенчался успехом, Прашнак с новой силой взялся за свои жестокие изыскания и ведёт их по сей день. Какому вору удалось стащить эти наручи, неизвестно, но пропали они всего несколько лет назад.
 
-STATISTICS:
+ПАРАМЕТРЫ:
 
-Armor Class:  +3 (armor)
-Special:
-  Cold and magic damage dealt by the wearer's spells and abilities is increased by 20%
-Weight:  3 lb.~
-@12694    = ~It is said that these magnificent bracers were constructed in the Spine of the World Mountains, and not so long ago. On the coastline of the Sea of Moving Ice, there dwelled Prashnak, an abjurer -- and a stubborn one at that. Apparently Prashnak was having a great deal of difficulty fending off a relentless scourge of trolls, who no doubt were interested in nothing more than his dug out, well stationed bower. Prashnak used storms of acid to keep the trolls at bay. However the young mage was tiring of the constant attacks, and the trolls were becoming bolder.
+Класс защиты (доспех): +3 
+Особенности:
+ Урон холодом и магией, наносимый заклинаниями и способностями владельца этих наручей, увеличивается на 20%
+Вес: 3 фунта~
+@12694    = ~Говорят, эти замечательные наручи были созданы в горах Хребта Мира, притом совсем недавно. На берегу моря Движущихся Льдов жил Прашнак, маг-отрицатель и довольно упрямый. Серьёзной проблемой для него были постоянные нашествия троллей, которых, без сомнения, привлекало исключительно удобное убежище волшебника. Прашнак отгонял троллей кислотным дождём. Однако нападения начали его утомлять, а тролли всё больше наглели.
 
-After several months of studying the various effects of wilting magic, elemental summoning, and magical methods of frosting, Prashnak was finally ready to try his experiment. After summoning a water elemental, Prashnak evaporated choice bodily components and then froze the hapless creature. This lead to the creation of truly horrific sculptures of ice. The trolls, as simple as they are, took extreme offense to these totems and reportedly fled the area. The experiment a gleaming success, the exultant Prashnak continues his woeful studies to this day. What manner of thief took hold of the bracers is unknown, but they have been missing for several years.
+Потратив несколько месяцев на изучение действия иссушающей магии, призывания элементалей и волшебных методов заморозки, Прашнак осуществил свой эксперимент. Призвав водного элементаля, он испарил из тела несчастного существа часть жидкости и заморозил его. Таким образом он возвёл в окрестностях своего жилища множество ужасных ледяных скульптур. Глуповатые тролли ужасно испугались этих тотемов и, по слухам, вообще сбежали из тех краёв. Увидев, что эксперимент увенчался успехом, Прашнак с новой силой взялся за свои жестокие изыскания и ведёт их по сей день. Какому вору удалось стащить эти наручи, неизвестно, но пропали они всего несколько лет назад.
 
-STATISTICS:
+ПАРАМЕТРЫ:
 
-Armor Class:  +7 (armor)
-Special:
-  Cold and magic damage dealt by the wearer's spells and abilities is increased by 40%
-Weight:  3 lb.~
-@10147    = ~This ring appears to be made from ice and yet it does not melt. A slight inner glow beneath the surface betrays the magical nature of this ring.
+Класс защиты (доспех): +7
+Особенности:
+ Урон холодом и магией, наносимый заклинаниями и способностями владельца этих наручей, увеличивается на 40%
+Вес: 3 фунта~
+@10147    = ~Это кольцо, похоже, сделано изо льда, однако оно не тает. Лёгкое внутреннее свечение выдаёт магическое происхождение артефакта.
 
-STATISTICS:
+ПАРАМЕТРЫ:
 
-Resistance:  50/- Cold Resistance
-Cold damage dealt by the wearer's spells and abilities is increased by 20%
-Weight: 0 lb.~
-@10283    = ~Disredain was an eccentric wizard who became enthralled with the manipulation of electricity. In addition to the wands he created, Disredain made a number of experimental magic items during a fifteen-year period of frenzied research. This belt was one of the items he did not think highly of. Consisting of large, crescent-shaped slices of mottled copper sitting back to back, the belt is quite thick and unique in appearance. A cleric of Talos named Ylkath wore the Arcs for three decades before he died of old age. His companion, the Umberlant priestess Ashalla of the Jade Tide, kept the belt for barely three years before she was shot dead by pirates that survived one of her nautical attacks. The pirates sold the belt to a fence. Its history past that point is unknown.
+Сопротивление: 50/- сопротивления холоду
+Урон холодом, наносимый заклинаниями и способностями владельца этого кольца, увеличивается на 20%
+Вес: 0 фунтов~
+@10283    = ~Дисредейн был эксцентричным волшебником, который увлекался манипуляциями с электричеством. Помимо созданных им жезлов, за пятнадцатилетний период неистовых исследований Дисредейн изготовил несколько экспериментальных магических предметов. Этот пояс был одним из тех предметов, на которые Дисредейн не возлагал особых надежд. Состоящий из больших полумесяцев, сделанных из пятнистой меди и составленных друг за другом, этот пояс достаточно широк и обладает уникальным внешним видом. Жрец Талоса по имени Илкас носил этот пояс в течение тридцати лет, пока не умер от старости. Его спутница, жрица Амберли Ашалла из Нефритового прилива, носила этот пояс почти три года, прежде чем быть застреленной пиратами, пережившими её нападение в море. Пираты продали пояс скупщику, и его дальнейшая судьба не известна.
 
-STATISTICS:
+ПАРАМЕТРЫ:
 
-Electrical damage dealt by wearer's spells and abilities is increased by 15%
-Weight: 3 lb.~
-@10285    = ~Disredain was an eccentric wizard who became enthralled with the manipulation of electricity. In addition to the wands he created, Disredain made a number of experimental magic items during a fifteen-year period of frenzied research. This belt was one of the items he did not think highly of. Consisting of large, crescent-shaped slices of mottled copper sitting back to back, the belt is quite thick and unique in appearance. A cleric of Talos named Ylkath wore the Arcs for three decades before he died of old age. His companion, the Umberlant priestess Ashalla of the Jade Tide, kept the belt for barely three years before she was shot dead by pirates that survived one of her nautical attacks. The pirates sold the belt to a fence. Its history past that point is unknown.
+Урон электричеством, наносимый заклинаниями и способностями владельца этого пояса, увеличивается на 15%
+Вес: 3 фунта~
+@10285    = ~Дисредейн был эксцентричным волшебником, который увлекался манипуляциями с электричеством. Помимо созданных им жезлов, за пятнадцатилетний период неистовых исследований Дисредейн изготовил несколько экспериментальных магических предметов. Этот пояс был одним из тех предметов, на которые Дисредейн не возлагал особых надежд. Состоящий из больших полумесяцев, сделанных из пятнистой меди и составленных друг за другом, этот пояс достаточно широк и обладает уникальным внешним видом. Жрец Талоса по имени Илкас носил этот пояс в течение тридцати лет, пока не умер от старости. Его спутница, жрица Амберли Ашалла из Нефритового прилива, носила этот пояс почти три года, прежде чем быть застреленной пиратами, пережившими её нападение в море. Пираты продали пояс скупщику, и его дальнейшая судьба не известна.
 
-STATISTICS:
+ПАРАМЕТРЫ:
 
-Electrical damage dealt by wearer's spells and abilities is increased by 30%
-Weight: 3 lb.~
-@12524    = ~Since the age of Netheril, wizards have learned to bestow a wide variety of magical properties upon the everyday objects that surround them. A favorite item of such enchantment is the common robe. It is lightweight, affordable, and holds its enchantment well, thereby making it ideal equipment for a wizard.
+Урон электричеством, наносимый заклинаниями и способностями владельца этого пояса, увеличивается на 30%
+Вес: 3 фунта~
+@12524    = ~Ещё во времена Нетерила маги научились придавать магические свойства вещам, которые их окружают. Самым популярным предметом для наложения таких зачарований была обычная мантия. Она лёгкая, дешёвая и хорошо сохраняет зачарование, что делает её идеальным снаряжением для волшебника.
 
-STATISTICS:
+ПАРАМЕТРЫ:
 
-Fire damage dealt by wearer's spells and abilities is increased by 30%
-Resistance:  25/- Fire Resistance
-Weight:  3 lb.~
-@10049    = ~Fire can be the bringer of life, or the harvester of death. With the Flame Dance Talisman, both scenarios are true. Crafted by an unknown, yet clever sorcerer, the Flame Dance Talisman gave its wearer added protection against all sorts of melee attacks and had the power to launch a fireball three times per day at would-be attackers.
+Особенности:
+ Урон огнём, наносимый заклинаниями и способностями владельца этой робы, увеличивается на 30%
+ Сопротивление: 25/- сопротивления огню
+Вес: 3 фунта~
+@10049    = ~Огонь может дарить жизнь и отнимать её - это верно и для Талисмана пляски огня, созданного каким-то хитроумным колдуном. Талисман даёт своему владельцу дополнительную защиту от всех атак в ближнем бою, а также даёт возможность один раз в день выпустить во врагов огненный шар.
 
-STATISTICS:
+ПАРАМЕТРЫ:
 
-Generic Armor Bonus: +1
-Special:
- Fire damage dealt by the wearer's spells and abilities is increased by 15%
- Spell Power:  Can cast the spell Fireball (at level 10) three times per day
-Weight: 1 lb.~
-@10051    = ~Fire can be the bringer of life, or the harvester of death. With the Sunfire Talisman, both scenarios are true. Crafted by an unknown, yet clever sorcerer, the Sunfire Talisman gave its wearer added protection against all sorts of melee attacks and had the power to ignite a sunfire fireball three times per day at surrounding would-be attackers. In addition, if the would be attackers tried to turn the tables and attack the sorcerer with their own fire weapons, the Sunfire Talisman would grant its wearer added resistance to fire.
+Класс защиты (общий): +1 
+Особенности:
+ Урон огнём, наносимый заклинаниями и способностями владельца этого амулета, увеличивается на 15%
+ Заклинание: три раза в день может использовать заклинание "Огненный шар" (как заклинатель 10-ого уровня)
+Вес: 1 фунт~
+@10051    = ~Огонь может дарить жизнь и отнимать её - это верно и для Талисмана солнечного света, созданного каким-то хитроумным колдуном. Талисман даёт своему владельцу дополнительную защиту от всех атак в ближнем бою, а также даёт возможность один раз в день выпустить во врагов шар солнечного огня. А если нападающие сами попытаются использовать огонь, талисман придаст своему владельцу защиту и от него.
 
-STATISTICS:
+ПАРАМЕТРЫ:
 
-Generic Armor Bonus: +3
-Special:
- Resistance: 30/-  Fire Resistance
- Fire damage dealt by the wearer's spells and abilities is increased by 30%
- Spell Power:  Can instantly cast the spell Sunfire (at level 15, save DC 40) three times per day
-Weight: 1 lb.~
-@10384    = ~Wizard Robes of Cold Resistance are a common sight in the Sword Coast region, especially as one travels north towards Neverwinter and the Icewind Dales. Many young mages receive it as a gift from their instructors upon successfully completing their first five years of study.
+Класс защиты (общий): +3 
+Особенности:
+ Сопротивление: 30/- сопротивления огню
+ Урон огнём, наносимый заклинаниями и способностями владельца этого амулета, увеличивается на 30%
+ Заклинание: три раза в день может использовать заклинание "Солнечный огонь" (как заклинатель 15-ого уровня с УС 40)
+Вес: 1 фунт~
+@10384    = ~Волшебные мантии сопротивления холоду нередко встречаются на Побережье Меча, в особенности распространены они к северу, ближе к Невервинтеру и Долине Ледяного Ветра. Многие молодые волшебники получают их от своих преподавателей, отучившись пять лет.
 
-STATISTICS:
+ПАРАМЕТРЫ:
 
-Resistance:  20/- Cold Resistance
-All cold damage dealt by the character's spells and abilities is increased by 20%
-Weight:  3 lb.~
-@10398    = ~Due to the extremely volatile nature of most magics, Wizard Robes of Fire Resistance are not uncommon among young acolytes and their wizardly tutors.
+Особенности:
+ Сопротивление: 20/- сопротивления холоду
+ Урон холодом, наносимый заклинаниями и способностями владельца этой робы, увеличивается на 20%
+Вес: 3 фунта~
+@10398    = ~Из-за огнеопасной природы большинства видов магии многие молодые волшебники и их наставники носят волшебные мантии сопротивления огню.
 
-STATISTICS:
+ПАРАМЕТРЫ:
 
-Resistance:  20/- Fire Resistance
-All fire damage dealt by the character's spells and abilities is increased by 20%
-Weight:  3 lb.~
-@10400    = ~While seen with less frequency than some other Wizard Robes, those of Electrical Resistance can hardly be considered a rarity. Some are worn by paranoiacs seeking protection from a ragged mountain storm but many more are worn by mages seeking to protect themselves from the intrigues of others of their kind.
+Особенности:
+ Сопротивление: 20/- сопротивления огню
+ Урон огнём, наносимый заклинаниями и способностями владельца этой робы, увеличивается на 20%
+Вес: 3 фунта~
+@10400    = ~Хотя мантии сопротивления электричеству встречаются реже, чем некоторые другие магические мантии, их нельзя назвать редкостью. Порой их носят параноики, опасающиеся гроз в горах, но гораздо чаще их приобретают маги, желающие обезопасить себя от пакостей со стороны собратьев по ремеслу.
 
-STATISTICS:
+ПАРАМЕТРЫ:
 
-Resistance:  20/- Electrical Resistance
-All electrical damage dealt by the character's spells and abilities is increased by 20%
-Weight:  3 lb.~
+Особенности:
+ Сопротивление: 20/- сопротивления электричеству
+ Урон электричеством, наносимый заклинаниями и способностями владельца этой робы, увеличивается на 20%
+Вес: 3 фунта~
 @562    = ~PALADIN OF MYSTRA:
 
 Paladins of Mystra insure that the powers of the goddess of magic are not used for evil. They seek out evil spellcasters all over Faerun for the protection of civilization and to protect benign wizards from the repercussions of irresponsible magic use.
