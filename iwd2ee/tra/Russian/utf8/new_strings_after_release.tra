@@ -3117,87 +3117,87 @@
 Может читать заклинание "Истинное видение" раз в день
 Прочитанные владельцем мантии заклинания "Едкий туман Малавона" и "Ярость Малавона" не причиняют вреда союзникам
 Вес: 3 фунтов~
-@544    = ~STORMLORD OF TALOS:
+@544    = ~БУРЕВЛАДЫКА ТАЛОСА:
 
-Talos the Destroyer is the god of storms and destruction. The bane of many rangers and druids, Talos works his evil through the use of his priests, the Stormlords. Stormlords terrorize farming communities all across Faerun with threats of imminent doom if all do not appease the Destroyer. They are known for their abusive terrorism and their foolhardy nature.
+Талос не зря зовётся Разрушителем. Он повелевает бурями и силами разрушения. Проклинаемый многими следопытами и друидами, Талос творит своё зло с помощью своих жрецов, называемых Буревладыками. Они терроризируют фермерские общины по всему Фаэруну, угрожая неминуемой гибелью всем, кто не умилостивит Разрушителя. Буревладыки известны любовью к беспричинному террору и безрассудством.
 
-Advantages:
+Преимущества:
 
-* 5/- Electrical Resistance
-* Talos' Blessing 1/Day (for 1 round per cleric level, all electrical damage dealt by the priest's spells and abilities is increased by 30%)~
-@210    = ~Talos' Blessing
+* 5/- сопротивления электричеству
+* Благословение Талоса 1 раз в день (на 5 раундов урон электричеством, наносимый заклинаниями и способностями жреца, увеличивается на 30%)~
+@210    = ~Благословение Талоса
 
-For 1 round per cleric level, all electrical damage dealt by the priest's spells and abilities is increased by 30%.~
-@541    = ~ROGUE:
+На 5 раундов урон электричеством, наносимый заклинаниями и способностями жреца, увеличивается на 30%.~
+@541    = ~ПЛУТ:
 
-To accomplish his goals, for good or ill, the rogue is a skilled pilferer. Cunning, nimbleness, and stealth are his hallmarks. Whether he turns his talent against innocent passers-by and wealthy merchants or oppressors and monsters is a choice for the rogue to make.
+При достижении своих целей - хороших ли, плохих ли, плут полагается на хитрость и сноровку. Находчивость, пронырливость и скрытность - отличительные черты хорошего плута. Направит ли сей мошенник свои таланты против ни в чём не повинных прохожих и купцов или против угнетателей и чудовищ - решать ему самому.
 
-Hit Points per Level: 1-6
+Пунктов здоровья на уровень: 1-6
 
-Advantages:
-* Proficient with all simple weapons, bows, and light armor.
-* Rogues receive a larger number of skill points per level than any other character class. They can use these extra skill points to buy class skills like Disable Device to remove traps, Hide, Pick Pockets, and Use Magic Device.
-* Sneak Attack: Rogues can sneak attack enemies to deal an additional 1d6 damage, plus 1d6 per 2 levels after level 1. An attack counts as a sneak attack if it hits an enemy in the back, if it occurs within 2 seconds of coming out of stealth or invisibility, or if the target is paralyzed, held, stunned, sleeping, confused, feebleminded, grappled, or feinted. Shortswords, throwing daggers, darts, shortbows, composite shortbows, light crossbows, slings, clubs and unarmed attacks deal an extra die of sneak attack damage. Melee daggers deal two extra dice of sneak attack damage.
-* 2nd level: Evasion. When a rogue reaches 2nd level, he or she gains the ability to evade damage from area affect spells. Whenever a rogue makes a successful reflex save against an area effect spell that allows a reflex save for half damage, he or she takes no damage.
-* 3rd level: Uncanny Dodge. Rogues retain their Dexterity bonus to Armor Class if they are attacked by invisible foes.
-* 6th level: Improved Uncanny Dodge. Rogues can't be Sneak Attacked by another rogue unless the attacker is higher level.
-* 8th level: Disarm Complex Traps. Rogues of this level or higher are the only characters who can disarm traps with a DC of 20 or higher.
-* 10th level: Bonus Feat. The rogue gains a bonus feat, and also gains access to a number of new feats available only to rogues. These include Crippling Strike, Improved Evasion, Slippery Mind, Defensive Roll, and Opportunist. The rogue gains another bonus feat every 3 levels after level 10.
-* Rogues gain +1 to luck every 5 levels.
+Преимущества:
+* Изначально владеет всем простым оружием, луками, умеет носить лёгкие доспехи.
+* Плуты получают больше очков навыков за уровень, чем представители других классов. Эти дополнительные очки навыков они могут быть потрачены на такие классовые навыки, как "Обезвреживание устройств" (для устранения ловушек), "Незаметность", "Карманная кража" и "Использование магического устройства".
+* Скрытая атака: плуты могут атаковать врагов скрытой атакой, нанося им дополнительные 1d6 урона, плюс 1d6 за 2 уровня после первого. Атака считается скрытой, если она попадает врагу в спину, если она происходит в течение 2 секунд после выхода из скрытности или невидимости, или если цель парализована, удерживается, ошеломлена, спит, сбита с толку, слабоумна, схвачена или закована. Короткие мечи, метательные кинжалы, дротики, короткие луки, составные короткие луки, лёгкие арбалеты, пращи, булавы и безоружные атаки наносят дополнительный кубик урона от скрытой атаки. Кинжалы при ближней атаке наносят два дополнительных кубика урона от скрытой атаки.
+* 2-й уровень: Уклонение. Когда плут достигает 2-го уровня, он получает способность избегать урона от заклинаний по площади. Если плут выбрасывает против такого заклинания успешный спасбросок реакции и в обычных условиях этот спасбросок сокращает урон наполовину, плут не получает урона вообще.
+* 3-й уровень: Инстинктивное уклонение. Если на плута нападает невидимый враг, он сохраняет бонус ловкости к классу защиты.
+* 6-й уровень: Улучшенное инстинктивное уклонение: плута не может атаковать "Скрытой атакой" другой плут, если только он не выше его уровнем.
+* 8-й уровень: Обезвреживание сложных ловушек: только как минимум 8-ого уровня способны обезвреживать ловушки с УС 20 и выше.
+* 10-й уровень: Бонусная черта. Плут получает бонусную черту, а также для плута открываются новые черты, доступные только этому классу, включая "Калечащий удар", "Улучшенное уклонение", "Изворотливый ум", "Защитный перекат" и "Благоприятная возможность". Плут получает дополнительную бонусную черту каждые 3 уровня после десятого.
+* Плуты получают +1 к удаче каждые 5 уровней.
 
-Disadvantages:
-* Rogues have no spellcasting ability and poor toe-to-toe combat ability.~
-@223    = ~Arterial Strike
+Недостатки:
+* Плуты не могут читать заклинания и слабы в открытом поединке.~
+@223    = ~Удар по артерии
 
-While this ability is active, your sneak attacks deal 10 bleeding damage over 10 rounds. For every six rogue levels past 1 (i.e. at levels 7, 13, 19, and 25), you deal another 10 damage over the 10 rounds. This ability can be activated or deactivated at will as a free action., but it cannot be active at the same time as Hamstring.~
-@224    = ~Hamstring
+Пока эта способность активна, ваши скрытые атаки наносят на причиняют цели 10 урона кровотечением в течение 10 раундов. За каждые шесть уровней плута после 1-го (то есть на уровнях 7, 13, 19 и 25) урон кровотечением увеличивается еще на 10 в течении 10 раундов. Эта способность может быть активирована или деактивирована по желанию в качестве свободного действия, но она не может быть активирована одновременно со способностью "Подрезание сухожилия".~
+@224    = ~Подрезание сухожилия
 
-While this ability is active, your sneak attacks reduce the target's movement speed by 50% for 10 rounds (no save). Since this is a nonmagical effect, it bypasses Freedom of Movement. This ability can be activated or deactivated at will as a free action, but it cannot be active at the same time as Arterial Strike.~
-@702    = ~ARTERIAL STRIKE:
+Пока эта способность активна, ваши скрытые атаки снижают скорость передвижения цели на 50% на 10 раундов (без спасброска). Этот эффект является немагическим, поэтому он игнорирует эффекты заклинания "Свобода действий". Эта способность может быть активирована или деактивирована по желанию в качестве свободного действия, но она не может быть активирована одновременно со способностью "Удар по артерии".~
+@702    = ~УДАР ПО АРТЕРИИ:
 
-Your skill with sneak attacks allows you to cause a bleeding wound.
+Ваш навык скрытых атак позволяет вам наносить кровоточащие раны.
 
-Prerequisite: At least one level of rogue, base attack bonus +4 or higher.
+Требования: плут 1 уровня, базовый бонус атаки +4 или выше.
 
-Benefit: Gives the rogue an ability that causes their sneak attacks to inflict a bleeding wound that causes deals an extra 10 damage over 10 rounds. For every six rogue levels past 1 (i.e. at levels 7, 13, 19, and 25), the rogue deals another 10 damage over the 10 rounds. This ability cannot be active at the same time as Hamstring.~
-@734    = ~HAMSTRING:
+Действие: ваши скрытые атаки вызывают у цели кровотечение, которое нанесёт 10 пунктов урона в течение 10 раундов. За каждые шесть уровней плута после 1-го (то есть на уровнях 7, 13, 19 и 25) урон кровотечением увеличивается еще на 10 в течении 10 раундов. Эта способность не может быть активирована одновременно со способностью "Подрезание сухожилия".~
+@734 = ~ПОДРЕЗАНИЕ СУХОЖИЛИЯ:
 
-When making a sneak attack, your character can maim their target in such a way that their movement is significantly decreased.
+При выполнении скрытой атаки ваш персонаж может так покалечить врага, что тому станет значительно тяжелее двигаться.
 
-Prerequisite: At least three levels of rogue.
+Требования: по меньшей мере третий уровень в классе плута.
 
-Benefit:  Gives the rogue an ability that causes their sneak attacks to reduce the target's movement speed by 50% for 10 rounds. This is a nonmagical effect that bypasses Freedom of Movement. This ability cannot be active at the same time as Arterial Strike.~
-@735    = ~POWER ATTACK:
+Действие: позволяет плуту при попадании скрытой атакой снизить скорость передвижения цели на 50% на десять раундов. Этот эффект является немагическим, поэтому он игнорирует эффекты заклинания "Свобода действий". Эта способность не может быть активирована одновременно со способностью "Удар по артерии".~
+@735    = ~МОЩНАЯ АТАКА:
 
-You can make exceptionally powerful melee attacks.
+Вы можете проводить особо мощные атаки в ближнем бою.
 
-Prerequisite: Str 13+
+Требования: сила 13+
 
-Benefit: On your action, before making attack rolls for a round, you may choose to subtract a number from all melee attack rolls and add the same number to all melee damage rolls, or twice that number if you are wielding a two-handed weapon. This number may not exceed your base attack bonus. The penalty on attacks and bonus on damage apply until your next action.~
-@977    = ~Barbarian Rage
+Действие: при своей очереди действия, перед совершением броска атаки вы можете вычесть число из всех бросков атаки ближнего боя и добавить это же число к броскам урона (или добавить удвоенное число, если вы вооружены двуручным оружием). Это число не может превышать ваш бонус к базовой атаке. Штраф к атакам и бонус к урону действуют до вашего следующего действия.~
+@977    = ~Ярость варвара
 
-By entering a rage, the barbarian gains +4 to Strength and Constitution (which stack with other bonuses to Strength and Constitution), as well as a -2 AC penalty, +2 to Will saves, and immunity to fear, stun, sleep, charm, domination, confusion, unconsciousness, paralysis, feeblemind, and hopelessness. The rage lasts for 3 rounds. If the character has at least 5 barbarian levels, the rage also lasts a number of additional rounds equal to the barbarian's (newly improved) Constitution bonus. After raging the barbarian will be fatigued for three rounds, giving them a -2 penalty to Strength and Dexterity.~
-@525    = ~BARBARIAN:
+Ярость даёт +4 к силе и телосложению (эти бонусы суммируются с другими бонусами к силе и телосложению), а также штраф -2 к классу защиты, бонус +2 к спасброскам воли и иммунитет к страху, ошеломлению, сну, очарованию, подчинению, замешательству, потере сознания, параличу, слабоумию и чувству безнадёжности. Ярость длится 3 раунда. Если у персонажа есть хотя бы 5 уровней варвара, то к количеству раундов ярости добавляется текущий бонус телосложения (с учётом всех бонусов). После ярости варвар на три раунда испытывает усталость, дающую ему штраф -2 к силе и ловкости.~
+@525    = ~ВАРВАР:
 
-From the frozen wastes of the north and the hellish jungles of the south come brave, even reckless, warriors. While not as disciplined or as skilled as a normal fighter, the barbarian can willingly throw himself into a berserker rage, becoming a tougher and stronger opponent.
+Из ледяных пустошей севера и адских джунглей юга приходят отважные, и даже в какой-то степени, безрассудные воины. Хотя варвар не так дисциплинирован и не так искусен, как обычный боец, он может при необходимости впасть в ярость берсерка, став более жёстким и сильным противником.
 
-Hit points per level: 1-12
+Пунктов здоровья на уровень: 1-12
 
-Advantages:
-* Proficient with all simple and martial weapons, light armor, medium armor, and shields.
-* Barbarian Rage: Can rage once per day per every 4 levels (starts at 1st level with one use). Rage gives them +4 to Strength and Constitution (which stack with other bonuses to Strength and Constitution), as well as a -2 AC penalty, +2 to Will saves, and immunity to fear, stun, sleep, charm, domination, confusion, unconsciousness, paralysis, feeblemind, and hopelessness for 3 rounds. After raging the barbarian will be fatigued for three rounds, giving them a -2 penalty to Strength and Dexterity.
-* Fast Movement: Barbarians can move 10 feet faster than a standard character, provided they are not encumbered or wearing heavy armor.
-* 2nd level: Damage Reduction. The barbarian gains 1/- point of resistance to slashing, piercing, and bludgeoning damage. He or she gains 1/- additional point of resistance at levels 5, 8, 11, and every 3 levels thereafter. If the barbarian wears medium armor, the damage reduction granted by this feature is doubled.
-* 2nd level: Uncanny Dodge. Barbarians retain their Dexterity bonus to Armor Class if they are attacked by invisible foes.
-* 5th level: Improved Uncanny Dodge. Barbarians cannot be Sneak Attacked by rogues unless the attacker is higher level than the barbarian. Barbarian rage now lasts a number of additional rounds equal to the barbarian's newly improved Constitution bonus.
-* 11th level: Greater Rage. All of the barbarian's rages become greater rages, which increase the Strength and Constitution bonuses to +6 and the Will save bonus to +3. He or she still receives the -2 AC penalty.
-* 17th level: Tireless Rage. The barbarian is no longer fatigued after a rage.
-* 20th level: Mighty Rage. The barbarian's rage ability now grants +8 to Strength and Constitution and +4 to Will saves. For every 4 levels after level 20, barbarian rage will grant an additional +2 to Strength and Constitution and +1 to Will saves.
-* 21st level: Limitless Strength. The barbarian can now increase their Strength past 40.
+Преимущества:
+* Владеет всеми видами простого и воинского оружия, умеет носить лёгкую и среднюю броню, а также пользоваться щитами.
+* Ярость варвара: может впадать в ярость раз в день за каждые 4 уровня (начинает с 1-го уровня с одним использованием). Ярость даёт +4 к силе и телосложению (эти бонусы суммируются с другими бонусами к силе и телосложению), а также штраф -2 к классу защиты, бонус +2 к спасброскам воли и иммунитет к страху, ошеломлению, сну, очарованию, подчинению, замешательству, потере сознания, параличу, слабоумию и чувству безнадёжности. Ярость длится 3 раунда. После ярости варвар на три раунда испытывает усталость, дающую ему штраф -2 к силе и ловкости.
+* Быстрое передвижение: варвары могут передвигаться на 10 футов быстрее, чем обычные персонажи, если они не обременены грузом и не носят тяжёлую броню.
+* 2-й уровень: уменьшение урона. Варвар получает 1/- сопротивления колющему, режущему и дробящему урону. Он получает 1/- дополнительного сопротивления на 5, 8, 11 уровнях и каждые 3 уровня после этого. Если варвар носит среднюю броню, снижение урона, получаемое этой способностью, удваивается.
+* 2-й уровень: инстинктивное уклонение. Варвары сохраняют бонус ловкости к классу брони, если их атакуют невидимые враги.
+* 5-й уровень: улучшенное инстинктивное уклонение. Варвары не могут быть атакованы скрытой атакой плута, если только уровень атакующего не выше уровня варвара. Ярость теперь длиться дополнительно количество раундов, равное текущему (уже увеличенному от ярости) модификатору телосложения (другие бонусы к телосложению также увеличиваются)
+* 11-й уровень: исключительная ярость. С этого момента ярость варвара становится исключительной. Это увеличивает бонус к силе и телосложению до +6 и бонус к спасброскам воли до +3. Варвар всё ещё получает штраф -2 к классу защиты во время ярости.
+* 17-й уровень: неутомимая ярость. Варвар больше не испытывает усталость после ярости.
+* 20-й уровень: могучая ярость. Ярость теперь даёт +8 к силе и телосложению и +4 к спасброскам воли. За каждые четыре уровня выше двадцатого, бонусы к силе и телосложению увеличиваются на дополнительные +2, а спасбросок воли на +1.
+* 21-й уровень: Неограниченная сила. Сила варвара теперь может превышать 40.
 
-Disadvantages:
-* Barbarians gain feats at a slower rate than fighters.
-* Barbarians do not start with proficiency in heavy armor.~
+Недостатки:
+* Варвары получают черты медленнее, чем бойцы.
+* Варвары не умеют носить тяжёлую броню.~
 @527    = ~BARD:
 
 The bard's strength is his pleasant and charming personality. With it and his wits he makes his way through the world. A bard is a talented musician and a walking storehouse of gossip, tall tales, and lore. He learns a little bit about everything that crosses his path; he is a jack-of-all-trades but master of none. While many bards are scoundrels, their stories and songs are welcome almost everywhere.
