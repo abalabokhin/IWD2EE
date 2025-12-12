@@ -2424,59 +2424,59 @@
 Спасбросок: воли, отменяет
 
 Это заклинание позволяет заклинателю навсегда обрести полный контроль над другим существом, если цель завалит спасбросок воли с +4 к УС. В этом случае существо будет находиться под властью заклинателя до тех пор, пока не умрёт или эффект не будет рассеян. Это заклинание игнорирует сопротивление магии цели и работает даже на нежить и конструкты.~
-@308    = ~IMPROVED SNEAK ATTACK:
+@308    = ~УЛУЧШЕННАЯ СКРЫТАЯ АТАКА:
 
-Your sneak attacks are especially deadly.
+Ваши скрытные атаки особенно смертоносны.
 
-Prerequisite: 3 levels of rogue per rank in the feat (3, 6, 9, 12, 15)
+Требования: 3 уровня плута на уровень черты (3, 6, 9, 12, 15)
 
-Benefit: Your sneak attacks deal an additional 1d6 damage. This feat may be taken up to five times.~
-@730    = ~DODGE:
+Действие: ваши скрытые атаки наносят дополнительный урон 1d6. Эта черта может быть взята до 5 раз.~
+@730    = ~УКЛОНЕНИЕ:
 
-You are adept at dodging blows.
+Вы умеете ловко уклоняться от ударов.
 
-Prerequisite: Dex 13+. Taking the feat a second time requires 18 levels of rogue, Dex 25+, Improved Evasion, Defensive Roll.
+Требования: ловкость 13+. Для получения второго ранга черты требуется не менее 18 уровней плута, ловкость 25+, а также черты "Улучшенное уклонение" и "Защитный перекат".
 
-Benefit: You receive a +1 dodge bonus to armor class against attacks from an opponent.
+Действие: вы получаете +1 к классу защиты (уклонение) против атак противника.
 
-When taken a second time, the feat also allows you to automatically dodge the first attack that would hit you each round.~
-@23089=~Paragon Chimera~
-@24039=~Pounce~
-@24040=~20 damage resisted from weapon of less than +6 enchantment~
-@56035=~SPELLCRAFT (Int; Trained Only):
+На втором ранге черты вы к тому же автоматически уклоняетесь от первой попавшей в вас атаки в каждом раунде.~
+@23089=~Совершенная химера~
+@24039=~Прыжок~
+@24040=~20 урона снижено от оружия с зачарованием хуже чем +6~
+@56035= ~КОЛДОВСТВО (Интеллект; только с обучением)
 
-Use this skill to identify spells as they are cast or spells already in place.~
-@55369=~slashing~
-@55816=~Can not use item. (Requires <EXIUVAL1> Use Magic Device)~
-@55817=~You cannot set traps while enemies are nearby.~
-@55818=~You cannot set any more traps in this area.~
-@55819=~Sneak Attack with Crippling Strike (-<EXCRPEN1> Str)~
-@55820=~Death Attack with Crippling Strike (-<EXCRPEN1> Str)~
-@56057=~The walls of this room are warded against conventional means of teleportation, as well as incorporeal and ethereal travel.~
-@56058=~The walls of the Eight Chambers are warded against conventional means of teleportation, as well as incorporeal and ethereal travel.~
-@10390    = ~This robe has been specially enchanted to meet the eclectic needs of the adventuring wizard. Aside from protecting the wearer from various forms of bludgeoning damage and mind-affecting spells, it also allows the wearer to protect their adventuring party from their own fireballs.
+Этот навык может использовать для опознания заклинания во время прочтения, а также уже наложенных.~
+@55369=~рубящий~
+@55816=~Невозможно использовать предмет. (Требуется <EXIUVAL1> навыка "Использование магического устройства")~
+@55817=~Невозможно устанавливаться ловушки, пока поблизости находятся враги.~
+@55818=~Невозможно установить еще больше ловушек в этой области.~
+@55819=~Скрытая атака с калечащим ударом (-<EXCRPEN1> к силе)~
+@55820=~Смертельная атака с калечащим ударом (-<EXCRPEN1> к силе)~
+@56057=~Стены этой комнаты защищены от обычных средств телепортации, а также от бесплотных и эфирных перемещений.~
+@56058=~Стены Восьми Комнат защищены от обычных средств телепортации, а также от бесплотных и эфирных перемещений.~
+@10390    = ~Эта мантия была зачарована таким образом, чтобы соответствовать многообразным нуждам странствующего мага. Она защищает владельца не только от различных видов дробящего урона и заклинаний, влияющих на разум, но и также позволяет защитить своих сотоварищей от своих же огненных шаров.
 
-STATISTICS:
+ПАРАМЕТРЫ:
 
-Armor Class:  +5 vs. Bludgeoning
-Saving Throw Bonus:  +5 on Will saves
-Safe Spells: When the wearer casts an area of effect spell, allies make saving throws against the spell with -5 DC.
-Weight:  4 lb.~
-@841    = ~USE MAGIC DEVICE (Cha; Trained Only; Bard, Rogue Only):
+Класс защиты (доспех): +5 против дробящего оружия
+Спасброски: +5 к спасброскам воли
+Безопасные заклинания: Когда носитель читает заклинание, воздействующее на область, его союзники делают спасброски против этого заклинания с -5 к УС.
+Вес: 4 фунта~
+@841    = ~ИСПОЛЬЗОВАНИЕ МАГИЧЕСКОГО УСТРОЙСТВА (Харизма; только при наличии навыка; только плуты и барды)
 
-This skill allows a bard or rogue to use items normally forbidden to them. If the character's skill is greater than or equal to the threshold stated in an item's description, the character can use that item even if they do not meet its class, race, alignment, or ability score requirements. The threshold depends on the base price of the item and other factors.
+Этот навык даёт плутам и бардам возможность использовать предметы, которыми они изначально пользоваться не могут. Если навык персонажа превышает или равен пороговому значению, указанному в описании предмета, персонаж может использовать этот предмет, даже если он не соответствует требованиям по классу, расе, мировоззрению или параметрам. Пороговое значение зависит от базовой цены предмета и других факторов.
 
-Wands and scrolls are an exception; if the character cannot use them normally, rather than using the threshold system as above, they must roll a check with this skill. If the character fails to activate the item, that charge is destroyed and the user takes 1-6 points of magical damage per level of the effect they were attempting to invoke.~
-@56036=~Use Magic Device Threshold:~
-@732    = ~Improved Bard Song~
-@733    = ~IMPROVED BARD SONG:
+Исключение составляют жезлы и свитки: если персонаж не может использовать их обычным образом, вместо системы пороговых значений, описанной выше, он должен выполнить проверку этого навыка. Если персонаж не может активировать предмет, заряд уничтожается, а пользователь получает 1–6 очков магического урона за каждый уровень эффекта, который он пытался вызвать.~
+@56036=~Пороговое значение использования магического устройства:~
+@732    = ~Улучшенная песня барда~
+@733    = ~УЛУЧШЕННАЯ ПЕСНЯ БАРДА:
 
-Your bardic music especially resonates with the listeners.
+Ваша бардовская музыка особенно впечатляет слушателей.
 
-Prerequisite: At least three levels of bard.
+Требования: как минимум три уровня барда.
 
-Benefit: Any bard song you play that affects allies grants an additional +1 bonus to AC, attack, damage, saving throws, and skill checks. Any bard song you play that affects enemies gains +2 DC.~
-@890    = ~Dodged the attack~
+Действие: любая песня барда, исполняемая вами, которая влияет на союзников, дает дополнительный бонус +1 к классу защиты, атаке, урону, спасброскам и проверкам навыков. Любая песня барда, исполняемая вами, которая влияет на врагов, получает +2 к УС.~
+@890    = ~Атаку удалось избежать~
 @55928=~Toggle Buff Recording~
 @55929=~Erase Recording~
 @55930=~Cast Recorded Buffs~
