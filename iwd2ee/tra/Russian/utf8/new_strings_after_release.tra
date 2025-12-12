@@ -3198,34 +3198,34 @@
 Недостатки:
 * Варвары получают черты медленнее, чем бойцы.
 * Варвары не умеют носить тяжёлую броню.~
-@527    = ~BARD:
+@527    = ~БАРД:
 
-The bard's strength is his pleasant and charming personality. With it and his wits he makes his way through the world. A bard is a talented musician and a walking storehouse of gossip, tall tales, and lore. He learns a little bit about everything that crosses his path; he is a jack-of-all-trades but master of none. While many bards are scoundrels, their stories and songs are welcome almost everywhere.
+Сила барда - в его приятной и обаятельной личности. С помощью неё и своей смекалки он прокладывает себе путь в этом мире. Бард - талантливый музыкант и ходячий кладезь сплетен, небылиц и преданий. Он узнаёт понемногу обо всём, что встречается на его пути; он мастер на все руки, но не мастер ни в одном деле. Хотя многие барды - негодяи, их историям и песням рады почти везде.
 
-Hit Points per Level: 1-6
+Пунктов здоровья на уровень: 1-6
 
-Advantages:
-* Proficient with all simple weapons, light armor, medium armor, and shields. The bard is also proficient with large swords.
-* Gains one point in Armored Arcana, reducing arcane spell failure by 35%.
-* +1 to Alchemy, Knowledge (Arcana) and Spellcraft.
-* 2nd level: Spellcasting. Bards gain the ability to cast arcane spells.
-* Many rogue like skills are class skills of the Bard.
-* Bard Songs. Bards have the ability to sing melodies that have magical effects on creatures within thirty feet. As they advance in level, they gain additional songs. The songs are described in detail below.
-* 1st level: The Tale of Curran Strongheart. When played, all the bard's allies gain +1 attack bonus, +1 damage, and immunity to fear and hopelessness. The attack and damage bonuses increase by 1 at level 5 and every 5 levels thereafter.
-* 3th level: The Song of Kaudies. When played, the bard's allies are immune to harmful sound-based spells and abilities, including Command, Silence, Greater Command, Holy Word, Blasphemy, Power Word: Sleep, Sound Burst, Shout, Power Word: Silence, Power Word: Stun, Power Word: Blind, Great Shout, Wail of the Banshee, Power Word: Kill, Void Sound, harpy wails, and the enemy-only effects of Chant, Prayer, and Recitation.
-* 5th level: Tymora's Melody. When played, Tymora's Melody gives the bard's allies +1 luck, and +2 to skill checks (in addition to the +1 to skill checks granted by the luck). At level 15 and every 10 levels thereafter, this song grants an additional +1 to luck and +2 to skill checks.
-* 7th level: The bard may replace one of their known spells with another spell of the same level. They may do this once again every 3 levels after level 7. The bard can only replace spells at least two spell levels below the highest spell level they can cast (e.g. only a 1st-level spell when the bard reaches 7th level), though they can replace 7th-level spells starting at level 25, and 8th-level spells starting at level 28.
-* 9th level: The Siren's Yearning. When played, every enemy that hears the song must make a Will save or be enthralled, unable to take action for one round or until they take damage. The Will save DC is equal to 10 + 1/2 bard level + Charisma bonus.
-* 13th level: The War Chant of Sith. When played, the bard's allies gain a +2 generic armor bonus, physical damage resistance of 3/-, and they regenerate 3 points of damage per round in combat. At level 18 and every 10 levels thereafter, this song grants an additional +2 to AC, 3/- physical damage resistance, 3 hit points healed per round.
-* 40th level: The Ballad of Three Heroes. When played, the bard's allies gain 10/- resistance to all forms of magical damage, spell resistance set to 35 if lower, and the effects of the Tale of Curran Strongheart, Tymora's Melody, and the War Chant of Sith. At level 50, this song sets spell resistance to 40 if lower and grants another 10/- resistance to magical damage.
+Преимущества:
+* Владеет всеми видами простого оружия, умеет носить лёгкую и среднюю броню, а также пользоваться щитами. Бард также владеет большими мечами.
+* Получает один ранг в черте "Колдовство в доспехах", уменьшающей провал магических заклинаний на 35%.
+* +1 к навыкам "Алхимия", "Знание (Волшебство)" и "Колдовство".
+* Многие навыки плутов являются классовыми навыками барда.
+* Песни бардов. Барды умеют петь мелодии, которые оказывают магическое воздействие на существ в радиусе тридцати футов. По мере повышения уровня они получают дополнительные песни. Песни подробно описаны ниже.
+* 1-й уровень: Сага о Курране Храброе Сердце. При исполнении все союзники барда получают +1 к атаке, +1 к урону и иммунитет к страху и чувству безнадёжности. Бонусы к атаке и урону увеличиваются на 1 за каждые дополнительные 5 уровней.
+* 2-й уровень: владение заклинаниями. Барды получают способность читать магические заклинания.
+* 3-й уровень: Песня Каудиес. Когда бард играет эту песню, его союзники получают иммунитет к негативным заклинаниям и способностям, основанным на звуке, включая "Повеление", "Тишина", "Великое повеление", "Святое слово", "Богохульство", "Слово силы: Усыпить", "Взрыв звука", "Крик", "Слово силы: Тишина", "Слово силы: Ошеломить", "Слово силы: Ослепить", "Великий крик", "Вопль банши", "Слово силы: Убить", "Звук пустоты", воплям гарпий, а также к негативным эффектам заклинаний "Песнь", "Молитва", и "Декламация".
+* 5-й уровень: Мелодия Тиморы. При исполнении "Мелодии Тиморы" союзники барда получают +1 к удаче, +2 к проверкам навыков (в дополнение к +1 от удачи). На уровнях 15 и каждые 10 уровней после этого эта песня даёт дополнительно +1 к удаче, и +2 к проверке навыков.
+* 7-й уровень: бард может заменить одно из своих известных заклинаний другим заклинанием того же уровня. После 7-го уровня он может делать это ещё раз за каждые 3 уровня. Бард может заменить заклинания только на два уровня ниже самого высокого уровня заклинаний, которые он может произнести (например, только заклинание 1-го уровня, когда бард достигает 7-го уровня), хотя он может заменить заклинания 7-го уровня, начиная с 25-го уровня, и заклинания 8-го уровня, начиная с 28-го уровня.
+* 9-й уровень: Стон Сирены. При исполнении песни каждый враг, её услышавший, должен прокинуть спасбросок воли или будет очарован и неспособен действовать в течение одного раунда или до тех пор, пока не получит урон. УС равно 10 + 1/2 уровня барда + модификатор харизмы.
+* 13-й уровень: Боевая песнь Ситта. При исполнении этой песни союзники барда получают общий бонус к классу защиты +2, 3/- сопротивления физическому урону и восстанавливают 3 пункта урона за раунд в бою. На уровне 18 и каждые 10 уровней после этого эта песня даёт дополнительно +2 к классу защиты, 3/- сопротивления физическому урону, 3 пункта здоровья исцеления в раунд.
+* 40-й уровень: Баллада о трёх героях. При исполнении этой песни союзники барда получают сопротивление магии равное 35 (если было ниже), 10/- сопротивления всем видам магического урона, а также эффекты песен "Сага о Курране Храброе Сердце", "Мелодия Тиморы" и "Боевая песнь Ситта". На уровне 50 эта песня устанавливает сопротивление магии в 40 (если было ниже) и даёт дополнительное сопротивление 10/- магическому урону.
 
-A bard cannot benefit the party with more than one song at once. But if the party has multiple bards, the effects of each bard's song will stack. Summoned creatures do not benefit from bard songs.
+Бард не может играть более одной песни одновременно. Но если в партии есть несколько бардов, эффекты песен каждого из них будут суммироваться. Призванные существа не подвергаются эффектам песен барда.
 
-* 30th level: The bard can now do other actions while singing a bard song.
+* 30-й уровень: бард теперь может выполнять другие действия во время исполнения бардовской песни.
 
-Disadvantages:
-* Bards are not as effective in hand-to-hand combat as warriors or priests.
-* Bards have slower access to spells than a wizard or priest.~
+Недостатки:
+* Барды не так эффективны в рукопашном бою, как воины или священники.
+* Барды изучают заклинаниям медленнее, чем волшебники или священники.~
 @535    = ~MONK:
 
 Monks are warriors who pursue perfection through contemplation as well as action. They are versatile fighters, especially skilled in combat without weapons or armor. Though monks cannot cast spells, they have a unique magic of their own. They channel a subtle energy, called ki, which allows them to perform amazing feats. The monk's best-known feat is their ability to stun an opponent with an unarmed blow.
