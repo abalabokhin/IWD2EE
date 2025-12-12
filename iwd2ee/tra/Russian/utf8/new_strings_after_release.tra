@@ -2246,7 +2246,7 @@
 Зона действия: радиус 30 футов
 Спасбросок: реакции, половина урона
 
-Это заклинание, которое можно читать только на открытом воздухе, вызывает магический ливень в указанной зоне. Ливень даёт 5/- сопротивления огню, но -5 уязвимости к урону холодом и электричеством. Он также наносит урон 8d6 урона холодом существам, связанным с Планом огня. Кроме того, все существа в области действия заклинания подвергаются ударам молний, которые наносят 2d6 урона электрического урона (успешный спасбросок реакции позволяет сократить урон вдвое). Кроме того, в области действия заклинания обрываются действия заклинаний "Огненный клинок" и "Саван пламени", а также не действует аура саламандры.~
+Это заклинание, которое можно читать только на открытом воздухе, вызывает магический ливень в указанной зоне. Ливень даёт 5/- сопротивления огню, но -5 уязвимости к урону холодом и электричеством. Он также наносит урон 8d6 урона холодом существам Плана огня. Кроме того, все существа в области действия заклинания подвергаются ударам молний, которые наносят 2d6 урона электрического урона (успешный спасбросок реакции позволяет сократить урон вдвое). Кроме того, в области действия заклинания обрываются действия заклинаний "Огненный клинок" и "Саван пламени", а также не действует аура саламандры.~
 @1011    = ~Костяной круг
 (Некромантия)
 Уровень: священник 3
@@ -2267,163 +2267,163 @@
 Спасбросок: воли, отменяет
 
 Заклинатель получает возможность управлять целью, если она не сможет прокинуть спасбросок воли с +2 к УС. Во время действия заклинания существо, на которое оно наложено, не может читать заклинания и получает -2 к атаке, так как его разум затуманен. Это заклинание игнорирует сопротивление магии цели.~
-@1021    = ~Smashing Wave
-(Evocation)
-Level: Drd 5, Rgr 5
-Range: 40 feet
-Duration: Instantaneous
-Casting Time: 5
-Area of Effect: 5-foot wide wave
-Saving Throw: Reflex half
+@1021    = ~Сокрушительная волна 
+(Проявление)
+Уровень: друид 5, следопыт 5
+Дальность: 40 футов
+Длительность: мгновенно
+Время чтения: 5
+Зона действия: волна шириной 5 футов
+Спасбросок: реакции, половина урона
 
-This spell summons a wave of water that moves in the direction willed by the caster, striking all in its path with massive force. The wave deals 1d8 crushing damage per caster level (maximum 15d8), and every creature struck by the wave must make a Reflex save or be pushed back and knocked down for 1 round. Creatures of Elemental Fire are extremely vulnerable to this spell, taking double damage. This spell bypasses spell resistance.~
-@1023    = ~Circle of Blades
-(Evocation)
-Level: Clr 6, Pal 5, Helm 6, Tempus 6
-Range: Caster
-Duration: 2 rounds
-Casting Time: 9
-Area of Effect: 3-foot radius
-Saving Throw: Reflex half
+Это заклинание вызывает мощную водяную волну, которая движется в направлении, указанном заклинателем, сметая всё на своём пути. Волна наносит 1d8 дробящего урона на уровень заклинателя (до максимума 15d8) и каждое существо, поражённое волной и провалившее спасбросок реакции будет отброшено назад и сбито с ног на 1 раунд. Существа Плана огня, чрезвычайно уязвимые к этому заклинания, получают двойной урон. Это заклинание игнорирует сопротивление магии цели.~
+@1023    = ~Круг клинков
+(Проявление)
+Уровень: священник 6, паладин 5, жрец Хелма 6, жрец Темпуса 6
+Дальность: колдующий
+Длительность: 2 раунда
+Время чтения: 9
+Зона действия: радиус 3 фута
+Спасбросок: реакции, половина урона
 
-This spell conjures forth a wall of circling, razor-sharp blades that whirl and flash around the caster. Any creature attempting to pass through the blade barrier suffers 10d8 points of damage, bypassing spell resistance, with a successful Reflex save for half damage. This spell does not provoke an attack of opportunity. Circle of Blades cannot be active at the same time as Circle of Bones, as the bones and blades get in each other's way.~
-@32608    = ~Sol's Searing Orb
-(Evocation)
-Level: Clr 6, Drd 5, Rgr 5
-Range: Sight of Caster
-Duration: Instantaneous
-Casting Time: 6
-Area of Effect: 1 creature
-Saving Throw: Reflex half
+Это заклинание создаёт стену из острых как бритва, вращающихся лезвий, окружающих заклинателя. Любое существо, которое попытается преодолеть барьер из лезвий, получит 10d8 единиц урона, при этом сопротивление магии игнорируется. Успешный спасбросок реакции уменьшает повреждения вдвое. Это заклинание не провоцирует атаку при возможности. Это заклинание не может быть активно одновременно с заклинанием "Костяной круг", так как кости и клинки мешают друг другу.~
+@32608    = ~Обжигающий шар Сола
+(Проявление)
+Уровень: священник 6, друид 5, следопыт 5
+Дальность: обзор колдующего
+Длительность: мгновенно
+Время чтения: 6
+Зона действия: 1 существо
+Спасбросок: реакции, половина урона
 
-Upon completion of this spell the caster hurls a brilliant, blazing sphere at a target creature. When it hits it explodes in a flash of light, blinding the target creature and dealing 9d12 points of fire damage. A successful Reflex save avoids the blindness and halves the damage. Drow and gray dwarves must make their Reflex save against blindness with +4 DC. Undead creatures are particularly vulnerable to this spell and take double damage. This spell bypasses the spell resistance of creatures such as drow that are vulnerable to it.~
-@1592    = ~Sunbeam
-(Evocation)
-Level: Drd 8, Lathander 7
-Range: Sight of Caster
-Duration: 4 rounds
-Casting Time: 7
-Area of Effect: 15-foot radius
-Saving Throw: Reflex partial
+По прочтении этого заклинания, колдующий бросает в выбранное существо пылающую сферу. При попадании сфера взрывается вспышкой света, ослепляя цель и нанося ей 9d12 огненного урона. Успешный спасбросок реакции помогает жертве избежать ослепления и уменьшает урон вдвое. Дроу и серые дварфы кидают спасбросок реакции против ослепления с +4 к УС. Нежить особенно уязвима для этого заклинания и получает двойной урон. Это заклинание игнорирует сопротивление магии у существ, которые уязвимы к его действию (таких, как дроу).~
+@1592    = ~Солнечный луч
+(Проявление)
+Уровень: друид 8, жрец Латандера 7
+Дальность: обзор колдующего
+Длительность: 4 раунда
+Время чтения: 7
+Зона действия: радиус 15 футов
+Спасбросок: реакции, особый
 
-This spell allows the caster to evoke dazzling beams of intensely hot light. Every round, all creatures in the beam are blinded for 3 rounds and take 4d6 points of fire damage, or 16d6 damage over 4 rounds. A successful Reflex save negates the blindness and reduces the damage by half. Drow and gray dwarves take 8d6 damage per round and get no save against the blindness. Undead creatures, fungi, and oozes caught in the ray suffer 1d6 points of damage per caster level (maximum 20d6) per round. This spell bypasses the spell resistance of creatures such as drow that are vulnerable to the spell.~
-@34104     = ~Charm Person
-(Enchantment)
-Level: Brd 1, Sor/Wiz 1
-Range: Sight of Caster
-Duration: 5 rounds
-Casting Time: 1
-Area of Effect: 1 creature
-Saving Throw: Will negates 
+Заклинатель призывает ослепительный луч яркого и горячего света. Каждый раунд все попавшие под луч существа ослепляются на 3 раунда и получают 4d6 магического урона (16d4 за четыре раунда). Успешный спасбросок реакции отменяет слепоту и снижает урон вдвое. Дроу и серые дварфы получают 8d6 урона в раунд и ослепляются автоматически. Нежить, грибы, плесень, тина, слизь, попадая под луч, получают по дополнительно 1d6 очков урона за каждый уровень заклинателя (вплоть до 20d6) в раунд. Это заклинание игнорирует сопротивление магии у существ, которые уязвимы к его действию (таких, как дроу).~
+@34104     = ~Очаровать персонажа
+(Чародейство)
+Уровень: бард 1, колдун/волшебник 1
+Дальность: обзор колдующего
+Длительность: 5 раундов
+Время чтения: 1
+Зона действия: 1 существо
+Спасбросок: воли, отменяет
 
-This spell affects any single person it is cast upon. The term person includes any bipedal human, demihuman, or humanoid of man-size or smaller, such as brownies, dryads, dwarves, elves, gnolls, gnomes, goblins, half-elves, halflings, half-orcs, hobgoblins, humans, kobolds, lizard men, nixies, orcs, pixies, sprites, troglodytes, and others. Thus, a 10th-level fighter could be charmed, but an ogre could not. The person receives a Will save to avoid the effect.  If the spell recipient fails his saving throw, he regards the caster as a trusted friend and ally to be heeded and protected.  The caster may give him orders, and the charmed individual will carry them out as quickly as possible.
-If the caster harms, or attempts to harm, the charmed person by some overt action, or if a dispel magic spell is successfully cast upon the charmed person, the charm spell is broken.  If two or more charm effects simultaneously affect a creature, the most recent charm takes precedence.  Note that the subject has full memory of the events that took place while he was charmed. Also note that you cannot have a charmed creature leave the area where he was charmed. The target's Spell Resistance, if any, does not affect this spell.~
-@1681    = ~Color Spray
-(Illusion)
-Level: Brd 1, Sor/Wiz 1
-Range: Caster
-Duration: Instantaneous
-Casting Time: 1
-Area of Effect: 5' x 20' x 20' wedge 
-Saving Throw: Will negates 
+Это заклинание воздействует на любое "человекообразное" существо. Термин "человекообразный" подразумевает любое двуногое человекоподобное существо размером с человека или меньше, такое как домовой, дриада, дварф, эльф, гнолл, гном, гоблин, полуэльф, полурослик, полуорк, хобгоблин, человек, кобольд, человекоящер, русалка, орк, пикси, фея, троглодит и другие. Таким образом, боец 10-го уровня может быть очарован, а огр не может. Чтобы избежать эффекта, персонаж совершает спасбросок воли. Если цель заклинания проваливает спасбросок, она считает колдующего верным другом и союзником, которого нужно беречь и защищать. Колдующий может отдавать ему приказы, а очарованный персонаж будет тут же их выполнять.
+Если заклинатель причинит вред персонажу или попытается это сделать, или при успешном прочтении на очарованном персонаже заклинания "Развеивание магии", заклинание будет снято. Если на персонажа будет наложено два или более эффекта очарования, предпочтение будет отдано последнему. Учтите, что цель будет помнить обо всём, что случилось в то время, пока она была очарована. Помните также, что вы не можете заставить очарованное существо покинуть территорию, где оно было очаровано. Это заклинание игнорирует сопротивление магии (если оно есть) цели.~
+@1681    = ~Цветные брызги
+(Иллюзия)
+Уровень: бард 1, колдун/волшебник 1
+Дальность: колдующий
+Длительность: мгновенно
+Время чтения: 1
+Зона действия: треугольник со сторонами 5, 20 и 20 футов
+Спасбросок: воли, отменяет
 
-This spell creates a vivid, fan-shaped spray of clashing colors to spring forth from the caster's hand. The spell affects each creature caught in the area of effect according to its hit dice:
+Это заклинание создаёт яркий конус цветных брызг, вырывающийся из рук колдующего. Заклинание действует на всех оказавшихся в зоне действия существ. Тем не менее, эффект заклинания разнится в зависимости от уровня здоровья жертвы:
 
-Up to 2: Unconscious for 5 rounds
-3 or 4: Blinded for 3 rounds
-5 or more: Stunned for 1 round
+До 2: падает без сознания на 5 раундов
+3 или 4: ослепление на 3 раунда
+5 или выше: ошеломление на 1 раунд
 
-A successful Will save will negate the effect. Blind creatures are not affected by color spray. This spell does not provoke an attack of opportunity.~
-@34316     = ~Dire Charm
-(Enchantment)
-Level: Brd 2, Sor/Wiz 3, Bane 3
-Range: Sight of Caster
-Duration: 8 rounds
-Casting Time: 3 
-Area of Effect: 1 creature
-Saving Throw: Will negates
+Успешный спасбросок воли позволяет избежать эффекта заклинания. Заклинание не действует на слепых существ и не провоцирует атаку при возможности.~
+@34316     = ~Дикое очарование
+(Чародейство)
+Уровень: бард 2, колдун/волшебник 3, жрец Бейна 3
+Дальность: обзор колдующего
+Длительность: 8 раундов
+Время чтения: 3
+Зона действия: 1 существо
+Спасбросок: воли, отменяет
 
-This spell is similar to the Charm Person spell. However, the affected creature goes into a berserk state, wanting no one to harm his master (the spell caster). Thus, the creature will fight enemies of the caster, even former allies. Dire Charm can affect both humanoids and giants. This spell bypasses spell resistance.~
-@1091    = ~Lance of Disruption
-(Evocation)
-Level: Sor/Wiz 3
-Range: 60 feet
-Duration: Instantaneous
-Casting Time: 3
-Area of Effect: Special
-Saving Throw: Reflex half
+Это заклинание подобно заклинанию "Очаровать персонажа". Однако, выбранное существо приходит в бешенство, никому не позволяя притрагиваться к своему хозяину (заклинателю). Следовательно, это существо будет сражаться с врагами колдующего и даже бывшими союзниками. Это заклинание работает и на человекообразных существа и на великанов и игнорирует сопротивление магии цели.~
+@1091    = ~Копьё разрушения
+(Проявление)
+Уровень: колдун/волшебник 3
+Дальность: 60 футов
+Длительность: мгновенно
+Время чтения: 3
+Зона действия: особая
+Спасбросок: реакции, половина урона
 
-This spell creates a lance of force, extending from the caster to a specified point 60 feet in the distance. Any creatures in the lance's path take 5d4 points of piercing damage, +2 points of damage per level of the caster (maximum of +50). Victims can Reflex save for half damage. This spell bypasses spell resistance.~
-@1679    = ~Otiluke's Resilient Sphere
-(Evocation)
-Level: Sor/Wiz 4
-Range: Sight of Caster
-Duration: 4 rounds
-Casting Time: 1
-Area of Effect: 1 creature
-Saving Throw: Reflex negates
+Это заклинание создаёт силовую пику, которая тянется от колдующего на 60 футов. Любые существа на пути пики получают 5d4 единиц немагического дробящего урона, +2 единицы урона на уровень колдующего (вплоть до +50). Жертвы могут прокинуть спасбросок реакции, чтобы снизить урон вполовину. Это заклинание игнорирует сопротивление магии цели.~
+@1679    = ~Упругая сфера Отилука
+(Проявление)
+Уровень: колдун/волшебник 4
+Дальность: обзор колдующего
+Длительность: 4 раундов
+Время чтения: 1
+Зона действия: 1 существо
+Спасбросок: реакции, отменяет
 
-When this spell is cast, the result is a globe of shimmering force that encloses the subject creature. The resilient sphere will contain its subject for the duration of the spell. A non-allied creature can make a Reflex save with +8 DC to dodge the spell. The sphere is completely immune to all damage; the only method of removing the sphere is by the use of a Dispel Magic spell. Hence the creature caught inside the globe is completely safe from all attacks, but at the same time is completely unable to affect the outside world. This spell bypasses spell resistance.~
-@1107    = ~Domination
-(Enchantment)
-Level: Brd 5, Sor/Wiz 6, Bane 5
-Range: Sight of Caster
-Duration: 3 rounds / level
-Casting Time: 5 
-Area of Effect: 1 creature
-Saving Throw: Will negates 
+Это заклинание создаёт сферу искрящейся энергии, которая окружает выбранное существо. Упругая сфера будет сдерживать существо в течение всего времени действия заклинания. Не дружественные к заклинателю существа могут прокинуть спасбросок реакции с +8 к УС, чтобы избежать действия заклинания. Эта сфера абсолютно нечувствительна к любому повреждению, и единственный способ убрать её - использовать заклинание "Развеять магию". Существо в этой сфере находится в полной безопасности от всех внешних воздействий, но в то же время совершенно неспособно влиять на внешний мир. Это заклинание игнорирует сопротивление магии цели.~
+@1107    = ~Подчинение
+(Чародейство)
+Уровень: бард 5, колдун/волшебник 6, жрец Бейна 5
+Дальность: обзор колдующего
+Длительность: 3 раунда/уровень
+Время чтения: 5
+Зона действия: 1 существо
+Спасбросок: воли, отменяет
 
-The domination spell enables the caster to control the actions of any creature while the spell is in effect. This control is maintained through a telepathic link between the caster and the victim. The target gets a Will save with +2 DC in order to avoid the effect. This spell bypasses spell resistance.~
-@1814    = ~Mass Dominate
-(Enchantment) 
-Level: Brd 8, Sor/Wiz 9, Bane 9
-Range: Sight of Caster
-Duration: 1 round/level
-Casting Time: 9
-Area of Effect: 20-foot radius
-Saving Throw: Will negates
+Заклинатель получает возможность управлять действиями цели в течение всего времени действия заклинания. Это управление происходит посредством телепатической связи между заклинателем и жертвой. Успешный спасбросок воли с +2 к УС позволяет избежать воздействия заклинания. Это заклинание игнорирует сопротивление магии цели.~
+@1814    = ~Массовое подчинение
+(Чародейство)
+Уровень: бард 8, колдун/волшебник 9, жрец Бейна 9
+Дальность: обзор колдующего
+Длительность: 1 раунд/уровень
+Время чтения: 9
+Зона действия: радиус 20 футов
+Спасбросок: воли, отменяет
 
-This spell forces all creatures not allied with the caster in the area of effect to Will save or be dominated as if affected by the spell Dominate Person. Undead are unaffected by this spell. This spell bypasses spell resistance.~
-@36956     = ~Tornado
-(Evocation)
-Level: Drd 9
-Range: Sight of Caster
-Duration: 3 rounds
-Casting Time: 9
-Area of Effect: 15-foot radius
-Saving Throw: None
+Все существа, оказавшиеся в зоне действия заклинания, подчиняются колдующему, словно под действием заклинания "Подчинение" 5-го уровня. Успешный спасбросок воли отменяет эффект. На нежить заклинание не действует. Это заклинание игнорирует сопротивление магии.~
+@36956     = ~Торнадо
+(Проявление)
+Уровень: друид 9
+Дальность: обзор колдующего
+Длительность: 3 раунда
+Время чтения:  9
+Зона действия: радиус 15 футов
+Спасбросок: нет
 
-A more powerful version of the spell Whirlwind, the spell creates a tornado at the target point that moves randomly. Creatures that come within 15 feet of the tornado get sucked up into it, taking 3d8 slashing damage per second that they stay inside it. Creatures are usually ejected from the tornado after about a round. Huge creatures such as frost giants and dragons aren't sucked up into the tornado but still take damage while in the area of effect. Only one tornado may be active at a time. This spell can only be cast outdoors and bypasses spell resistance.~
-@38251     = ~Identify Creature
-(Divination)
-Level: Brd 2, Drd 2, Rgr 2, Sor/Wiz 2
-Range: Sight of Caster
-Duration: Instantaneous
-Casting Time: 2
-Area of Effect: 1 creature
-Saving Throw: None
+Более мощная версия заклинания "Вихрь", это заклинание создаёт в целевой точке торнадо, которое движется случайным образом. Существа, оказавшиеся в радиусе 15 футов от торнадо, засасываются в него, получая 3d8 колющего урона за секунду пребывания в нём. Обычно существа выбрасываются из торнадо примерно через раунд. Огромные существа, такие как морозные великаны и драконы, не засасываются в торнадо, но всё равно получают урон, находясь в зоне его действия. Одновременно может быть активно только одно торнадо. Это заклинание можно прочитать только на открытом пространстве и оно игнорирует сопротивление магии.~
+@38251     = ~Опознание существа
+(Прорицание)
+Уровень: бард 2, друид 2, следопыт 2, колдун/волшебник 2
+Дальность: обзор колдующего
+Длительность: мгновенно
+Время чтения:  2
+Зона действия: 1 существо
+Спасбросок: нет
 
-Identify Creature reveals useful combat information about the target creature. The information includes the creature's level, current and maximum hit points, number of attacks per round, ability scores, resistances, saving throws, and various other traits that depend on the creature. This spell bypasses spell resistance.~
-@38653     = ~Boulder Roll
-(Conjuration)
-Level: Drd 6, Sor/Wiz 6
-Range: Special
-Duration: Instantaneous
-Casting Time: 4
-Area of Effect: All creatures in path of boulder
-Saving Throw: Reflex partial
+Это заклинание раскрывает полезную боевую информацию о целевом существе. Информация включает в себя уровень существа, текущее и максимальное количество пунктов здоровья, количество атак в раунд, параметры, сопротивления, модификаторы спасбросков и различные другие характеристики, зависящие от существа. Это заклинание игнорирует сопротивление магии цели.~
+@38653     = ~Катящийся валун
+(Призывание)
+Уровень: друид 6, колдун/волшебник 6
+Дальность: особая
+Длительность: мгновенно
+Время чтения:  4
+Зона действия: Все существа на пути валуна
+Спасбросок: реакции, особый
 
-Boulder Roll creates a large boulder, which rolls forward from the caster, crushing creatures in its path, until it hits a wall. Creatures hit take 12d8 bludgeoning damage and are knocked down for 2 rounds. A successful Reflex save halves the damage and prevents one from being knocked down. The boulder bypasses spell resistance and always travels due south from the caster.~
-@38853     = ~Enslave
-(Enchantment)
-Level: Brd 7, Sor/Wiz 8
-Range: Sight of Caster
-Duration: Permanent
-Casting Time: 8
-Area of Effect: 1 creature
-Saving Throw: Will negates
+Это заклинание создаёт большой валун, который катится от заклинателя, сокрушая существ на своём пути, пока не врежется в стену. Попавшие под удар существа получают 12d8 дробящего урона и сбиваются с ног на 2 раунда. Успешный спасбросок реакции уменьшает урон вдвое и предотвращает сбивание с ног. Это заклинание игнорирует сопротивление магии, и валун всегда движется на юг от заклинателя.~
+@38853     = ~Поработить
+(Чародейство)
+Уровень: бард 7, колдун/волшебник 8
+Дальность: обзор колдующего
+Длительность: постоянная
+Время чтения:  8
+Зона действия: 1 существо
+Спасбросок: воли, отменяет
 
-This spell allows the caster to permanently gain full control of another creature. The target must make a Will saving throw with +4 DC. If it fails, it is dominated by the caster until it dies or the effect is dispelled. Enslave bypasses spell resistance and can even affect undead and constructs.~
+Это заклинание позволяет заклинателю навсегда обрести полный контроль над другим существом, если цель завалит спасбросок воли с +4 к УС. В этом случае существо будет находиться под властью заклинателя до тех пор, пока не умрёт или эффект не будет рассеян. Это заклинание игнорирует сопротивление магии цели и работает даже на нежить и конструкты.~
 @308    = ~IMPROVED SNEAK ATTACK:
 
 Your sneak attacks are especially deadly.
