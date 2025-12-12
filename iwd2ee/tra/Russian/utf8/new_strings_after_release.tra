@@ -2847,275 +2847,276 @@
 Спасбросок: нет
 
 Это заклинание даёт колдующему 5/- сопротивления всем видам урона, +5 к классу защиты (общий), устанавливает сопротивление магии в 30 (если было меньше) и даёт +5 ко всем спасброскам.~
-@10157    = ~A ring is a small band of precious metal that is used as jewelry. Some rare rings have had enchantments placed upon them that confer various magical abilities. These rings are highly sought after, especially by those of the adventuring profession. For no apparent reason, this ring feels warm to the touch.
+@10157    = ~Кольцо - это небольшая полоска драгоценного металла, используемая как украшение. Изредка встречаются кольца, которые зачарованы и обладают различными магическими свойствами. Такие кольца очень высоко ценятся, особенно среди искателей приключений. Это кольцо тёплое на ощупь.
 
-STATISTICS:
+ПАРАМЕТРЫ:
 
-Spell Resistance: Set to 22 if lower
-Weight: 0 lb.~
-@10173    = ~Few have heard of the (literally) short-lived underground movement against the Hosttower of the Arcane called the Circle of Ice - nor the rings that came to mark the members of the organization, both in life and in death.
+Сопротивление: сопротивление магии устанавливается в 22 если ниже
+Вес: 0 фунтов~
+@10173    = ~Немногие знают об очень недолговечном (буквально) подпольном движении против магов Великой Башни Тайны под названием "Круг льда" и о том, что членов этой организации при жизни и после неё можно было узнать по особым кольцам.
 
-The Circle of Ice was sponsored by a merchant from Waterdeep whose name has been burned from recorded history by the Hosttower. Apparently, after being forced to debase himself before the Hosttower during a trading agreement in Luskan (and being forced to surrender much of his cargo), the merchant became obsessed with wiping the Hosttower from the face of Faerun. Commissioning wizards in Waterdeep to fashion a score of rings for him, he set about using the last of his remaining wealth to hire a band of wizard slayers to bring about the downfall of the Hosttower. These twenty wizard slayers made arrangements to travel north on their own and rendezvous with the merchant in Luskan. 
+"Круг льда" существовал на средства одного купца из Вотердипа, чьё имя позже было вычеркнуто из хроник Великой Башни. По всей видимости, после того, как во время торгового соглашения в Лускане этот купец был сильно унижен (а так же был вынужден за бесценок отдать большую часть своих товаров), он стал одержим идеей стереть Великую башню с лица Фаэруна. Поручив волшебникам в Вотердипе изготовить для него несколько колец, он решил использовать оставшееся у него богатство, чтобы нанять группу из двадцати убийц волшебников для уничтожения магов Великой башни. Эти убийцы должны были самостоятельно отправиться на север и встретиться с торговцем в Лускане.
 
-Ironically enough, the merchant never wore one of these rings, which was key in exposing and defeating the movement. As soon as he returned to Luskan, his mind was picked apart by telepaths and his movements scried, and each wizard slayer and accomplice was noted, identified, and ultimately led into deathtraps where their rings proved no match against the summoned monsters and arrows of slaying wielded by the ambush parties. It is rumored that only one wizard slayer, Martek, escaped the Hosttower, and to this day, he has never been found, which has been a constant source of irritation to the mages.
+Иронично, но сам купец никогда не носил ни одного из этих колец, что послужило раскрытию и уничтожению всей организации. Как только этот торговец добрался до Лускана, его разум был прочтён магами-телепатами, а личности всех убийц волшебников установлены. В конечном счёте, все заговорщики были завлечены в смертельные ловушки, где их кольца оказались не в состоянии противостоять призванным монстрам и смертельным стрелам. Говорят, что только одному из этих убийц, Мартеку, удалось выбраться из Великой Башни, и найти его так и не удалось, что очень раздражало магов башни.
 
-In any event, the Circle of Ice died a quick, silent death in Luskan, but the merchant lived on as a toy of the Hosttower, serving them until death, at which point, his corpse was stored in their laboratories. It is most likely his preserved body will end up as the left arm of a flesh golem named Bok many years from now. 
+Как бы то ни было, "Круг льда" был быстро и тихо разгромлён в Лускане, а вот сам купец стал игрушкой магов Великой Башни, служа им до самой смерти, после чего его тело было отправлено в лабораторию. Скорее всего, через много лет из его тела сделают левую руку голема из плоти по имени Бок.
 
-These small bands of Cold Reflection appear to be made of crystallized ice, very cold to the touch, and they cannot be seen by a wizard unless the wizard knows they are there. 
+Эти маленькие кольца холодного отражения кажутся сделанными изо льда и очень холодны на ощупь. Кроме того, эти кольца может увидеть только волшебник, который знает, где они должны находиться.
 
-If your band contains one that fancies him or herself a wizard slayer, perhaps these rings may be used for the purpose they were intended... but without the shortsightedness of foolish merchants handicapping your efforts. 
- 
-STATISTICS:
+Если в вашей группе есть тот, кто считает себя убийцей волшебников, то он может использовать это кольцо по назначению... и при этом не опасаться разделить участь несчастного купца.
 
-Spell Resistance: Set to 26 if lower
-Weight: 0 lb.~
-@10175    = ~During the formation of the Circle of Ice resistance movement against the wizards of the Hosttower of the Arcane, many special rings were forged for the wizard slayers of the organization to help them fend off the magical powers of their opponents.
+ПАРАМЕТРЫ:
 
-The organization and the forging of the rings was sponsored by a merchant from Waterdeep whose name has been burned from the annals of history by the Hosttower. Apparently, after being forced to debase himself before the Hosttower during a trading agreement in Luskan (and being forced to surrender much of his cargo), the merchant became obsessed with wiping the Hosttower from the face of Faerun. Commissioning wizards in Waterdeep to fashion a score of rings for him, he set about using the last of his remaining wealth to hire a band of wizard slayers to bring about the downfall of the Hosttower. These twenty wizard slayers made arrangements to travel north on their own and rendezvous with the merchant in Luskan. 
+Особенности:
+ Сопротивление магии: устанавливается в 26 если ниже
+Вес: 0 фунтов~
+@10175    = ~Во время формирования движения "Круг Льда", борющегося с волшебниками Великой Башни Тайны, было выковано множество специальных колец для убийц волшебников, состоящих в этом движении, чтобы помочь им противостоять магическим атакам.
 
-There was one wizard slayer named Martek, however, who ignored the rings offered by the merchant, and knowing the danger and guile of the Hosttower, instead commissioned a special ring from a dwarven ally that would provide him additional wards against spells and charms. Once the other members of the Circle of Ice began to be murdered in Luskan after the Hosttower learned their identities, Martek used the power of his enhanced ring to shield himself from the scrying of the Hosttower wizards and escape southwards. He eventually returned the ring to his dwarven ally, who sold it to a merchant making his way for Bryn Shander.
+И сам "Круг льда" и изготовление колец существовали на средства одного купца из Вотердипа, чьё имя позже было вычеркнуто из хроник Великой Башни. По всей видимости, после того, как во время торгового соглашения в Лускане этот купец был сильно унижен (а так же был вынужден за бесценок отдать большую часть своих товаров), он стал одержим идеей стереть Великую башню с лица Фаэруна. Поручив волшебникам в Вотердипе изготовить для него несколько колец, он решил использовать оставшееся у него богатство, чтобы нанять группу из двадцати убийц волшебников для уничтожения магов Великой башни. Эти убийцы должны были самостоятельно отправиться на север и встретиться с торговцем в Лускане.
 
-This Cold Steel Reflection ring differs from the other Circle of Ice rings in that it seems to have a ring of steel beneath the icy exterior of the ring - much like Martek himself.
+Был, однако, один убийца волшебников по имени Мартек, который отказался от кольца, предложенного торговцем, и, зная об опасности и коварстве Великой Башни, предпочёл заказать другое кольцо у своего союзника-дварфа. Это кольцо должно было обеспечить ему дополнительную защиту против заклинаний и чар. Когда других членов "Круга Льда" начали убивать в Лускане, после того, как Великая башня узнала их личности, Мартек воспользовался силой своего кольца для того, чтобы защититься от колдовства магов башни и сбежал на юг. В конце концов, он вернул кольцо своему союзнику-дварфу, а тот продал его торговцу, направляющемуся в Брин Шандер.
 
-STATISTICS:
+Это кольцо, называемое "Отражение холодной стали" отличается от других колец "Круга Льда" тем, что под его ледяной оболочкой проходит стальной стержень - что неплохо характеризует и самого Мартека.
 
-Special:
-  Spell Resistance: Set to 36 if lower
-  Spell Power:  Can cast the 6th level Wizard Spell Globe of Invulnerability (at level 30) once per day
-Weight: 0 lb.~
-@10392    = ~This powerful Wizard Robe offers protection from all forms of physical attack while at the same time increasing one's magical resistance and saving throws. Due to the nature of its enchantment, it can only be worn by those of good alignment.
+ПАРАМЕТРЫ:
 
-STATISTICS:
+Особенности:
+ Сопротивление магии: устанавливается в 36 если ниже
+ Заклинание: Может применять заклинание волшебника 6го уровня "Сфера неуязвимости" (на уровне заклинателя 30-ого уровня) один раз в день
+Вес: 0 фунтов~
+@10392    = ~Эта мощная магическая мантия защищает владельца от всех видов физических атак, в то же время повышая сопротивление магии и улучшая спасброски. Она зачарована таким образом, что носить её могут только добрые волшебники.
 
-Generic Armor Bonus: +5
-Spell Resistance: Set to 25 if lower
-Saving Throw:  +3 bonus
-The wearer's spells gain +3 DC
-Weight:  6 lb.~
-@10394    = ~This powerful Wizard Robe offers protection from all forms of physical attack while at the same time increasing one's magical resistance and saving throws. Due to the nature of its enchantment, it can only be worn by those of neutral alignment.
+ПАРАМЕТРЫ:
 
-STATISTICS:
+Класс защиты (общий): +5
+Сопротивление магии: устанавливается в 25 если ниже
+Спасброски: +3
+УС заклинаний, прочитанных носителем мантии увеличивается на 3
+Вес: 6 фунтов~
+@10394    = ~Эта мощная магическая мантия защищает владельца от всех видов физических атак, в то же время повышая сопротивление магии и улучшая спасброски. Она зачарована таким образом, что носить её только волшебники нейтрального мировоззрения.
 
-Generic Armor Bonus: +5
-Spell Resistance: Set to 25 if lower
-Saving Throw:  +3 bonus
-The wearer's spells gain +3 DC
-Weight:  6 lb.~
-@10396    = ~This powerful Wizard Robe offers protection from all forms of physical attack while at the same time increasing one's magical resistance and saving throws. Due to the nature of its enchantment, it can only be worn by those of evil alignment.
+ПАРАМЕТРЫ:
 
-STATISTICS:
+Класс защиты (общий): +5 
+Сопротивление магии: устанавливается в 25 если ниже
+Спасброски: +3
+УС заклинаний, прочитанных носителем мантии увеличивается на 3
+Вес: 6 фунтов~
+@10396    = ~Эта мощная магическая мантия защищает владельца от всех видов физических атак, в то же время повышая сопротивление магии и улучшая спасброски. Она зачарована таким образом, что носить её могут только злые волшебники.
 
-Generic Armor Bonus: +5
-Spell Resistance: Set to 25 if lower
-Saving Throw:  +3 bonus
-The wearer's spells gain +3 DC
-Weight:  6 lb.~
-@10454    = ~Leather armor, despite the popular misconception, is not soft and supple like the leather used to make a ranger's boots or a druid's robe. That kind of leather offers no better protection than common clothing. Magical enchantments enhance the protective abilities of this leather armor.
+ПАРАМЕТРЫ:
 
-STATISTICS:
+Класс защиты (общий): +5 
+Сопротивление магии: устанавливается в 25 если ниже
+Спасброски: +3
+УС заклинаний, прочитанных носителем мантии увеличивается на 3
+Вес: 6 фунтов~
+@10454    = ~Кожаный доспех, вопреки расхожему мнению, делается вовсе не из такой же мягкой и гибкой кожи, которая используется для изготовления сапог для следопыта или мантии для друида. Изделия из такой мягкой кожи защищают не лучше обычной одежды. Магическое зачарование улучшает защитные свойства этого кожаного доспеха.
 
-Light Armor
-Armor Bonus: +3
-Max Dex Bonus:  +6
-Armor Check Penalty:  -0
-Arcane Spell Failure:  10%
-Special:
-  Spell Resistance: Set to 14 if lower
-Weight: 10 lb.~
-@10560    = ~Duergar master artisans forged this armor of dull gray steel. Runes cunningly worked into its surface reflect spells as well as blows, and the armor weighs only half as much as a typical suit of plate mail.
+ПАРАМЕТРЫ:
 
-STATISTICS:
+Лёгкая броня
+Класс защиты (доспех): +3 
+Максимальный бонус ловкости: +6
+Штраф к проверкам за броню: -0
+Шанс провала заклинания: 10%
+Особенности:
+ Сопротивление магии: устанавливается в 12 если ниже
+Вес: 10 фунтов~
+@10560    = ~Этот доспех выкован из серой стали дуэргарскими мастерами. Выгравированные на нём хитроумные руны отражают как заклинания, так и удары. При всём этом, доспех весит вдвое легче, чем обычные латы.
 
-Heavy Armor
-Armor Bonus: +11
-Max Dex Bonus:  +0
-Armor Check Penalty:  -6
-Arcane Spell Failure:  40%
-Special:
-  Resistance: 5/- Magic Damage Resistance
-  Spell Resistance: Set to 21 if lower
-  Light Weight
-Weight: 20 lb.~
-@10562    = ~Duergar master artisans forged this armor of dull gray steel. Runes cunningly worked into its surface reflect spells as well as blows, and the armor weighs only half as much as a typical suit of plate mail.
+ПАРАМЕТРЫ:
 
-STATISTICS:
+Тяжёлая броня
+Класс защиты (доспех): +11 
+Максимальный бонус ловкости: +0
+Штраф к проверкам за броню: -6
+Шанс провала заклинания: 40%
+Особенности:
+ Сопротивление: 5/- сопротивления магическому урону
+ Сопротивление магии: устанавливается в 21 если ниже
+ Лёгкость: мало весит
+Вес: 20 фунтов~
+@10562    = ~Этот доспех выкован из серой стали дуэргарскими мастерами. Выгравированные на нём хитроумные руны отражают как заклинания, так и удары. При всём этом, доспех весит вдвое легче, чем обычные латы.
 
-Heavy Armor
-Armor  Bonus: +13
-Max Dex Bonus:  +0
-Armor Check Penalty:  -6
-Arcane Spell Failure:  40%
-Special:
-  Resistance: 10/- Magic Damage Resistance
-  Spell Resistance: Set to 32 if lower
-  Light Weight
-Weight: 20 lb.~
-@10606    = ~This massive shield is nearly as tall as the wielder. Basically, it is a portable wall meant to provide cover. It can provide up to total cover, depending on how far you come out from behind it. A tower shield, however, does not provide cover against targeted spells; a spellcaster can cast a spell on you by targeting the shield you are holding. This shield has runes scribed onto it that glow eerily in dim light.
+ПАРАМЕТРЫ:
 
-STATISTICS:
+Тяжёлая броня
+Класс защиты (доспех): +13 
+Максимальный бонус ловкости: +0
+Штраф к проверкам за броню: -6
+Шанс провала заклинания: 40%
+Особенности:
+ Сопротивление: 10/- сопротивления магическому урону
+ Сопротивление магии: устанавливается в 32 если ниже
+ Лёгкость: мало весит
+Вес: 20 фунтов~
+@10606    = ~Этот массивный щит по высоте может быть ростом со своего владельца. По сути, это переносная стена, за которой можно укрыться. Если из-за него не высовываться, вы будете полностью защищены от оружия врага. Однако осадный щит не спасает от заклинаний, так как может быть использован в качестве цели для заклинания. На этот щит нанесены руны, слабо сияющие потусторонним светом.
 
-Shield Bonus: +6
-Special:
-  Spell Resistance: Set to 22 if lower
-  Attack Penalty: -2
-Armor Check Penalty:  -10
-Arcane Spell Failure:  50%
-Weight: 25 lb.~
-@10894    = ~The holy avenger is the paladin's ultimate weapon against the forces of evil. There are few creatures on the Lower Planes that would not hesitate to confront a holy warrior wielding such a weapon... and this one, perhaps more so than others. Once, it was nothing more than a simple iron sword, but through the courage and faith of one man, it became something more.
+ПАРАМЕТРЫ:
 
-The blade of this holy avenger glows with a soft golden light. Inscribed upon the hilt in flowing gold letters is "Cera Sumat," which translates into "Six, now Silenced."  Cera Sumat earned its name through the labors of elderly duke Kholsa Ehld, a man cresting nearly eighty years of age, who vowed to complete a task that the greatest warriors of three kingdoms feared to do... all because of the weeping of a child. 
+Класс защиты (щит): +6 
+Штраф к проверкам за броню: -10
+Шанс провала заклинания: 50%
+Особенности:
+ Атака: -2
+ Сопротивление магии: устанавливается в 22 если ниже
+Вес: 25 фунтов~
+@10894    = ~Святая кара - главное оружие паладинов, созданное для борьбы с силами зла. Немного найдётся существ на Нижних Планах, которые без колебаний встретят святого воина, вооружённым таким оружием... а уж в особенности этим клинком. Когда-то это был всего лишь простой железный меч, но благодаря храбрости и вере одного-единственного воина он стал чем-то большим.
 
-The times in which Old Duke Ehld lived were ones of great upheaval, and the servitors of Bane were strong, crushing all that stood in their way. Entire kingdoms feared their wrath, and to speak out against them meant death, so many remained silent and turned their eyes from the evils of Bane and his servants. 
+Клинок этого святого мстителя светится неярким золотистым светом. На эфесе струящимися золотыми буквами начертано "Сера Сумат", что переводится как "Шестеро, ныне замолчавшие". Такое имя этот меч заслужил благодаря деяниям старого герцога Хользы Эльда, воина, в возрасте почти восьмидесяти лет поклявшегося выполнить задание, которого страшились величайшие воины трёх королевств... исключительно из-за слёз одного ребёнка.
 
-During these dark times, the most terrible of Bane's minions were six who called themselves the Lost Followers. Their souls were storms of avarice and hate, and mighty were the powers at their command. They reveled in strife and tyranny... and for all the blood they shed, it was never enough. 
+Времена, в которые жил старый герцог Эльд, были временами великих потрясений. Слуги Бейна были сильны, сокрушая всех, кто вставал на их пути. Их гнева боялись целые королевства; слово, сказанное против них, означало смерть, так что многие молчали, делая вид, что не замечают злодейств, творимых Бейном и его прислужниками.
 
-Together, the Lost Followers brought about the downfall of the Silver Court, slaying its king upon his throne and renaming his once-beautiful nation the Barbed Kingdom. After animating his decapitated corpse and having it march through the streets slaying anyone it could find, they brought a rain of fire down upon the city and the lands around, leaving it a barren wasteland. It is said that they dined in the capital's great hall that night as the land burned, and they raised their wine glasses as the screams of the dying reached their peak. 
+В эти тёмные времена самыми ужасными из приспешников Бейна были шестеро, звавшие себя Пропавшими Поборниками. В их душах бушевала алчность и ненависть, а в их власти были могущественные силы. Они упивались раздором и тиранией... и сколько бы крови они ни пролили, им всё было мало.
 
-There was only one survivor. In their last act of malice, the Lost Followers left the king's only daughter, barely five years old, alive to reign as "Queen" over the burned kingdom. They called her the Weeping Queen and cast wards about her so that she might never leave the empty capital, and then left her to starve. Their appetite momentarily slaked, the Lost Followers parted ways and went upon their separate roads of damnation, sowing strife in the Bane's Name.
+Вместе Пропавшие Поборники низвергли Серебряный Двор, убив короля на его троне и переименовав некогда красивую страну в Шипастое Королевство. Оживив обезглавленный труп монарха, они заставили его пройти по улицам, где тот убивал каждого встреченного. После этого, они обрушили на город и окрестные земли огненный дождь, оставляющий после себя лишь бесплотную пустошь. Говорят, в ту ночь, когда всё горело, они обедали в большом зале гостиницы, и поднимали бокалы с вином, когда крики умирающих звучали особенно громко.
 
-Old Duke Ehld was the first one to cross the wards of the Barbed Kingdom and seek out the Weeping Queen upon her father's throne. When he found the small girl, he approached, kneeled before her, and told her he had come to pledge his life in her service. In stiff, formal words, he said he had brought food and water and apologized for his lateness, but his bones were old and it had taken him some time to reach this place. The near-starving child stared at him as he pledged his worn blade and his honor to seeing that the ones who had done this terrible crime answered for their actions, if his Queen wished it. After a long, stunned silence, the Weeping Queen found the words to thank him.
+В городе был только один выживший. В своей непомерной жестокости Пропавшие Поборники оставили в живых девочку, которой едва исполнилось пять лет, чтобы она стала "правительницей" выжженного королевства. Они назвали девочку "Плачущей Королевой", наложили на неё заклятье, не дающее ей покинуть пустую столицу, а затем оставили её умирать от голода. На этом они удовлетворились достигнутым и разошлись в разные стороны, сеять раздор во имя Бейна.
 
-From the moment Ehld left the throne room in search of the Lost Followers, the weeping of the queen ended, and she never wept again. 
+Старый герцог Эльд был первым, кто прошёл через охранные заклинания наложенные на Шипастое Королевство и разыскал Плачущую Королеву на троне её отца. Найдя девочку, он подошёл к ней, преклонил колени и сказал, что пришёл отдать свою жизнь ей в услужение. Строгим, официальным тоном, он сообщил, что принёс еду и воду, и извинился за опоздание, посетовав на то, что его старые кости уже не те и ему потребовалось какое-то время, чтобы добраться до этого места. Умирающее с голоду дитя изумлённо смотрело, как Эльд поклялся своим видавшим виды мечом и своей честью, что заставит тех, кто учинил это ужасное преступление, ответить за содеянное, если того пожелает его королева. После долгого молчания Плачущая Королева нашла слова, чтобы поблагодарить старого герцога.
 
-Over six years, Ehld traveled the lands of Faerun and across the planes themselves, seeking the Six, and asking them to answer for their crimes. Each scoffed at the old man and his worn-looking blade, only to find him a dangerous opponent... and in the end, the victor. He recorded the events of their death upon a stone set into the pommel of his blade, and there was even regret in his writings that he had not been able to enlighten the Lost Followers to turn from their path before it came to its end.
+С того момента, как Эльд покинул тронный зал и отправился на поиски Пропавших Поборников, королева перестала плакать и не плакала больше никогда.
 
-When the last of the Six had answered for their crimes upon the edge of the Cera Sumat blade, Ehld returned to the Weeping Queen and laid the blade at her feet. Where once it had been a tarnished blade, it shone as brightly as the sun, and the stone in the pommel was covered with the writing of his journeys. He detached the stone, and set into a chain, and he gave it to the Weeping Queen. Ehld told her to keep the chain to wear as a reminder of the many evils of the world and that they are never far from one's heart... but if one's heart is true and one's path is righteous, one may triumph against any number of evils.
+Шесть лет Эльд странствовал по землям Фаэруна и даже по другим планам, разыскивая Шестерых и призывая к ответу. Каждый из них насмехался над стариком и его изношенным клинком, но потом обнаруживал в нём грозного соперника. Шесть раз старый герцог выходил победителем из схваток. Хронику смертей злодеев он вёл на камне, вделанном в рукоять его меча, и в этих записях сквозило сожаление о том, что он не смог увести Пропавших Поборников с их порочного пути, прежде чем он подошёл к концу.
 
-Duke Ehld outlived his queen, living to the age of 107, at which point Ehld took his Cera Sumat and left the Barbed Kingdom... and is said to have traveled north. In time, the Barbed Kingdom rose to its former glory and its name was changed, and with it, the fate of Cera Sumat and the Medallion of the Lost Followers was forgotten... until your arrival in Kuldahar and the medallion and the Holy Avenger were united once again to meet the Lost Followers in battle one final time. 
+Когда от Сера Сумат пал последний из Шестерых, Эльд вернулся к Плачущей Королеве и возложил клинок к её ногам. Некогда тусклый, ныне он сиял как солнце, а камень в рукояти был покрыт письменами, повествующими о странствиях герцога. Эльд вынул камень из рукояти меча, подвесил его на цепочку и подарил Плачущей Королеве, чтобы та носила этот медальон, как напоминание о зле, живущем в мире... и о том, что если сердце кого-либо справедливо и путь праведен, ему не страшно никакое зло.
 
-But the story of Ehld and Cera Sumat was a story of another time, and of the adventures of another hero. This is now your time, and your epic. If your band counts a paladin among its number, then this ancient blade is yours to wield against the forces of evil... 
+Герцог Эльд пережил свою королеву. В возрасте 107 лет, он взял свой клинок и покинул Шипастое Королевство. Говорят, он отправился на север. Со временем Шипастое Королевство обрело былую славу, его название было изменено, а вместе с этим и забылась история о Сера Сумат и Медальоне Пропавших Поборников... до вашего прибытия в Кулдахар, когда медальон был вновь объединён со Святой карой, чтобы встретиться с Пропавшими Поборниками в последней битве.
 
-And perhaps, if your heart is true, save a land from destruction once again. 
+Но история Эльда и Сера Сумат - это история другого времени и другого героя. Сейчас настало ваше время и эта история про вас. Если у вас в отряде есть паладин, то этот древний клинок - ваш, чтобы сразиться с силами зла...
 
-STATISTICS:
+И, быть может, если ваше сердце справедливо, снова спасти мир от разрушения.
 
-Damage:  1d8 + 5
-Attack Bonus: +5
-Enchantment:  +5
-Damage Type:  Slashing
-Special:
-  Spell Resistance: Set to 30 if lower
-  Holy Avenger: +2d6 magic damage against evil creatures. This bonus damage is doubled against fiends and undead. Counts as a good-aligned weapon.
-  Dispelling: Dispel Magic on target with each hit (Will DC 21). Striking an ally dispels magic on them with no save.
-Weight:  5 lb.
-Feat Requirement:  Martial Weapon, Large Sword
-Type:  One-handed~
+ПАРАМЕТРЫ:
+
+Урон: 1d8+5
+Атака: +5
+Зачарование: +5
+Тип урона: рубящий
+Особенности:
+ Сопротивление магии: устанавливается в 30 если ниже
+ Святая кара: +2d6 против злых существ, этот дополнительный урон удваивается если цель нежить или исчадие, и оружие считается добрым
+ Рассеивание: развеивает магию на цели при попадании (успешный спасбросок воли с УС 21 позволяет избежать эффекта), на союзниках этот эффект срабатывает без спасброска
+Вес: 5 фунтов
+Необходимая черта: Военное оружие, Большие мечи
+Тип: одноручное~
 //@10895    = ~Light of Cera Sumat~
-@10896    = ~The holy avenger is the paladin's ultimate weapon against the forces of evil. There are few creatures on the Lower Planes that would not hesitate to confront a holy warrior wielding such a weapon... and this one, perhaps more so than others. Once, it was nothing more than a simple iron sword, but through the courage and faith of one man, it became something more.
+@10896    = ~Святая кара - главное оружие паладинов, созданное для борьбы с силами зла. Немного найдётся существ на Нижних Планах, которые без колебаний встретят святого воина, вооружённым таким оружием... а уж в особенности этим клинком. Когда-то это был всего лишь простой железный меч, но благодаря храбрости и вере одного-единственного воина он стал чем-то большим.
 
-The blade of this holy avenger glows with a soft golden light. Inscribed upon the hilt in flowing gold letters is "Cera Sumat," which translates into "Six, now Silenced."  Cera Sumat earned its name through the labors of elderly duke Kholsa Ehld, a man cresting nearly eighty years of age, who vowed to complete a task that the greatest warriors of three kingdoms feared to do... all because of the weeping of a child. 
+Клинок этого святого мстителя светится неярким золотистым светом. На эфесе струящимися золотыми буквами начертано "Сера Сумат", что переводится как "Шестеро, ныне замолчавшие". Такое имя этот меч заслужил благодаря деяниям старого герцога Хользы Эльда, воина, в возрасте почти восьмидесяти лет поклявшегося выполнить задание, которого страшились величайшие воины трёх королевств... исключительно из-за слёз одного ребёнка.
 
-The times in which Old Duke Ehld lived were ones of great upheaval, and the servitors of Bane were strong, crushing all that stood in their way. Entire kingdoms feared their wrath, and to speak out against them meant death, so many remained silent and turned their eyes from the evils of Bane and his servants. 
+Времена, в которые жил старый герцог Эльд, были временами великих потрясений. Слуги Бейна были сильны, сокрушая всех, кто вставал на их пути. Их гнева боялись целые королевства; слово, сказанное против них, означало смерть, так что многие молчали, делая вид, что не замечают злодейств, творимых Бейном и его прислужниками.
 
-During these dark times, the most terrible of Bane's minions were six who called themselves the Lost Followers. Their souls were storms of avarice and hate, and mighty were the powers at their command. They reveled in strife and tyranny... and for all the blood they shed, it was never enough. 
+В эти тёмные времена самыми ужасными из приспешников Бейна были шестеро, звавшие себя Пропавшими Поборниками. В их душах бушевала алчность и ненависть, а в их власти были могущественные силы. Они упивались раздором и тиранией... и сколько бы крови они ни пролили, им всё было мало.
 
-Together, the Lost Followers brought about the downfall of the Silver Court, slaying its king upon his throne and renaming his once-beautiful nation the Barbed Kingdom. After animating his decapitated corpse and having it march through the streets slaying anyone it could find, they brought a rain of fire down upon the city and the lands around, leaving it a barren wasteland. It is said that they dined in the capital's great hall that night as the land burned, and they raised their wine glasses as the screams of the dying reached their peak.
+Вместе Пропавшие Поборники низвергли Серебряный Двор, убив короля на его троне и переименовав некогда красивую страну в Шипастое Королевство. Оживив обезглавленный труп монарха, они заставили его пройти по улицам, где тот убивал каждого встреченного. После этого, они обрушили на город и окрестные земли огненный дождь, оставляющий после себя лишь бесплотную пустошь. Говорят, в ту ночь, когда всё горело, они обедали в большом зале гостиницы, и поднимали бокалы с вином, когда крики умирающих звучали особенно громко.
 
-There was only one survivor. In their last act of malice, the Lost Followers left the king's only daughter, barely five years old, alive to reign as "Queen" over the burned kingdom. They called her the Weeping Queen and cast wards about her so that she might never leave the empty capital, and then left her to starve. Their appetite momentarily slaked, the Lost Followers parted ways and went upon their separate roads of damnation, sowing strife in the Bane's Name.
+В городе был только один выживший. В своей непомерной жестокости Пропавшие Поборники оставили в живых девочку, которой едва исполнилось пять лет, чтобы она стала "правительницей" выжженного королевства. Они назвали девочку "Плачущей Королевой", наложили на неё заклятье, не дающее ей покинуть пустую столицу, а затем оставили её умирать от голода. На этом они удовлетворились достигнутым и разошлись в разные стороны, сеять раздор во имя Бейна.
 
-Old Duke Ehld was the first one to cross the wards of the Barbed Kingdom and seek out the Weeping Queen upon her father's throne. When he found the small girl, he approached, kneeled before her, and told her he had come to pledge his life in her service. In stiff, formal words, he said he had brought food and water and apologized for his lateness, but his bones were old and it had taken him some time to reach this place. The near-starving child stared at him as he pledged his worn blade and his honor to seeing that the ones who had done this terrible crime answered for their actions, if his Queen wished it. After a long, stunned silence, the Weeping Queen found the words to thank him.
+Старый герцог Эльд был первым, кто прошёл через охранные заклинания наложенные на Шипастое Королевство и разыскал Плачущую Королеву на троне её отца. Найдя девочку, он подошёл к ней, преклонил колени и сказал, что пришёл отдать свою жизнь ей в услужение. Строгим, официальным тоном, он сообщил, что принёс еду и воду, и извинился за опоздание, посетовав на то, что его старые кости уже не те и ему потребовалось какое-то время, чтобы добраться до этого места. Умирающее с голоду дитя изумлённо смотрело, как Эльд поклялся своим видавшим виды мечом и своей честью, что заставит тех, кто учинил это ужасное преступление, ответить за содеянное, если того пожелает его королева. После долгого молчания Плачущая Королева нашла слова, чтобы поблагодарить старого герцога.
 
-From the moment Ehld left the throne room in search of the Lost Followers, the weeping of the queen ended, and she never wept again. 
+С того момента, как Эльд покинул тронный зал и отправился на поиски Пропавших Поборников, королева перестала плакать и не плакала больше никогда.
 
-Over six years, Ehld traveled the lands of Faerun and across the planes themselves, seeking the Six, and asking them to answer for their crimes. Each scoffed at the old man and his worn-looking blade, only to find him a dangerous opponent... and in the end, the victor. He recorded the events of their death upon a stone set into the pommel of his blade, and there was even regret in his writings that he had not been able to enlighten the Lost Followers to turn from their path before it came to its end.
+Шесть лет Эльд странствовал по землям Фаэруна и даже по другим планам, разыскивая Шестерых и призывая к ответу. Каждый из них насмехался над стариком и его изношенным клинком, но потом обнаруживал в нём грозного соперника. Шесть раз старый герцог выходил победителем из схваток. Хронику смертей злодеев он вёл на камне, вделанном в рукоять его меча, и в этих записях сквозило сожаление о том, что он не смог увести Пропавших Поборников с их порочного пути, прежде чем он подошёл к концу.
 
-When the last of the Six had answered for their crimes upon the edge of the Cera Sumat blade, Ehld returned to the Weeping Queen and laid the blade at her feet. Where once it had been a tarnished blade, it shone as brightly as the sun, and the stone in the pommel was covered with the writing of his journeys. He detached the stone, and set into a chain, and he gave it to the Weeping Queen. Ehld told her to keep the chain to wear as a reminder of the many evils of the world and that they are never far from one's heart... but if one's heart is true and one's path is righteous, one may triumph against any number of evils.
+Когда от Сера Сумат пал последний из Шестерых, Эльд вернулся к Плачущей Королеве и возложил клинок к её ногам. Некогда тусклый, ныне он сиял как солнце, а камень в рукояти был покрыт письменами, повествующими о странствиях герцога. Эльд вынул камень из рукояти меча, подвесил его на цепочку и подарил Плачущей Королеве, чтобы та носила этот медальон, как напоминание о зле, живущем в мире... и о том, что если сердце кого-либо справедливо и путь праведен, ему не страшно никакое зло.
 
-Duke Ehld outlived his queen, living to the age of 107, at which point Ehld took his Cera Sumat and left the Barbed Kingdom... and is said to have traveled north. In time, the Barbed Kingdom rose to its former glory and its name was changed, and with it, the fate of Cera Sumat and the Medallion of the Lost Followers was forgotten... until your arrival in Kuldahar and the medallion and the Holy Avenger were united once again to meet the Lost Followers in battle one final time.
+Герцог Эльд пережил свою королеву. В возрасте 107 лет, он взял свой клинок и покинул Шипастое Королевство. Говорят, он отправился на север. Со временем Шипастое Королевство обрело былую славу, его название было изменено, а вместе с этим и забылась история о Сера Сумат и Медальоне Пропавших Поборников... до вашего прибытия в Кулдахар, когда медальон был вновь объединён со Святой карой, чтобы встретиться с Пропавшими Поборниками в последней битве.
 
-But the story of Ehld and Cera Sumat was a story of another time, and of the adventures of another hero. This is now your time, and your epic. If your band counts a paladin among its number, then this ancient blade is yours to wield against the forces of evil...
+Но история Эльда и Сера Сумат - это история другого времени и другого героя. Сейчас настало ваше время и эта история про вас. Если у вас в отряде есть паладин, то этот древний клинок - ваш, чтобы сразиться с силами зла...
 
-And perhaps, if your heart is true, save a land from destruction once again.
+И, быть может, если ваше сердце справедливо, снова спасти мир от разрушения.
 
-STATISTICS:
+ПАРАМЕТРЫ:
 
-Damage:  1d8 + 10
-Attack Bonus: +10
-Enchantment:  +10
-Damage Type:  Slashing
-Special:
-  Spell Resistance: Set to 40 if lower
-  Holy Avenger: +4d6 magic damage against evil creatures. This bonus damage is doubled against fiends and undead. Counts as a good-aligned weapon.
-  Dispelling: Dispel Magic on target with each hit (Will DC 32). Striking an ally dispels magic on them with no save.
-Weight:  5 lb.
-Feat Requirement:  Martial Weapon, Large Sword
-Type:  One-handed~
-@11060    = ~The simplest and humblest of staff weapons, the quarterstaff is a length of wood ranging six to nine feet in length. Masterwork quarterstaffs are made of stout oak and are shod with metal at both ends. This one is particularly special as it has been imbued with magical properties.
+Урон: 1d8+10
+Атака: +10
+Зачарование: +10
+Тип урона: рубящий
+Особенности:
+ Сопротивление магии: устанавливается в 40 если ниже
+ Святая кара: +4d6 против злых существ, этот дополнительный урон удваивается если цель нежить или исчадие, и оружие считается добрым
+ Рассеивание: развеивает магию на цели при попадании (успешный спасбросок воли с УС 32 позволяет избежать эффекта), на союзниках этот эффект срабатывает без спасброска
+Вес: 5 фунтов
+Необходимая черта: Военное оружие, Большие мечи
+Тип: одноручное~
+@11060    = ~Простейшее и скромнейшее из шестообразного оружия, боевой посох - это деревянная палка длиной от шести до девяти футов. Боевые посохи высокого качества делаются из крепкого дуба и оковываются металлом с обоих концов. Данный экземпляр несколько отличается от других, поскольку наделён некоторыми магическими свойствами.
 
-STATISTICS:
+ПАРАМЕТРЫ:
 
-Damage:  1d6 + 5
-Attack Bonus:  +5 
-Enchantment:  +5
-Damage Type:  Bludgeoning
-Special:
-  Spell Resistance: Set to 37 if lower
-  Lower Resistance: Each hit lowers the target's Spell Resistance by 5 for 10 rounds (Will DC 37, cumulative)
-Weight: 4 lb.
-Feat Requirement:  Simple Weapon, Quarterstaff
-Type:  Two-handed~
-@12532    = ~This massive shield is nearly as tall as the wielder. Basically, it is a portable wall meant to provide cover. It can provide up to total cover, depending on how far you come out from behind it. A tower shield, however, does not provide cover against targeted spells; a spellcaster can cast a spell on you by targeting the shield you are holding. This shield has runes scribed onto it that glow eerily in dim light.
+Урон: 1d6+5
+Атака: +5
+Зачарование: +5
+Тип урона: дробящий
+Особенности:
+ Сопротивление магии: устанавливается в 37 если ниже
+ Снижение сопротивления: каждое попадание снижает сопротивление магии цели на 5 на 10 раундов (успешный спасбросок воли с УС 37 позволяет избежать эффекта, эффект суммируется)
+Вес: 4 фунта
+Необходимая черта: Простое оружие, Посохи
+Тип: двуручное~
+@12532    = ~Этот массивный щит по высоте может быть ростом со своего владельца. По сути, это переносная стена, за которой можно укрыться. Если из-за него не высовываться, вы будете полностью защищены от оружия врага. Однако осадный щит не спасает от заклинаний, так как может быть использован в качестве цели для заклинания. На этот щит нанесены руны, слабо сияющие потусторонним светом.
 
-STATISTICS:
+ПАРАМЕТРЫ:
 
-Shield Bonus: +9
-Special:
-  Spell Resistance: Set to 28 if lower
-  Attack Penalty: -2
-Armor Check Penalty:  -10
-Arcane Spell Failure:  50%
-Weight: 25 lb.~
-@4751     = ~This thick reddish syrup, composed of the nectar and sap of several flowers and trees, burns with anti-magic energy. By pouring the syrup over a magical item and then destroying it, an alchemist may infuse the syrup with disruptive forces. This may require destroying multiple magical items depending on their power.
+Класс защиты (щит): +9 
+Штраф к проверкам за броню: -10
+Шанс провала заклинания: 50%
+Особенности:
+ Сопротивление магии: устанавливается в 28 если ниже
+ Атака: -2
+Вес: 25 фунтов~
+@4751     = ~Этот густой красноватый сироп, состоящий из нектара и сока нескольких цветов и деревьев, мерцает антимагической энергией. Вылив исходный сироп на магический предмет, который затем будет уничтожен, алхимик может наделить конечный продукт разрушительными силами. Может потребоваться уничтожить несколько магических предметов в зависимости от их силы.
 
-When drunk, the syrup creates an anti-magic field around the user's body, automatically dispelling all dispellable effects (both positive and negative) as well as granting spell resistance for 10 rounds. The field also interferes with the user's own spells, if any, increasing spell failure by 25%.
+Когда сироп выпит, он создаёт вокруг тела пользователя антимагическое поле, автоматически рассеивающее все рассеиваемые эффекты (как положительные, так и отрицательные), а также дающее сопротивление магии на 10 раундов. Поле также влияет на заклинания, произносимые самим пользователем, увеличивая шанс провала заклинаний на 25%.
 
-STATISTICS:
+ПАРАМЕТРЫ:
 
-Dispels all dispellable effects on the drinker
-Spell Resistance: Set to 25
-25% Spell Failure
-Weight: 1 lb.~
-@54751     = ~This thick reddish syrup, composed of the nectar and sap of several flowers and trees, burns with anti-magic energy. By pouring the syrup over a magical item and then destroying it, an alchemist may infuse the syrup with disruptive forces. This may require destroying multiple magical items depending on their power.
+Развеивает все развеиваемые эффекты
+Сопротивление магии: устанавливается в 25
+25% шанс провала заклинаний
+Вес: 1 фунт~
+@54751     = ~Этот густой красноватый сироп, состоящий из нектара и сока нескольких цветов и деревьев, мерцает антимагической энергией. Вылив исходный сироп на магический предмет, который затем будет уничтожен, алхимик может наделить конечный продукт разрушительными силами. Может потребоваться уничтожить несколько магических предметов в зависимости от их силы.
 
-When drunk, the syrup creates an anti-magic field around the user's body, automatically dispelling all dispellable effects (both positive and negative) as well as granting spell resistance for 10 rounds. The field also interferes with the user's own spells, if any, increasing spell failure by 50%.
+Когда сироп выпит, он создаёт вокруг тела пользователя антимагическое поле, автоматически рассеивающее все рассеиваемые эффекты (как положительные, так и отрицательные), а также дающее сопротивление магии на 10 раундов. Поле также влияет на заклинания, произносимые самим пользователем, увеличивая шанс провала заклинаний на 50%.
 
-STATISTICS:
+ПАРАМЕТРЫ:
 
-Dispels all dispellable effects on the drinker
-Spell Resistance: Set to 35
-50% Spell Failure
-Weight: 1 lb.~
-@10613    = ~Large Shield of Spell Cover +4~
-@10614    = ~A large shield is carried in the same manner as a small shield. Its weight prevents the character from using his shield hand for anything other than carrying the large shield. Large shields are usually made of metal, range from 3'-4' in diameter, and can be of any shape, from round to square to a spread dragon's wings. A typical medieval shield resembles a triangle with one point facing downward. This shield has runes scribed onto it that glow eerily in dim light.
+Развеивает все развеиваемые эффекты
+Сопротивление магии: устанавливается в 35
+50% шанс провала заклинаний
+Вес: 1 фунт~
+@10613    = ~Большой щит защиты от заклинаний +4~
+@10614    = ~Большой щит носится так же, как и маленький. Однако он тяжелее, и его вес не позволяет обладателю использовать руку, в которой находится щит, для чего-либо ещё. Большие щиты обычно делаются из металла, имеют три-четыре фута в диаметре и могут быть любой формы: от круглой или квадратной до силуэта расправленных крыльев дракона. Типичный средневековый щит представляет собой треугольник, направленный вершиной вниз. На этот щит нанесены руны, слабо сияющие потусторонним светом.
 
-STATISTICS:
+ПАРАМЕТРЫ:
 
-Shield Bonus: +6
-Special:
-  The bearer is unaffected by harmful area of effect spells cast by their allies
-Armor Check Penalty:  -2
-Arcane Spell Failure:  15%
-Weight: 6 lb.~
-@12850    = ~Made for a dark elf wizard from Rilauven, the Robe of the Watcher is recognized among drow as a sign of great power. It is traditionally worn by the most talented practitioner of divination magic in Rilauven's academy of sorcery. Malavon was awarded the robe when he was still in good graces with his city. He imbued it with additional enchantments to synergize with his personal spells. The Spell Resistance granted by the robe works best to bolster a wearer who already has spell resistance, such as a drow.
+Класс защиты (щит): +6
+Штраф к проверкам за броню: -2
+Шанс провала заклинания: 15%
+Особенности:
+ На владельца щита не действуют вредоносные эффекты заклинания, наложенных на область его союзниками.
+Вес: 6 фунтов~
+@12850    = ~Мантию наблюдателя изготовили для одного волшебника-дроу из Рилувена. У тёмных эльфов она считается знаком огромной силы и власти; обычно её получает самый талантливый прорицатель в Рилувенской академии волшебства. Эта мантия досталась Малавону, когда он был ещё в хороших отношениях с родным городом. Он наделил её дополнительными чарами, чтобы она сочеталась с его персональными заклинаниями.
 
-STATISTICS:
+ПАРАМЕТРЫ:
 
-Generic Armor Bonus:  +4
-Spell Resistance: +3
-Immunity to blindness and confusion
-Spell Power: Can cast True Seeing 1/day
-When cast by the wearer, the spells Malavon's Rage and Malavon's Corrosive Fog do not harm allies
-Weight:  3 lb.~
-@12852    = ~Made for a dark elf wizard from Rilauven, the Robe of the Watcher is recognized among drow as a sign of great power. It is traditionally worn by the most talented practitioner of divination magic in Rilauven's academy of sorcery. Malavon was awarded the robe when he was still in good graces with his city. He imbued it with additional enchantments to synergize with his personal spells. The Spell Resistance granted by the robe works best to bolster a wearer who already has spell resistance, such as a drow.
+Класс защиты (общий): +4
+Сопротивление магии: +3
+Владелец не восприимчив к слепоте и замешательству
+Может читать заклинание "Истинное видение" раз в день
+Прочитанные владельцем мантии заклинания "Едкий туман Малавона" и "Ярость Малавона" не причиняют вреда союзникам
+Вес: 3 фунтов~
+@12852    = ~Мантию наблюдателя изготовили для одного волшебника-дроу из Рилувена. У тёмных эльфов она считается знаком огромной силы и власти; обычно её получает самый талантливый прорицатель в Рилувенской академии волшебства. Эта мантия досталась Малавону, когда он был ещё в хороших отношениях с родным городом. Он наделил её дополнительными чарами, чтобы она сочеталась с его персональными заклинаниями.
 
-STATISTICS:
+ПАРАМЕТРЫ:
 
-Generic Armor Bonus:  +6
-Spell Resistance: +5
-Immunity to blindness and confusion
-Spell Power: Can cast True Seeing 1/day
-When cast by the wearer, the spells Malavon's Rage and Malavon's Corrosive Fog deal maximum damage and do not harm allies
-Weight:  3 lb.~
+Класс защиты (общий): +6
+Сопротивление магии: +5
+Владелец не восприимчив к слепоте и замешательству
+Может читать заклинание "Истинное видение" раз в день
+Прочитанные владельцем мантии заклинания "Едкий туман Малавона" и "Ярость Малавона" не причиняют вреда союзникам
+Вес: 3 фунтов~
 @544    = ~STORMLORD OF TALOS:
 
 Talos the Destroyer is the god of storms and destruction. The bane of many rangers and druids, Talos works his evil through the use of his priests, the Stormlords. Stormlords terrorize farming communities all across Faerun with threats of imminent doom if all do not appease the Destroyer. They are known for their abusive terrorism and their foolhardy nature.
