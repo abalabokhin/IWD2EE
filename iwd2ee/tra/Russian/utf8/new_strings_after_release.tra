@@ -2209,64 +2209,64 @@
 Вес: 1 фунт
 Необходимая черта: Простое оружие, Короткие клинки
 Тип: одноручное~
-@12935    = ~Black Dragon Scales~
-@12936    = ~These heavy scales glisten under the light and are warm to the touch. There are a significant number of them salvaged from the corpse of the Guardian... perhaps they might be useful in the formation of some kind of armor.~
-@19912    = ~Can you make anything out of these scales we obtained from the Guardian?~
-@19913    = ~The Guardian was a dragon? I remember Iselore talking about the Guardian, but I had no idea what kind of creature he spoke of. Aye, I should be able to make light armor out of these scales. It'll be 5000 gold pieces for the work.~
-@19914    = ~Very well, here are the scales and the gold.~
-@19915    = ~Maybe another time. Farewell.~
-@19916    = ~All done. Here is the armor. Wear it well, friend.~
-@1834    = ~Sunscorch
-(Evocation)
-Level: Drd 1, Rgr 1, Lathander 1, Selune 1
-Range: Sight of Caster
-Duration: Instantaneous
-Casting Time: 4
-Area of Effect: 1 creature
-Saving Throw: Reflex half
+@12935    = ~Чешуя чёрного дракона~
+@12936    = ~Эта тяжелая чешуя блестит на свету и теплая на ощупь. Она была добыта с тела Хранителя... и возможно, этого количества чешуи хватит создания какой-нибудь брони.~
+@19912    = ~Можешь что-нибудь сделать из этой чешуи, которую мы добыли с тела Хранителя?~
+@19913    = ~Хранитель был драконом? Помню, Айселор упоминал о Хранителе, но понятия не имел, о каком именно существе идёт речь. Да, я смогу сделать из этой чешуи легкую броню. Работа обойдется в 5000 золотых.~
+@19914    = ~Хорошо, вот чешуя и золото.~
+@19915    = ~Может быть, в другой раз. Удачи.~
+@19916    = ~Все готово, вот твои доспехи. Носи их с честью, друг.~
+@1834    = ~Солнечный ожог
+(Проявление)
+Уровень: друид 1, следопыт 1, жрец Латандера 1, жрец Селуны 1
+Дальность: обзор колдующего
+Длительность: мгновенно
+Время чтения: 4
+Зона действия: 1 существо
+Спасбросок: реакции, половина урона
 
-Upon completion of this spell, a brilliant ray of scorching heat fires down from the sky and burns the target creature for 1d6 + 1 fire damage per level of the caster (to a maximum of 1d6 + 15). Undead, fungi, oozes, and drow and gray dwarves take 1d6 + 2 fire damage per level of the caster (to a maximum of 1d6 + 30). Victims must make a successful Reflex save or be blinded for 3 rounds. Drow and gray dwarves are blinded from the spell for 3 rounds (no save). This spell bypasses the spell resistance of creatures such as drow that are vulnerable to the spell.~
-@32204     = ~Charm Person or Animal
-(Enchantment) 
-Level: Drd 2
-Range: Sight of Caster
-Duration: 4 rounds + 1 round/level
-Casting Time: 5
-Area of Effect: 1 Medium-sized or smaller Humanoid or 1 Animal
-Saving Throw: Will negates
+На выбранную заклинателем цель с небес падает обжигающий луч света и обжигает целевое существо, нанося ему 1d6 огненного урона + 1 за каждый уровень заклинателя (вплоть до 1d6+15). Нежить, грибы, слизь, дроу и серые дварфы получают 1d6 огненного урона + 2 за каждый уровень заклинателя (вплоть до 1d6+30). Жертвы должны сделать успешный спасбросок реакции или ослепнуть на 3 раунда. Дроу и серых дварфов заклинание ослепляет на 3 раунда в любом случае (без спасброска). Это заклинание игнорирует сопротивление магии у существ, которые уязвимы к его действию (таких, как дроу).~
+@32204     = ~Очаровать теплокровного 
+(Чародейство)
+Уровень: друид 2
+Дальность: обзор колдующего
+Длительность: 4 раунда + 1/уровень
+Время чтения: 5
+Зона действия: одно человекообразное разумное существо или животное, средних размеров или меньше
+Спасбросок: воли, отменяет
 
-This spell affects any single person or animal it is cast upon.  The term "person" includes any bipedal human, demihuman, or humanoid of man-size or smaller, such as dwarves, elves, gnolls, gnomes, goblins, half-elves, halflings, half-orcs, hobgoblins, humans, lizard men, orcs, troglodytes, and others.
-Thus, a 10th-level fighter could be charmed, but an ogre could not. If the save is failed, the victim regards the caster as a trusted friend and ally to be heeded and protected.  The caster may give him orders, and the charmed individual will carry them out without question.  Creatures remember everything while charmed and thus will usually be hostile to the caster upon expiration of the spell. The target's Spell Resistance, if any, does not affect this spell.~
-@1043    = ~Rainstorm
-(Evocation)
-Level: Drd 2
-Range: Sight of Caster
-Duration: 2 rounds
-Casting Time: 6
-Area of Effect: 30-foot radius
-Saving Throw: Reflex half
+Это заклинание влияет на любое человекообразное существо или животное. Термин "человекообразное" подразумевает любое двуногое человекоподобное существо размером с человека или меньше, такое как дварф, эльф, гнолл, гном, гоблин, полуэльф, полурослик, полуорк, хобгоблин, человек, человекоящер, орк, троглодит и прочие.
+Таким образом, боец 10-го уровня может быть очарован, в то время как огр - не может. При неудачном спасброске жертва считает колдующего верным другом и союзником, которого нужно оберегать и защищать. Колдующий может отдавать ей приказы, при этом очарованный персонаж будет беспрекословно их исполнять. Очарованные существа помнят всё случившееся и по истечении срока действия заклинания обычно проявляют враждебность к колдующему. Это заклинание игнорирует сопротивление магии (если оно есть) цели.~
+@1043    = ~Ливень
+(Проявление)
+Уровень: друид 2
+Дальность: обзор колдующего
+Длительность: 2 раунда
+Время чтения: 6
+Зона действия: радиус 30 футов
+Спасбросок: реакции, половина урона
 
-This spell, which may only be cast outdoors, brings forth a magical rain that saturates the area of effect. The rain grants 5/- resistance to fire but a -5 weakness to cold and electricity damage, and deals 8d6 points of cold damage to creatures of Elemental Fire. In addition, all creatures in the area of effect are struck by bolts of lightning that deal 2d6 electricity damage, with a Reflex save for half damage. Flame Blade spells, Shroud of Flame, and salamander auras are also extinguished.~
-@1011    = ~Circle of Bones
-(Necromancy)
-Level: Clr 3
-Range: Caster
-Duration: 3 rounds
-Casting Time: 3
-Area of Effect: 3-foot radius
-Saving Throw: None
+Это заклинание, которое можно читать только на открытом воздухе, вызывает магический ливень в указанной зоне. Ливень даёт 5/- сопротивления огню, но -5 уязвимости к урону холодом и электричеством. Он также наносит урон 8d6 урона холодом существам, связанным с Планом огня. Кроме того, все существа в области действия заклинания подвергаются ударам молний, которые наносят 2d6 урона электрического урона (успешный спасбросок реакции позволяет сократить урон вдвое). Кроме того, в области действия заклинания обрываются действия заклинаний "Огненный клинок" и "Саван пламени", а также не действует аура саламандры.~
+@1011    = ~Костяной круг
+(Некромантия)
+Уровень: священник 3
+Дальность: колдующий
+Длительность: 3 раунда
+Время чтения: 3
+Зона действия: радиус 3 фута
+Спасбросок: нет
 
-This spell conjures forth a barrier of floating bones that spin rapidly around the caster. Anyone entering their path takes 2d6 bludgeoning damage and 2d6 slashing damage per round, ignoring spell resistance. This spell does not provoke an attack of opportunity. Circle of Bones cannot be active at the same time as Circle of Blades, as the bones and blades get in each other's way.~
-@32405     = ~Mental Domination
-(Enchantment) 
-Level: Clr 4
-Range: Sight of Caster
-Duration: 1 round/level
-Casting Time: 4
-Area of Effect: 1 creature 
-Saving Throw: Will negates
+Вокруг заклинателя начинает быстро вращаться барьер из костей. Любой, кто окажется у них на пути, каждый раунд получает 2d6 дробящего и 2d6 рубящего урона, при этом сопротивление магии игнорируется. Это заклинание не провоцирует атаку при возможности. Это заклинание не может быть активно одновременно с заклинанием "Круг клинков", так как кости и клинки мешают друг другу.~
+@32405     = ~Подчинение разума
+(Чародейство)
+Уровень: священник 4
+Дальность: обзор колдующего
+Длительность: 1 раунд/уровень
+Время чтения: 4
+Зона действия: 1 существо
+Спасбросок: воли, отменяет
 
-This spell enables the caster to invade the mind of the target creature, allowing the caster to will the creature into whatever actions he so desires.  The target creature will resist the effects if a successful Will save with +2 DC is made.  While a creature is dominated in such a manner, its mind is cloudy and thought is hampered - spellcasting is impossible and attack bonuses are made with a -2 penalty. This spell bypasses spell resistance.~
+Заклинатель получает возможность управлять целью, если она не сможет прокинуть спасбросок воли с +2 к УС. Во время действия заклинания существо, на которое оно наложено, не может читать заклинания и получает -2 к атаке, так как его разум затуманен. Это заклинание игнорирует сопротивление магии цели.~
 @1021    = ~Smashing Wave
 (Evocation)
 Level: Drd 5, Rgr 5
