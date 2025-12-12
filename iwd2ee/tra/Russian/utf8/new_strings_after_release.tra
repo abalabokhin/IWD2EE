@@ -2742,111 +2742,111 @@
  Сопротивление: 20/- сопротивления электричеству
  Урон электричеством, наносимый заклинаниями и способностями владельца этой робы, увеличивается на 20%
 Вес: 3 фунта~
-@562    = ~PALADIN OF MYSTRA:
+@562    = ~ПАЛАДИН МИСТРЫ:
 
-Paladins of Mystra insure that the powers of the goddess of magic are not used for evil. They seek out evil spellcasters all over Faerun for the protection of civilization and to protect benign wizards from the repercussions of irresponsible magic use.
+Паладины Мистры следят за тем, чтобы силы богини магии не были использованы во зло. Они выслеживают злых заклинателей во всех уголках Фаэруна, чтобы защитить цивилизацию и уберечь добрых волшебников от последствий безответственного использования магии.
 
-Advantages:
-* 2nd level: The paladin gains one rank in Armored Arcana, reducing their arcane spell failure by 35%.
-* 6th level: The paladin gains two more ranks in Armored Arcana, reducing their arcane spell failure by a total of 105% (allowing them to cast arcane spells with no chance of failure while wearing the heaviest armor and shields).
-* 11th level: All fire, cold, electricity, acid, and magic damage dealt by the paladin's spells and abilities is increased by 20%. This stacks with feats like Spirit of Flame and Master of Magic Force.~
-@55815=~Trap Not Disarmed - The character must have at least <EXTDLVL> levels of rogue in order to disarm a trap of this complexity.~
-@36351     = ~Quiver of Plenty
-(Conjuration)
-Level: Rgr 3
-Range: Caster
-Duration: 30 rounds
-Casting Time: 5
-Area of Effect: Caster
-Saving Throw: None
+Преимущества:
+* 2-й уровень: паладин получает один ранг в черте "Колдовство в доспехах", уменьшающей провал магических заклинаний на 35%.
+* 6-й уровень: паладин получает ещё два ранга в черте "Колдовство в доспехах", а уменьшение провала магических заклинаний в общей сумме составит 105%, что позволяет паладину произносить магические заклинания без шанса их провалить даже при ношении самых тяжёлых доспехов и щитов.
+* 11-й уровень: Весь урон огнём, холодом, электричеством, кислотой и магией, наносимый заклинаниями и способностями паладина, увеличивается на 20%. Этот бонус суммируется с эффектами от таких черт, как "Дух пламени" и "Мастер магических сил".~
+@55815=~Ловушка не обезврежена - у персонажа должно быть не менее <EXTDLVL> уровня(ей) плута, чтобы обезвреживать ловушки такой сложности.~
+@36351     = ~Колчан изобилия
+(Призывание)
+Уровень: следопыт 3
+Дальность: колдующий
+Длительность: 30 раундов
+Время чтения: 5
+Зона действия: колдующий
+Спасбросок: нет
 
-This spell temporarily gives the ranger a quiver containing an unlimited supply of magical arrows. The arrows have an additional +1 to attack and damage for every 4 ranger levels. The quiver cannot be dropped or given to another character.
+Это заклинание временно даёт следопыту колчан с неограниченным запасом магических стрел. Стрелы получают +1 к атаке и урону за каждые 4 уровня следопыта. Колчан нельзя бросить или передать другому персонажу.
 
-Although rangers normally cast spells at half their caster level, Quiver of Plenty will be cast at a ranger's full caster level.
+Хотя обычно уровень заклинателя для следопытов считается как половина уровня следопыта, для определения уровня заклинателя для этого заклинания считается полный уровень следопыта.
 
-Note: The ranger must have an empty ammunition slot for the quiver to be created. Otherwise, the spell will fail.~
-@1673    = ~Animate Zombie
-(Necromancy) 
-Level: Clr 3, Sor/Wiz 5, Tempus 3
-Range: Sight of Caster
-Duration: Instantaneous 
-Casting Time: 9
-Area of Effect: Special 
-Saving Throw: None
+Примечание: У следопыта должно быть хоть одна свободная ячейка для боеприпасов, чтобы в ней появился колчан. Иначе, эффект заклинания будет потерян.~
+@1673    = ~Создание зомби
+(Некромантия)
+Уровень: священник 3, колдун/волшебник 5, жрец Темпуса 3
+Дальность: обзор колдующего
+Длительность: мгновенно
+Время чтения: 9
+Зона действия: особая
+Спасбросок: нет
 
-This spell brings forth a long-dead zombie from deep within the earth and reanimates it to serve the caster. The higher the level of the caster, the more powerful the zombie summoned by this spell. This spell cannot be cast by good clerics, though sorcerers and wizards may cast it regardless of alignment.
+Это заклинание призывает давно умершего человека в виде зомби. Оно поднимает труп из под земли, воскрешает его и заставляет служить колдующему. Чем выше уровень колдующего, тем сильнее призванный этим заклинанием зомби. Это заклинание не может быть прочитана добрым священником, в то время как маги и волшебники могут читать его независимо от своего мировоззрения.
 
-WARNING: At higher levels, the Zombie Lords and Festering Drowned Dead summoned by this spell have powerful supernatural auras. The effects of their auras may harm your own party members if they fall within the area of effect.~
-@1675    = ~Animate Skeleton
-(Necromancy) 
-Level: Clr 3, Sor/Wiz 5, Tempus 3
-Range: Sight of Caster
-Duration: Instantaneous 
-Casting Time: 9
-Area of Effect: Special 
-Saving Throw: None 
+ВНИМАНИЕ: Повелители зомби и гниющие утопленники высоких уровней обладают сильными сверхъестественными аурами, которые могут причинить вред попавшим в зону их действия членам вашей группы.~
+@1675    = ~Создание скелета
+(Некромантия)
+Уровень: священник 3, колдун/волшебник 5, жрец Темпуса 3
+Дальность: обзор колдующего
+Длительность: мгновенно
+Время чтения: 9
+Зона действия: особая
+Спасбросок: нет
 
-This spell brings forth a long-dead skeleton from deep within the earth and reanimates it to serve the caster. The higher the level of the caster, the more powerful the skeleton summoned by this spell. This spell cannot be cast by good clerics, though sorcerers and wizards may cast it regardless of alignment.~
-@1019    = ~Shield of Lathander
-(Conjuration) [Good]
-Level: Clr 4, Pal 4, Lathander 4
-Range: Touch
-Duration: 3 rounds
-Casting Time: 4
-Area of Effect: 1 creature
-Saving Throw: None
+Это заклинание призывает давно умершего человека в виде скелета. Оно поднимает тело усопшего из под земли, воскрешает его и заставляет служить колдующему. Чем выше уровень колдующего, тем сильнее призванный заклинанием скелет. Это заклинание не может быть прочитана добрым священником, в то время как маги и волшебники могут читать его независимо от своего мировоззрения.~
+@1019    = ~Щит Латандера
+(Призывание) [Добро]
+Уровень: священник 4, паладин 4, жрец Латандера 4
+Дальность: прикосновение
+Длительность: 3 раунда
+Время чтения: 4
+Зона действия: 1 существо
+Спасбросок: нет
 
-This spell grants the target a 15/- damage resistance bonus to bludgeoning, slashing, piercing, fire, cold, acid, and electricity damage for the duration of the spell. This spell cannot be cast by evil characters.~
-@1850    = ~Greater Shield of Lathander
-(Conjuration) [Good]
-Level: Clr 8, Pal 6, Lathander 6
-Range: Touch
-Duration: 3 rounds
-Casting Time: 8
-Area of Effect: 1 creature
-Saving Throw: None
+Это заклинание даёт цели 15/- сопротивления дробящему, рубящему, колющему урона, урону огнём, холодом, кислотой и электричеством на протяжении действия заклинания. Это заклинание не может быть прочитано злым священником.~
+@1850    = ~Великий щит Латандера
+(Призывание) [Добро]
+Уровень: священник 8, паладин 6, жрец Латандера 6
+Дальность: прикосновение
+Длительность: 3 раунда
+Время чтения: 8
+Зона действия: 1 существо
+Спасбросок: нет
 
-This spell grants damage reduction of 30/- to all forms of damage and sets Spell Resistance to 40 if lower for the duration of the spell. This spell cannot be cast by evil characters.~
-@1521    = ~Holy Aura
-(Abjuration)
-Level: Clr 8, Ilmater 8
-Range: 20 ft.
-Duration: 1 round/level
-Casting Time: 6
-Area of Effect: Allies in a 20' radius
-Saving Throw: None
+Это заклинание позволяет на некоторое время повысить сопротивление магии цели на 40 и даёт 30/- снижения любого урона. Это заклинание не может быть прочитано злым священником.~
+@1521    = ~Аура святости
+(Отречение)
+Уровень: священник 8, жрец Ильматера 8
+Дальность: 20 футов
+Длительность: 1 раунд/уровень
+Время чтения: 6
+Зона действия: союзники в радиусе 20 футов
+Спасбросок: нет
 
-A brilliant, divine radiance surrounds the subjects, protecting them from attacks, granting them resistance to spells, and blinding evil creatures when they strike the subjects. This abjuration has four effects:
-First, the warded creatures gain a +4 deflection bonus to AC and a +4 bonus to all saves.
-Second, the warded creatures' Spell Resistance is set to 25 if lower.
-Third, the abjuration protects the creatures against charm and domination spells.
-Fourth, any creature of evil alignment who strikes (melee only) those protected by the Holy Aura must make a Fortitude save or be blinded for 3 round.
-Holy Aura cannot be cast by evil characters.~
-@36853     = ~Unholy Aura
-(Abjuration)
-Level: Clr 8
-Range: 20 ft.
-Duration: 1 round/level
-Casting Time: 6
-Area of Effect: Allies in a 20' radius
-Saving Throw: None
+Цели окружает сияющее облако, которое защищает их от физических атак и заклинаний, а также ослепляет вражеских злых существ. У этого заклинания четыре эффекта:
+Во-первых, цели получают +4 к классу защиты (отражение) и +4 ко всем спасброскам.
+Во-вторых, сопротивление магии у целей заклинания увеличивается до 25 (если было меньше).
+В третьих, заклинание защищает существа от заклинаний очарования и подчинения.
+В-четвёртых, любое злое существо, которое наносит по защищённой аурой святости цели удар в ближнем бою, слепнет на 3 раунда, если не сделает успешный спасбросок стойкости.
+Это заклинание не может быть прочитано злыми существами.~
+@36853     = ~Аура нечестивости
+(Отречение)
+Уровень: священник 8
+Дальность: 20 футов
+Длительность: 1 раунд/уровень
+Время чтения: 6
+Зона действия: союзники в радиусе 20 футов
+Спасбросок: нет
 
-A malevolent darkness surrounds the subjects, protecting them from attacks, granting them resistance to spells, and blinding good creatures when they strike the subjects. This abjuration has four effects:
-First, the warded creatures gain a +4 deflection bonus to AC and a +4 bonus to all saves.
-Second, the warded creatures' Spell Resistance is set to 25 if lower.
-Third, the abjuration protects the creatures against charm and domination spells.
-Fourth, any creature of good alignment who strikes (melee only) those protected by the Unholy Aura must make a Fortitude save or be blinded for 3 round.
-Unholy Aura can only be cast by evil characters.~
-@1914     = ~Aegis
-(Abjuration)
-Level: Sor/Wiz 9, Helm 9
-Range: Caster
-Duration: 20 rounds
-Casting Time: 1
-Area of Effect: Caster
-Saving Throw: None
+Цели окружает зловещая тьма, которая защищает их от физических атак и заклинаний, а также ослепляет вражеских добрых существ. У этого заклинания четыре эффекта:
+Во-первых, цели получают +4 к классу защиты (отражение) и +4 ко всем спасброскам.
+Во-вторых, сопротивление магии у целей заклинания увеличивается до 25 (если было меньше).
+В третьих, заклинание защищает существа от заклинаний очарования и подчинения.
+В-четвёртых, любое доброе существо, которое наносит по защищённой аурой нечестивости цели удар в ближнем бою, слепнет на 3 раунда, если не сделает успешный спасбросок стойкости.
+Это заклинание может быть прочитано только злыми существами.~
+@1914     = ~Эгида
+(Отречение)
+Уровень: колдун/волшебник 9, жрец Хелма 9
+Дальность: колдующий
+Длительность: 20 раундов
+Время чтения: 1
+Зона действия: колдующий
+Спасбросок: нет
 
-This spell grants the caster a 5/- bonus to all damage resistances, a +5 generic armor bonus, spell resistance set to 30 if lower, and +5 to all saves.~
+Это заклинание даёт колдующему 5/- сопротивления всем видам урона, +5 к классу защиты (общий), устанавливает сопротивление магии в 30 (если было меньше) и даёт +5 ко всем спасброскам.~
 @10157    = ~A ring is a small band of precious metal that is used as jewelry. Some rare rings have had enchantments placed upon them that confer various magical abilities. These rings are highly sought after, especially by those of the adventuring profession. For no apparent reason, this ring feels warm to the touch.
 
 STATISTICS:
