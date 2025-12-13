@@ -3338,37 +3338,37 @@
 * -25% к получению опыта: чистокровные юань-ти сильнее и получают на 25% меньше опыта, чем другие расы.
 
 Особые условия: эту черту можно взять только на 1-м уровне.~
-@930    = ~Entangle
+@930    = ~Запутывание
 
-When an Entangle spell is cast, it must be cast outside, otherwise it will not work and the spell is wasted. It causes vines to sprout forth from the ground to wrap, twist, and entwine any creatures in the area of effect, preventing movement. Creatures must make a Reflex save every round in order to move through the entangled area. The DC is 11 + half level + Charisma bonus. Entangled creatures can still perform normal actions but cannot move and suffer a -2 penalty to Armor Class and attack rolls, as well as a 50% chance of spell failure. All creatures within the area of effect who make their Reflex save move at half rate.~
-@931    = ~Charm Person
+Заклинание должно быть прочитано на открытой местности, иначе оно не сработает и будет зря потрачено. После его прочтения из-под земли выбиваются побеги растений и опутывают, переплетают и сковывают всех существ в зоне действия, не давая им перемещаться. Для передвижения по опутанной растениями местности существа должны каждый раунд кидать спасбросок реакции (с УС = 11 + половина уровня + модификатор харизмы). Опутанные существа всё ещё могут совершать обычные действия, однако не могут передвигаться и получают -2 к броскам атаки и классу защиты, а также 50% шанс на провал заклинания. Все находящиеся в зоне действия и успешно кинувшие спасбросок реакции существа, всё равно, передвигаются в два раза медленнее.~
+@931    = ~Очаровать персонажа
 
-This spell charms a single humanoid of man-size or smaller for 5 rounds. The person receives a Will save to avoid the effect; the DC is 11 + half level + Charisma bonus. If the spell recipient fails their saving throw, they regards the caster as a trusted friend and ally to be heeded and protected. The caster may give them orders, and the charmed individual will carry them out as quickly as possible.~
-@932    = ~Spook
+Это заклинание очаровывает одно человекоподобное существо размером с человека или меньше на 5 раундов. Чтобы избежать эффекта, цель заклинания совершает спасбросок воли (с УС = 11 + половина уровня + модификатор харизмы). Если цель заклинания проваливает спасбросок, она считает колдующего верным другом и союзником, которого нужно беречь и защищать. Колдующий может отдавать ему приказы, а очарованный персонаж будет тут же их выполнять.~
+@932    = ~Приведение
 
-A Spook spell enables the wizard to play upon natural fears to cause the target creature to perceive the spellcaster as someone or something inimical which then appears to advance upon it in a threatening manner. If the creature does not make a successful Will save, it panics for 3 rounds. The base DC is 11 + Charisma bonus, though it also gets +1 for every two experience levels of the caster, to a maximum of +6 at 12th level. Although the caster does not actually pursue the fleeing creature, a phantasm from its own mind does. Spook does not affect undead or constructs.~
-@933    = ~Hold Animal
+Это заклинание позволяет заклинателю сыграть на естественных страхах, оно заставляет объект воспринять заклинателя как нечто враждебное, внезапно явившееся и с угрозой надвигающееся на него. Если существу не удаётся спасбросок воли, его паника (в течении которой существо будет пытаться максимально быстро убежать от заклинателя) длиться 3 раунда. Базовый УС = 11 + модификатор харизмы, но он также увеличивается на один за каждые два уровня заклинателя до максимума +6 на 12 уровне. На самом деле заклинатель не преследует убегающее существо, но это делает созданный им фантом. Заклинание не действует на нежить.~
+@933    = ~Удержание животного
 
-This spell holds animals rigidly immobile. Animals with magical powers such as winter wolves do count as animals, as do some of the more animalistic monsters such as remorhazes. The effect is centered on a point selected by the caster, and 1-4 animals within 20 feet of the target point are affected. Those who succeed on their Will save are unaffected by the spell. The DC is 12 + half level + Charisma bonus. Being held does not prevent the worsening of the subject's condition due to wounds, disease, or poison.~
-@934    = ~Polymorph: Giant Viper~
-@935    = ~Polymorph: Giant Viper
+Это заклинание удерживает животных в полной неподвижности. Животные с магическими способностями, такие как зимний волк, всё равно считаются животными, так же как и некоторые монстры, напоминающие животных, такие, как реморхазы. Заклинатель выбирает точку, и заклинание воздействует на 1d4 животных в радиусе 20 футов от этой точки. Если животное успешно выкинуло спасбросок воли (с УС = 12 + половина уровня + модификатор харизмы), оно не будет подвержено влиянию заклинания. Удержание не препятствует ухудшению здоровья существа из-за ран, болезни или отравления.~
+@934    = ~Превращение: гигантская гадюка~
+@935    = ~Превращение: гигантская гадюка
 
-The character shapeshifts into a giant viper. While in giant viper form, the character's attacks poison the target, dealing 2 damage per second for 6 seconds (Fortitude DC 15). At level 12 and every 3 levels thereafter, the giant viper form gains +1 to Strength, Dexterity and Constitution, +1 AC, and the save DC against its poison increases by 3.~
-@971    = ~Darkness
+Персонаж превращается в гигантскую гадюку. В форме гигантской гадюки, его атаки отравляют цель, нанося 2 урона в секунду в течение 6 секунд (успешный спасбросок стойкости с УС 15 отменяет эффект). На 12-ом уровне и каждые последующие 3 уровня форма гигантской гадюки получает +1 к силе, ловкости и телосложению, +1 к классу защиты, а сложность спасброска стойкости против яда увеличивается на 3.~
+@971    = ~Тьма
 
-This ability creates magical darkness in the area of effect. Creatures without darkvision must make a Fortitude saving throw or be effectively blinded. The DC is 12 + half level + Charisma bonus. Creatures with darkvision aren't blinded, but even they have only a limited ability to see through magical darkness, getting a -4 attack penalty on a failed save. Creatures with superior 120 foot darkvision (e.g. drow, gray dwarves or deep gnomes) only get a -2 attack penalty. Devils and creatures immune to blindness are unaffected.~
-@393    = ~Arcane Archer~
-@394    = ~ARCANE ARCHER:
+Это заклинание создаёт магическую тьму в области действия. Существа без инфравидения должны сделать спасбросок стойкости (с УС = 12 + половина уровня + модификатор харизмы), иначе они будут ослеплены. Существа с инфравидением не ослепляются, но даже они видят сквозь магическую тьму довольно ограниченно, получая штраф -4 к броскам атаки, если не прокинут спасбросок. Существа с превосходным инфравидением на 120 футов (например, дроу, серые дварфы или глубинные гномы) получают лишь штраф -2 к броскам атаки. Дьяволы и существа, невосприимчивые к слепоте, не подвержены этому заклинанию.~
+@393    = ~Мистический лучник~
+@394    = ~МИСТИЧЕСКИЙ ЛУЧНИК:
 
-You are trained as an arcane archer and know how to shoot spells as arrows.
+Вы обучены в качестве мистического лучника и умеете стрелять заклинаниями как стрелами.
 
-Prerequisite: Elf or half-elf, 1 level of wizard or sorcerer, and proficiency in bows (if drow or half-elf)
+Требования: эльф или полуэльф, 1 уровень волшебника или чародея и навык владения луком (если дроу или полуэльф).
 
-Benefit: You gain the Imbue Arrow ability, usable as a free action. If you use it and then attempt to cast an offensive ranged wizard or sorcerer spell of 5th-level or lower that involves a projectile traveling from the caster, instead of being cast, it will be stored in an arrow that is created in an empty ammo slot (consuming a use of the spell). That arrow has an enchantment equal to the level of the spell. When fired, the arrow uses the same projectile and area of effect as the spell, and deals the physical damage of the arrow in addition to the effects of the spell (as if cast at the character's wizard or sorcerer level) to all creatures it hits. This ability can be used once per day, plus once more for every two points of base attack bonus.
+Преимущество: вы получаете способность "Зарядить стрелу", которую можно использовать в качестве свободного действия. После использовании этой способности, следующее прочитанное атакующее заклинание волшебника или чародея 5-го уровня или ниже, которое предполагает движение снаряда от заклинателя, вместо того, чтобы подействовать, сохраняется в стреле. Эта стрела создаётся в пустой ячейке для боеприпасов, потребляя одно использование заклинания, и имеет зачарование, равное уровню заклинания. При выстреле стрела срабатывает, как заклинание (используется та же дальность и область действия) и наносит физический урон стрелой в дополнение к эффектам заклинания (для определения силы заклинания используется уровень волшебника или колдуна персонажа) всем существам, в которых она попадает. Эта способность может быть использована раз в день, и дополнительно еще один раз в день за каждые два пункта базового бонуса атаки.
 
-However, your spells have -4 DC when cast without imbuing them.
+Все ваши заклинания имеют -4 к УС, если они читаются напрямую (без заряжения стрелы).
 
-Special: You may only take this feat as a 1st-level character.~
+Особые условия: эту черту можно взять только на 1-м уровне.~
 @55117=~Spirit Shaman~
 @55576=~Item creation failed: There are no empty slots to place the item~
 @55577=~<EXIAVAL1> is not a valid spell for Imbue Arrow~
