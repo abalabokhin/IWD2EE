@@ -3226,120 +3226,118 @@
 Недостатки:
 * Барды не так эффективны в рукопашном бою, как воины или священники.
 * Барды изучают заклинаниям медленнее, чем волшебники или священники.~
-@535    = ~MONK:
+@535    = ~МОНАХ:
 
-Monks are warriors who pursue perfection through contemplation as well as action. They are versatile fighters, especially skilled in combat without weapons or armor. Though monks cannot cast spells, they have a unique magic of their own. They channel a subtle energy, called ki, which allows them to perform amazing feats. The monk's best-known feat is their ability to stun an opponent with an unarmed blow.
+Монахи - воины, достигающие совершенства не только через боевой опыт, но и с помощью медитаций. Это универсальные бойцы, особенно искушённые в сражениях без оружия и доспехов. Хотя монахи не могут читать заклинания, они обладают собственной уникальной магией и способны направлять энергию души, именуемую "ки", что позволяет им совершать изумительные вещи. Наиболее известная способность монахов - ошеломить противника при ударе голыми руками. 
 
-NOTE: Multiclassed monks ONLY use their monk levels when determining their number of attacks when fighting unarmed.
+ПРИМЕЧАНИЕ: для расчёта количества безоружных атак учитывается только количество уровней монаха.
 
-Hit Points per Level: 1-8
+Пунктов здоровья на уровень: 1-8
 
-Advantages:
-* The monk attacks at a faster rate than other characters while unarmed:
+Преимущества:
+* Монах атакует быстрее других классов, если не вооружён:
 
-Level 1-3: 2 attacks per round
-Level 4-6: 3 attacks
-Level 7-9: 4 attacks
-Level 10-12: 5 attacks
-Level 13-15: 6 attacks. For every 3 levels after 13, the monk gains another attack per round.
+Уровень 1-3: 2 атаки в раунд
+Уровень 4-6: 3 атаки
+Уровень 7-9: 4 атаки
+Уровень 10-12: 5 атак
+Уровень 13-15: 6 атак. За каждые 3 уровня после 13-го монах получает ещё одну атаку в раунд.
 
-* Monk Weapons: The monk can wield quarterstaves, daggers, throwing daggers, and darts with very few penalties (one fewer attack per round than with fists, but the monk will still get an extra attack per round every 3 levels).
+* Монашеское оружие: монах владеет посохами, кинжалами, метательными кинжалами и дротиками. При использовании этого оружия на него накладывается незначительный штраф (монах совершает на одну атаку в раунд меньше по сравнению с безоружным боем, но всё равно получает дополнительную атаку в раунд каждые 3 уровня).
 
-* As the monk increases in levels, the damage their fists inflicts does as well:
+* С продвижением монаха по уровням повреждения, наносимые его кулаками, также увеличиваются:
 
-Level 1-2: 1d6
-Level 3-4: 1d8
-Level 5-7: 1d8+1
-Level 8-10: 1d8+2
-Level 11-13: 1d8+3
-Level 14-16: 1d8+4
-Level 17+: 1d8+5
+Уровень 1-2: 1d6
+Уровень 3-4: 1d8
+Уровень 5-7: 1d8+1
+Уровень 8-10: 1d8+2
+Уровень 11-13: 1d8+3
+Уровень 14-16: 1d8+4
+Уровень 17+: 1d8+5
 
-* Ki Strike: At level 5, the monk's unarmed attack is empowered with ki, and gains +1 enchantment with corresponding bonuses to attack and damage. This enchantment bonus increases by +1 every 3 levels after level 5, up to +5 at level 17.
-* A monk's natural armor class starts at 10, and then increases by +1 at 5th level and every 5 levels thereafter.
-* When not wearing armor (robes are acceptable) a monk adds their Wisdom bonus to their AC in the same manner as their Dexterity bonus. This bonus may not exceed the character's monk level.
-* Stunning Attacks: When this ability is used, all of the monk's unarmed attacks in the next round force the victim to make a Fortitude save (DC 10 + Wisdom modifier + half the monk's level) or be stunned for 1 round. A monk can make a stunning attack 1/day/level.
-* Evasion: Monks have the ability to evade damage from area of effect spells. Whenever a monk makes a successful Reflex save against an area effect spell that allows a reflex save for half damage, he or she takes no damage.
-* 2nd level: Deflect Arrows. The monk gains the Deflect Arrows feat, yielding a +1 miscellanous bonus against missile weapons. In addition, the monk automatically blocks the first instance of missile damage that would hit them each round. The monk must have a hand free to block missiles this way.
-* 3rd level: Fast Movement. The monk moves 10 feet faster than a normal character (normal movement speed is 30 feet), but only as long as the monk is not encumbered or wearing armor. The monk gains another 10 feet of movement every 3 levels thereafter.
-* 3rd level: Still Mind. The monk gains a +2 bonus to saving throws against spells and effects from the Enchantment school.
-* 5th level: Purity of Body. The monk gains control over their body's immune system. They gain immunity to all diseases.
-* 7th level: Wholeness of Body. The monk can regain hit points equal to their monk level times their Wisdom modifier once each day per seven levels.
-* 9th level: Improved Evasion. The monk gains the Improved Evasion feat that is normally only available to rogues.
-* 10th level: Abundant Step. The monk may teleport to any location in sight once per day.
-* 11th level: Diamond Body. The monk is in such control of their own metabolism that they gain immunity to poison of all kinds.
-* 13th level: Diamond Soul. The monk gains spell resistance. Their spell resistance equals their level + 10. In order to affect the monk with a spell, a spellcaster must roll the monk's spell resistance or higher on 1d20 + the spellcaster's level.
-* 15th level: Quivering Palm. This terrifying attack allows the monk to set up vibrations within the body of another creature that can be fatal. The next time the monk hits a creature with an unarmed attack, the target dies unless it makes a Fortitude saving throw (DC 10 + Wisdom modifier + half the monk's level). Constructs and undead cannot be affected. The monk gains an additional use of Quivering Palm every six levels thereafter.
-* 19th level: Empty Body. The monk can assume an incorporeal state for 5 rounds a number of times a day equal to their level divided by 2. While incorporeal, the monk can move through walls, and half the attacks that hit the monk deal no physical damage. The monk's unarmed attacks will ignore armor and shield bonuses.
-* 20th level: Perfect Self. The monk has tuned their body with skill and quasi-magical abilities to the point that they become a magical creature. They are forevermore treated as an outsider (extraplanar creature) rather than as a humanoid. For instance, charm person does not affect them. Additionally, the monk gains damage reduction 20/+1. This means that the monk ignores (instantly regenerates) the first 20 points of damage from any attack unless the damage is dealt by a weapon with a +1 enhancement bonus (or better), by a spell, or by a form of energy (fire, cold, etc.). As an outsider, a 20th level monk is subject to spells that repel enchanted creatures, such as protection from law.
+* Удар "Ки": На 5-м уровне безоружная атака монаха наделяется энергией "ки", получая уровень зачарования +1. Уровень зачарования увеличивается на +1 каждые 3 уровня после пятого, до +5 на 17-ом уровне.
+* Природный класс защиты монаха начинается с 10 и увеличивается на +1 на 5-м уровне, далее повышаясь каждые 5 уровней.
+* Если монах не носит броню (робы допустимы), он получает бонус к защите в размере модификатора мудрости (так же, как и в случае с модификатором ловкости). Этот бонус не может превышать уровень монаха.
+* Ошеломляющие удары: при использовании этой способности все атаки монаха в следующем раунде заставляют жертву нападения сделать спасбросок стойкости (УС = 10 + модификатор мудрости + половина уровня монаха), в случае неудачи цель будет ошеломлена на 1 раунд. Монах может наносить ошеломляющие удары 1 раз в день на уровень.
+* Уклонение: монахи умеют уходить из-под ударов заклятий, накрывающих область. Если монах успешно прокинет спасбросок реакции против заклинания с действием по области, которое подразумевает получение половины урона при успешном спасброске, он вообще не получит урона.
+* 2-й уровень: Отражение стрел: монахи получают черту "Отражение стрел", которая даёт им улучшение +1 к классу защиты (общий) против метательного оружия. Кроме того, монах автоматически блокирует урон от первой попавшей по нему атаки метательным оружием в каждом раунде. Монах может блокировать урон от метательного оружия только при наличии у него хотя бы одной свободной руки.
+* 3-й уровень: Быстрое перемещение. Монах передвигается на 10 футов быстрее обычной скорости (обычная скорость передвижения - 30 футов), но только до тех пор, пока он не обременён и не носит доспехи. Монах получает дополнительные 10 футов к скорости передвижения каждые последующие 3 уровня.
+* 3-й уровень: Ясный разум. Монах получает бонус +2 к спасброскам против заклинаний и эффектов школы заклинаний "Чародейство".
+* 5-й уровень: Чистое тело. Монах учится контролировать иммунную систему своего тела. Он получает иммунитет ко всем болезням.
+* 7-й уровень: Цельность тела. Монах может восстанавливать пункты здоровья, равные уровню монаха, умноженному на модификатор мудрости, раз в день за каждые семь уровней.
+* 9-й уровень: Улучшенное уклонение. Монах получает черту "Улучшенное уклонение", которая обычно доступна только плутам.
+* 10-й уровень: Широкий шаг. Монах может телепортироваться в любое место в пределах видимости один раз в день.
+* 11-й уровень: Бриллиантовое тело. Монах достигает таких высот самоконтроля, что получает иммунитет к любым ядам.
+* 13-й уровень: Бриллиантовая душа. Монах обретает защиту от заклинаний. Его сопротивление магии становится равным "уровень монаха + 10". Чтобы поразить такого монаха заклятьем, заклинатель должен бросить d20, добавить к нему свой уровень и результат должен быть равен или выше значения сопротивления магии.
+* 15-й уровень: Вибрирующая ладонь. Эта ужасающая атака позволяет монаху породить в собственном теле дрожь, а потом передать её жертве. В следующий раз, когда монах поразит существо безоружной атакой, цель умрёт, если не сделает спасбросок стойкости (с УС = 10 + модификатор мудрости + половина уровня монаха). Конструкты и нежить имеют иммунитет к такого рода ударам. Каждые последующие шесть уровней монах получает возможность дополнительно использовать "Вибрирующую ладонь".
+* 19-й уровень: Пустое тело. Монах может принять эфирную форму на 5 раундов количество раз в день равное половине уровня монаха. Будучи в эфирной форме, монах может перемещаться сквозь стены, а половина атак, которые должны попасть в монаха, не наносят ему физического урона. Безоружные атаки монаха игнорируют бонусы к классу защиты от брони и щита.
+* 20-й уровень: Совершенство. С помощью своих навыков и псевдомагических умений монах так развил своё тело, что стал волшебным существом. С этого момента он определяется скорее как создание внешних планов, чем как человекообразное существо. К примеру, на него больше не действует заклинание "Очаровать персонажа". Кроме того, монах начинает поглощать нанесённый ему урон в размере 20/+1. Эти цифры означают, что монах игнорирует (мгновенно восстанавливает) первые 20 очков урона при любой атаке, если только такая атака не была проведена с применением волшебного оружия уровня +1 (или лучше), заклинания либо энергии (огня, холода и тому подобное). С другой стороны, как создание внешних планов, монах 20-го уровня подвержен действию заклятий, которые изгоняют таких существ или ограждают от них (например, он может стать жертвой заклятья "Защита от порядка").
 
-Disadvantages:
-* Loses many bonuses if wearing armor and/or using weapons.~
-@391    = ~Lingering Damage~
-@392    = ~LINGERING DAMAGE:
+Недостатки:
+* Теряет большую часть преимуществ, если надевает броню и/или использует оружие.~
+@391    = ~Продолжающийся урон~
+@392    = ~ПРОДОЛЖАЮЩИЙСЯ УРОН:
 
-Your sneak attacks continue to deal damage even after you strike.
+Ваша скрытая атака продолжает наносить урон даже после удара.
 
-Prerequisite: Crippling Strike, 30 levels of rogue
+Требования: черта "Калечащий удар", 30 уровней плута
 
-Benefit: If you deal damage with a sneak attack, you deal the same damage to that enemy again one round later.~
-@358    = ~METAMAGIC, QUICKEN SPELL:
+Действие: после нанесения урона скрытой атакой, такое же количество урона наносится жертве в следующий раунд.~
+@358    = ~МЕТАМАГИЯ, УСКОРЕННОЕ ЗАКЛИНАНИЕ:
 
-You may quickly cast an extra spell each round.
+Вы можете произнести дополнительное заклинание в каждом раунде.
 
-Prerequisites: The ability to cast 5th-level spells.
+Требования: способность произносить заклинания 5 уровня и выше.
 
-Benefit: You gain the Quicken Spell ability, usable at will as a free action. Using it allows you to instantly cast a spell, even if you've already cast a spell for the round. The quickened spell takes up a spell slot four levels higher. Only one spell can be quickened per round.~
-@963    = ~Quicken Spell
+Действие: вы получаете способность "Ускоренное заклинание", которую можно использовать по желанию в качестве свободного действия. С её помощью вы можете мгновенно произнести заклинание, даже если вы уже произносили заклинания в текущий раунд. Ускоренное заклинание тратит ячейку заклинаний на четыре уровня выше. За раунд можно ускорить только одно заклинание.~
+@963    = ~Ускоренное заклинание
 
-This metamagic allows you to instantly cast your next spell, even if you've already cast a spell for the round. It will take up a spell slot four levels higher. You may only quicken one spell per round. Metamagic abilities can be used as a free action any number of times per day.~
-@731    = ~IMPROVED CRITICAL:
+При использовании этой метамагии вы можете мгновенно произнести заклинание, даже если вы уже произносили заклинания в текущий раунд. Ускоренное заклинание тратит ячейку заклинаний на четыре уровня выше. За раунд можно ускорить только одно заклинание. Способности метамагии можно использовать по желанию как свободное действие неограниченное количество раз в день.~
+@731    = ~УЛУЧШЕННЫЙ КРИТИЧЕСКИЙ УДАР:
 
-You are especially adept at causing critical hits.
+Вы особо искушены в нанесении критических ударов.
 
-Prerequisite: Base attack bonus +8 or higher.
+Требования: базовый бонус к атаке +8 или выше.
 
-Benefit: When determining criticals, the base threat range of the weapon being wielded is doubled. An axe will critically hit on a 19-20, a longsword on a 17-20, and a scimitar on a 15-20.~
-@372    = ~MOBILITY:
+Действие: при проверке на критический удар диапазон угрозы для оружия удваивается. Так, топор начнет наносить критический урон при выпадении 19-20, длинный мечи при 17-20, а скимитар при 15-20.~
+@372    = ~МОБИЛЬНОСТЬ:
 
-You can dodge attacks particularly well while moving.
+Вы ловко уклоняетесь от атак во время движения.
 
-Prerequisites: Dex 13+, Dodge. Taking the feat a second time requires Dex 21+ and Spring Attack.
+Требования: ловкость 13+, черта "Уклонение". Взятие этой черты во второй раз требует ловкость 21+ и черты "Атака с ходу".
 
-Benefit: While moving, you gain a +4 Armor Class bonus. This bonus is doubled against attacks of opportunity due to moving out of an enemy's weapon range.
+Действие: во время движения вы получаете +4 к классу защиты. Этот бонус удваивается при применении против атак при возможности, спровоцированных перемещением за пределы дальности оружия противника.~
 
-When taken a second time, the feat prevents you from provoking any attacks of opportunity due to moving out of an enemy's weapon range.~
-@736    = ~SNAKE BLOOD:
+Если эта черта взята во второй раз, атаки при возможности из-за перемещения за пределы дальности оружия противника вообще не провоцируются.
+@736    = ~ЗМЕИНАЯ КРОВЬ:
 
-The taint of the yuan-ti runs in your veins.  No outward signs give away your heritage, but you are something more - or less - than entirely human.
+По вашим венам бежит кровь юань-ти. По внешнему виду этого не скажешь, однако вы прекрасно понимаете, что являетесь больше (или меньше), чем просто человеком.
 
-Prerequisite: Human
+Требования: человек
 
-Benefit: Your race changes to yuan-ti pureblood. This race has the following traits:
+Действие: ваша раса меняется на чистокровного юань-ти со следующими особенностями:
 
-Favored Class: Ranger
+Преимущества:
+* +2 к ловкости.
+* +2 к интеллекту.
+* +2 к харизме.
+* Сопротивление магии: 6 + уровень персонажа.
+* +1 бонус уклонения от всех существ.
+* +2 бонус к спасброскам стойкости против ядов.
+* +1 бонус к спасброскам реакции.
+* Автоматическое получение черты "Бой вслепую" после создания персонажа.
+* Заклинание: "Запутывание", раз в день.
+* Заклинание: "Удержание животного", раз в день.
+* Заклинание: "Очаровать персонажа", раз в день.
+* Заклинание: "Приведение", раз в день.
+* Заклинание: "Тьма", раз в день.
+* По желанию может превращаться в гигантскую гадюку. В этой форме атаки персонажа отравляют цель (если та не прокинет спасбросок стойкости). Эта форма становиться более мощной при получении персонажем уровней. Если персонаж использует способность друидов "Смена формы" для превращения в гигантскую гадюку, то его уровень друида считается удвоенным для определение силы этой формы.
+* Инфравидение.
 
-Advantages:
-* +2 Dexterity.
-* +2 Intelligence.
-* +2 Charisma.
-* Spell resistance of 6 + character level.
-* +1 dodge bonus against all creatures.
-* +2 bonus on Fortitude saving throws against poison.
-* +1 bonus on all Reflex saving throws.
-* Free Blind-Fight feat after character creation.
-* Entangle 1/Day.
-* Hold Animal 1/Day.
-* Charm Person 1/Day.
-* Spook 1/Day.
-* Darkness 1/Day.
-* At will, can polymorph self into a giant viper. In this form, the character's attacks will poison the target on a failed Fortitude save. This form becomes more powerful as the character levels up. If the character uses a druid wildshape ability to turn into a giant viper, their druid level is doubled for purposes of determining the power of the form.
-* Darkvision.
+Недостатки:
+* -25% к получению опыта: чистокровные юань-ти сильнее и получают на 25% меньше опыта, чем другие расы.
 
-Disadvantages:
-* -25% Experience Penalty: Yuan-ti purebloods are slightly more powerful and gain 25% less experience than other races.
-
-Special: You may only take this feat as a 1st-level character.~
+Особые условия: эту черту можно взять только на 1-м уровне.~
 @930    = ~Entangle
 
 When an Entangle spell is cast, it must be cast outside, otherwise it will not work and the spell is wasted. It causes vines to sprout forth from the ground to wrap, twist, and entwine any creatures in the area of effect, preventing movement. Creatures must make a Reflex save every round in order to move through the entangled area. The DC is 11 + half level + Charisma bonus. Entangled creatures can still perform normal actions but cannot move and suffer a -2 penalty to Armor Class and attack rolls, as well as a 50% chance of spell failure. All creatures within the area of effect who make their Reflex save move at half rate.~
