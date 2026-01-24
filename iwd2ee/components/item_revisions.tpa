@@ -5686,7 +5686,6 @@ COPY_EXISTING ~11ragnib.sto~ ~override~ //Targos Temple of Tempus
 COPY_EXISTING ~20arte.sto~ ~override~ //Shaengarne villager store
 	ADD_STORE_ITEM ~00AROW96~ AFTER ~00AROW01~ #40 #1 #1 ~IDENTIFIED~ #1 ~UNLIMITED~ //Hunting Arrows
 	ADD_STORE_ITEM ~00BOWS95~ #1 #1 #1 ~IDENTIFIED~ #1 //Shortbow of Sneak Attacking
-	ADD_STORE_ITEM ~USBRAC35~ #1 #1 #1 ~IDENTIFIED~ #1 //Bracers of Improved Expertise
 	ADD_STORE_ITEM ~11RTHF02~ #1 #1 #1 ~IDENTIFIED~ #1 //Lucky Knucky
 	ADD_STORE_ITEM ~00RTHF12~ AFTER ~00MISC32~ #1 #1 #1 ~IDENTIFIED~ #1 //Hagnen's Foolishness
 	ADD_STORE_ITEM ~USGEN40~ BEFORE ~00GBAG03~ #1 #1 #1 ~IDENTIFIED~ #1 //Earplugs
@@ -5819,6 +5818,7 @@ COPY_EXISTING ~53HEGGR.sto~ ~override~ //Underdark weapon/armor store
 
 COPY_EXISTING ~53KADRES.sto~ ~override~ //Kadresh drow store
 //	ADD_STORE_ITEM ~USCLCK48~ #1 #1 #1 ~IDENTIFIED~ #1 //Cloak of Iron
+	ADD_STORE_ITEM ~USBRAC35~ #1 #1 #1 ~IDENTIFIED~ #1 //Bracers of Improved Expertise
 	ADD_STORE_ITEM ~00RTHF44~ #1 #1 #1 ~IDENTIFIED~ #1 //Gauntlets of Assassination
 	ADD_STORE_ITEM ~USRTHF56~ #1 #1 #1 ~IDENTIFIED~ #1 //The Icon of Power
 	ADD_STORE_ITEM ~00RTHF09~ #1 #3 #1 ~IDENTIFIED~ #1 //Spiritcaller

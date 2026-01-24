@@ -209,7 +209,7 @@ COPY_EXISTING ~IEex_WEIDU.lua~ ~override~
 	REPLACE_TEXTUALLY CASE_INSENSITIVE ~ex_hof_lock_difficulty_increase_based_on_chapter *=.*~ ~ex_hof_lock_difficulty_increase_based_on_chapter = {15, 30, 45, 60, 75, 90, 105}~
 	REPLACE_TEXTUALLY CASE_INSENSITIVE ~ex_hof_trap_difficulty_increase_based_on_chapter *=.*~ ~ex_hof_trap_difficulty_increase_based_on_chapter = {15, 30, 45, 60, 75, 90, 105}~
 	REPLACE_TEXTUALLY CASE_INSENSITIVE ~ex_hof_trap_detection_difficulty_increase_based_on_chapter *=.*~ ~ex_hof_trap_detection_difficulty_increase_based_on_chapter = {15, 30, 45, 60, 75, 90, 105}~
-	REPLACE_TEXTUALLY CASE_INSENSITIVE ~ex_dash_movement_multiplier *=.*~ ~ex_dash_movement_multiplier = 133~
+	REPLACE_TEXTUALLY CASE_INSENSITIVE ~ex_dash_movement_multiplier *=.*~ ~ex_dash_movement_multiplier = 134~
 	REPLACE_TEXTUALLY CASE_INSENSITIVE ~ex_pnp_ranged_penalty_without_precise_shot_to_avoid_hitting_ally *=.*~ ~ex_pnp_ranged_penalty_without_precise_shot_to_avoid_hitting_ally = -4~
 	REPLACE_TEXTUALLY CASE_INSENSITIVE ~ex_paladin_charisma_save_bonus_level *=.*~ ~ex_paladin_charisma_save_bonus_level = 2~
 	REPLACE_TEXTUALLY CASE_INSENSITIVE ~ex_max_skill_points_saved_for_next_level *=.*~ ~ex_max_skill_points_saved_for_next_level = 5~
@@ -746,6 +746,10 @@ COPY_EXISTING ~help02.2da~ ~override~
         SET strref = RESOLVE_STR_REF(@541)
         SET_2DA_ENTRY_LATER rows_out row 2 ~%strref%~
       END
+      ~10~ BEGIN
+        SET strref = RESOLVE_STR_REF(@572)
+        SET_2DA_ENTRY_LATER rows_out row 2 ~%strref%~
+      END
       ~11~ BEGIN
         SET strref = RESOLVE_STR_REF(@523)
         SET_2DA_ENTRY_LATER rows_out row 2 ~%strref%~
@@ -1127,6 +1131,7 @@ STRING_SET 9561 @541
 STRING_SET 9560 @531
 STRING_SET 9558 @537
 STRING_SET 9557 @539
+STRING_SET 35 @572
 STRING_SET 36 @535
 STRING_SET 37695 @729
 

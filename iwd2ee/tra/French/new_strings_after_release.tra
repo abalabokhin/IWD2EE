@@ -2945,7 +2945,7 @@ Poids : 0 lb.~
 
 PARAMÈTRES :
 
-Bonus d'armure générique : +5
+Bonus de parade : +5
 Résistance aux sorts : Fixée à 25 si inférieure
 Sauvegarde : +3 bonus
 Les sorts du porteur gagnent +3 au Degré de Difficulté
@@ -2954,7 +2954,7 @@ Poids : 2,7 kg (6 lb)~
 
 PARAMÈTRES :
 
-Bonus d'armure générique : +5
+Bonus de parade : +5
 Résistance aux sorts : Fixée à 25 si inférieure
 Sauvegarde : +3 bonus
 Les sorts du porteur gagnent +3 au Degré de Difficulté
@@ -2963,7 +2963,7 @@ Poids : 2,7 kg (6 lb)~
 
 PARAMÈTRES :
 
-Bonus d'armure générique : +5
+Bonus de parade : +5
 Résistance aux sorts : Fixée à 25 si inférieure
 Sauvegarde : +3 bonus
 Les sorts du porteur gagnent +3 au Degré de Difficulté
@@ -3530,3 +3530,47 @@ Type d'arme : à deux mains~
 @6411=~Selon les recherches de Nheero, il y a environ trente ans, ce volcan - l'Œil du Dragon - a éclaté, désintégrant presque toutes les choses vivantes à l'intérieur.  Peu de temps après, les enfants demi-sang yuan-ti ont fui ici depuis Kuldahar, se sont liés d'amitié avec les jeunes lézards survivants, ont excavé le troisième niveau depuis la roche volcanique refroidie, et ont de nouveau revendiqué cet endroit comme leur foyer.  Il a en outre expliqué que le grand prêtre yuan-ti Thorasskus a récemment reçu une vision de son dieu Sseth concernant une éruption imminente, et a demandé à la grande sorcière Izbelah de concevoir un sort qui inverserait le processus.~
 @6412=~Selon les recherches de Nheero, il y a environ trente ans, ce volcan - l'Œil du Dragon - a éclaté, désintégrant instantanément presque toutes les choses vivantes à l'intérieur.  Peu de temps après, les enfants demi-sang yuan-ti ont fui ici depuis Kuldahar, se sont liés d'amitié avec les jeunes lézards survivants, ont excavé le troisième niveau depuis la roche volcanique refroidie, et ont de nouveau revendiqué cet endroit comme leur foyer.  Il a en outre expliqué que le grand prêtre yuan-ti Thorasskus a récemment reçu une vision de son dieu Sseth concernant une éruption imminente, et a demandé à la grande sorcière Izbelah de concevoir un sort qui inverserait le processus.~
 @6413=~Selon les recherches de Nheero, il y a environ trente ans, ce volcan - l'Œil du Dragon - a éclaté, désintégrant presque toutes les choses vivantes à l'intérieur.  Peu de temps après, les enfants demi-sang yuan-ti ont fui ici depuis Kuldahar, se sont liés d'amitié avec les jeunes lézards survivants, ont excavé le troisième niveau depuis la roche volcanique refroidie, et ont de nouveau revendiqué cet endroit comme leur foyer.  Il a en outre expliqué que le grand prêtre yuan-ti Thorasskus a récemment reçu une vision de son dieu Sseth concernant une éruption imminente.  Thorasskus a ensuite informé la grande sorcière Izbelah qui a hâtivement recherché un sort pour l'empêcher, mais elle n'a pas été vue depuis.~
+
+// Strings to translate:
+
+@546    = ~WATCHER OF HELM:
+
+Also known as He of the Unsleeping Eyes, Helm is the god of guardians. His servants, the Watchers, are always vigilant against invaders, thieves, and tricksters of all sorts. Watchers are known for their stern demeanor, loyalty, and uncompromising ethics.
+
+Advantages:
+
+* Helm's Shield 1/day (grants the recipient a +4 bonus to all saving throws for 1 round per cleric level)
+* Helm's Watch 1/day (allows the recipient to see invisible creatures and grants them immunity to sleep, blindness, fatigue and sneak attacks for 30 rounds)~
+@213    = ~Helm's Shield
+
+This ability grants the recipient a +4 bonus to all saving throws for 1 round per cleric level.~
+//Only the text under "Advantages" was changed in the following two strings.
+@572    = ~SORCERER:
+
+Sorcerers are practitioners of magic who were born with the innate ability to cast spells. It is thought that the blood of some powerful creature flows through their veins; perhaps they even are the spawn of dragons walking in humanoid form. Regardless, the Sorcerer's magic is intuitive rather than logical. They know fewer spells than wizards, and acquire spells more slowly, but they can cast spells more often and have no need to select and prepare spells ahead of time. Sorcerers cannot specialize in magic the way wizards do. Other than these differences, a Sorcerer is very similar to the wizard.
+
+NOTE: A sorcerer does NOT learn spells from scrolls. He chooses new spells with each level. Charisma is the casting statistic for a sorcerer. It affects their maximum spellcasting level, spell saving throw DCs, and number of bonus spells.
+
+Hit Points per Level: 1-4
+
+Advantages:
+* Proficient with all simple weapons.
+* 16th-level: When the sorcerer uses one or more metamagic abilities, the new level of the spell will be one level lower than it would be otherwise, to a minimum of one level higher than the original level. For example, Empower Spell will only increase the spell's level by 1, while Empower Spell plus Maximize Spell will increase the spell's level by 4.
+
+Disadvantages:
+* Starts with no proficiencies in armor and is very poor at melee combat.~
+@573    = ~SORCERER:
+
+Sorcerers are practitioners of magic who were born with the innate ability to cast spells. It is thought that the blood of some powerful creature flows through their veins; perhaps they even are the spawn of dragons walking in humanoid form. Regardless, the Sorcerer's magic is intuitive rather than logical. They know fewer spells than wizards, and acquire spells more slowly, but they can cast spells more often and have no need to select and prepare spells ahead of time. Sorcerers cannot specialize in magic the way wizards do. Other than these differences, a Sorcerer is very similar to the wizard.
+
+NOTE: A sorcerer does NOT learn spells from scrolls. He chooses new spells with each level. Charisma is the casting statistic for a sorcerer. It affects their maximum spellcasting level, spell saving throw DCs, and number of bonus spells.
+
+Hit Points per Level: 1-4
+
+Advantages:
+* Proficient with all simple weapons.
+* 6th level: The sorcerer may replace one of their known spells with another spell of the same level. They may do this once again every 2 levels after level 6. The sorcerer can only replace spells at least two spell levels below the highest spell level they can cast (e.g. only a 1st-level spell when the sorcerer reaches 6th level), though they can replace 8th-level spells starting at level 20, and 9th-level spells starting at level 22.
+* 16th-level: When the sorcerer uses one or more metamagic abilities, the new level of the spell will be one level lower than it would be otherwise, to a minimum of one level higher than the original level. For example, Empower Spell will only increase the spell's level by 1, while Empower Spell plus Maximize Spell will increase the spell's level by 4.
+
+Disadvantages:
+* Starts with no proficiencies in armor and is very poor at melee combat.~

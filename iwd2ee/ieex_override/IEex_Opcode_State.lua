@@ -155,7 +155,12 @@ function IEex_Extern_OnCheckAddScreenEffectsHook(pEffect, pSprite)
 		local special = IEex_ReadDword(pEffect + 0x44)
 		local resist_dispel = IEex_ReadDword(pEffect + 0x58)
 		local parent_resource = IEex_ReadLString(pEffect + 0x90, 8)
-		IEex_DisplayString(IEex_GetActorName(actorID) .. " - Opcode: " .. opcode .. ", Parameter1: " .. parameter1 .. ", Parameter2: " .. parameter2 .. ", Parameter3: " .. parameter3 .. ", Special: " .. special .. ", Timing: " .. timing .. ", Duration: " .. duration .. ", Dispel Resistance: " .. resist_dispel .. ", Resource: \"" .. resource .. "\", Flags: " .. IEex_ToHex(savingthrow, 0, false) .. ", Parent resource: \"" .. parent_resource .. "\", Source: " .. IEex_GetActorName(sourceID))
+		local casterlvl = IEex_ReadByte(pEffect + 0xC4, 0x0)
+		local casterClass = IEex_ReadByte(pEffect + 0xC5, 0x0)
+		if casterClass > 0 then
+			casterlvl = casterlvl .. ", " .. casterClass
+		end
+		IEex_DisplayString(IEex_GetActorName(actorID) .. " - Opcode: " .. opcode .. ", Parameter1: " .. parameter1 .. ", Parameter2: " .. parameter2 .. ", Parameter3: " .. parameter3 .. ", Special: " .. special .. ", Timing: " .. timing .. ", Duration: " .. duration .. ", Dispel Resistance: " .. resist_dispel .. ", Resource: \"" .. resource .. "\", Flags: " .. IEex_ToHex(savingthrow, 0, false) .. ", Caster level: " .. casterlvl .. ", Parent resource: \"" .. parent_resource .. "\", Source: " .. IEex_GetActorName(sourceID))
 	end
 	if IEex_IsSprite(sourceID, true) then
 		local sourceData = IEex_GetActorShare(sourceID)

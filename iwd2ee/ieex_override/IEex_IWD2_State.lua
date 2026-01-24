@@ -2950,8 +2950,8 @@ end
 function Feats_SnakeBlood(actorID, featID)
 	local creatureData = IEex_GetActorShare(actorID)
 	local race = IEex_ReadByte(creatureData + 0x26, 0x0)
-	local subrace = IEex_ReadByte(creatureData + 0x7FF, 0x0)
-	return (race == 1 and subrace == 0)
+	local subrace = IEex_ReadByte(creatureData + 0x3E3D, 0x0)
+	return (IEex_ReadByte(creatureData + 0x626, 0x0) < 2 and race == 1 and subrace == 0)
 end
 
 function Feats_SpringAttack(actorID, featID)
@@ -5752,7 +5752,7 @@ function MEPALSPL(effectData, creatureData)
 ["timing"] = 0,
 ["resource"] = spellRES,
 ["parent_resource"] = spellRES,
-["casterlvl"] = casterlvl,
+["casterlvl"] = casterlvl + casterClass * 0x100,
 ["internal_flags"] = bit.bor(IEex_ReadDword(effectData + 0xCC), IEex_ReadDword(effectData + 0xD4)),
 ["source_target"] = targetID,
 ["source_id"] = sourceID,
@@ -8667,7 +8667,7 @@ function MECRWEAP(effectData, creatureData)
 	if bit.band(savingthrow, 0x40000) > 0 then
 		while ex_slot_search[slot] do
 			local slotData = IEex_ReadDword(creatureData + 0x4AD8 + slot * 0x4)
-			if slotData > 0 and IEex_ReadLString(slotData + 0xC, 8) ~= itemRES then
+			if slotData > 0 and IEex_ReadLString(slotData + 0xC, 8) ~= weaponRES then
 				if (ex_slot_search[slot] ~= 18 or bit.band(savingthrow, 0x80000) > 0) then
 					slot = ex_slot_search[slot]
 				else
@@ -33325,6 +33325,18 @@ function MEIMBUAR(originatingEffectData, actionData, creatureData)
 ["savingthrow"] = 0x10000,
 ["parent_resource"] = parent_resource,
 ["source_id"] = sourceID
+})
+		else
+			IEex_ApplyEffectToActor(sourceID, {
+["opcode"] = 500,
+["target"] = 2,
+["timing"] = 4,
+["duration"] = duration,
+["parameter1"] = targetSlot,
+["resource"] = "MEERASEW",
+["savingthrow"] = 0x10000,
+["parent_resource"] = parent_resource,
+["source_id"] = sourceID,
 })
 		end
 	end

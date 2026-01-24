@@ -97,7 +97,7 @@ The recipient gains +6 attack and damage with all weapons for 3 rounds.~
 This ability allows the recipient to see invisible creatures and grants them immunity to sleep, blindness, fatigue and sneak attacks for 30 rounds.~
 @213    = ~Helm's Shield
 
-This ability grants the recipient a +4 generic AC bonus for 10 rounds plus 1 round per cleric level.~
+This ability grants the recipient a +4 bonus to all saving throws for 1 round per cleric level.~
 @214    = ~Ilmater's Endurance
 
 This ability allows a non-evil ally to bear far more pain but also suffer more pain, granting them a +20 Constitution bonus and a -3 vulnerability to physical damage for 8 hours.~
@@ -996,7 +996,7 @@ Also known as He of the Unsleeping Eyes, Helm is the god of guardians. His serva
 
 Advantages:
 
-* Helm's Shield 1/day (grants the recipient a +4 generic AC bonus for 10 rounds plus 1 round per cleric level)
+* Helm's Shield 1/day (grants the recipient a +4 bonus to all saving throws for 1 round per cleric level)
 * Helm's Watch 1/day (allows the recipient to see invisible creatures and grants them immunity to sleep, blindness, fatigue and sneak attacks for 30 rounds)~
 @547    = ~SILVERSTAR OF SELUNE:
 
@@ -1079,7 +1079,6 @@ Hit Points per Level: 1-4
 Advantages:
 * Proficient with all simple weapons.
 * 6th level: The sorcerer may replace one of their known spells with another spell of the same level. They may do this once again every 2 levels after level 6. The sorcerer can only replace spells at least two spell levels below the highest spell level they can cast (e.g. only a 1st-level spell when the sorcerer reaches 6th level), though they can replace 8th-level spells starting at level 20, and 9th-level spells starting at level 22.
-* 16th-level: When the sorcerer uses one or more metamagic abilities, the new level of the spell will be one level lower than it would be otherwise, to a minimum of one level higher than the original level. For example, Empower Spell will only increase the spell's level by 1, while Empower Spell plus Maximize Spell will increase the spell's level by 4.
 
 Disadvantages:
 * Starts with no proficiencies in armor and is very poor at melee combat.~
@@ -1125,6 +1124,35 @@ Advantages:
 
 Disadvantages:
 * Starts with no proficiencies in armor and is a very poor at melee combat.~
+@572    = ~SORCERER:
+
+Sorcerers are practitioners of magic who were born with the innate ability to cast spells. It is thought that the blood of some powerful creature flows through their veins; perhaps they even are the spawn of dragons walking in humanoid form. Regardless, the Sorcerer's magic is intuitive rather than logical. They know fewer spells than wizards, and acquire spells more slowly, but they can cast spells more often and have no need to select and prepare spells ahead of time. Sorcerers cannot specialize in magic the way wizards do. Other than these differences, a Sorcerer is very similar to the wizard.
+
+NOTE: A sorcerer does NOT learn spells from scrolls. He chooses new spells with each level. Charisma is the casting statistic for a sorcerer. It affects their maximum spellcasting level, spell saving throw DCs, and number of bonus spells.
+
+Hit Points per Level: 1-4
+
+Advantages:
+* Proficient with all simple weapons.
+* 16th-level: When the sorcerer uses one or more metamagic abilities, the new level of the spell will be one level lower than it would be otherwise, to a minimum of one level higher than the original level. For example, Empower Spell will only increase the spell's level by 1, while Empower Spell plus Maximize Spell will increase the spell's level by 4.
+
+Disadvantages:
+* Starts with no proficiencies in armor and is very poor at melee combat.~
+@573    = ~SORCERER:
+
+Sorcerers are practitioners of magic who were born with the innate ability to cast spells. It is thought that the blood of some powerful creature flows through their veins; perhaps they even are the spawn of dragons walking in humanoid form. Regardless, the Sorcerer's magic is intuitive rather than logical. They know fewer spells than wizards, and acquire spells more slowly, but they can cast spells more often and have no need to select and prepare spells ahead of time. Sorcerers cannot specialize in magic the way wizards do. Other than these differences, a Sorcerer is very similar to the wizard.
+
+NOTE: A sorcerer does NOT learn spells from scrolls. He chooses new spells with each level. Charisma is the casting statistic for a sorcerer. It affects their maximum spellcasting level, spell saving throw DCs, and number of bonus spells.
+
+Hit Points per Level: 1-4
+
+Advantages:
+* Proficient with all simple weapons.
+* 6th level: The sorcerer may replace one of their known spells with another spell of the same level. They may do this once again every 2 levels after level 6. The sorcerer can only replace spells at least two spell levels below the highest spell level they can cast (e.g. only a 1st-level spell when the sorcerer reaches 6th level), though they can replace 8th-level spells starting at level 20, and 9th-level spells starting at level 22.
+* 16th-level: When the sorcerer uses one or more metamagic abilities, the new level of the spell will be one level lower than it would be otherwise, to a minimum of one level higher than the original level. For example, Empower Spell will only increase the spell's level by 1, while Empower Spell plus Maximize Spell will increase the spell's level by 4.
+
+Disadvantages:
+* Starts with no proficiencies in armor and is very poor at melee combat.~
 @580    = ~
 
 Domain Spells:
@@ -2516,7 +2544,7 @@ When used by a Monk of the Dark Moon, Darkness has a DC of 15 + Wisdom bonus + h
 @985    = ~Imbue Arrow~
 @986    = ~Imbue Arrow
 
-If you use this ability and then attempt to cast an offensive ranged wizard or sorcerer spell of 5th-level or lower that involves a projectile traveling from the caster, instead of being cast, it will be stored in an arrow that is created in an empty ammo slot (consuming a use of the spell). That arrow has an enchantment equal to the level of the spell. When fired, the arrow uses the same projectile and area of effect as the spell, and deals the physical damage of the arrow in addition to the effects of the spell (as if cast at the character's wizard or sorcerer level with the same DC) to all creatures it hits. 
+If you use this ability and then attempt to cast an offensive ranged wizard or sorcerer spell of 5th-level or lower that involves a projectile traveling from the caster, instead of being cast, it will be stored in an arrow that is created in an empty ammo slot (consuming a use of the spell). That arrow has an enchantment equal to the level of the spell. When fired, the arrow uses the same projectile and area of effect as the spell, and deals the physical damage of the arrow in addition to the effects of the spell (as if cast at the character's wizard or sorcerer level with the same DC) to all creatures it hits.
 
 The following spells can be imbued: Magic Missile, Chromatic Orb, Larloch's Minor Drain, Ice Dagger, Melf's Acid Arrow, Agannazar's Scorcher, Snilloc's Snowball Swarm, Ray of Enfeeblement, Flame Arrow, Fireball, Lightning Bolt, Skull Trap, Icelance, Lance of Disruption, Mordenkainen's Force Missiles, Shout, Vitriolic Sphere, Cone of Cold, and Symbol of Pain.~
 @987    = ~~

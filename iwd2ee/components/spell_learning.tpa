@@ -23,7 +23,11 @@ COPY_EXISTING ~IEex_TRA.lua~ ~override~
 
 STRING_SET 9563 @523
 STRING_SET 9562 @527
-STRING_SET 35 @569
+ACTION_IF MOD_IS_INSTALLED ~iwd2ee.tp2~ ~0~ BEGIN
+	STRING_SET 35 @573
+END ELSE BEGIN
+	STRING_SET 35 @569
+END
 
 // New descriptions for classes
 COPY_EXISTING ~help02.2da~ ~override~
@@ -37,6 +41,11 @@ COPY_EXISTING ~help02.2da~ ~override~
         SET_2DA_ENTRY_LATER rows_out row 2 ~%strref%~
       END
       ~10~ BEGIN
+		PATCH_IF MOD_IS_INSTALLED ~iwd2ee.tp2~ ~0~ BEGIN
+			SET strref = RESOLVE_STR_REF(@573)
+		END ELSE BEGIN
+			SET strref = RESOLVE_STR_REF(@569)
+		END
         SET strref = RESOLVE_STR_REF(@569)
         SET_2DA_ENTRY_LATER rows_out row 2 ~%strref%~
       END

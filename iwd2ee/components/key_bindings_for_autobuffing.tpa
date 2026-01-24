@@ -9,6 +9,7 @@ ACTION_IF NOT MOD_IS_INSTALLED ~iwd2ee.tp2~ ~2~ BEGIN
 		READ_LONG 0x6A effectoffset
 		WRITE_ASCIIE (effectoffset + 0x4) ~%SOURCE_RES%~ #8
 		UNLESS ~MEONCAST~
+		IF_EXISTS
 
 	INCLUDE ~%mod_folder%/components/final_patches.tpa~
 
