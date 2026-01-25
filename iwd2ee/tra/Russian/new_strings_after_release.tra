@@ -3475,45 +3475,44 @@
 @6413=~Судя по исследованию Нииро, около тридцати лет назад произошло извержение этого вулкана - Глаза Дракона - что уничтожило практически всё живое внутри него. Вскоре после этого, дети-полукровки юань-ти сбежали туда из Кулдахара, подружились с выжившими детёнышами человекоящеров, выкопали третий уровень в остывающей вулканической породе и снова объявили это место своим домом. Далее он объяснил, что недавно на Торасскуса, верховного Жреца юань-ти, снизошло видение, посланное его богом Ссетом, о надвигающемся извержении. Когда Торасскус сообщил об этом верховной колдунье Избеле, она спешно разработала заклинание для предотвращения извержения, однако с тех пор её никто не видел.~
 
 // Strings to translate:
+@546    = ~ДОЗОРНЫЙ ХЕЛМА:
 
-@546    = ~WATCHER OF HELM:
+Также известный как Недремлющее Око, Хелм присматривает за стражами и хранителями. Его слуг называют Дозорными. Они всегда настороже и высматривают возмутителей спокойствия: лазутчиков, нападающих врагов, жуликов и обманщиков всех мастей. Дозорные известны своим строгим поведением, верностью и бескомпромиссной этикой.
 
-Also known as He of the Unsleeping Eyes, Helm is the god of guardians. His servants, the Watchers, are always vigilant against invaders, thieves, and tricksters of all sorts. Watchers are known for their stern demeanor, loyalty, and uncompromising ethics.
+Преимущества:
 
-Advantages:
+* Щит Хелма 1 раз в день (даёт цели +4 ко всем спасброскам на 1 раунд за каждый уровень жреца)
+* Дозор Хелма 1 раз в день (позволяет цели видеть невидимых существ и даёт ей иммунитет ко сну, слепоте, усталости и скрытым атакам на 30 раундов)~
+@213    = ~Щит Хелма
 
-* Helm's Shield 1/day (grants the recipient a +4 bonus to all saving throws for 1 round per cleric level)
-* Helm's Watch 1/day (allows the recipient to see invisible creatures and grants them immunity to sleep, blindness, fatigue and sneak attacks for 30 rounds)~
-@213    = ~Helm's Shield
-
-This ability grants the recipient a +4 bonus to all saving throws for 1 round per cleric level.~
+Эта способность даёт цели +4 ко всем спасброскам на 1 раунд за каждый уровень жреца.~
 //Only the text under "Advantages" was changed in the following two strings.
-@572    = ~SORCERER:
+@572    = ~КОЛДУН:
 
-Sorcerers are practitioners of magic who were born with the innate ability to cast spells. It is thought that the blood of some powerful creature flows through their veins; perhaps they even are the spawn of dragons walking in humanoid form. Regardless, the Sorcerer's magic is intuitive rather than logical. They know fewer spells than wizards, and acquire spells more slowly, but they can cast spells more often and have no need to select and prepare spells ahead of time. Sorcerers cannot specialize in magic the way wizards do. Other than these differences, a Sorcerer is very similar to the wizard.
+Колдуны - пользователи магии с врождённой способностью к чтению заклинаний. Считается, что в их жилах течёт кровь какого-то могущественного создания; может статься, что они - потомки драконов, способных принимать человекоподобную форму. Как бы там ни было, магия колдуна скорее основана на интуиции, чем на логике. Они знают меньше заклинаний, чем волшебники, и получают новые медленнее, но могут читать их чаще и не должны выбирать и подготавливать заклинания заранее. Колдуны не могут специализироваться в школах магии, как это делают волшебники. В остальном эти два класса очень похожи.
 
-NOTE: A sorcerer does NOT learn spells from scrolls. He chooses new spells with each level. Charisma is the casting statistic for a sorcerer. It affects their maximum spellcasting level, spell saving throw DCs, and number of bonus spells.
+ПРИМЕЧАНИЕ: колдун НЕ заучивает заклинания со свитков. Он выбирает новые заклинания при переходе на следующий уровень. Способность колдуна к чтению заклинаний определяется харизмой. Она влияет на максимальный уровень заклинаний, УС заклинаний колдуна и количество дополнительных заклинаний.
 
-Hit Points per Level: 1-4
+Пунктов здоровья на уровень: 1-4
 
-Advantages:
-* Proficient with all simple weapons.
-* 16th-level: When the sorcerer uses one or more metamagic abilities, the new level of the spell will be one level lower than it would be otherwise, to a minimum of one level higher than the original level. For example, Empower Spell will only increase the spell's level by 1, while Empower Spell plus Maximize Spell will increase the spell's level by 4.
+Преимущества:
+* Умеет обращаться со всем простым оружием.
+* 16-й уровень: когда колдун использует одну или несколько метамагических способностей, новый уровень заклинания будет на один уровень ниже, чем должен быть, но как минимум на один уровень выше исходного заклинания. Например, "Усиленное заклинание" увеличит уровень исходного заклинания только на 1, а "Усиленное заклинание" и "Максимизированное заклинание" вместе увеличат уровень исходного заклинания на 4.
 
-Disadvantages:
-* Starts with no proficiencies in armor and is very poor at melee combat.~
-@573    = ~SORCERER:
+Недостатки:
+* Начинает игру, не умея носить броню. Очень слаб в ближнем бою.~
+@573    = ~КОЛДУН:
 
-Sorcerers are practitioners of magic who were born with the innate ability to cast spells. It is thought that the blood of some powerful creature flows through their veins; perhaps they even are the spawn of dragons walking in humanoid form. Regardless, the Sorcerer's magic is intuitive rather than logical. They know fewer spells than wizards, and acquire spells more slowly, but they can cast spells more often and have no need to select and prepare spells ahead of time. Sorcerers cannot specialize in magic the way wizards do. Other than these differences, a Sorcerer is very similar to the wizard.
+Колдуны - пользователи магии с врождённой способностью к чтению заклинаний. Считается, что в их жилах течёт кровь какого-то могущественного создания; может статься, что они - потомки драконов, способных принимать человекоподобную форму. Как бы там ни было, магия колдуна скорее основана на интуиции, чем на логике. Они знают меньше заклинаний, чем волшебники, и получают новые медленнее, но могут читать их чаще и не должны выбирать и подготавливать заклинания заранее. Колдуны не могут специализироваться в школах магии, как это делают волшебники. В остальном эти два класса очень похожи.
 
-NOTE: A sorcerer does NOT learn spells from scrolls. He chooses new spells with each level. Charisma is the casting statistic for a sorcerer. It affects their maximum spellcasting level, spell saving throw DCs, and number of bonus spells.
+ПРИМЕЧАНИЕ: колдун НЕ заучивает заклинания со свитков. Он выбирает новые заклинания при переходе на следующий уровень. Способность колдуна к чтению заклинаний определяется харизмой. Она влияет на максимальный уровень заклинаний, УС заклинаний колдуна и количество дополнительных заклинаний.
 
-Hit Points per Level: 1-4
+Пунктов здоровья на уровень: 1-4
 
-Advantages:
-* Proficient with all simple weapons.
-* 6th level: The sorcerer may replace one of their known spells with another spell of the same level. They may do this once again every 2 levels after level 6. The sorcerer can only replace spells at least two spell levels below the highest spell level they can cast (e.g. only a 1st-level spell when the sorcerer reaches 6th level), though they can replace 8th-level spells starting at level 20, and 9th-level spells starting at level 22.
-* 16th-level: When the sorcerer uses one or more metamagic abilities, the new level of the spell will be one level lower than it would be otherwise, to a minimum of one level higher than the original level. For example, Empower Spell will only increase the spell's level by 1, while Empower Spell plus Maximize Spell will increase the spell's level by 4.
+Преимущества:
+* Умеет обращаться со всем простым оружием.
+* 6-й уровень: колдун может заменить одно из своих известных заклинаний другим заклинанием того же уровня. После 6-го уровня он может делать это ещё раз каждые 2 уровня. Колдун может заменить заклинания только на два уровня ниже самого высокого уровня заклинаний, которые он может произнести (например, только заклинание 1-го уровня, когда колдун достигает 6-го уровня), так, он может заменить заклинания 8-го уровня, начиная с 20-го уровня, и заклинания 9-го уровня, начиная с 22-го уровня.
+* 16-й уровень: когда колдун использует одну или несколько метамагических способностей, новый уровень заклинания будет на один уровень ниже, чем должен быть, но как минимум на один уровень выше исходного заклинания. Например, "Усиленное заклинание" увеличит уровень исходного заклинания только на 1, а "Усиленное заклинание" и "Максимизированное заклинание" вместе увеличат уровень исходного заклинания на 4.
 
-Disadvantages:
-* Starts with no proficiencies in armor and is very poor at melee combat.~
+Недостатки:
+* Начинает игру, не умея носить броню. Очень слаб в ближнем бою.~
