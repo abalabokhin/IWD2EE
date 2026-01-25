@@ -3533,44 +3533,44 @@ Type d'arme : à deux mains~
 
 // Strings to translate:
 
-@546    = ~WATCHER OF HELM:
+@546    = ~SENTINELLE DE HEAUM :
 
-Also known as He of the Unsleeping Eyes, Helm is the god of guardians. His servants, the Watchers, are always vigilant against invaders, thieves, and tricksters of all sorts. Watchers are known for their stern demeanor, loyalty, and uncompromising ethics.
+Heaum, Les Yeux sans Sommeil, est le dieu des gardiens. Ses fidèles, que l’on appelle les Sentinelles, veillent contre les envahisseurs, voleurs et escrocs en tous genres. Les Sentinelles sont connues pour leur attitude austère, leur loyauté et leur sens de l’éthique inflexible.
 
-Advantages:
+Avantages :
 
-* Helm's Shield 1/day (grants the recipient a +4 bonus to all saving throws for 1 round per cleric level)
-* Helm's Watch 1/day (allows the recipient to see invisible creatures and grants them immunity to sleep, blindness, fatigue and sneak attacks for 30 rounds)~
-@213    = ~Helm's Shield
+* Bouclier de Heaum 1/jour (accorde au bénéficiaire un bonus de +4 à tous les jets de sauvegarde pendant 1 round par niveau de prêtre)
+* Garde de Heaum 1/jour (permet au bénéficiaire de voir les créatures invisibles et lui confère une immunité contre le sommeil, la cécité, la fatigue et les attaques sournoises pendant 30 rounds)~
+@213    = ~Bouclier de Heaum
 
-This ability grants the recipient a +4 bonus to all saving throws for 1 round per cleric level.~
+Cette capacité confère au bénéficiaire un bonus de +4 à tous les jets de sauvegarde pendant 1 round par niveau de prêtre.~
 //Only the text under "Advantages" was changed in the following two strings.
-@572    = ~SORCERER:
+@572    = ~ENSORCELEUR :
 
-Sorcerers are practitioners of magic who were born with the innate ability to cast spells. It is thought that the blood of some powerful creature flows through their veins; perhaps they even are the spawn of dragons walking in humanoid form. Regardless, the Sorcerer's magic is intuitive rather than logical. They know fewer spells than wizards, and acquire spells more slowly, but they can cast spells more often and have no need to select and prepare spells ahead of time. Sorcerers cannot specialize in magic the way wizards do. Other than these differences, a Sorcerer is very similar to the wizard.
+Les ensorceleurs pratiquent la magie et possèdent un don inné pour les sorts. On dit que le sang de puissantes créatures coule dans leurs veines et qu’ils seraient les descendants de dragons ayant pris une forme humanoïde. Quoi qu’il en soit, la magie des ensorceleurs repose davantage sur l’intuition que sur la logique. Leur connaissance des sorts est moins étendue et plus difficile à acquérir que celle des magiciens, mais ils peuvent en lancer plus souvent et n’ont pas besoin de les préparer à l’avance. Les ensorceleurs ne peuvent pas se spécialiser dans un domaine de magie, contrairement aux magiciens. Ce sont là les seules différences qui permettent de distinguer les ensorceleurs des magiciens.
 
-NOTE: A sorcerer does NOT learn spells from scrolls. He chooses new spells with each level. Charisma is the casting statistic for a sorcerer. It affects their maximum spellcasting level, spell saving throw DCs, and number of bonus spells.
+REMARQUE : un ensorceleur ne peut PAS apprendre les sorts sur des parchemins. Il choisit de nouveaux sorts à chaque niveau. Le charisme est la caractéristique la plus importante pour un ensorceleur : il affecte son niveau d’incantation, le Degré de Difficulté de ses jets de sort et le nombre de sorts supplémentaires.
 
-Hit Points per Level: 1-4
+Points de vie par niveau : 1-4
 
-Advantages:
-* Proficient with all simple weapons.
-* 16th-level: When the sorcerer uses one or more metamagic abilities, the new level of the spell will be one level lower than it would be otherwise, to a minimum of one level higher than the original level. For example, Empower Spell will only increase the spell's level by 1, while Empower Spell plus Maximize Spell will increase the spell's level by 4.
+Avantages :
+* Compétent avec toutes les armes courantes.
+* Niveau 16 : Lorsque l'ensorceleur utilise une ou plusieurs capacités de métamagie, le nouveau niveau du sort est inférieur d'un rang à ce qu'il serait normalement, jusqu'à un minimum d'un niveau supérieur au niveau d'origine. Par exemple, Extension d'effet n'augmentera le niveau du sort que de 1, tandis que Extension d'effet combiné à Quintessence des sorts augmentera le niveau du sort de 4.
 
-Disadvantages:
-* Starts with no proficiencies in armor and is very poor at melee combat.~
-@573    = ~SORCERER:
+Désavantages :
+* Débute sans aucune compétence en armure et s’avère très faible en combat rapproché.~
+@573    = ~ENSORCELEUR :
 
-Sorcerers are practitioners of magic who were born with the innate ability to cast spells. It is thought that the blood of some powerful creature flows through their veins; perhaps they even are the spawn of dragons walking in humanoid form. Regardless, the Sorcerer's magic is intuitive rather than logical. They know fewer spells than wizards, and acquire spells more slowly, but they can cast spells more often and have no need to select and prepare spells ahead of time. Sorcerers cannot specialize in magic the way wizards do. Other than these differences, a Sorcerer is very similar to the wizard.
+Les ensorceleurs pratiquent la magie et possèdent un don inné pour les sorts. On dit que le sang de puissantes créatures coule dans leurs veines et qu’ils seraient les descendants de dragons ayant pris une forme humanoïde. Quoi qu’il en soit, la magie des ensorceleurs repose davantage sur l’intuition que sur la logique. Leur connaissance des sorts est moins étendue et plus difficile à acquérir que celle des magiciens, mais ils peuvent en lancer plus souvent et n’ont pas besoin de les préparer à l’avance. Les ensorceleurs ne peuvent pas se spécialiser dans un domaine de magie, contrairement aux magiciens. Ce sont là les seules différences qui permettent de distinguer les ensorceleurs des magiciens.
 
-NOTE: A sorcerer does NOT learn spells from scrolls. He chooses new spells with each level. Charisma is the casting statistic for a sorcerer. It affects their maximum spellcasting level, spell saving throw DCs, and number of bonus spells.
+REMARQUE : un ensorceleur ne peut PAS apprendre les sorts sur des parchemins. Il choisit de nouveaux sorts à chaque niveau. Le charisme est la caractéristique la plus importante pour un ensorceleur : il affecte son niveau d’incantation, le Degré de Difficulté de ses jets de sort et le nombre de sorts supplémentaires.
 
-Hit Points per Level: 1-4
+Points de vie par niveau : 1-4
 
-Advantages:
-* Proficient with all simple weapons.
-* 6th level: The sorcerer may replace one of their known spells with another spell of the same level. They may do this once again every 2 levels after level 6. The sorcerer can only replace spells at least two spell levels below the highest spell level they can cast (e.g. only a 1st-level spell when the sorcerer reaches 6th level), though they can replace 8th-level spells starting at level 20, and 9th-level spells starting at level 22.
-* 16th-level: When the sorcerer uses one or more metamagic abilities, the new level of the spell will be one level lower than it would be otherwise, to a minimum of one level higher than the original level. For example, Empower Spell will only increase the spell's level by 1, while Empower Spell plus Maximize Spell will increase the spell's level by 4.
+Avantages :
+* Compétent avec toutes les armes courantes.
+* Niveau 6 : L'ensorceleur peut remplacer l'un de ses sorts connus par un autre sort du même niveau. Il peut effectuer ce changement à nouveau tous les 2 niveaux après le niveau 6. L'ensorceleur ne peut remplacer que des sorts d'au moins deux niveaux inférieurs au niveau de sort le plus élevé qu'il est capable de lancer (par exemple, il ne peut changer qu'un sort de 1er niveau lorsqu'il atteint le niveau 6), bien qu'il puisse remplacer des sorts de 8e niveau à partir du niveau 20 et des sorts de 9e niveau à partir du niveau 22.
+* Niveau 16 : Lorsque l'ensorceleur utilise une ou plusieurs capacités de métamagie, le nouveau niveau du sort est inférieur d'un rang à ce qu'il serait normalement, jusqu'à un minimum d'un niveau supérieur au niveau d'origine. Par exemple, Extension d'effet n'augmentera le niveau du sort que de 1, tandis que Extension d'effet combiné à Quintessence des sorts augmentera le niveau du sort de 4.
 
-Disadvantages:
-* Starts with no proficiencies in armor and is very poor at melee combat.~
+Désavantages :
+* Débute sans aucune compétence en armure et s’avère très faible en combat rapproché.~
