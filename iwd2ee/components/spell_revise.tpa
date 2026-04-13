@@ -3639,6 +3639,14 @@ ACTION_IF !(MOD_IS_INSTALLED ~iwd2ee.tp2~ ~5~) BEGIN
 		SAY NAME1 @21025
 		SAY NAME2 @21025
 
+COPY_EXISTING ~USWIGHTW.cre~ ~override~
+	SAY NAME1 @23013
+	SAY NAME2 @23013
+
+COPY_EXISTING ~USWIGHTW.cre~ ~override/USSWIGHW.cre~
+	WRITE_ASCII specialscript2 ~USWIGHTW~ #8
+	WRITE_ASCII combatscript ~00AATGN~ #8
+
 END
 
 COPY_EXISTING ~sppr504.spl~ ~override~ ~sppr712.spl~ ~override~ ~uspr355.spl~ ~override~ ~uswi866d.spl~ ~override~

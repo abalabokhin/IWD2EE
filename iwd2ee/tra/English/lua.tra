@@ -397,6 +397,7 @@
 @55818=~You cannot set any more traps in this area.~
 @55819=~Sneak Attack with Crippling Strike (-<EXCRPEN1> Str)~
 @55820=~Death Attack with Crippling Strike (-<EXCRPEN1> Str)~
+@55821=~You cannot change armor during combat.~
 
 @55901=~IEex Options~
 @55902=~Transparent Fog of War~
@@ -406,7 +407,6 @@
 @55906=~Enables action indicators above character portraits. These indicators visually represent the action(s) currently being performed by a character.~
 @55907=~Highlight Empty Containers in Gray~
 @55908=~Changes the highlight color of empty containers to gray, overriding the default green color. This helps differentiate containers that have already been looted by the party.~
-
 @55909=~Scrolling~
 @55910=~Scroll Up~
 @55911=~Scroll Left~
@@ -429,3 +429,5 @@
 @55928=~Toggle Buff Recording~
 @55929=~Erase Recording~
 @55930=~Cast Recorded Buffs~
+@55931=~Prevent Equipping Armor During Combat~
+@55932=~Prevents party members from putting on armor during combat.~

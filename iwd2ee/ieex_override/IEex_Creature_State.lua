@@ -508,14 +508,25 @@ function IEex_Extern_CheckItemUsable(sprite, item, strDesc)
 	-- print(string.format("resref: %s, name: %s", IEex_GetCItemResref(item), IEex_FetchString(IEex_ReadDword(itemData + 0xC))))
 	-- IEex_UndemandCItem(item)
 	-- IEex_WriteDword(strDesc, 9382)
+	local restrictArmorDuringCombat = false
+	local areaData = IEex_ReadDword(sprite + 0x12)
+	if areaData > 0 then
+		local options = IEex_Helper_GetBridge("IEex_Options", "options")
+		restrictArmorDuringCombat = (IEex_ReadByte(areaData + 0xB16, 0x0) > 0 and IEex_Helper_GetBridge(options, "preventEquippingArmorDuringCombat"))
+	end
 	local useMagicDevice = IEex_GetActorStat(IEex_GetActorIDShare(sprite), 94)
-	if ex_enable_use_magic_device_item_usability and useMagicDevice > 0 then
+	if restrictArmorDuringCombat or (ex_enable_use_magic_device_item_usability and useMagicDevice > 0) then
 		local itemData = IEex_DemandCItem(item)
 		if itemData > 0 then
 --			local price = IEex_ReadDword(itemData + 0x34)
 --			local extraDC = IEex_ReadSignedByte(itemData + 0x72, 0x0)
+			local itemType = IEex_ReadWord(itemData + 0x1C, 0x0)
 			local useMagicDeviceCheckDC = IEex_ReadSignedByte(itemData + 0x72, 0x0)
 			IEex_UndemandCItem(item)
+			if restrictArmorDuringCombat and (itemType == 2 or (itemType >= 60 and itemType <= 68)) then
+				IEex_WriteDword(strDesc, ex_tra_55821)
+				return false
+			end
 --			local useMagicDeviceCheckDC = math.ceil(math.sqrt(price / 1000) * 1.5 + ex_use_magic_device_item_usability_base_dc) + extraDC
 			if useMagicDevice >= useMagicDeviceCheckDC then
 				return true

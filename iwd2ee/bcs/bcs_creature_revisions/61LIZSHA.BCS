@@ -373,6 +373,10 @@ TR
 16449 0 1 0 0 "US_Epic_Verdigris" "LOCALS" OB
 0 0 0 0 0 0 0 0 0 0 0 0 0 [-1.-1.-1.-1] "" 0 0 OB
 TR
+TR
+16449 0 1 0 0 "US_Epic_Verdigris_Sync" "GLOBAL" OB
+0 0 0 0 0 0 0 0 0 0 0 0 0 [-1.-1.-1.-1] "" 0 0 OB
+TR
 CO
 RS
 RE
@@ -392,6 +396,14 @@ OB
 OB
 0 0 0 0 0 0 0 0 0 0 0 0 0 [-1.-1.-1.-1] "" 0 0 OB
 2400 0 0 0 0"LOCALSUS_Epic_Verdigris" "" AC
+AC
+115OB
+0 0 0 0 0 0 0 0 0 0 0 0 0 [-1.-1.-1.-1] "" 0 0 OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 0 [-1.-1.-1.-1] "" 0 0 OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 0 [-1.-1.-1.-1] "" 0 0 OB
+70 0 0 0 0"GLOBALUS_Epic_Verdigris_Sync" "" AC
 AC
 191OB
 0 0 0 0 0 0 0 0 0 0 0 0 0 [-1.-1.-1.-1] "" 0 0 OB

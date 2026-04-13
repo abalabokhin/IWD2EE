@@ -1,0 +1,1217 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOD: Icewind Dale 2: Enhanced Edition</title>
+    <meta name="description" content="Uma compilação de ajustes e correções para Icewind Dale 2." />
+    <meta name="keywords" content="iwd2, iwd2ee, mod" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body class="light-theme">
+    <div id="top"></div>
+    <div id="language">
+        <ul>
+            <li>Inglês</li>
+            <li title="Francês"><a href="IWD2EE_ReadMe-french.html">Francês</a></li>
+            <li title="Italiano"><a href="IWD2EE_ReadMe.html">Italiano</a></li>
+            <li title="Russo"><a href="IWD2EE_ReadMe.html">Russo</a></li>
+            <li title="Português"><a href="IWD2EE_ReadMe-portuguese.html">Português</a></li>
+        </ul>
+    </div>
+
+    <header>
+        <h1 class="title">Icewind Dale 2: Enhanced Edition</h1>
+        <div class="subtitle">Este é o mod semiOverhaul mais recente, contendo a maioria dos componentes de rebalanceamento.
+         e alguns outros ajustes.</div>
+        <hr />
+        <p class="about"><strong>Autor: The Red Chimera Group</strong></p>
+        <ul id="globalnav" class="about">
+            <li><strong>Download</strong> (<a href="https://github.com/RedChimera/IWD2EE/releases/latest">GitHub</a>)
+            </li>
+            <li><strong>Discussão</strong> (<a
+                    href="https://forums.beamdog.com/discussion/87952/icewind-dale-2-enhanced-edition-is-released/p1">Beamdog</a>,
+                <a href="https://discord.gg/t7pWFx2B5Q">Discord</a>)
+            </li>
+            <li><a href="https://github.com/RedChimera/IWD2EE">Projeto</a></li>
+            <li id="version" style="display: none;"></li>
+            <!-- fetch the latest version number and date from github / hide until done to not slow down page loading -->
+        </ul>
+        <hr />
+        <nav>
+            <ul>
+               <li><a href="#overview">Visão geral</a></li>
+               <li><a href="#installation">Instalação</a></li>
+               <li><a href="#components">Componentes</a></li>
+               <li><a href="#compatibility">Compatibilidade</a></li>
+               <li><a href="#credits">Créditos</a></li>
+               <li><button id="themeToggle">Alternar Tema</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- ================== O V E R V I E W ================== -->
+        <section id="overview">
+            <h2>Overview</h2>
+            <p>Icewind Dale 2: Enhanced Edition é uma compilação de ajustes e correções para Icewind Dale 2, aprimorando a experiência de jogo.
+				o jogo de diversas maneiras. Classes, magias, itens, criaturas e encontros são mais variados.
+				Interessante. IWD2EE altera mais de 300 feitiços e mais de 1.000 itens, e adiciona mais de 90 novos feitiços, quase.
+				200 novos itens, mais de 30 novas habilidades e vários NPCs que podem se juntar ao grupo. O mod corrige muitos dos problemas.
+				grandes problemas com o Icewind Dale 2 original: você não precisa mais fazer grandes quantidades de backtracking para
+				Ao completar certas áreas, os inimigos no Modo Coração da Fúria são fortalecidos de maneiras interessantes, em vez de apenas...
+				Ter muitos pontos de vida (HP) permite revisar o sistema de experiência para que você não receba zero de experiência ao matar inimigos.
+				inimigos no final do jogo.</p>
+            <p>As grandes alterações descritas acima só se aplicam se você instalar determinados componentes - Revisões de Classe,
+				As revisões de feitiços, itens e criaturas são as mais importantes. É altamente recomendável.
+				que você instale estes..</p>
+            <hr class="spacer" />
+            <p>Visit the <a
+                    href="https://forums.beamdog.com/discussion/76982/mod-icewind-dale-2-enhanced-edition">Beamdog
+                    Forums</a> se você tiver dúvidas ou baixe a versão mais recente de <a
+                    href="https://github.com/OlvynChuru/IWD2EE/releases/latest">GitHub</a>.</p>
+            <div class="back">
+                <a class="novisit" href="#top">VOLTAR AO TOPO</a>
+            </div>
+        </section>
+
+        <!-- ================== I N S T A L L A T I O N ================== -->
+        <section id="installation">
+            <h2>Installation</h2>
+            <ol>
+				<li>Descompacte todos os arquivos na sua pasta IWD2.</li>
+				<li>Clique duas vezes no aplicativo Setup-iwd2ee.exe.</li>
+				<li>A janela do WeiDu será exibida. Siga as instruções e o WeiDu instalará o mod no seu jogo.
+					Você também pode reinstalar ou desinstalar o mod.</li>
+				<li>Na pasta IWD2, aparecerá um novo programa: IWD2EE.exe. Inicie o jogo clicando nele. Se você
+					Se você iniciar o jogo pelo arquivo IWD2.exe, ele não funcionará corretamente.</li>
+            </ol>
+            <p>Se você estiver usando algum mod além do IWD2EE, também deverá instalar o patch de compatibilidade de mods do IWD2EE.
+				que vem com o IWD2EE. Instale o patch depois do IWD2EE e depois de todos os outros mods.</p>
+            <div class="back">
+                <a class="novisit" href="#top">VOLTAR AO TOPO</a>
+            </div>
+        </section>
+
+
+        <!-- ================== C O M P O N E N T S ================== -->
+        <section id="components">
+            <h2>Componentes</h2>
+
+            <p>O mod IWD2:EE apresenta uma variedade de componentes que aprimoram e refinam a jogabilidade. Você pode saber mais.
+				sobre cada componente abaixo:</p>
+
+            <div class="gappedlist">
+                <h4><a href="#core">1. Núcleo IWD2EE</a></h4>
+                <h4><a href="#classrev">2. Revisões de Classe</a></h4>
+                <h4><a href="#align">3. Restrições de Alinhamento Mais Flexíveis para Classes</a></h4>
+                <h4><a href="#spellrev">4. Revisões de Magias</a></h4>
+                <h4><a href="#spellfocus">5. Talentos de Foco em Magia para Todas as Escolas</a></h4>
+				<h4><a href="#spelllearning">6. Adição de sistemas de Aprendizado de Magias para Magos e Substituição de Magias para Bardos/Feiticeiros</a></h4>
+				<h4><a href="#itemrev">7. Revisões de Itens</a></h4>
+				<h4><a href="#creaturerev">8. Revisões de Criaturas</a></h4>
+				<h4><a href="#xp">9. Progresso de XP Melhorada</a></h4>
+				<h4><a href="#palisade">10. Uma Alternativa Mais Interessante às Missões da Paliçada</a></h4>
+				<h4><a href="#progress">11. Adicionar Maneiras Adicionais de Progredir em Certas Áreas</a></h4>
+				<h4><a href="#wanderingvillage">12. Vila Errante Mais Rápida</a></h4>
+				<h4><a href="#dragoneye">13. Olho do Dragão Mais Rápido</a></h4>
+				<h4><a href="#timeloop">14. Reduzir a linha de missões do Loop Temporal do Olho do Dragão para uma única batalha</a></h4>
+				<h4><a href="#scrolls">15. Adicionar mais pergaminhos ao jogo</a></h4>
+				<h4><a href="#immunities">16. Resistências e Imunidades de Criaturas Revisadas</a></h4>
+				<h4><a href="#savingthrows">17. Testes de resistência mais precisos para inimigos</a></h4>
+				<h4><a href="#crithit">18. Revisar a Imunidade a Acertos Críticos</a></h4>
+				<h4><a href="#racial">19. Inimigos Raciais Melhores para Rangers</a></h4>
+				<h4><a href="#cosmetic">20. Ajustes Estéticos</a></h4>
+				<h4><a href="#persuasion">21. Mais Opções de Persuasão</a></h4>
+				<h4><a href="#npccore">22. Núcleo de NPCs</a></h4>
+				<h4><a href="#npcexp">23. Os NPCs ganham experiência ao se juntar para igualar à experiência do grupo</a></h4>
+				<h4><a href="#newgui">24. Melhorias cosméticas na interface gráfica e novas telas de carregamento</a></h4>
+				<h4><a href="#looping">25. Tema Principal em Loop</a></h4>
+				<h4><a href="#battlesquare">26. Revisão da Praça de Batalha</a></h4>
+				<h4><a href="#damageresist">27. Resistência a dano menor para armaduras e escudos</a></h4>
+				<h4><a href="#racerev">28. Revisões de Raças</a></h4>
+				<h4><a href="#racelevel">29. Revisar o ajuste de nível racial/ECL</a></h4>
+				<h4><a href="#enemyxp">30. Inimigos dão a mesma quantidade de experiência independentemente do nível do grupo
+					</a></h4>
+                <h4><a href="#scaling">31. Ajustar escala de nível dos encontros</a></h4>
+                <h4><a href="#hofhp">32. Ajusta os bônus de PV das criaturas no Modo Coração da Fúria</a></h4>
+                <h4><a href="#hofattack">33. Ajusta os bônus de ataque das criaturas no Modo Coração da Fúria</a></h4>
+                <h4><a href="#hofsaving">34. Ajusta os bônus de Teste de Resistência das criaturas no Modo Coração da Fúria</a></h4>
+                <h4><a href="#hofsummoned">35. Remove os bônus de atributos de criaturas aliadas invocadas no Modo Coração da Fúria</a></h4>
+                <h4><a href="#hofpartyxp">36. Faça com que o grupo comece com mais experiência no Modo Coração da Fúria</a></h4>
+                <h4><a href="#delay">37. Reduzir o atraso após um ataque furtivo antes que a criatura possa ser atacada furtivamente novamente</a></h4>
+                <h4><a href="#levelcap">38. Aumenta o limite de nível</a></h4>
+                <h4><a href="#scrolllearn">39. Sempre aprende magias de pergaminhos com sucesso</a></h4>
+                <h4><a href="#opportunity">40. Todos podem realizar ataques de oportunidade</a></h4>
+                <h4><a href="#abilityscores">41. Mudar a forma como os atributos são distribuídos na criação de personagens</a>
+                </h4>
+                <h4><a href="#traps">42. Adicione mais armadilhas</a></h4>
+                <h4><a href="#buffing">43. Adicionar atalhos para automatizar o uso de buffs</a></h4>
+            </div>
+
+
+            <div class="back">
+                <a class="novisit" href="#top">VOLTAR AO TOPO</a>
+            </div>
+
+            <section id="core">
+
+                <h3>1. IWD2EE Core</h3>
+                <p>O componente principal deve ser instalado para que qualquer outro componente possa ser instalado. Ele inclui vários componentes.
+					A qualidade de vida muda.</p>
+                <ul>
+                    <li>Os tempos de carregamento são muito mais rápidos.</li>
+					<li>O IWD2EE inclui compatibilidade com widescreen integrada, tornando o Widescreen Mod desnecessário.
+					  NÃO INSTALE O MOD WIDESCREEN COM O IWD2EE; ISSO CAUSARÁ TRAVAMENTO NO JOGO. Ao iniciar o IWD2EE, um
+					  Um menu será aberto, permitindo que você configure o jogo para uma resolução mais alta. Observe que uma resolução mais alta...
+					  As configurações não se aplicam aos menus; elas só se aplicam quando você carrega um jogo salvo. Você deve jogar em
+					  600p ou 768p de altura para que a interface do usuário do jogo ocupe toda a altura da sua tela e para manter
+					  O texto é razoavelmente legível. Para telas 21:9 e outras telas ultrawide, você pode definir uma configuração personalizada.
+					  resolução (como 1835x768 ou 1433x600) no arquivo ddraw.ini na seção [iwd2].</li>
+				   <li>O IWD2EE inclui o programa de correção ddraw, a menos que você já tenha um instalado. Isso deve
+					  Melhorar o desempenho.</li>
+				   <li>A rolagem da tela deve ser mais suave em alguns dispositivos.</li>
+				   <li>É possível rolar a página com o botão do meio do mouse.</li>
+				   <li>Agora existe um botão de saque rápido.</li>
+                    <li>Clicar com o botão direito do mouse em uma magia ou habilidade inata na barra de ação exibe sua descrição (embora
+						A maioria das habilidades inatas não possui descrição, a menos que o Class Revisions esteja instalado.</li>
+                    <li>Agora você pode navegar pelos diálogos na velocidade que desejar; não há mais aquela pequena pausa entre eles.
+						momento em que você escolhe uma opção de diálogo.</li>
+				   <li>Muitas cenas de corte podem ser puladas pressionando ESC.</li>
+				   <li>O tempo necessário para detectar armadilhas é reduzido.</li>
+				   <li>A tela de registro de personagem inclui um botão do Partido da Reforma.</li>
+                    <li>A tela de opções inclui um botão para acessar o novo menu Opções do IEex (atualmente ele
+						Inclui uma opção para alterar a névoa de guerra para que ela não pisque).</li>
+                    <li>Se um membro do grupo tiver experiência suficiente para subir de nível várias vezes, você pode escolher quantas.
+                  vezes que eles sobem de nível ao mesmo tempo. Isso também permite dividir as subidas de nível entre vários
+                  classes (embora você precise passar pelo processo de subir de nível uma vez para cada classe).</li>
+                    <li>Os pergaminhos ficam destacados em verde quando um mago que não conhece o feitiço é selecionado.</li>
+                    <li>Se você não tiver a opção padrão de descansar até se curar ativada, os personagens se curam uma certa quantidade
+						de HP igual ao seu nível em repouso, em vez de curar apenas 1 HP.</li>
+                    <li>Enquanto o console estiver habilitado no menu de configuração normal do IWD2, as teclas de trapaça estarão disponíveis.
+						Ativado automaticamente sem a necessidade de inserir um comando.</li>
+                    <li>Para modders, o IWD2EE inclui vários novos opcodes e oferece a capacidade de executar código Lua.
+					  no jogo, através do console ou de vários hooks (e alguns dos novos opcodes podem chamar Lua personalizado).
+					  funções), bem como uma capacidade limitada de modificar a interface gráfica. Isso abre muitas possibilidades.
+					  para modificações.</li>
+                </ul>
+                <div class="back">
+                    <a class="novisit" href="#top">VOLTAR AO TOPO</a>
+                </div>
+
+            </section>
+
+            <section id="classrev">
+
+                <h3>2. Revisões de Classes (Class Revisions)</h3>
+                <p>Este componente revisa as classes do jogo para tornar guerreiros e ladinos muito mais viáveis e adiciona mais de 30 novos talentos ao jogo. 
+				Este componente é mais equilibrado quando combinado com o componente de Revisões de Magias.</p>
+
+                <h4>Bárbaros</h4>
+                <ul>
+                    <li>A fúria bárbara agora concede imunidade a medo, desespero, atordoamento, paralisia, sono e inconsciência.</li>
+                    <li>Bárbaros começam a ganhar resistência a dano no nível 2, em vez do nível 11, e sua resistência a dano de classe é dobrada se estiverem usando armadura média gibão de peles (Hide Armor) 
+						ou cota de malha (chain mail).</li>
+                    <li>A Fúria Bárbara agora continua a melhorar após o nível 20.</li>
+					<li>At level 21 and above, Barbarians gain the ability to increase their Strength above 40.</li>
+                </ul>
+                <h4>Bardos</h4>
+                <ul>
+                    <li>As canções de bardo devem ser mais úteis agora. Elas também estão distribuídas por mais níveis e escalam com os níveis, então os bardos não atingem mais seu ápice no nível 11.</li>
+                    <li>As canções podem se acumular, mas apenas se vários bardos cantarem ao mesmo tempo.</li>
+                </ul>
+                <h5>Sons de Bardo:</h5>
+                <ul>
+                    <li>
+                        <strong>Nível 1: O Conto de Groselha Coração Forte:</strong> +1 para acertar e causar dano e imunidade a medo e desespero. Ganha mais +1 para acertar e causar dano no nível 5 e a cada 5 níveis subsequentes.
+                    </li>				
+                    <li>
+                        <strong>Nível 3: A Canção de Kaudies:</strong> Todos os aliados são imunes a magias e habilidades sonoras prejudiciais.
+                    </li>
+                    <li>
+                        <strong>Nível 5: Melodia de Tymora:</strong> +1 de sorte, +2 em testes de resistência e perícias de ladino. Concede mais +1 de sorte e +2 em testes de resistência e perícias de ladino no nível 15 e a cada 10 níveis subsequentes.
+                    </li>
+                    <li>
+                        <strong>Nível 9: O Anseio da Sereia:</strong> Quando tocada, todo inimigo que ouvir a canção deve fazer um teste de Vontade ou ficará enfeitiçado, incapaz de agir por uma rodada ou até sofrer dano. A CD do teste de Vontade é igual a 10 + 1/2 do nível de bardo + bônus de Carisma.
+                    </li>
+                    <li>
+                        <strong>Nível 13: O Cântico de Guerra dos Sith:</strong> +2 de bônus genérico de armadura, resistência a dano físico de 3/- e 3 PV curados a cada rodada. No nível 18 e a cada 10 níveis subsequentes, esta canção concede +2 adicional na CA, resistência a dano físico de 3/- e 3 pontos de vida curados por rodada.
+                    </li>
+                    <li>
+                        <strong>Nível 20: A Balada dos Três Heróis:</strong> 10/- de resistência a todas as formas de dano mágico, resistência a magia definida para 35 se menor, e os efeitos do Conto de Curran Coração Forte, da Melodia de Tymora e do Canto de Guerra de Sith. No nível 50, esta canção define a resistência a magia para 40 se menor e concede mais 10/- de resistência a dano mágico.
+                    </li>
+                </ul>
+                <p>As Revisões de Criaturas também fazem com que os inimigos no início do jogo usem mais magias e habilidades baseadas em som (como os lamentos das harpias no Capítulo 1), o que torna a Canção de Kaudies mais útil.
+                </p>
+                <h4>Clérigos</h4>
+                <p>Os clérigos não sofreram muitas alterações com as Revisões de Classe, mas as Revisões de Magias aprimoram os sistemas de conjuração espontânea e de domínio.</p>
+                <h4>Druidas</h4>
+                <ul>
+                    <li>Os druidas recebem um novo conjunto de formas de metamorfose.</li>
+                    <li>As habilidades de cada forma escalam com o nível do druida.</li>
+                </ul>
+                <h5>Formas de metamorfose druídica:</h5>
+                <ul>
+                    <li>Nível 5: Lobo do Inverno</li>
+                    <li>Nível 7: Urso Polar</li>
+                    <li>Nível 9: Víbora Gigante</li>
+                    <li>Nível 11: Salamandra ou Salamandra de Gelo</li>
+                    <li>Nível 13: Shambling Mound (Montículo Ambulante)</li>
+                    <li>Nível 15: Elemental de Fogo, Água, Terra ou Ar</li>
+                    <li>Nível 40: Dragão Negro (Forma de Dragão))</li>
+                </ul>
+                <p>As habilidades de metamorfose dos druidas também foram alteradas. Agora, elas permitem que os druidas se transformem em Cães Piscar, 
+					Besouros Rinocerontes e um enxame de insetos, como na magia Ruína Rastejante (Creeeping Doom).</p>
+				<p>Os druidas também podem conjurar espontaneamente a magia Invocar Aliado da Natureza.</p>
+                <h4>Monges</h4>
+                <ul>
+                    <li>Os monges agora possuem ataques desarmados muito mais rápidos e precisos, e seu dano de ataque 
+						progride de forma mais lógica.</li>
+                    <li>Seu dano base é limitado a 1d8+5, mas eles começam com 2 ataques por rodada e ganham um ataque adicional 
+						por rodada a cada 3 níveis (até 18 ataques por rodada no nível 49).</li>
+                    <li>Sua habilidade Desviar Flechas agora os impede de sofrer dano do primeiro ataque de projétil que os atingiria a cada rodada.</li>
+                    <li>Plenitude Corporal agora restaura PV igual ao nível de monge do personagem multiplicado por seu bônus de Sabedoria, e pode ser usada uma vez a cada 7 níveis.</li>
+                    <li>Palma Vibrante pode afetar inimigos de nível superior ao do monge, e os monges ganham um uso adicional de Palma Vibrante a cada 6 níveis após o nível 15.</li>
+                    <li>Os monges também recebem Passo Abundante no nível 10, um efeito de teletransporte.</li>
+                </ul>
+                <p>Além disso, as ordens de monges não limitam mais a multiclasse e possuem habilidades extras.</p>
+                <h5>Monge da Velha Ordem:</h5>
+                <ul>
+                    <li>2º nível: O monge agora adiciona seu bônus de Sabedoria novamente à CD de Ataque Atordoante.</li>
+                    <li>18º nível: O monge agora adiciona seu bônus de Sabedoria novamente à CD de Palma Vibrante.</li>
+                </ul>
+                <h5>Monge dos Quebrados:</h5>
+                <ul>
+                    <li>2º nível: O monge ganha um uso de Imposição de Mãos por dia. Qualquer nível que concederia ao monge um uso de Plenitude do 
+						Corpo concede a ele outro uso de Imposição de Mãos. Quando usada por um Monge dos Quebrados, Imposição de Mãos restaura a mesma 
+						quantidade de PV que Plenitude do Corpo (nível de monge * bônus de Sabedoria), mas também pode ser usada em outras criaturas.</li>
+                    <li>6º nível: O monge ganha resistência 2/- a todos os danos físicos. 
+						Mais 1/- de resistência é ganha a cada 4 níveis subsequentes.</li>
+                </ul>
+                <h5>Monge da Lua Negra:</h5>
+                <ul>
+                    <li>2º nível: O monge ganha um uso de Escuridão por dia. Qualquer nível que concederia ao monge um uso de Plenitude do Corpo, em vez disso, concede a ele outro uso de Escuridão. A CD é igual a 15 + bônus de Sabedoria + metade do nível de monge do personagem. O monge também adiciona metade do seu nível de monge à CD de qualquer outra magia ou habilidade de Escuridão que ele conjurar. O monge pode enxergar perfeitamente mesmo na escuridão mágica.</li>
+					<li>10º nível: O monge ganha +1 de dano contra qualquer inimigo que esteja cego ou tenha sua visão prejudicada por um efeito de Escuridão. Para cada 8 níveis de monge após o nível 10, o monge ganha mais +1 de dano contra inimigos nessas situações.</li>
+                </ul>
+                <h4>Guerreiros</h4>
+                <ul>
+                    <li>Guerreiros recebem +1 de dano a cada 5 níveis e +5% de chance de acerto crítico 
+					a cada 10 níveis, e podem obter Foco Maior em Arma em uma arma no nível 8 e Especialização 
+					Maior em Arma no nível 12.</li>
+                    <li>Todos os guerreiros recebem melhores testes de resistência e ataques mais fortes.</li>
+                </ul>
+                <h4>Paladinos</h4>
+                <ul>
+                    <li>Paladinos recebem mais espaços de magia e os recebem em níveis mais baixos.</li>
+                    <li>Paladinos recebem uma conjuração adicional de Imposição de Mãos a cada 5 níveis.</li>
+                    <li>Golpe Sagrado é mais poderoso, e eles recebem uma conjuração adicional de Golpe Sagrado a cada 10 níveis.</li>
+                </ul>
+                <p>Além disso, as ordens de paladino não limitam mais a multiclasse e possuem habilidades extras.</p>
+                <h5>Paladino de Ilmater:</h5>
+                <ul>
+                    <li>2º nível: O paladino pode conjurar Escudo de Outro (que reduz pela metade o dano recebido por um aliado, fazendo com que o paladino receba a outra metade) à vontade.</li>
+                    <li>6º nível: As magias e habilidades de cura do paladino curam 50% mais pontos de vida se usadas em um aliado que não seja o próprio paladino.</li>
+                    <li>11º nível: O bônus para magias e habilidades de cura aumenta de 50% para 100%.
+                    </li>
+                </ul>
+                <h5>Paladino de Helm:</h5>
+                <ul>
+                    <li>2º nível: Enquanto usa a ação Guardar, o paladino e todos os aliados a até 6 metros recebem um bônus de +2 na CA.</li>
+                    <li>6º nível: O bônus na CA ao usar a ação Guardar aumenta para +4.</li>
+                    <li>11º nível: Enquanto usa a ação Guardar, o paladino pode ver através de ilusões como se estivesse usando Visão Verdadeira.</li>
+                </ul>
+                <h5>Paladino de Mystra:</h5>
+                <ul>
+                    <li>2º nível: O paladino recebe um ponto em Arcano Blindado, reduzindo sua falha de conjuração arcana em 35%.</li>
+                    <li>6º nível: O paladino ganha mais dois pontos em Arcano Blindado, reduzindo sua falha de conjuração arcana em um total de 105% (permitindo que ele conjure magias arcanas sem chance de falha enquanto usa a armadura e os escudos mais pesados).</li>
+                    <li>11º nível: Todo o dano de fogo, frio, eletricidade, ácido e magia causado pelo paladino é aumentado em 20%. Isso se acumula com talentos como Espírito da Chama. Esse bônus se aplica tanto a magias como Bola de Fogo quanto a habilidades como Golpe Sagrado.</li>
+                </ul>
+                <h4>Rangers:</h4>
+                <ul>
+                    <li>Os rangers recebem mais espaços de magia e os recebem em níveis mais baixos.</li>
+                    <li>Eles podem obter os talentos Combate com Duas Armas Aprimorado e Tiro Múltiplo em níveis mais baixos do que outras classes e podem obter um segundo ponto nesses talentos para um ataque adicional por rodada.</li>
+                    <li>Eles também podem usar Armadilha Natural a cada 6 níveis, que prende os inimigos por 5 rodadas em caso de falha no teste de Reflexos.</li>
+                    <li>Armadilha Natural é muito mais eficaz do que no jogo original; A CD do teste de resistência agora escala com a perícia Conhecimento da Natureza do ranger.</li>
+                </ul>
+                <h4>Ladinos</h4>
+                <ul>
+                    <li>Ladinos recebem +1 de sorte a cada 5 níveis. </li>
+                    <li>Eles não terão o mesmo dano sustentado que um guerreiro, mas poderão realizar alguns ataques furtivos muito poderosos (a sorte em IWD2 aumenta a chance de um acerto crítico).
+                    </li>
+                </ul>
+                <p>As Revisões de Classe também revisam algumas das perícias de furto:</p>
+                <ul>
+                    <li>
+                        <strong>Furto (Pick Pockets):</strong> Como no jogo de mesa, furtar envolve duas rolagens: uma para determinar se você foi pego e outra para determinar se você consegue pegar o item. Qualquer item pode ser roubado, incluindo itens equipados (a CD depende do espaço do item e se ele está equipado; roubar de um dos espaços normais do inventário é fácil, mas roubar uma arma equipada é muito difícil, e roubar uma armadura equipada é praticamente impossível, com uma CD de 70, na qual um 20 não garante sucesso). Além disso, ao furtar alguém, você vê uma lista dos itens que podem ser descartados e que a pessoa tem no inventário, juntamente com a chance de roubar cada um e a chance de escapar impune. Itens mais fáceis de roubar e com menor probabilidade de fazer você ser pego são roubados primeiro.                  
+                    </li>
+                    <li>
+                        <strong>Abrir Fechadura (Open Lock):</strong> O sistema de arrombamento foi revisado para ser mais parecido com o de Baldur's Gate, no qual arrombar fechaduras é mais fácil, mas forçá-las é mais difícil, e não há muita variação na rolagem: se você não conseguir abrir a fechadura depois de algumas tentativas, provavelmente não conseguirá mesmo. Além disso, arrombar fechaduras concede experiência.
+                    </li>
+                    <li>
+                        <strong>Desarmar Armadilha (Disable Device):</strong> Desarmar armadilhas concede experiência.
+                    </li>
+                </ul>
+                <h4>Feiticeiros</h4>
+                <ul>
+                    <li>No nível 16, os feiticeiros se tornam mais proficientes no uso dos talentos metamágicos adicionados por este componente, ganhando a habilidade de usar metamagia sem aumentar tanto o nível da magia.</li>
+					<li>Os feiticeiros não atingirão mais seu ápice no nível 20 e depois experimentarão um crescimento quase nulo.</li>
+                </ul>
+                <h4>Magos</h4>
+                <ul>
+                    <li>Magos generalistas agora recebem +1 na CD de todas as magias de mago que conjuram (magos especialistas recebem +2 na CD das magias de mago de sua escola, mas essa era uma característica original do jogo que não foi documentada em IWD2 até agora).</li>
+                </ul>
+                <p>Embora as mudanças inerentes a clérigos, feiticeiros e magos não sejam enormes, todas as classes conjuradoras se beneficiam muito de alguns dos novos talentos, especialmente os talentos metamágicos.
+                </p>
+
+                <div class="back">
+                    <a class="novisit" href="#top">VOLTAR AO TOPO</a>
+                </div>
+
+            </section>
+
+            <section id="align">
+
+                <h3>3. Restrições de Alinhamento Mais Flexíveis para Classes (Looser Alignment Restrictions for Classes)</h3>
+                <p>Mesmo o sistema de classes bastante abrangente de IWD2 pode ser restritivo em alguns aspectos, principalmente no eixo Leal/Caótico. Este componente flexibiliza algumas dessas restrições, permitindo que certas classes sejam compatíveis com mais alinhamentos:</p>
+                <ul>
+                    <li>Bardos podem ser de qualquer alinhamento, exceto Leal Neutro (anteriormente não podiam ser de nenhum alinhamento Leal).</li>
+                    <li>Monges da Velha Ordem podem ser de qualquer alinhamento não caótico</li>
+                    <li>Monges dos Quebrados podem ser Neutros Bons.</li>
+                    <li>Monges da Lua Negra podem ser Leais Neutros, Neutros Verdadeiros e Neutros Maus.</li>
+                    <li>Paladinos de Ilmater e Mystra podem ser Neutros Bons.</li>
+                    <li>Paladinos de Helm podem ser Leais Neutros.</li>
+                    <li>Ladinos podem ser Leais Bons.</li>
+                </ul>
+                <div class="back">
+                    <a class="novisit" href="#top">VOLTAR AO TOPO</a>
+                </div>
+
+            </section>
+
+            <section id="spellrev">
+
+                <h3>4. Revisões de Magias (Spell Revisions)</h3>
+                <p>Este componente fortalece significativamente muitas magias fracas. Ele também altera o nível de algumas magias e concede acesso a outras para classes que antes não podiam conjurá-las. Aqui estão as principais mudanças:</p>
+                <ul>
+                    <li>Mais de 90 novas magias foram adicionadas ao jogo. Isso inclui magias não utilizadas como Porta Dimensional, magias de RPG de mesa que não estavam presentes no jogo original, como Voar, Muralha de Força e Gravidade Inversa, magias de outros jogos como Manto, Tempestade de Gelo Estígia e Tempestade de Mísseis Maior de Isaac, além de magias incomuns como Identificar Criatura (uma magia de adivinhação que revela os atributos da criatura alvo) e Bênção de Auril (que aumenta o poder de suas magias de gelo). Algumas das novas magias são exclusivas de bardo, paladino ou ranger.</li>
+                    <li>Os domínios de clérigo têm melhores opções de magias. Se uma magia estiver em sintonia com o tema do conjunto de habilidades (por exemplo, Lâmina Lunar e Muralha de Luar para sacerdotes de Selune), eles podem conjurá-la em um nível particularmente baixo como uma magia de domínio.</li>
+                    <li>Clérigos podem converter espontaneamente magias acima do 4º nível em magias de cura/dano do mesmo nível, em vez de em Curar/Infligir Ferimentos Críticos. Aqui está a lista completa:</li>
+                </ul>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Nível</th>
+                            <th>Magias do Bem</th>
+                            <th>Magias do Mal</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Curar Ferimentos Leves</td>
+                            <td>Causar Ferimentos Leves</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Curar Ferimentos Moderados</td>
+                            <td>Causar Ferimentos Moderados</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Curar Ferimentos Graves</td>
+                            <td>Causar Ferimentos Graves</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Curar Ferimentos Críticos</td>
+                            <td>Causar Ferimentos Críticos</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Ressuscitar Mortos</td>
+                            <td>Matar Vivo</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>Cura Completa</td>
+                            <td>Doença Plena</td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>Ressurreição</td>
+                            <td>Destruição</td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>Restauração Maior</td>
+                            <td>Drenar Energia</td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td>Cura Completa em Massa</td>
+                            <td>Doença Plena em Massa</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <ul>
+                    <li>Certas magias estão disponíveis para mais classes. Rangers e Paladinos têm opções de magia muito melhores. Magias que criam armas mágicas ou concedem bônus de combate podem ser conjuradas como magias de nível inferior por Rangers ou Paladinos do que por Druidas ou Clérigos (por exemplo, Rangers podem conjurar Sementes de Fogo como uma magia de 4º nível, e Paladinos podem conjurar Arma Espiritual como uma magia de 1º nível e Poder Sagrado como uma magia de 3º nível).</li>
+                    <li>Armas mágicas como Lâmina Flamejante e Decajado foram aprimoradas. A maioria delas recebe bônus de Força e proficiência (mesmo aquelas que causam dano não físico). Os testes de resistência contra armas mágicas e ataques de toque (por exemplo, veneno de Mordida de Cobra, morte instantânea de Matar Vivo) agora têm CDs que escalam com a habilidade de conjuração do personagem e os bônus de Foco em Magia.</li>
+                    <li>Magias que enfraquecem uma criatura em vez de incapacitá-la têm uma CD maior ou não exigem teste de resistência (por exemplo, Surdez não exige teste de resistência, pois simplesmente causa 20% de falha na magia).</li>
+                </ul>
+                <div class="back">
+                    <a class="novisit" href="#top">VOLTAR AO TOPO</a>
+                </div>
+
+            </section>
+
+            <section id="spellfocus">
+
+                <h3>5. Talentos de Foco em Magia para Todas as Escolas (Spell Focus Feats for All School)</h3>
+                <p>No jogo original, conjuradores só podiam escolher Foco em Magia para potencializar magias de Evocação, Necromancia, Transmutação e Encantamento. Este componente expande esses quatro talentos para se aplicarem também às outras quatro escolas de magia.</p>
+                <p>Os novos talentos são:</p>
+                <ul>
+                    <li>Foco em Magia: Evocação/Conjuração</li>
+                    <li>Foco em Magia: Encantamento/Ilusão</li>
+                    <li>Foco em Magia: Necromancia/Adivinhação</li>
+                    <li>Foco em Magia: Transmutação/Abjuração</li>
+                </ul>
+                <div class="back">
+                    <a class="novisit" href="#top">VOLTAR AO TOPO</a>
+                </div>
+
+            </section>
+
+            <section id="spelllearning">
+
+                <h3>6. Adiciona sistemas de Aprendizado de Magias de Magos PnP e Substituição de Magias de Bardos/Feiticeiros</h3>
+                <p>Este componente possui duas características principais:</p>
+                <ul>
+                    <li>Magos podem escolher duas novas magias para aprender a cada subida de nível, que podem ser de qualquer nível de magia que o mago tenha acessado.</li>
+                    <li>Bardos e feiticeiros podem, em certas subidas de nível, substituir uma de suas magias de nível inferior por outra magia do mesmo nível.</li>
+                </ul>
+                <div class="back">
+                    <a class="novisit" href="#top">VOLTAR AO TOPO</a>
+                </div>
+
+            </section>
+
+            <section id="itemrev">
+
+                <h3>7. Revisões de Itens (Item Revisions)</h3>
+                <p>Normalmente, os itens de Icewind Dale 2 são terrivelmente balanceados. Existem apenas alguns itens bons em meio a centenas de itens mágicos quase inúteis (por exemplo, itens que apenas fornecem +1 em Esconder-se ou 1/- de Resistência a Magia). Não é nem um jogo com pouca magia: você consegue toneladas de itens mágicos, mas a maioria deles é terrível.</p>
+                <p>A modificação Revisões de Itens aprimora a maioria dos itens mágicos em Icewind Dale 2, concedendo-lhes uma variedade muito maior de habilidades úteis. O objetivo principal é fortalecer itens fracos, em vez de enfraquecer itens fortes. No geral, a quantidade total de itens mágicos obtidos como saque no jogo não mudará muito, mas esses itens terão maior probabilidade de serem úteis.</p>
+                <p>A modificação Revisões de Itens também adiciona muitos novos itens às tabelas de saque aleatório, incluindo armaduras poderosas, escudos, anéis, amuletos e munição.</p>
+                <div class="back">
+                    <a class="novisit" href="#top">VOLTAR AO TOPO</a>
+                </div>
+
+            </section>
+
+            <section id="creaturerev">
+
+                <h3>8. Revisões de Criaturas (Creature Revisions)</h3>
+                <p>Este componente aprimora criaturas e encontros ao longo do jogo. Aqui estão as principais mudanças:
+                </p>
+                <ul>
+                    <li>Os conjuradores receberam IA aprimorada e novas opções de magias, incluindo algumas das novas magias de Revisões de Magia. Eles começam o combate com melhorias ativas. No entanto, não devem ser tão resistentes quanto os conjuradores de Estratégias da Costa da Espada.</li>
+                    <li>Clérigos inimigos agora usam magias de domínio. Até mesmo clérigos de divindades exclusivamente inimigas lançam magias de domínio (por exemplo, sacerdotes de Auril têm magias como Tempestade de Gelo, enquanto sacerdotes de Xvim têm magias ácidas).
+                    </li>
+                    <li>Os inimigos usam itens e ataques mais sensatos. Os guardiões de Aurilita disparam flechas de gelo, os devoradores de mentes drenam Inteligência ao acertar, e as criaturas grandes têm um alcance maior em seus ataques.
+                    </li>
+                    <li>No Modo Coração da Fúria, os inimigos são mais fortes de diversas maneiras. As habilidades inatas dos monstros têm CDs de resistência mais altas e/ou causam mais dano. Os conjuradores lançam magias de nível superior às que lançam nas configurações de dificuldade normais.</li>
+                </ul>
+
+                <h5>Correções:</h5>
+                <ul>
+                    <li>As harpias no Capítulo 1 usam seu lamento.</li>
+                    <li>As feiticeiras mestiças Yuan-ti na batalha por Kuldahar agora lançam feitiços.</li>
+                    <li>No Modo Coração da Fúria, os monges inimigos possuem punhos de monge de nível superior para refletir o fato de serem de nível mais alto.</li>
+                    <li>No Modo Coração da Fúria, as criaturas invocadas pelos inimigos agora recebem os bônus do Modo Coração da Fúria.</li>
+                </ul>
+
+                <div class="back">
+                    <a class="novisit" href="#top">VOLTAR AO TOPO</a>
+                </div>
+
+            </section>
+
+            <section id="xp">
+
+                <h3>9. Progresso de XP Melhorada</h3>
+                <p>Na maioria dos RPGs, você ganha níveis em um ritmo aproximadamente constante ao longo do jogo. Em IWD2, no entanto, você ganha XP e sobe de nível cada vez mais lentamente conforme avança no jogo, o que é o principal motivo pelo qual o final do jogo é muito menos divertido do que o início. Isso ocorre porque muitos inimigos são programados para terem um nível de desafio menor do que seu nível real. Quando você chegar à Mão Decepada, poderá estar lutando contra criaturas de nível 17, mas com um nível de desafio de 9!</p>
+                <p>Este componente corrige isso. Existem duas opções de instalação. A primeira opção define o nível de desafio de todas as criaturas como igual ao seu nível, o que resulta em uma progressão de nível extremamente rápida conforme o jogo avança. A segunda opção, que é a versão recomendada, define o nível de desafio um pouco abaixo do nível da criatura após o nível 9. Nenhuma das opções afetará muito os inimigos do início do jogo, mas os inimigos do meio e do final do jogo agora concederão XP apropriado ao desafio que representam.</p>
+                <div class="back">
+                    <a class="novisit" href="#top">VOLTAR AO TOPO</a>
+                </div>
+
+            </section>
+
+            <section id="palisade">
+
+                <h3>10. Uma Alternativa Mais Interessante às Missões da Paliçada</h3>
+                <p>Este componente oferece uma alternativa mais empolgante às missões que você normalmente teria que fazer na Paliçada. Ao falar com Shawford pela primeira vez, em vez de aceitar suas "tarefas especiais", você pode simplesmente optar por ficar de guarda em seus postos até que os goblins ataquem. Isso o leva diretamente para a batalha na Paliçada, que será mais difícil e envolverá mais inimigos (por exemplo, porque você não consertou a muralha e Isherwood não conseguiu eliminar tantos goblins antes de ficar sem flechas). Se você conseguir vencer esta batalha mais difícil, receberá experiência extra equivalente à experiência que teria recebido ao completar as missões.</p>
+                <div class="back">
+                    <a class="novisit" href="#top">VOLTAR AO TOPO</a>
+                </div>
+
+            </section>
+
+            <section id="progress">
+
+                <h3>11. Adicionar Maneiras Adicionais de Progredir em Certas Áreas</h3>
+                <p>Este componente inclui diversas mudanças que tornam certas áreas mais não lineares e adicionam mais oportunidades para usar certas magias e habilidades específicas.</p>
+                <ul>
+                    <li>Se quiser tentar atacar a Fortaleza da Horda de frente, você pode arrombar o portão da fortaleza interna com um feitiço de Arrombamento. Lá dentro, um dos inimigos deixará cair uma pedra de proteção que abrirá o portão da cabana de Guthma, embora você também possa entrar sorrateiramente abrindo uma grade no telhado. Com a pedra de proteção, você também pode entrar nos Covis dos Goblins pela direção oposta à que normalmente faria, lutar para abrir caminho e sair do outro lado.</li>
+                    <li>Várias fechaduras no Templo de Gelo que antes exigiam chaves ou a máquina de raios para abrir agora podem ser destrancadas.</li>
+                    <li>É possível lutar contra Aeij-Kllenzr't. Provocá-lo para fora do altar iniciará a luta, embora você ainda possa pular a luta banindo-o com seu nome verdadeiro. Lutar e derrotá-lo o banirá e permitirá que você complete a missão com algumas recompensas adicionais. Este conteúdo requer a instalação do Creature Revisions.</li>
+                    <li>Na Mão Decepada, a porta da ponte entre a Torre de Guerra e a Torre do Mago está destrancada desde o início. Portanto, se você tiver uma maneira de fazer o grupo voar ou se teletransportar, poderá chegar ao escritório de Orrick atravessando o vão na ponte.</li>
+                    <li>Riki não exige mais que você lute contra Iyachtu Xvim ou faça um acordo com ele para prosseguir para os chefes finais. No entanto, se você não derrotou Iyachtu Xvim ou se aliou a ele, terá que sobreviver a Glabrezus invencíveis enquanto luta contra os chefes finais, e os chefes serão mais difíceis na segunda fase porque você não purificou a piscina radiante.</li>
+                </ul>
+                <div class="back">
+                    <a class="novisit" href="#top">VOLTAR AO TOPO</a>
+                </div>
+
+            </section>
+
+            <section id="wanderingvillage">
+
+                <h3>12. Vila Errante Mais Rápida</h3>
+                <p>Este componente reduz o retorno necessário para completar as missões da Vila Errante. Agora você pode visitar todas as três seções da Floresta Devastada na primeira vez que for lá (permitindo que você encontre a dríade, colete o chifre e lute contra os Fogos-Fátuos), em vez de ter que atravessá-la três vezes para completar as três missões.</p>
+                <div class="back">
+                    <a class="novisit" href="#top">VOLTAR AO TOPO</a>
+                </div>
+
+            </section>
+
+            <section id="dragoneye">
+
+                <h3>13. Olho do Dragão Mais Rápido</h3>
+                <p>Este componente reduz o retorno necessário para completar o Olho do Dragão, tornando as missões de alquimia opcionais. Agora você poderá lutar até o final do terceiro andar do Olho do Dragão sem precisar voltar aos andares anteriores.</p>
+                <ul>
+                    <li>Um poderoso feitiço de proteção mental, como Santidade Impermeável da Mente ou Mente Vazia, pode permitir que você passe pelo Olho de Sseth sem precisar se tornar um histachii. (Isso está de acordo com o RPG de mesa; Mente em Branco normalmente protege contra um feitiço de Antipatia).</li>
+                    <li>Abrir a porta no terceiro andar do Olho do Dragão não exige mais que você coloque veneno nas quatro poças da área; basta matar Thorasskus.</li>
+                    <li>O portão temporizado com a armadilha de slime abre após 60 segundos, em vez de 24 horas no jogo.</li>
+                </ul>
+                <p>As missões de alquimia ainda podem ser concluídas; você ainda pode fazer poção de histachii e frascos de veneno. Esses itens ainda oferecem benefícios: a poção de histachii permite que você passe sorrateiramente pelos yuan-ti sem ser atacado, e os frascos de veneno agora podem ser usados como consumíveis para envenenar sua arma, conforme a habilidade Envenenar Arma.</p>
+                <div class="back">
+                    <a class="novisit" href="#top">VOLTAR AO TOPO</a>
+                </div>
+
+            </section>
+
+            <section id="timeloop">
+
+                <h3>14. Reduzir a linha de missões do Loop Temporal do Olho do Dragão para uma única batalha</h3>
+                <p>Este componente simplifica a área final do Olho do Dragão. Em vez de ter que passar por uma longa missão de viagem no tempo, você luta apenas uma batalha para impedir que Izbelah lance Estase Temporal. O componente altera alguns diálogos no Capítulo 5 para deixar claro o motivo da luta contra Izbelah.
+                </p>
+                <div class="back">
+                    <a class="novisit" href="#top">VOLTAR AO TOPO</a>
+                </div>
+
+            </section>
+
+            <section id="scrolls">
+
+                <h3>15. Adicionar mais pergaminhos ao jogo</h3>
+                <p>Este componente adiciona pergaminhos de mago de nível relativamente alto a vários vendedores de feitiços, incluindo Elytharra, Zack Boosenberry, Suoma, Bered e Sheemish. Um mago solo ou um mago no modo HoF poderá aprender magias de alto nível e acompanhar um feiticeiro. Isso não é extremo demais: vendedores do início do jogo podem ter alguns pergaminhos de 5º a 7º nível, mas não terão muitos pergaminhos de 9º nível.</p>
+                <div class="back">
+                    <a class="novisit" href="#top">VOLTAR AO TOPO</a>
+                </div>
+
+            </section>
+
+            <section id="immunities">
+
+                <h3>16. Resistências e Imunidades de Criaturas Revisadas</h3>
+                <p>Este componente revisa as resistências de algumas criaturas para serem mais razoáveis. Por exemplo, os slimes em Olho do Dragão não são completamente imunes a dano físico, e os golens de ferro e os fogos-fátuos não são completamente imunes à magia (embora ainda tenham alta resistência a magia).</p>
+                <p>Elementais agora têm imunidades elementais comuns em vez de imunidades a mortos-vivos. Demônios agora têm imunidades demoníacas comuns (por exemplo, imunidade a veneno) em vez de imunidades dos mortos-vivos.</p>
+                <p>Trolls não caem mais e precisam ser finalizados com fogo ou ácido; Em vez disso, eles se regeneram mais rápido e têm mais PV, mas sofrem muito mais dano de fogo e ácido.</p>
+                <div class="back">
+                    <a class="novisit" href="#top">VOLTAR AO TOPO</a>
+                </div>
+
+            </section>
+
+            <section id="savingthrows">
+
+                <h3>17. Testes de Resistência Mais Precisos para Inimigos</h3>
+                <p>Este componente ajusta todos os testes de resistência dos inimigos no jogo, tornando-os aproximadamente iguais aos testes de resistência do jogador no mesmo nível. Assim, um guerreiro inimigo de nível 10 terá testes de resistência semelhantes aos de um guerreiro de nível 10 no grupo.</p>
+                <div class="back">
+                    <a class="novisit" href="#top">VOLTAR AO TOPO</a>
+                </div>
+
+            </section>
+
+            <section id="crithit">
+
+                <h3>18. Revisar Imunidade a Acertos Críticos</h3>
+                <p>O jogo base concede imunidade a acertos críticos a inimigos que não deveriam tê-la, incluindo demônios e certos inimigos aleatórios. Este componente tem duas opções: você pode conceder imunidade a acertos críticos a todos os mortos-vivos, constructos, objetos, elementais e slimes e removê-la para todas as outras criaturas, ou pode tornar todas as criaturas vulneráveis â€‹â€‹a acertos críticos.</p>
+                <div class="back">
+                    <a class="novisit" href="#top">VOLTAR AO TOPO</a>
+                </div>
+
+            </section>
+
+            <section id="racial">
+
+                <h3>19. Inimigos Raciais Melhores para Rangers</h3>
+                <p>No jogo base, havia muitas opções de inimigos raciais que simplesmente não eram muito úteis. Obter bônus contra yuan-ti e mortos-vivos era simplesmente melhor do que obter bônus contra bugbears e horrores de gancho. Este componente dá ao jogador a capacidade de escolher entre um novo conjunto de inimigos raciais:</p>
+                <ul>
+                    <li>Insetos Gigantes</li>
+                    <li>Aracnídeos Gigantes</li>
+                    <li>Demônios</li>
+                    <li>Goblinoides</li>
+                    <li>Gigantes</li>
+                    <li>Seres Amorfos</li>
+                    <li>Construtos</li>
+                    <li>Humanos</li>
+                    <li>Animais</li>
+                    <li>Mortos-vivos</li>
+                    <li>Aberrações</li>
+                    <li>Aberrações do Subterrâneo</li>
+                    <li>Yuan-ti</li>
+                    <li>Elementais</li>
+                    <li>Trolls</li>
+                    <li>Dragões</li>
+                </ul>
+                <div class="back">
+                    <a class="novisit" href="#top">VOLTAR AO TOPO</a>
+                </div>
+
+            </section>
+
+            <section id="cosmetic">
+
+                <h3>20. Ajustes Estéticos</h3>
+                <p>Atualmente, este componente permite que qualquer raça escolha qualquer uma das cores disponíveis na criação de personagem.
+                </p>
+                <div class="back">
+                    <a class="novisit" href="#top">VOLTAR AO TOPO</a>
+                </div>
+
+            </section>
+
+            <section id="persuasion">
+
+                <h3>21. Mais Opções de Persuasão</h3>
+                <p>Este componente adiciona mais oportunidades no jogo para usar Blefe, Diplomacia, Intimidação e outras perícias em diálogos.</p>
+                <details>
+                    <summary>SPOILERS ABAIXO:</summary>
+                    <ul>
+						<li>Na luta contra Torak, um personagem com Intimidação alta o suficiente pode intimidar alguns dos lacaios de Torak a abandonarem seu líder, embora provavelmente não funcione com todos.</li>
+						<li>Na luta pela Ponte Shaengarne, um personagem com Intimidação alta o suficiente pode intimidar Xuki a se render e largar seus equipamentos, embora os outros inimigos ainda precisem ser enfrentados.</li>
+						<li>É possível fazer um acordo com Guthma para impedir seu ataque às Dez Cidades e terminar o Capítulo 1 sem lutar contra ele, embora isso exija Blefe e Diplomacia.</li>
+						<li>É possível que o grupo use Blefe para escapar da luta contra Thvara.</li>
+						<li>Suoma pode ser intimidada a contar ao grupo sobre os entes das trevas logo no início, embora isso exija que você seja bastante cruel. Depois de resgatar as crianças de Limha, você também pode persuadir Suoma (usando Diplomacia) a contar sobre os entes das trevas. De qualquer forma, isso permitirá que você lute contra os entes das trevas e avance para os Pântanos Gelados mais cedo do que o normal.</li>
+						<li>O grupo pode subornar Limha para libertar as crianças e transformá-las de volta em forma humana. O custo é menor com Diplomacia alta.</li>
+						<li>Um personagem com uma habilidade extremamente alta em Busca ou Conhecimento da Natureza pode potencialmente encontrar a saída para a Floresta Devastada sem ter que lutar contra os entes das trevas.</li>
+						<li>Antes de lutar contra Harshom, um personagem com conjuração arcana que tenha Blefe alto o suficiente, Conhecimento de Magia (Spellcraft) muito alto e acesso a magias de ilusão pode enganar Harshom para obter vantagem na batalha de alguma forma. O teste é mais fácil se o personagem for um ilusionista.</li>
+						<li>Quando o grupo entra pela primeira vez na fortaleza dos devoradores de mentes, um personagem com Intimidação muito alta pode intimidar o Cérebro Ancião em resposta às suas mensagens telepáticas e convencê-lo a deixar o grupo sair sem lutar, desde que eles sigam direto para a saída.</li>
+						<li>No templo yuan-ti em Chult, é possível conversar com Ojaiha e negociar uma trégua, desde que sua Diplomacia seja alta o suficiente. Isso permitirá que você avance para a luta contra as forças de Cedra assim que retornar a Kuldahar.</li>
+						<li>Na Mão Decepada, há um novo personagem na sala do trono. Um membro do grupo com uma habilidade de Blefe extremamente alta pode convencê-lo a chamar Isair e Madae de volta à Mão Decepada e conceder-lhes uma audiência, iniciando a batalha final mais cedo do que o normal.</li>
+						<li>Por fim, este componente adiciona nada menos que cinco caminhos de diálogo diferentes para você se livrar da luta contra o chefe final. Normalmente, eles exigem que o personagem que está falando seja muito bom em várias habilidades de persuasão.</li>
+                    </ul>
+                </details>
+                <div class="back">
+                    <a class="novisit" href="#top">VOLTAR AO TOPO</a>
+                </div>
+
+            </section>
+
+            <section id="npccore">
+
+                <h3>22. Núcleo de NPCs</h3>
+                <p>Este componente permite que vários NPCs existentes se juntem ao grupo: o guerreiro Reig, o ladino Black Geoffrey, a vidente Veira, a clériga Emma Moonblade, o troll Vrek Vileclaw, o goblin Vunarg, o ladino/ilusionista Zack Boosenburry, o abishai Xhaan, a feiticeira Pairi e a monja Sersa.</p>
+                <p>Os NPCs têm diálogos e interjeições, mas, no geral, o valor de produção dos NPCs do IWD2EE é definitivamente inferior ao do mod de NPCs anterior do IWD2.</p>
+                <div class="back">
+                    <a class="novisit" href="#top">VOLTAR AO TOPO</a>
+                </div>
+
+            </section>
+
+            <section id="npcexp">
+
+                <h3>23. Os NPCs ganham experiência ao se juntar para igualar à experiência do grupo</h3>
+                <p>Os NPCs começam com a experiência média dos demais membros do grupo. A segunda opção faz com que eles comecem com um quinto da experiência total do grupo.</p>
+                <p>O objetivo da segunda opção é impedir certos exploits relacionados a jogar sozinho. Se você ativar a primeira opção, poderá avançar bastante no jogo jogando sozinho e alcançar um nível alto, recrutando NPCs com níveis tão altos quanto o seu personagem inicial. Com a segunda opção ativada, esses NPCs estarão em um nível razoável, independentemente do tamanho anterior do grupo.</p>
+                <p>A primeira opção é recomendada se você não pretende usar exploits para ganhar experiência rapidamente.</p>
+                <div class="back">
+                    <a class="novisit" href="#top">VOLTAR AO TOPO</a>
+                </div>
+
+            </section>
+
+            <section id="newgui">
+
+                <h3>24. Melhorias cosméticas na interface gráfica e novas telas de carregamento</h3>
+                <p>Este componente adiciona uma nova tela de menu principal e novas telas de capítulo. Não há novos botões, mas a interface ficará mais bonita.</p>
+                <div class="back">
+                    <a class="novisit" href="#top">VOLTAR AO TOPO</a>
+                </div>
+
+            </section>
+
+            <section id="looping">
+
+                <h3>25. Tema principal em loop</h3>
+                <p>Normalmente, o tema principal de IWD2 não toca em loop. Após 1 minuto, ele termina e você passa o resto da criação do personagem sem música. Este componente edita o tema principal para que ele toque em loop.</p>
+                <div class="back">
+                    <a class="novisit" href="#top">VOLTAR AO TOPO</a>
+                </div>
+
+            </section>
+
+            <section id="battlesquare">
+
+                <h3>26. Revisão do Battle Square (Praça de Batalha)</h3>
+                <p>Para obter todas as recompensas da Praça de Batalha, normalmente é preciso lutar 25 batalhas por nível, totalizando 250 batalhas. Mesmo que os membros do grupo sejam poderosos o suficiente para vencer todas as batalhas, isso ainda é muito tedioso.</p>
+                <p>Este componente faz com que seja necessário vencer um nível apenas uma vez (com 3 ou mais quadrados) para obter a recompensa principal daquele nível. Para obter todas as recompensas, serão necessárias apenas 30 batalhas em vez de 250.
+                </p>
+                <p>Além disso, este componente permite que você retorne ao Quadrado de Batalha e o conclua no Capítulo 5, quando voltar ao Templo de Gelo para obter o favor de Nickademus.</p>
+                <div class="back">
+                    <a class="novisit" href="#top">VOLTAR AO TOPO</a>
+                </div>
+
+            </section>
+
+            <section id="damageresist">
+
+                <h3>27. Resistência Menor a Dano para Armaduras e Escudos</h3>
+                <p>Inspirado no componente similar de Weimer para IWD2-Ease, este componente corrige todas as armaduras e escudos do jogo para que ofereçam resistência a dano físico igual à metade do seu bônus de Classe de Armadura, arredondado para baixo.</p>
+                <div class="back">
+                    <a class="novisit" href="#top">VOLTAR AO TOPO</a>
+                </div>
+
+            </section>
+
+            <section id="racerev">
+
+                <h3>28. Revisões de Raças</h3>
+                <p>A modificação "Race Revisions" revisa várias raças e sub-raças, concedendo-lhes habilidades que deveriam ter no jogo de mesa:</p>
+                <ul>
+					<li>Humanos recebem 4 pontos de perícia extras no 1º nível, em vez de 2.</li>
+					<li>Elfos podem detectar armadilhas mesmo quando não estão ativamente procurando por elas.</li>
+					<li>Gnomos recebem um bônus na CD das magias de ilusão que conjuram.</li>
+					<li>Tentativas de derrubar/rasteira em anões têm sua CD reduzida em 4, já que anões são especialmente estáveis.</li>
+					<li>Drows e Tieflings podem conjurar Escuridão uma vez por dia. Drows começam proficientes com bestas em vez de arcos.</li>
+					<li>Duergars podem aumentar de tamanho uma vez por dia.</li>
+                </ul>
+                <p>A Revisão de Raças também concede algumas novas habilidades a certas raças:</p>
+                <ul>
+					<li>Meio-elfos e meio-orcs agora recebem um talento adicional no 1º nível (este é o benefício que recebem por serem meio-humanos; anteriormente, todos os seus benefícios e desvantagens estavam relacionados ao seu lado élfico/orc).</li>
+					<li>Elfos podem usar Acuidade com Arma com espadas de lâmina grande.</li>
+					<li>Anões começam proficientes com machados e martelos.</li>
+					<li>Gnomos das Rochas têm +2 de Inteligência em vez de Constituição.</li>
+					<li>Halflings Pé-Leve podem adicionar metade do seu modificador de Destreza em vez do seu modificador de Força ao dano de uma funda ou arma de arremesso (se o primeiro for maior).</li>
+					<li>Halflings Sábios Fantasmas ganham 1,5 vezes o seu bônus de Força ao dano com fundas e armas de arremesso, como se fossem armas de duas mãos. Além disso, sua penalidade de atributo é em Inteligência em vez de Força.</li>
+                </ul>
+                <div class="back">
+                    <a class="novisit" href="#top">VOLTAR AO TOPO</a>
+                </div>
+
+            </section>
+
+            <section id="racelevel">
+                <h3>29. Revisar ajuste de nível racial/ECL</h3>
+                <p>Este componente faz com que, em vez de certas sub-raças ficarem um ou mais "níveis atrás" de outros personagens, elas recebam uma penalidade de XP. Na prática, isso significa que essas sub-raças não sobem de nível muito mais lentamente do que outros personagens no início do jogo, embora em níveis muito altos elas fiquem um pouco mais para trás.</p>
+                <div class="back">
+                    <a class="novisit" href="#top">VOLTAR AO TOPO</a>
+                </div>
+            </section>
+
+            <section id="enemyxp">
+
+                <h3>30. Inimigos dão a mesma quantidade de experiência independentemente do nível do grupo</h3>
+                <p>Este componente faz com que matar inimigos conceda a mesma quantidade de experiência, independentemente do nível do grupo. Dessa forma, subir de nível não vem com a insatisfação de inimigos concederem menos experiência, e não há incentivo para adiar a subida de nível para aumentar o ganho de experiência. Existem duas opções: ou os inimigos concedem experiência igual a 25 vezes o seu nível de desafio (um grupo de seis personagens chegará ao nível 15 ou mais ao final do jogo), ou 35 vezes o seu nível de desafio (um grupo de seis personagens chegará ao nível 18 ou mais ao final do jogo).</p>
+                <div class="back">
+                    <a class="novisit" href="#top">VOLTAR AO TOPO</a>
+                </div>
+
+            </section>
+
+            <section id="scaling">
+
+                <h3>31. Ajustar escala de nível dos encontros</h3>
+                <p>Os encontros em Icewind Dale 2 geralmente têm inimigos adicionais para grupos de nível mais alto. Este componente tem duas opções: você pode configurá-lo para sempre enfrentar pelo menos a versão do encontro destinada a um grupo de nível médio, ou pode configurá-lo para sempre enfrentar a versão destinada a um grupo de nível alto. As versões de nível mais alto dos encontros geralmente têm apenas alguns inimigos a mais ou, em alguns casos, versões mais fortes dos inimigos; não são impossíveis de serem concluídas por um grupo de nível mais baixo.</p>
+                <p>Observe que este componente quase não faz diferença em uma campanha com o Modo Coração da Fúria ou em uma campanha solo, porque nessas campanhas seus personagens geralmente têm nível suficiente para ativar os encontros de nível alto de qualquer maneira.</p>
+                <div class="back">
+                    <a class="novisit" href="#top">VOLTAR AO TOPO</a>
+                </div>
+
+            </section>
+
+            <section id="hofhp">
+
+                <h3>32. Ajusta os bônus de PV das criaturas no Modo Coração da Fúria</h3>
+                <p>Os inimigos no Modo Coração da Fúria normalmente têm PV absurdamente altos: os goblins no prólogo têm 157 PV e as aranhas de gelo no Capítulo 2 têm 452 PV! O primeiro subcomponente reduz os PV da maioria dos inimigos no Modo Coração da Fúria, embora aumente os PV de um pequeno número de inimigos de nível extremamente alto. Este subcomponente foi projetado para um grupo que inicia o Modo Coração da Fúria em um nível baixo. Aqui estão os pontos de corte, com base no nível original da criatura antes de receber os bônus do Modo Coração da Fúria:</p>
+                <ul>
+                    <li>1-19: PV reduzido. Inimigos de nível muito baixo, como goblins, terão seus PV significativamente reduzidos.</li>
+                    <li>25+: Aumento dos pontos de vida.</li>
+                </ul>
+                <p>O segundo subcomponente aplica o aumento de PV apenas a inimigos de nível extremamente alto.</p>
+                <div class="back">
+                    <a class="novisit" href="#top">VOLTAR AO TOPO</a>
+                </div>
+
+            </section>
+
+            <section id="hofattack">
+
+                <h3>33. Ajusta os bônus de ataque das criaturas no Modo Coração da Fúria</h3>
+                <p>O primeiro subcomponente visa permitir que grupos que iniciam o Coração da Fúria em um nível baixo tenham uma chance de obter CA suficiente em um personagem para poder esquivar-se dos ataques inimigos pelo menos algumas vezes. Ele diminui os bônus de ataque de inimigos de nível baixo no Coração da Fúria, mas começa a aumentar o ataque de inimigos de nível alto além do Coração da Fúria padrão, já que, nesse ponto, o grupo está em um nível muito alto e possui muitas ferramentas à sua disposição para aumentar a CA. Aqui estão os pontos de corte, com base no nível original da criatura antes de receber os bônus do Coração da Fúria:</p>
+                <ul>
+                    <li>1-4: -12 de ataque.</li>
+                    <li>5-9: -6 de ataque.</li>
+                    <li>15-19: +6 de ataque.</li>
+                    <li>20+: +12 de ataque.</li>
+                </ul>
+                <p>O segundo subcomponente aplica os aumentos de ataque apenas a inimigos de nível 15 ou superior.</p>
+                <div class="back">
+                    <a class="novisit" href="#top">VOLTAR AO TOPO</a>
+                </div>
+
+            </section>
+
+            <section id="hofsaving">
+
+                <h3>34. Ajusta os bônus de Teste de Resistência das criaturas no Modo Coração da Fúria</h3>
+                <p>No início do Modo Coração da Fúria, pode ser muito difícil fazer com que os inimigos falhem nos testes de resistência se você estiver começando com um grupo de nível baixo. O primeiro subcomponente impõe uma pequena penalidade nos testes de resistência a inimigos de nível baixo no Modo Coração da Fúria, embora comece a aumentar os testes de resistência em inimigos de nível mais alto do que no Modo Coração da Fúria original, já que, a essa altura, os inimigos precisam ter mais defesa contra magias como Lamento da Banshee ou Dominação em Massa, que simplesmente vencem uma luta instantaneamente se todos falharem no teste de resistência. Aqui estão os pontos de corte, com base no nível original da criatura antes de receber os bônus do Modo Coração da Fúria:</p>
+                <ul>
+                    <li>1-9: -3 em todos os testes de resistência.</li>
+                    <li>15-19: +3 em todos os testes de resistência.</li>
+                    <li>20+: +6 em todos os testes de resistência.</li>
+                </ul>
+                <p>O segundo subcomponente aplica os aumentos de resistência apenas a inimigos de nível 15 ou superior.</p>
+                <div class="back">
+                    <a class="novisit" href="#top">VOLTAR AO TOPO</a>
+                </div>
+
+            </section>
+
+            <section id="hofsummoned">
+
+                <h3>35. Remove os bônus de atributos de criaturas aliadas invocadas no Modo Coração da Fúria</h3>
+                <p>No Modo Coração da Fúria, as criaturas aliadas invocadas também recebem os bônus do Modo Coração da Fúria e, como você atinge níveis altos mais rapidamente, elas podem se tornar muito poderosas. Este componente impede que as criaturas invocadas recebam o bônus normal de +10 em todos os atributos que as criaturas no Modo Coração da Fúria recebem (com exceção de +10 em Constituição, o que deve torná-las pelo menos escudos de carne decentes), a menos que sejam invocadas por um inimigo.</p>
+                <div class="back">
+                    <a class="novisit" href="#top">VOLTAR AO TOPO</a>
+                </div>
+
+            </section>
+
+            <section id="hofpartyxp">
+
+                <h3>36. Faça com que o grupo comece com mais experiência no Modo Coração da Fúria</h3>
+                <p>O início do Modo Coração da Fúria é extremamente brutal se você começar no nível 1, mesmo com alguns dos componentes que enfraquecem as criaturas do Modo Coração da Fúria instalados. Este componente concede a cada membro do grupo um pouco de experiência no início do jogo. A experiência inicial de cada personagem é a mesma, independentemente do tamanho do grupo. Você pode escolher quanta experiência deseja ter inicialmente.</p>
+                <div class="back">
+                    <a class="novisit" href="#top">VOLTAR AO TOPO</a>
+                </div>
+
+            </section>
+
+            <section id="delay">
+
+                <h3>37. Reduzir o atraso após um ataque furtivo antes que a criatura possa ser atacada furtivamente novamente</h3>
+                <p>Normalmente, após um ladino realizar um ataque furtivo em uma criatura, essa criatura se torna imune a ataques furtivos por cerca de 3 rodadas. Este componente pode remover essa imunidade, permitindo que a criatura seja atacada furtivamente novamente imediatamente, ou reduzir sua duração para 1 rodada.</p>
+                <div class="back">
+                    <a class="novisit" href="#top">VOLTAR AO TOPO</a>
+                </div>
+
+            </section>
+
+            <section id="levelcap">
+
+                <h3>38. Aumenta o limite de nível</h3>
+                <p>Este componente aumenta o limite de nível para 40 ou para 50 (à sua escolha). Você só alcançará níveis tão altos se estiver jogando sozinho ou no Modo Coração da Fúria com um pequeno grupo.</p>
+                <div class="back">
+                    <a class="novisit" href="#top">VOLTAR AO TOPO</a>
+                </div>
+
+            </section>
+
+            <section id="scrolllearn">
+
+                <h3>39. Sempre aprende magias de pergaminhos com sucesso</h3>
+                <p>Este componente permite que todos os magos aprendam magias de pergaminhos com sucesso em 100% das vezes.</p>
+                <div class="back">
+                    <a class="novisit" href="#top">VOLTAR AO TOPO</a>
+                </div>
+
+            </section>
+
+            <section id="opportunity">
+
+                <h3>40. Todos podem realizar ataques de oportunidade</h3>
+                <p>Este componente permite que os personagens realizem ataques de oportunidade em combate corpo a corpo sob certas condições: se o inimigo sair do seu alcance de combate corpo a corpo, se ele realizar um ataque à distância ou se ele conjurar uma magia.</p>
+                <div class="back">
+                    <a class="novisit" href="#top">VOLTAR AO TOPO</a>
+                </div>
+
+            </section>
+
+            <section id="abilityscores">
+
+                <h3>41. Mudar a forma como os atributos são distribuídos na criação de personagens</h3>
+                <p>Este componente possui três opções. Duas delas permitem rolar os dados para os atributos em vez de usar o sistema de compra de pontos padrão de IWD2. A primeira não permite aumentar ou diminuir os atributos com os botões de mais/menos, mas você pode escolher a qual atributo cada número rolado será atribuído (como em O Templo do Mal Elemental). O segundo subcomponente permite usar os botões de mais/menos.</p>
+                <p>O terceiro subcomponente permite usar o sistema de compra de pontos de Neverwinter Nights, onde aumentar um atributo acima de um certo valor exige que você gaste pontos extras, e o mínimo para um atributo é 8.</p>
+                <div class="back">
+                    <a class="novisit" href="#top">VOLTAR AO TOPO</a>
+                </div>
+
+            </section>
+
+            <section id="traps">
+
+                <h3>42. Adicione mais armadilhas</h3>
+                <p>Este componente adiciona mais armadilhas ao jogo e torna algumas armadilhas existentes um pouco mais perigosas. Não se preocupe; isso não transformará IWD2 na Torre de Durlag. O objetivo é adicionar reviravoltas aos encontros existentes e tornar as habilidades de desarmar armadilhas mais significativas.</p>
+                <div class="back">
+                    <a class="novisit" href="#top">VOLTAR AO TOPO</a>
+                </div>
+
+            </section>
+
+            <section id="buffing">
+
+                <h3>43. Adicionar atalhos para automatizar o uso de buffs</h3>
+                <p>Este componente adiciona um sistema bastante justo para automatizar o uso de buffs.</p>
+                <p>Para usá-lo, primeiro pressione o botão "´" (tecla do lado direito da tecla "P") para começar a gravar as magias. Em seguida, peça aos membros do grupo que lancem qualquer número de magias, que devem ter como alvo membros do grupo ou um ponto específico. Depois, pressione "´" novamente para finalizar a gravação. (Atenção, isto APENAS para teclado PTB2)</p>
+                <p>Após isso, pressionar o botão "ç" a qualquer momento fará com que os membros do grupo lancem as mesmas magias que foram gravadas anteriormente, na mesma ordem, tendo como alvo os mesmos membros do grupo da gravação original. Magias que têm como alvo um ponto específico terão como alvo a localização do conjurador. Se alguma das magias gravadas não estiver memorizada no momento em que for lançada, essas magias serão ignoradas.  (Atenção, isto APENAS para teclado PTB2)</p>
+                <p>Pressionar o botão "]" apagará a gravação até que você faça uma nova.</p>
+                <p>Este sistema não trapaceia de forma alguma; as magias não são lançadas instantaneamente e você não pode lançar mais de uma magia por rodada, a menos que tenha Alacridade Aprimorada. No entanto, ainda deve acelerar um pouco o processo de aprimoramento e exigir menos esforço do jogador. Depois de gravar as magias, basta pressionar ";" sem precisar percorrer as listas de magias.</p>
+                <div class="back">
+                    <a class="novisit" href="#top">VOLTAR AO TOPO</a>
+                </div>
+            </section>
+        </section>
+
+        <!-- ================== C O M P A T I B I L I T Y ================== -->
+        <section id="compatibility">
+            <h2>Compatibility</h2>
+            <p>Esta seção detalha a compatibilidade do IWD2EE com outros mods.</p>
+            <ul>
+                <li>
+                    <h4>Widescreen Mod</h4>
+                    <p>O mod Widescreen NÃO É COMPATÍVEL e TRAVARÁ O JOGO se usado com o IWD2EE. O IWD2EE inclui uma maneira integrada de definir a resolução do jogo, então você não precisa do mod Widescreen.
+                    </p>
+                </li>
+                <li>
+                    <h4>Tweaks Anthology</h4>
+                    <p>O Tweaks Anthology possui componentes compatíveis com o IWD2EE (se um componente não funcionar no IWD2, não haverá opção para instalá-lo).</p>
+                </li>
+                <li>
+                    <h4>1 Pixel Productions</h4>
+                    <p>Aparentemente, o 1 Pixel Productions causa travamentos frequentes quando instalado com o IWD2EE. O IWD2EE já inclui muitas das novas animações de armas do 1pp (adicioná-las não requer a alteração do executável, então é menos arriscado).</p>
+                </li>
+                <li>
+                    <h4>IWD2 NPC</h4>
+                    <p>O mod IWD2 NPC é compatível com o IWD2EE.</p>
+                </li>
+                <li>
+                    <h4>Light of Selune</h4>
+                    <p>Light of Selune é compatível com IWD2EE, porém modifica muitos dos mesmos itens que IWD2EE modifica.</p>
+                </li>
+                <li>
+                    <h4>Tactics4IWD2</h4>
+                    <p>Não recomendado, pois as Revisões de Criaturas de IWD2EE já concedem melhorias significativas aos inimigos e à IA dos conjuradores. Este mod possui muitos itens, feitiços e criaturas revisados que sobrescreverão as alterações de IWD2EE.</p>
+                </li>
+                <li>
+                    <h4>Undead Targos</h4>
+                    <p>Desnecessário, pois IWD2EE já inclui uma maneira de encurtar a linha de missões de Targos, ao mesmo tempo que torna a batalha na paliçada mais desafiadora.</p>
+                </li>
+                <li>
+                    <h4>Bonus Merchant for IWD2</h4>
+                    <p>O mod Bonus Merchant é compatível com IWD2EE. Vale ressaltar, porém, que o mod contém anacronismos; Faz referência a eventos de Baldur's Gate 2, embora Icewind Dale 2 comece mais de 50 anos antes de Baldur's Gate 1.</p>
+                </li>
+                <li>
+                    <h4>IWD2-Ease</h4>
+                    <p>Aqui está uma lista dos componentes do IWD2-Ease que indica quais componentes são compatíveis com o IWD2EE e quais não são.</p>
+                    <ul>
+                        <li>
+                            <h5>Correções de bugs</h5>
+                            <p>Desnecessário, pois o IWD2EE já deve corrigir esses bugs.</p>
+                        </li>
+                        <li>
+                            <h5>Acúmulo Infinito</h5>
+                            <p>Compatível.</p>
+                        </li>
+                        <li>
+                            <h5>Cântico de Guerra Sith Fora de Combate</h5>
+                            <p>Desnecessário, pois o IWD2EE já permite o uso do Cântico de Guerra Sith fora de combate.</p>
+                        </li>
+                        <li>
+                            <h5>Vingador Sagrado Aprimorado</h5>
+                            <p>Desnecessário, pois o IWD2EE já possui sua própria versão do Vingador Sagrado.</p>
+                        </li>
+                        <li>
+                            <h5>Vingador Sagrado de Duas Mãos</h5>
+                            <p>Compatível (diferentemente do componente anterior, este apenas corrige o Vingador Sagrado em vez de sobrescrevê-lo).</p>
+                        </li>
+                        <li>
+                            <h5>Sem Punhos para Corpo de Ferro</h5>
+                            <p>Desnecessário, pois o IWD2EE já permite o uso de armas enquanto Corpo de Ferro estiver ativo.</p>
+                        </li>
+                        <li>
+                            <h5>XP Inicial de Gnomo das Profundezas</h5>
+                            <p>Desnecessário, pois o IWD2EE já revisa o sistema de ajuste de nível/ECL e corrige esse bug.</p>
+                        </li>
+                        <li>
+                            <h5>Lâminas Lunares Aprimoradas</h5>
+                            <p>Desnecessário, pois o IWD2EE já revisa as Lâminas Lunares de maneira semelhante.</p>
+                        </li>
+                        <li>
+                            <h5>Punhos de Monge Aprimorados</h5>
+                            <p>Desnecessário, pois IWD2EE já permite o uso de Punhos de Monge com Acuidade com Arma.</p>
+                        </li>
+                        <li>
+                            <h5>Itens Bônus da Edição de Colecionador</h5>
+                            <p>Desnecessário, pois IWD2EE já adiciona esses itens ao jogo.</p>
+                        </li>
+                        <li>
+                            <h5>Sem Restrições de Classe de Alinhamento</h5>
+                            <p>Desnecessário, pois IWD2EE já possui uma opção para flexibilizar as restrições de classe de alinhamento.</p>
+                        </li>
+                        <li>
+                            <h5>Acuidade com Arma Mágica</h5>
+                            <p>Desnecessário, pois IWD2EE já permite o uso de certas armas conjuradas com Acuidade com Arma.</p>
+                        </li>
+                        <li>
+                            <h5>Sempre Receba XP por Morte</h5>
+                            <p>Desnecessário, pois IWD2EE já inclui componentes que tornam o sistema de XP do jogo mais equilibrado.</p>
+                        </li>
+                        <li>
+                            <h5>Alguns Itens do Coração da Fúria no Modo Normal</h5>
+                            <p>Compatível, mas este componente pode ser desequilibrado.</p>
+                        </li>
+                        <li>
+                            <h5>Espadas Bastardas Mais Fortes</h5>
+                            <p>Desnecessário, pois IWD2EE já aprimora espadas bastardas (as espadas bastardas mais fortes do componente também são absurdamente poderosas - você pode comprar uma espada bastarda em Targos que causa +5d6 de dano ácido por acerto!).</p>
+                        </li>
+                        <li>
+                            <h5>Todos os Itens Identificados</h5>
+                            <p>Compatível.</p>
+                        </li>
+                        <li>
+                            <h5>Teletransporte Não Linear</h5>
+                            <p>Compatível.</p>
+                        </li>
+                        <li>
+                            <h5>Armaduras e Escudos Fornecem Resistência a Dano</h5>
+                            <p>Incompatível com o componente de IWD2EE que também concede resistência a dano a armaduras e escudos.</p>
+                        </li>
+                        <li>
+                            <h5>Incluir Armaduras e Escudos Esquecidos</h5>
+                            <p>Desnecessário, pois IWD2EE já adiciona a maioria desses itens ao jogo (este componente também é desequilibrado, pois concede vários itens +3 gratuitamente no prólogo!).</p>
+                        </li>
+                        <li>
+                            <h5>Magias Druídicas Adicionais</h5>
+                            <p>Incompatível, pois este componente impede que os personagens aprendam as novas magias adicionadas por IWD2EE. Desnecessário, pois IWD2EE já concede aos druidas muitas novas magias, incluindo muitas das mesmas magias que este componente lhes concede.</p>
+                        </li>
+                        <li>
+                            <h5>Transformação Alternativa:</h5>
+                            <p>Desnecessário, pois IWD2EE já revisa a transformação dos druidas.</p>
+                        </li>
+                        <li>
+                            <h5>Pular Praça de Batalha</h5>
+                            <p>Desnecessário, pois IWD2EE já inclui um componente que reduz bastante o tempo necessário para obter as recompensas principais da Praça de Batalha.</p>
+                        </li>
+                        <li>
+                            <h5>Tesouro Aleatório</h5>
+                            <p>Compatível, mas não recomendado, pois pode potencialmente lhe dar uma arma muito poderosa logo no início.</p>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="back">
+                <a class="novisit" href="#top">VOLTAR AO TOPO</a>
+            </div>
+        </section>
+
+        <!-- ================== C R E D I T S ================== -->
+        <section id="credits">
+            <h2>Créditos</h2>
+            <p><span class="pseudo">Chris Dix</span> (Ela/Dela) - aka <span class="pseudo">@semiticgoddess</span> - foi quem iniciou o projeto IWD2EE e reuniu o restante da equipe para trabalhar nele. Ela fez o trabalho inicial na primeira metade dos componentes do IWD2EE e escreveu a maior parte do conteúdo, incluindo diálogos de NPCs e descrições de poções.</p>
+            <p><span class="pseudo">@OlvynChuru</span> criou a segunda metade dos componentes de IWD2EE, todos os novos itens e quase todas as novas magias e talentos. <span class="pseudo">OlvynChuru</span> também foi responsável por todas as mudanças nos encontros e na IA dos inimigos, bem como pela maioria das mudanças em talentos, itens e magias, além das funções da linguagem Lua chamadas pelos novos opcodes. </p>
+            <p><span class="pseudo">@Bubb</span> criou a maioria das funções básicas e novos opcodes que abrem novas possibilidades para modificações. Bubb também foi responsável por muitas das maiores melhorias de qualidade de vida do IWD2EE, incluindo o saque rápido, tempos de carregamento mais rápidos e suporte integrado para tela widescreen.</p>
+            <p><span class="pseudo">@mrfearless</span> criou o carregador IEex que permite a execução de funções Lua no IWD2.</p>
+            <p><span class="pseudo">@kjeron</span> criou diversas funções WeiDU usadas na instalação do IWD2EE para modificar arquivos do IWD2.</p>
+            <p><span class="pseudo">@CamDawg</span> revisou alguns arquivos WeiDU do IWD2EE para otimizar a execução.</p>
+            <p><span class="pseudo">@Argent77</span> criou o modelo HTML e a folha de estilo iniciais, que <span class="pseudo">WillScarlettOhara</span> personalizou e expandiu para este arquivo Leia-me.</p>
+            <p><span class="pseudo">@Improbabile68</span> traduziu o IWD2EE para Italiano.</p>
+            <p><span class="pseudo">@paladin</span>, <span class="pseudo">klichko86</span>, e <span
+                    class="pseudo">rytomen</span> traduziram o IWD2EE para Russo.</p>
+            <p><span class="pseudo">@WillScarlettOhara</span> traduziu o IWD2EE para Francês.</p>
+			<p><span class="pseudo">@DanielCarvalho</span>, <span class="pseudo">Darth</span> traduziram o IWD2EE para Português Brasileiro.</p>
+            <p><span class="pseudo">Andrii Shafetov</span> - aka <span class="pseudo">@ashafetov</span> - criou a nova tela do menu principal do IWD2EE e as telas iniciais do prólogo e dos dois primeiros capítulos.</p>
+            <p><span class="pseudo">Igor Levchenko</span> - aka <span class="pseudo">@Igor_Levchenko</span> - pintou a figura de Vrek Vileclaw.</p>
+            <p><span class="pseudo">@Vertis</span> criou a imagem para o novo painel de saque rápido.</p>
+            <p><span class="pseudo">@mleduque</span> corrigiu um comando específico do sistema operacional na instalação do WeiDU para que talvez funcione no Linux.</p>
+            <p>Várias pessoas no Discord, incluindo <span class="pseudo">@Vertis</span>, <span
+                    class="pseudo">@rbaker</span>, e <span class="pseudo">@IcewindDale2</span> conseguiram gerar retratos de IA para Reig Redwaters, Black Geoffrey, Veira, Emma Moonblade, Vunarg, Zack Boosenburry e Sersa quando estávamos com dificuldades para encontrar um artista para fazer os retratos.</p>
+            <p>Créditos a Erephine por permitir que o IWD2EE usasse as animações da 1 Pixel Productions.</p>
+            <p>E, por fim, agradecimentos às mais de 300 pessoas que testaram o IWD2EE antes do lançamento. Um agradecimento especial a <span class="pseudo">@Gazoo</span>, <span class="pseudo">@Firecrow</span>, <span
+                    class="pseudo">@deeel</span>, <span class="pseudo">@IcewindDale2</span>, e <span
+                    class="pseudo">@Fallen Prince</span> por fornecerem feedback valioso em nosso Discord.</p>
+            <div class="back">
+                <a class="novisit" href="#top">VOLTAR AO TOPO</a>
+            </div>
+        </section>
+    </main>
+    <!-- Fetch version number from github -->
+    <script>
+        fetch('https://api.github.com/repos/RedChimera/IWD2EE/releases/latest')
+            .then(response => response.json())
+            .then(data => {
+                const version = data.tag_name;
+                const publishedAt = new Date(data.published_at);
+
+                // Get the language of the page
+                const lang = document.documentElement.lang;
+
+                let formattedDate;
+
+                if (lang === 'fr-FR') {
+                    formattedDate = publishedAt.toLocaleDateString('fr-FR', {
+                        day: 'numeric',
+                        month: 'long',
+                        year: 'numeric'
+                    });
+                } else { // Assume English for other languages
+                    formattedDate = publishedAt.toLocaleDateString('en-US', {
+                        month: 'long',
+                        day: 'numeric',
+                        year: 'numeric'
+                    });
+                }
+
+                document.getElementById('version').textContent = "Version: " + version + " - " + formattedDate;
+                document.getElementById('version').style.display = 'inline'; // Show after loading
+            });
+    </script>
+    <!-- Button to switch theme -->
+    <script>
+        const themeToggle = document.getElementById('themeToggle');
+        const body = document.body;
+
+        // Load theme from local storage
+        const savedTheme = localStorage.getItem('theme');
+        if (savedTheme) {
+            body.classList.add(savedTheme);
+        } else {
+            // Default theme if none saved
+            body.classList.add('light-theme');
+        }
+
+        themeToggle.addEventListener('click', () => {
+            if (body.classList.contains('dark-theme')) {
+                body.classList.remove('dark-theme');
+                localStorage.setItem('theme', 'light-theme');
+            } else {
+                body.classList.add('dark-theme');
+                localStorage.setItem('theme', 'dark-theme');
+            }
+        });
+    </script>
+</body>
+
+</html>

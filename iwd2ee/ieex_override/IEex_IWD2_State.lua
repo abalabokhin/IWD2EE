@@ -7220,7 +7220,6 @@ function MEHIDECR(effectData, creatureData)
 	IEex_WriteByte(creatureData + 0x838, special)
 end
 
-ex_monk_animation_conversion = {[0x6000] = 0x6500, [0x6005] = 0x6500, [0x6100] = 0x6500, [0x6105] = 0x6500, [0x6200] = 0x6500, [0x6205] = 0x6500, [0x6300] = 0x6500, [0x6305] = 0x6500, [0x6010] = 0x6510, [0x6015] = 0x6510, [0x6110] = 0x6510, [0x6115] = 0x6510, [0x6210] = 0x6510, [0x6215] = 0x6510, [0x6310] = 0x6510, [0x6315] = 0x6510, }
 function MEMONKAN(effectData, creatureData)
 	local targetID = IEex_GetActorIDShare(creatureData)
 	if IEex_IsGamePaused() then
@@ -15417,6 +15416,7 @@ function MEKNOCKD(effectData, creatureData)
 			end
 		end
 	end)
+	local hasMirrorImage = false
 	IEex_IterateActorEffects(targetID, function(eData)
 		local theopcode = IEex_ReadDword(eData + 0x10)
 		local theparameter2 = IEex_ReadDword(eData + 0x20)
@@ -15430,8 +15430,19 @@ function MEKNOCKD(effectData, creatureData)
 					savebonus = savebonus + theparameter1
 				end
 			end
+		elseif theopcode == 119 then
+			hasMirrorImage = true
+			local numImages = IEex_ReadDword(eData + 0x1C)
+			if numImages > 0 then
+				numImages = numImages - 1
+			end
+			IEex_WriteDword(eData + 0x1C, numImages)
+			if numImages == 0 then
+				IEex_WriteDword(eData + 0x114, 1)
+			end
 		end
 	end)
+	if hasMirrorImage then return end
 	local race = IEex_ReadByte(creatureData + 0x26, 0x0)
 	local animation = IEex_ReadDword(creatureData + 0x5C4)
 	if race == 4 or race == 185 or ex_stable_animations[animation] then
@@ -15735,6 +15746,7 @@ function MEGRAPPL(effectData, creatureData)
 			end
 		end
 	end)
+	local hasMirrorImage = false
 	IEex_IterateActorEffects(targetID, function(eData)
 		local theopcode = IEex_ReadDword(eData + 0x10)
 		local theparameter2 = IEex_ReadDword(eData + 0x20)
@@ -15748,8 +15760,19 @@ function MEGRAPPL(effectData, creatureData)
 					savebonus = savebonus + theparameter1
 				end
 			end
+		elseif theopcode == 119 then
+			hasMirrorImage = true
+			local numImages = IEex_ReadDword(eData + 0x1C)
+			if numImages > 0 then
+				numImages = numImages - 1
+			end
+			IEex_WriteDword(eData + 0x1C, numImages)
+			if numImages == 0 then
+				IEex_WriteDword(eData + 0x114, 1)
+			end
 		end
 	end)
+	if hasMirrorImage then return end
 	IEex_ApplyEffectToActor(targetID, {
 ["opcode"] = 288,
 ["target"] = 2,
@@ -17691,69 +17714,83 @@ function MEAREAGL(effectData, creatureData, isSpecialCall)
 			if chapter >= 1 and chapter <= 7 then
 				IEex_IterateContainers(targetID, function(share)
 					local flags = IEex_ReadDword(share + 0x88E)
-					local isTrapped = (IEex_ReadWord(share + 0x896, 0x0) > 0)
-					local lockDifficulty = IEex_ReadWord(share + 0x88C, 0x0)
-					if bit.band(flags, 0x1) > 0 and lockDifficulty > 6 and lockDifficulty ~= 100 then
-						lockDifficulty = lockDifficulty + ex_hof_lock_difficulty_increase_based_on_chapter[chapter]
-						if lockDifficulty == 100 then
-							lockDifficulty = 105
+					if bit.band(flags, 0x400000) == 0 then
+						flags = bit.bor(flags, 0x400000)
+						IEex_WriteDword(share + 0x88E, flags)
+						local isTrapped = (IEex_ReadWord(share + 0x896, 0x0) > 0)
+						local lockDifficulty = IEex_ReadWord(share + 0x88C, 0x0)
+						if bit.band(flags, 0x1) > 0 and lockDifficulty > 6 and lockDifficulty ~= 100 then
+							flags = bit.bor(flags, 0x400000)
+							IEex_WriteDword(share + 0x88E, flags)
+							lockDifficulty = lockDifficulty + ex_hof_lock_difficulty_increase_based_on_chapter[chapter]
+							if lockDifficulty == 100 then
+								lockDifficulty = 105
+							end
+							IEex_WriteWord(share + 0x88C, lockDifficulty)
 						end
-						IEex_WriteWord(share + 0x88C, lockDifficulty)
-					end
-					local trapDifficulty = IEex_ReadWord(share + 0x894, 0x0)
-					if isTrapped and trapDifficulty ~= 100 then
-						trapDifficulty = trapDifficulty + ex_hof_trap_difficulty_increase_based_on_chapter[chapter]
-						if trapDifficulty == 100 then
-							trapDifficulty = 105
+						local trapDifficulty = IEex_ReadWord(share + 0x894, 0x0)
+						if isTrapped and trapDifficulty ~= 100 then
+							trapDifficulty = trapDifficulty + ex_hof_trap_difficulty_increase_based_on_chapter[chapter]
+							if trapDifficulty == 100 then
+								trapDifficulty = 105
+							end
+							IEex_WriteWord(share + 0x894, trapDifficulty)
 						end
-						IEex_WriteWord(share + 0x894, trapDifficulty)
-					end
-					local trapDetectDifficulty = IEex_ReadWord(share + 0x892, 0x0)
-					if isTrapped and trapDetectDifficulty ~= 100 then
-						trapDetectDifficulty = trapDetectDifficulty + ex_hof_trap_detection_difficulty_increase_based_on_chapter[chapter]
-						IEex_WriteWord(share + 0x892, trapDetectDifficulty)
+						local trapDetectDifficulty = IEex_ReadWord(share + 0x892, 0x0)
+						if isTrapped and trapDetectDifficulty ~= 100 then
+							trapDetectDifficulty = trapDetectDifficulty + ex_hof_trap_detection_difficulty_increase_based_on_chapter[chapter]
+							IEex_WriteWord(share + 0x892, trapDetectDifficulty)
+						end
 					end
 				end)
 				IEex_IterateDoors(targetID, function(share)
 					local flags = IEex_ReadDword(share + 0x5C4)
-					local isTrapped = (IEex_ReadWord(share + 0x64C, 0x0) > 0)
-					local lockDifficulty = IEex_ReadDword(share + 0x660)
-					if bit.band(flags, 0x2) > 0 and lockDifficulty > 6 and lockDifficulty ~= 100 then
-						lockDifficulty = lockDifficulty + ex_hof_lock_difficulty_increase_based_on_chapter[chapter]
-						if lockDifficulty == 100 then
-							lockDifficulty = 105
+					if bit.band(flags, 0x400000) == 0 then
+						flags = bit.bor(flags, 0x400000)
+						IEex_WriteDword(share + 0x5C4, flags)
+						local isTrapped = (IEex_ReadWord(share + 0x64C, 0x0) > 0)
+						local lockDifficulty = IEex_ReadDword(share + 0x660)
+						if bit.band(flags, 0x2) > 0 and lockDifficulty > 6 and lockDifficulty ~= 100 then
+							lockDifficulty = lockDifficulty + ex_hof_lock_difficulty_increase_based_on_chapter[chapter]
+							if lockDifficulty == 100 then
+								lockDifficulty = 105
+							end
+							IEex_WriteDword(share + 0x660, lockDifficulty)
 						end
-						IEex_WriteDword(share + 0x660, lockDifficulty)
-					end
-					local trapDifficulty = IEex_ReadWord(share + 0x64A, 0x0)
-					if isTrapped and trapDifficulty ~= 100 then
-						trapDifficulty = trapDifficulty + ex_hof_trap_difficulty_increase_based_on_chapter[chapter]
-						if trapDifficulty == 100 then
-							trapDifficulty = 105
+						local trapDifficulty = IEex_ReadWord(share + 0x64A, 0x0)
+						if isTrapped and trapDifficulty ~= 100 then
+							trapDifficulty = trapDifficulty + ex_hof_trap_difficulty_increase_based_on_chapter[chapter]
+							if trapDifficulty == 100 then
+								trapDifficulty = 105
+							end
+							IEex_WriteWord(share + 0x64A, trapDifficulty)
 						end
-						IEex_WriteWord(share + 0x64A, trapDifficulty)
-					end
-					local trapDetectDifficulty = IEex_ReadWord(share + 0x648, 0x0)
-					if isTrapped and bit.band(flags, 0x8) > 0 and trapDetectDifficulty ~= 100 then
-						trapDetectDifficulty = trapDetectDifficulty + ex_hof_trap_detection_difficulty_increase_based_on_chapter[chapter]
-						IEex_WriteWord(share + 0x648, trapDetectDifficulty)
+						local trapDetectDifficulty = IEex_ReadWord(share + 0x648, 0x0)
+						if isTrapped and bit.band(flags, 0x8) > 0 and trapDetectDifficulty ~= 100 then
+							trapDetectDifficulty = trapDetectDifficulty + ex_hof_trap_detection_difficulty_increase_based_on_chapter[chapter]
+							IEex_WriteWord(share + 0x648, trapDetectDifficulty)
+						end
 					end
 				end)
 				IEex_IterateTriggers(targetID, function(share)
 					local flags = IEex_ReadDword(share + 0x5D6)
-					local isTrapped = (IEex_ReadWord(share + 0x612, 0x0) > 0)
-					local trapDifficulty = IEex_ReadWord(share + 0x610, 0x0)
-					if isTrapped and trapDifficulty ~= 100 then
-						trapDifficulty = trapDifficulty + ex_hof_trap_difficulty_increase_based_on_chapter[chapter]
-						if trapDifficulty == 100 then
-							trapDifficulty = 105
+					if bit.band(flags, 0x400000) == 0 then
+						flags = bit.bor(flags, 0x400000)
+						IEex_WriteDword(share + 0x5D6, flags)
+						local isTrapped = (IEex_ReadWord(share + 0x612, 0x0) > 0)
+						local trapDifficulty = IEex_ReadWord(share + 0x610, 0x0)
+						if isTrapped and trapDifficulty ~= 100 then
+							trapDifficulty = trapDifficulty + ex_hof_trap_difficulty_increase_based_on_chapter[chapter]
+							if trapDifficulty == 100 then
+								trapDifficulty = 105
+							end
+							IEex_WriteWord(share + 0x610, trapDifficulty)
 						end
-						IEex_WriteWord(share + 0x610, trapDifficulty)
-					end
-					local trapDetectDifficulty = IEex_ReadWord(share + 0x60E, 0x0)
-					if isTrapped and bit.band(flags, 0x8) > 0 and trapDetectDifficulty ~= 100 then
-						trapDetectDifficulty = trapDetectDifficulty + ex_hof_trap_detection_difficulty_increase_based_on_chapter[chapter]
-						IEex_WriteWord(share + 0x60E, trapDetectDifficulty)
+						local trapDetectDifficulty = IEex_ReadWord(share + 0x60E, 0x0)
+						if isTrapped and bit.band(flags, 0x8) > 0 and trapDetectDifficulty ~= 100 then
+							trapDetectDifficulty = trapDetectDifficulty + ex_hof_trap_detection_difficulty_increase_based_on_chapter[chapter]
+							IEex_WriteWord(share + 0x60E, trapDetectDifficulty)
+						end
 					end
 				end)
 			end
@@ -25318,7 +25355,7 @@ function MEPROJCS(originatingEffectData, effectData, creatureData)
 	local savingthrow = IEex_ReadDword(effectData + 0x3C)
 	local parent_resource = IEex_ReadLString(effectData + 0x90, 8)
 	local internalFlags = bit.bor(IEex_ReadDword(effectData + 0xCC), IEex_ReadDword(effectData + 0xD4))
-	if (opcode == 13 or opcode == 420) and bit.band(internalFlags, 0x4000000) == 0 then
+	if (opcode == 13 or opcode == 134 or opcode == 420) and bit.band(internalFlags, 0x4000000) == 0 then
 		parameter1 = 1
 		IEex_WriteDword(effectData + 0x18, parameter1)
 		local targetX = IEex_ReadDword(creatureData + 0x6)
@@ -25407,7 +25444,7 @@ function MEPROJIS(originatingEffectData, effectData, creatureData)
 	local o_resist_dispel = IEex_ReadDword(originatingEffectData + 0x58)
 	local o_time_applied = IEex_ReadDword(originatingEffectData + 0x68)
 	local internalFlags = bit.bor(IEex_ReadDword(effectData + 0xCC), IEex_ReadDword(effectData + 0xD4))
-	if (opcode == 13 and bit.band(internalFlags, 0x4000000) == 0) or (opcode == 254 and resource == o_parent_resource and bit.band(internalFlags, 0x4000000) == 0) or (opcode == 58 and (o_resist_dispel == 1 or o_resist_dispel == 3)) or opcode == 420 or opcode == 428 then
+	if (opcode == 13 and bit.band(internalFlags, 0x4000000) == 0) or (opcode == 134 and bit.band(internalFlags, 0x4000000) == 0) or (opcode == 254 and resource == o_parent_resource and bit.band(internalFlags, 0x4000000) == 0) or (opcode == 58 and (o_resist_dispel == 1 or o_resist_dispel == 3)) or opcode == 420 or opcode == 428 then
 		if opcode == 13 then
 			parameter1 = 1
 			IEex_WriteDword(effectData + 0x18, parameter1)
@@ -25458,11 +25495,11 @@ function MEPROJIS(originatingEffectData, effectData, creatureData)
 ["source_id"] = targetID
 })
 		return true
+	elseif opcode == 165 then
+		return true
 	end
 	return false
 end
-
-ex_mending_items = {["00MISC18"] = {"00SWDS02", "00SWDL02", "00SWDC94", "00SWDB02", "00SWDT02", }, ["00MISC19"] = {"00SHLD01", "00SHLD02", "00SHLD03", "00SHLD04", "00SHLD05", "00SHLD06", "00SHLD08", "00SHLD09", "00SHLD10", "00SHLD12", "00SHLD13", "00SHLD14", "00SHLD15", }, ["00MISC20"] = {"00PLAT01", }, ["00MISC21"] = {"00AMUL05", "00AMUL10", "00AMUL11", "00AMUL13", "00BELT01", "00FLAL99", "00HELM01", "00HELM02", "00HELM03", "00HELM04", "00HELM05", "00HELM06", "00RING02", "00GENKS", "50MISC38", "51MISC39", "63AMULIX", }, ["00MISC22"] = {"USPLAT15", "USPLAT15", "00PLAT04", }, }
 
 function MEMENDIN(effectData, creatureData)
 	IEex_WriteDword(effectData + 0x110, 1)

@@ -1085,7 +1085,7 @@ ex_empowerable_opcodes = {[12] = true, [17] = true, [18] = true, [25] = true, [6
 					local theresource = IEex_ReadLString(eData + 0x30, 8)
 					local thesavingthrow = IEex_ReadDword(eData + 0x40)
 					local thespecial = IEex_ReadDword(eData + 0x48)
-					if (thespecial == 0 or thespecial == school) and (theresource == "" or theresource == parent_resource or theresource == sourceSpell) and ((casterClass == 2 and bit.band(thesavingthrow, 0x10000) > 0) or (casterClass == 3 and bit.band(thesavingthrow, 0x20000) > 0) or (casterClass == 4 and bit.band(thesavingthrow, 0x40000) > 0) or (casterClass == 7 and bit.band(thesavingthrow, 0x80000) > 0) or (casterClass == 8 and bit.band(thesavingthrow, 0x100000) > 0) or (casterClass == 10 and bit.band(thesavingthrow, 0x200000) > 0) or (casterClass == 11 and bit.band(thesavingthrow, 0x400000) > 0)) then
+					if (thespecial == 0 or thespecial == school) and (theresource == "" or theresource == parent_resource or theresource == sourceSpell) and (bit.band(thesavingthrow, 0x4F0000) == 0 or (casterClass == 2 and bit.band(thesavingthrow, 0x10000) > 0) or (casterClass == 3 and bit.band(thesavingthrow, 0x20000) > 0) or (casterClass == 4 and bit.band(thesavingthrow, 0x40000) > 0) or (casterClass == 7 and bit.band(thesavingthrow, 0x80000) > 0) or (casterClass == 8 and bit.band(thesavingthrow, 0x100000) > 0) or (casterClass == 10 and bit.band(thesavingthrow, 0x200000) > 0) or (casterClass == 11 and bit.band(thesavingthrow, 0x400000) > 0)) then
 						durationMultiplier = durationMultiplier + theparameter1 - 100
 					end
 				end

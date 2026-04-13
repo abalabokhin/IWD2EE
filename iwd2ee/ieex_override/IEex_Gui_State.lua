@@ -2351,6 +2351,17 @@ function IEex_Extern_UI_ButtonLClick(CUIControlButton)
 						IEex_Helper_SetBridge(workingOptions, "highlightEmptyContainersInGray", true)
 					end
 				end,
+				-- "Prevent Equipping Armor During Combat" Toggle
+				[12] = function()
+					local workingOptions = IEex_Helper_GetBridge("IEex_Options", "workingOptions")
+					if IEex_Helper_GetBridge(workingOptions, "preventEquippingArmorDuringCombat") then
+						IEex_SetControlButtonFrameUp(CUIControlButton, 1)
+						IEex_Helper_SetBridge(workingOptions, "preventEquippingArmorDuringCombat", false)
+					else
+						IEex_SetControlButtonFrameUp(CUIControlButton, 3)
+						IEex_Helper_SetBridge(workingOptions, "preventEquippingArmorDuringCombat", true)
+					end
+				end,
 			},
 		},
 		["GUIREC"] = {
@@ -2624,6 +2635,9 @@ function IEex_Extern_UI_LabelLDown(CUIControlLabel)
 				end,
 				[9] = function()
 					IEex_SetTextAreaToString(IEex_GetEngineOptions(), 14, 3, IEex_FetchString(ex_tra_55908))
+				end,
+				[11] = function()
+					IEex_SetTextAreaToString(IEex_GetEngineOptions(), 14, 3, IEex_FetchString(ex_tra_55932))
 				end,
 			},
 		},
@@ -3178,6 +3192,34 @@ function IEex_InstallIEexOptions()
 		["framePressed"] = 2,
 	})
 
+	-- "Prevent Equipping Armor During Combat" Label - ID 11
+	IEex_AddControlOverride("GUIOPT", 14, 11, "IEex_UI_Label")
+	IEex_AddControlToPanel(newOptionsPanel, {
+		["type"] = IEex_ControlStructType.LABEL,
+		["id"] = 11,
+		["x"] = 74,
+		["y"] = 151,
+		["width"] = 308,
+		["height"] = 18,
+		["fontBam"] = "NORMAL",
+		["textFlags"] = 0x51, -- Use color(0) | Right justify(4) | Middle justify(6)
+	})
+	IEex_SetControlLabelText(IEex_GetControlFromPanel(newOptionsPanel, 11), IEex_FetchString(ex_tra_55931)) -- "Prevent Equipping Armor During Combat"
+
+	-- "Prevent Equipping Armor During Combat" Toggle - ID 12
+	IEex_AddControlOverride("GUIOPT", 14, 12, "IEex_UI_Button")
+	IEex_AddControlToPanel(newOptionsPanel, {
+		["type"] = IEex_ControlStructType.BUTTON,
+		["id"] = 12,
+		["x"] = 394,
+		["y"] = 150,
+		["width"] = 23,
+		["height"] = 24,
+		["bam"] = "GBTNOPT3",
+		["frameUnpressed"] = 1,
+		["framePressed"] = 2,
+	})
+
 	IEex_SetPanelActive(newOptionsPanel, false)
 end
 
@@ -3682,6 +3724,9 @@ function IEex_LoadOptions()
 
 	IEex_Helper_SetBridge(options, "highlightEmptyContainersInGray",
 		IEex_GetPrivateProfileInt("IEex Options", "Highlight Empty Containers in Gray", 1, ".\\Icewind2.ini") ~= 0 and true or false)
+
+	IEex_Helper_SetBridge(options, "preventEquippingArmorDuringCombat",
+		IEex_GetPrivateProfileInt("IEex Options", "Prevent Equipping Armor During Combat", 0, ".\\Icewind2.ini") ~= 0 and true or false)
 end
 
 function IEex_WriteOptions()
@@ -3696,6 +3741,9 @@ function IEex_WriteOptions()
 
 	IEex_WritePrivateProfileString("IEex Options", "Highlight Empty Containers in Gray",
 		IEex_Helper_GetBridge(options, "highlightEmptyContainersInGray") and "1" or "0", ".\\Icewind2.ini")
+
+	IEex_WritePrivateProfileString("IEex Options", "Prevent Equipping Armor During Combat",
+		IEex_Helper_GetBridge(options, "preventEquippingArmorDuringCombat") and "1" or "0", ".\\Icewind2.ini")
 end
 
 function IEex_InitOptionButtons()
@@ -3714,6 +3762,9 @@ function IEex_InitOptionButtons()
 
 	IEex_SetControlButtonFrameUpForce(IEex_GetControlFromPanel(newOptionsPanel, 10),
 		IEex_Helper_GetBridge(options, "highlightEmptyContainersInGray") and 3 or 1)
+
+	IEex_SetControlButtonFrameUpForce(IEex_GetControlFromPanel(newOptionsPanel, 12),
+		IEex_Helper_GetBridge(options, "preventEquippingArmorDuringCombat") and 3 or 1)
 end
 
 IEex_AbsoluteOnce("IEex_InitOptions", function()
